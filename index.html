@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/mainStyles.css">
+    <script src="./scripts/mainScripts.js" defer></script>
+    <script src="./scripts/homePageScripts.js" defer></script>
+    <script src="./scripts/meetingsInfo.js" defer></script>
+    <script src="./scripts/meetingsHomePage.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Jost:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c43c1a8058.js" crossorigin="anonymous"></script>
+    <title>CARS - Home</title>
+</head>
+<body>
+    <header class="header-wrapper">
+        <div class="container flex">
+            <a href="index.html" class="logo">CARS</a>
+            <nav class="main-links--wrapper">
+                <ul id="primary-navigation"
+                        class="main-links"
+                        aria-label="primary navigation">
+                    <li><a href="meetings.html">MEETINGS</a></li>
+                    <li><a href="upcomingEvents.html">UPCOMING EVENTS</a></li>
+                    <li><a href="about.html">WHO WE ARE</a></li>
+                </ul>
+            </nav>
+            <button class="nav-bars" 
+                    id="mobile-menu-btn"
+                    aria-expanded="false">
+                <div class="bar bar-one"></div>
+                <div class="bar bar-two"></div>
+                <div class="bar bar-three"></div>
+            </button>
+            <nav class="mobile-menu"
+                    id="mobile-menu"
+                    aria-hidden="true">
+                <ul id="mobile-navigation" aria-label="primary navigation">
+                    <li class="mobile-nav-link"><a tabindex="-1" onclick="closeMobileMenu()" href="index.html"><span aria-hidden="true">00</span>HOME</a></li>
+                    <li class="mobile-nav-link"><a tabindex="-1" onclick="closeMobileMenu()" href="meetings.html"><span aria-hidden="true">01</span>MEETINGS</a></li>
+                    <li class="mobile-nav-link"><a tabindex="-1" onclick="closeMobileMenu()" href="upcomingEvents.html"><span aria-hidden="true">02</span>UPCOMING EVENTS</a></li>
+                    <li class="mobile-nav-link"><a tabindex="-1" onclick="closeMobileMenu()" href="about.html"><span aria-hidden="true">03</span>WHO WE ARE</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main id="" class="">
+        <div id="main-page-wrapper" class="main-page-wrapper">
+            <div id="bkgd-image-overlay" class="overlay"></div>
+            <img id="bkgd-image" class="background-image-one" src="./images/backgroundImage.png" alt="">
+            <section class="section-wrapper">
+                <div class="hero-section" id="hero-section">
+                    <div class="hero-section--left">
+                        <h1 class="hero-main-title">
+                            Colorado Art Rock Society
+                        </h1>
+                        <p class="hero-sub-title">
+                            Colorado's source for
+                            <br>all things <span class="hero-sub-title-span">Progressive Rock</span>
+                        </p>
+                        <!-- <a href="signup.html" class="btn-main">BECOME A MEMBER</a> -->
+                    </div>
+                    <div id="meeting-info" class="hero-section--meeting-info">
+                        <h2 class="hero-section--meeting-title">Next&nbsp;<span class="meeting-span">Meeting</span></h2>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="main-page-wrapper progFest-container bg-clr-dark">
+            <section class="section-wrapper-two ">
+                <div class="section-container">
+                    <h3 class="section-title">PROGFEST 2024</h3>
+                    <div class="progFest-grid">
+                        <div class="progFest-grid--left" >
+                            <img src="./images/progfest2024poster.jpg" alt="">
+                        </div>
+                        <div class="progFest-grid--right">
+                            <p>ProgFest annually showcases top-notch musicians from Colorado, presenting 
+                                a mix of classic and original prog rock, art rock, jazz fusion, and related genres. 
+                                The lineup features tributes to iconic bands like Rush and Genesis, along with 
+                                original performances from local acts such as&nbsp;<span class="italics">Every Waking Hour</span>, <span class="italics">Monstradaumus</span>&nbsp;and&nbsp;<span class="italics">Jamie Krutz & Friends</span>.
+                            </p>
+                            <p>Headlining this year is<span class="italics">&nbsp;Steel Monkey</span>, a Jethro Tull 
+                                tribute band hailing from the front range. 
+                            </p>
+                           
+                            <div class="progFest-essentials-container">
+                                <h4>Progfest Essentials</h4>
+                                <div class="progFest-details-container">
+                                    <div class="progFest-text-grid">
+                                        <h5>DATE</h5>
+                                        <p>Sunday February 18th, 2024</p>
+                                    </div>
+                                    <div class="progFest-text-grid">
+                                        <h5>TIME</h5>
+                                        <div>
+                                            <p>Doors Open: 3:00pm</p>
+                                            <p>Show Starts: 4:00pm</p>
+                                        </div>
+                                    </div>
+                                    <div class="progFest-text-grid">
+                                        <h5>PLACE</h5>
+                                        <div>
+                                            <p>Nissi's</p>
+                                            <p>Lafayette, CO</p>
+                                        </div>
+                                    </div>
+                                    <div class="progFest-text-grid">
+                                        <h5>TICKETS</h5>
+                                        <div>
+                                            <p>$15 Advanced / $20 Day of show</p>
+                                            <p>Tickets can be purchased at <a href="https://www.showclix.com/event/the-colorado-art-rock-society-presents-the-18th-2024" target="_blank">Nissis.com</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="progFest-essentials-container">
+                                <h4>Chronology</h4>
+                                <div class="progFest-details-container">
+                                    <div class="progFest-text-grid">
+                                        <h5>3:00</h5>
+                                        <p>Doors Open</p>
+                                    </div>
+                                    <div class="progFest-text-grid">
+                                        <h5>4:00</h5>
+                                        <p>Opening Remarks</p>
+                                    </div>
+                                    <div class="progFest-text-grid">
+                                        <h5>4:10</h5>
+                                        <p>M2C Project</p>
+                                    </div>
+                                    <div class="progFest-text-grid">
+                                        <h5>4:40</h5>
+                                        <p>G3P</p>
+                                    </div>
+                                    <div class="progFest-text-grid">
+                                        <h5>5:10</h5>
+                                        <p>Monstradaumus</p>
+                                    </div>
+                                    <div class="progFest-text-grid">
+                                        <h5>5:40</h5>
+                                        <p>Dave & Laura</p>
+                                    </div>
+                                    <div class="progFest-text-grid">
+                                        <h5>6:10</h5>
+                                        <p>The Amazing Kent Adamson</p>
+                                    </div>
+                                    <div class="progFest-text-grid">
+                                        <h5>6:40</h5>
+                                        <p>Every Waking Hour</p>
+                                    </div>
+                                    <div class="progFest-text-grid">
+                                        <h5>7:10</h5>
+                                        <p>The Genesis Project Featuring Mike Masse</p>
+                                    </div>
+                                    <div class="progFest-text-grid">
+                                        <h5>7:40</h5>
+                                        <div>
+                                            <p>Jamie Krutz</p>
+                                            <p>with Jamie McGregor, Dave Fitzler, Laura Quam and Todd Labo</p>
+                                        </div>
+                                    </div>
+                                    <div class="progFest-text-grid">
+                                        <h5>9:00</h5>
+                                        <p>Steel Monkey</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div id="" class="main-page-wrapper">
+            <div id="bkgd-image-overlay" class="overlay-texture-dark"></div>
+            <img id="bkgd-image" class="background-image-texture" src="./images/powderedBlackTexture.jpg" alt="">
+            <section class="section-wrapper-two">
+                <div class="section-container">
+                    <h3 class="section-title">LATEST NEWS</h3>
+                    <div class="latest-news-container">
+                        <article class="card__latest-news">
+                            <span class="card__latest-news--date">DECEMBER 14th 2023</span>
+                            <h4 class="card__latest-news--title">
+                                Steven Wilson Releases Song 'December Skies' Co-written by AI
+                            </h4>
+                            <img  class="card__latest-news--image" src="./images/steven-wilson-xmas.jpg" alt="">
+                            <div class="card__latest-news--text">
+                                <p>
+                                    Steven Wilson has a released a new Christmas song written with the 
+                                    help of artificial intelligence.
+                                </p>
+                                <p>
+                                    According to Wilson's website, "December Skies is the result, 
+                                    swiftly recorded last weekend and written in collaboration 
+                                    with an Artificial Intelligence version of myself. I wonder 
+                                    what people will make of it. I wonder what I make of it.”
+                                </p>
+                                <p>
+                                    The visualizer for December Skies was generated using a purpose 
+                                    built AI system created by Miles Skarin/Crystal Spotlight.
+                                </p>
+                            </div>
+                            <a class="btn__read-more" href="https://stevenwilsonhq.com/december-skies/" target="_blank"><span>READ MORE</span><i aria-hidden="true" class="fa-solid fa-arrow-right-long"></i></a>
+                        </article>
+                        <article class="card__latest-news">
+                            <span class="card__latest-news--date">NOVEMBER 16th 2023</span>
+                            <h4 class="card__latest-news--title">
+                                Steve Hackett To Release New Album 'The Circus and the Nightwhale'
+                            </h4>
+                            <img  class="card__latest-news--image" src="./images/Steve-Hacket-Album.jpg" alt="">
+                            <div class="card__latest-news--text">
+                                <p>
+                                    The legendary guitarist will release his latest studio album, 'The Circus 
+                                    and the Nightwhale' on February 16th, 2024 via InsideOut Music.
+                                </p>
+                                <p>
+                                    Recorded at the prestigious Siren Studio in the UK, this captivating 
+                                    'rite of passage' concept album weaves the narrative of a young 
+                                    protagonist named Travla.
+                                </p>
+                                <p>
+                                    Joining Hackettt on the album are the familiar faces of Roger King, 
+                                    Rob Townsend, Jonas Reingold, Nad Sylvan, Craig Blundell, and 
+                                    Amanda Lehmann, with guest appearances by Nick D'Virgilio 
+                                    and Hugo Degenhardt.
+                                </p>
+                               
+                            </div>
+                            <a class="btn__read-more" href="http://www.hackettsongs.com/news/album-steve-hackett-the-circus-and-the-nightwhale.html" target="_blank"><span>READ MORE</span><i aria-hidden="true" class="fa-solid fa-arrow-right-long"></i></a>
+                        </article>
+                        <article class="card__latest-news">
+                            <span class="card__latest-news--date">NOVEMBER 8th 2023</span>
+                            <h4 class="card__latest-news--title">
+                                Steven Wilson Releases Video for the Song Beautiful Scarecrow
+                            </h4>
+                            <img class="card__latest-news--image" src="./images/SW-Scarecrow.png" alt="">
+                            <div class="card__latest-news--text">
+                                <p>Steven Wilson, in collaboration with Jess Cope, have released a video 
+                                    for Beautiful Scarecrow. The song is taken form Wilson's latest album 
+                                    'The Harmony Codex' which was released in September.
+                                </p>
+                                <p>
+                                    According to Wilson's website, the song is “A Gothic horror story 
+                                    set in a post-apocalyptic world where a deadly pandemic has led to 
+                                    the human race being divided, with the infected rounded up and forced 
+                                    to live in underground quarantine.”
+                                </p>
+                            </div>
+                            <a class="btn__read-more" href="https://stevenwilsonhq.com/beautiful-scarecrow-video-out-now/" target="_blank"><span>READ MORE</span><i aria-hidden="true" class="fa-solid fa-arrow-right-long"></i></a>
+                        </article>
+                        <article class="card__latest-news">
+                            <span class="card__latest-news--date">NOVEMBER 5th 2023</span>
+                            <h4 class="card__latest-news--title">
+                                Porcupine Tree to Release Concert Film of the Closure/Continuation Tour
+                            </h4>
+                            <img class="card__latest-news--image" src="./images/porcupineTree-newDVD.png" alt="">
+                            <div class="card__latest-news--text">
+                                <p>
+                                    Porcupine Tree have announced the release of Closure/Continuation.Live. 
+                                    A concert film and live album that documents their November 7th, 2022 
+                                    performance at Amsterdam's 17,000 capacity Ziggo Dome.
+                                </p>
+                                <p>
+                                    Releasing on December 8th, it features every song from their 11th studio 
+                                    album 'Closure/Continuation' along with favorites including Trains, 
+                                    Blackest Eyes, Fear of a Blank Planet and Anesthetize.
+                                </p>
+                            </div>
+                            <a class="btn__read-more" href="https://porcupinetree.com/closure-continuation-live-out-8th-december-2023-now-available-to-pre-order/" target="_blank"><span>READ MORE</span><i aria-hidden="true" class="fa-solid fa-arrow-right-long"></i></a>
+                        </article>
+                        <article class="card__latest-news">
+                            <span class="card__latest-news--date">OCTOBER 27th 2023</span>
+                            <h4 class="card__latest-news--title">
+                                Neal Morse Announces New Album 'The Restoration - Joseph: Part Two'
+                            </h4>
+                            <img  class="card__latest-news--image" src="./images/Neal_Morse-newAlbum.png" alt="">
+                            <div class="card__latest-news--text">
+                                <p>
+                                    Neal Morse has announced the follow up to his album 'The Dreamer - Joseph: Part One.' 
+                                    Titled 'The Restoration - Joseph: Part Two,' it will be released 
+                                    January 12, 2024 on Frontier Music.
+                                </p>
+                                <p>Joining Neal is an impressive cast of guest artists, including Bill Hubauer 
+                                    and Eric Gillette (both of The Neal Morse Band), Ted Leonard 
+                                    (Spock's Beard, Pattern Seeking Animals), Matt Smith (Theocracy), 
+                                    Ross Jennings (Haken), and Jake Livgren (Proto-Kaw, Kansas).
+                                </p>
+                            </div>
+                            <a class="btn__read-more" href="https://nealmorse.com/product/neal-morse-the-restoration-joseph-part-two/" target="_blank"><span>READ MORE</span><i aria-hidden="true" class="fa-solid fa-arrow-right-long"></i></a>
+                        </article>
+                        <article class="card__latest-news">
+                            <span class="card__latest-news--date">OCTOBER 25th 2023</span>
+                            <h4 class="card__latest-news--title">
+                                Dream Theater Announce the Return of Founding Member Mike Portnoy
+                            </h4>
+                            <img  class="card__latest-news--image" src="./images/DreamTheater-portnoy.png" alt="">
+                            <div class="card__latest-news--text">
+                                <p>
+                                    After thirteen years apart, the progressive metal titans, Dream Theater, 
+                                    have announced the return of their original drummer, Mike Portnoy, 
+                                    to the band.
+                                </p>
+                                <p>
+                                    Guitarist John Petrucci states, “As an original founding member, 
+                                    longtime friend and incredibly talented and creative drummer, I know 
+                                    that his return will bring a renewed spirit, passion and energy into DT 
+                                    that all of us, including our fans, will joyfully welcome.”
+                                </p>
+                            </div>
+                            <a class="btn__read-more" href="https://dreamtheater.net/dream-theater-announce-the-return-of-drummer-mike-portnoy/" target="_blank"><span>READ MORE</span><i aria-hidden="true" class="fa-solid fa-arrow-right-long"></i></a>
+                        </article>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div id="" class="main-page-wrapper bg-clr-dark">
+            <section class="section-wrapper-two">
+                <div class="section-container">
+                    <h3 class="section-title">MEMBER SPOTLIGHT</h3>
+                    <div class="member-spotlight-container">
+                        <div class="spotlight-member-info">
+                            <div>
+                                <img src="./images/UI-face.png" alt="">
+                            </div>
+                            <div>
+                                <h4>
+                                    <span>Seven Questions With...</span>
+                                    <span>Liz Bathory</span>
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="member-spotlight-grid">
+                            <div class="member-spotlight-questions">
+                                <div>
+                                    <h5 class="member-question-text">Where were you born?</h5>
+                                    <p class="member-answer-text">Nyirbator, Hungary</p>
+                                </div>
+                                <div>
+                                    <h5 class="member-question-text">Who was the artist(s) that got you into progressive music?</h5>
+                                    <p class="member-answer-text">Fates Warning/Queensryche/Dream Theater</p>
+                                </div>      
+                                <div>
+                                    <h5 class="member-question-text">What was the first concert you went to?</h5>
+                                    <p class="member-answer-text">U2 - The Unforgettable Fire Tour, McNichols Arena</p>
+                                </div>    
+                                <div>
+                                    <h5 class="member-question-text">What was the last concert you went to?</h5>
+                                    <p class="member-answer-text">
+                                        Dirty Honey. No, it's not prog. Yes, it's a dumb name. But they were the first 
+                                        ever unsigned act to top Billboard's Mainstream Rock Chart.
+                                    </p>
+                                </div>     
+                                <div>
+                                    <h5 class="member-question-text">Who is your favorite 'modern' progressive artist?</h5>
+                                    <p class="member-answer-text">
+                                        Sleep Token. You can argue all day if they are progressive or not, but they're pushing 
+                                        the boundaries of incorporating different genres within their music. Sounds progressive to me.
+                                    </p>
+                                </div>     
+                                <div>
+                                    <h5 class="member-question-text">If you could have dinner with any artist, living or dead, who would it be?</h5>
+                                    <p class="member-answer-text">
+                                        Steve Clark. For better or worse he was the reason I started playing guitar. Randy Rhoads would be a very close second though.
+                                    </p>
+                                </div>  
+                                <div>
+                                    <h5 class="member-question-text">Five albums you can't live without?</h5>
+                                   <ul class="member-album-list">
+                                        <li>
+                                            <a href="https://www.sleep-token.com/">Sleep Token - Take Me Back To Eden</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://defleppard.com">Def Leppard - High 'n Dry</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www.queensrycheofficial.com/">Queensryche - Operation Mindcrime</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://dreamtheater.net/">Dream Theater - Scenes From A Memory</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://stevenwilsonhq.com/">Steven Wilson - Hand Cannot Erase</a>
+                                        </li>
+                                   </ul>
+                                </div>                
+                            </div>
+                            <div class="member-spotlight-playlist-wrapper">
+                                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/4ZUctcwuWxFXYwkonr0Sn1?utm_source=generator&theme=0" width="100%" height="850px" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer class="main-footer-wrapper">
+        <div class="main-footer-container">
+            <ul class="social-media-icons">
+                <li class="social-icon"><a href="https://www.facebook.com/ColoradoArtRockSociety"><i class="fa-brands fa-facebook fa-2xl"></i></a></li>
+            </ul>
+            <p>WEBSITE BY LCR DESIGNS</p>
+            <p><span>&#169;</span>2024 THE COLORADO ART ROCK SOCIETY</p>
+        </div>
+    </footer>
+
+    <template id="meeting-info-template">
+        <div class="meeting-info__container">
+            <p class="meeting-info__day"></p>
+            <p class="meeting-info__month"></p>
+            <div class="meeting-info__date-number"></div>
+            <p class="meeting-time"><p> 
+        </div>
+        <a href="meetings.html" class="btn-meeting-details"><span>MEETING INFO</span><i aria-hidden="true" class="fa-solid fa-arrow-right-long"></i></a>
+    </template>
+
+    <template id="meeting-coming-soon-template">
+        <div class="coming-soon__container">
+            <p class="coming-soon--oops">Oops...</p>
+            <p class="coming-soon--one">We're still in the process of planning the next meeting.</p>
+            <p class="coming-soon--two">Stay tuned for more details.</p>
+        </div>
+    </template>
+</body>
+</html>

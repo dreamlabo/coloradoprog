@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Jost:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/mainStyles.css">
+    <link rel="stylesheet" href="./styles/meetingStyles.css">
+    <script src="./scripts/mainScripts.js" defer></script>
+    <script src="./scripts/meetingsInfo.js" defer></script>
+    <script src="./scripts/meetings_MeetingsPage.js" defer></script>
+    <script src="https://kit.fontawesome.com/c43c1a8058.js" crossorigin="anonymous"></script>
+    <title>CARS - Meetings</title>
+</head>
+<body class="meetings-bkgd-100 meetings-min-height">
+    <header class="header-wrapper">
+        <div class="container flex">
+            <a href="index.html" class="logo">CARS</a>
+            <nav class="main-links--wrapper">
+                <ul id="primary-navigation"
+                        class="main-links"
+                        aria-label="primary navigation">
+                    <li><a href="">MEETINGS</a></li>
+                    <li><a href="upcomingEvents.html">UPCOMING EVENTS</a></li>
+                    <li><a href="about.html">WHO WE ARE</a></li>
+                </ul>
+            </nav>
+            <button class="nav-bars" 
+                    id="mobile-menu-btn"
+                    aria-expanded="false">
+                <div class="bar bar-one"></div>
+                <div class="bar bar-two"></div>
+                <div class="bar bar-three"></div>
+            </button>
+            <nav class="mobile-menu"
+                id="mobile-menu"
+                aria-hidden="true">
+                <ul id="mobile-navigation"
+                        class=""
+                        aria-label="primary navigation">
+                    <li class="mobile-nav-link"><a tabindex="-1" onclick="closeMobileMenu()" href="index.html"><span aria-hidden="true">00</span>HOME</a></li>
+                    <li class="mobile-nav-link"><a tabindex="-1" onclick="closeMobileMenu()" href="meetings.html"><span aria-hidden="true">01</span>MEETINGS</a></li>
+                    <li class="mobile-nav-link"><a tabindex="-1" onclick="closeMobileMenu()" href="upcomingEvents.html"><span aria-hidden="true">02</span>UPCOMING EVENTS</a></li>
+                    <li class="mobile-nav-link"><a tabindex="-1" onclick="closeMobileMenu()" href="about.html"><span aria-hidden="true">03</span>WHO WE ARE</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="meetings-bkgd-100">
+        <div class="meetings-bkgd-100">
+            <div class="meetings-section-container">
+                <div class="meetings-section-grid">
+                    <section id="meeting-details-section"class="meetings-meeting-details">
+                        <h1>Next Meeting</h1>
+                    </section>
+                    <section class="general-meeting-info">
+                        <h1>Meetings</h1>
+                        <p>Meetings are generally held the last Saturday of the month and are open to everyone, regardless of background or experience.</p>
+                        <p>Bring an open mind and a love for diverse sounds as we explore the world of progressive rock together.</p>
+                        <p>BYOB/food is encouraged, and feel free to bring CDs, DVDs, Vinyl, or links to play. Hope to see you there!</p>
+                    </section>
+                </div>
+            </div>
+            <div id="image-container" class="meetings-bkgd-200">
+                <div class="meetings-section-container">
+                    <div class="meetings-images-container">
+                        <div class="meetings-img-one--container">
+                            <img class="meetings-img-one" src="./images/turntable.png" alt="turntable">
+                        </div>
+                        <div class="meetings-img-two--container">
+                            <img  class="meetings-img-two" src="./images/kidSinging.png" alt="Scott"> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="main-footer-wrapper">
+        <div class="main-footer-container">
+            <ul class="social-media-icons">
+                <li class="social-icon"><a href="https://www.facebook.com/ColoradoArtRockSociety"><i class="fa-brands fa-facebook fa-2xl"></i></a></li>
+            </ul>
+            <p>WEBSITE BY LCR DESIGNS</p>
+            <p><span>&#169;</span>2024 THE COLORADO ART ROCK SOCIETY</p>
+        </div>
+    </footer>
+
+    <template id="meeting-details-template">
+        <div>
+            <div class="meetings-grid-area">
+                <h2>DATE</h2>
+                <p id="date">Saturday, November 11th, 2023</p>
+            </div>
+            <div class="meetings-grid-area">
+                <h2>TIME</h2>
+                <p id="meeting-time">6:00pm</p>
+            </div>
+            <div class="meetings-grid-area">
+                <h2>PLACE</h2>
+                <div>
+                    <p id="meeting-place-one"></p>
+                    <p id="meeting-place-two"></p>
+                </div>
+            </div>  
+        </div>
+    </template>
+
+    <template id="additional-info-template">
+        <h2 class="additional-info-header">ADDITIONAL INFO</h2>
+        <div class="meetings-grid-area">
+            <div class="additional-info-container">
+            </div>
+        </div>
+    </template>
+
+    <template id="coming-soon-template">
+        <p class="meetings-coming-soon">Oops...</p>
+        <p class="meetings-coming-soon">We're still in the process of planning the next meeting.</p>
+        <p class="meetings-coming-soon">Stay tuned for details.</p>
+    </template>
+</body>
+</html>
