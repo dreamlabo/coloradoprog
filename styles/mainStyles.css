@@ -178,6 +178,12 @@ a {
     color: var(--clr-accent-one);
 }
 
+.active-page-indicator {
+    background-color: var(--clr-black);
+    color: var(--clr-main)
+
+}
+
 .nav-bars {
     display: none;
     background: transparent;
