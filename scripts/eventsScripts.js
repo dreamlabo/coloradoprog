@@ -59,17 +59,30 @@ const events = [
         bandInfo: "https://www.facebook.com/sleepytimegorillamuseum/",
         image: "./images/sleepytime-gorilla-concert.jpg"
     },
+
     {
         headliner: "Sleep Token",
-        supportActs: [], 
+        supportActs: ['Empire State Bastard'], 
         date: new Date("2024,5,12"),
         time: "6:30pm",
-        venue: "Red Rocks Amphitheater",
+        venue: "Red Rocks",
         city: "Morrison",
         state: "Co",
         ticketURL: "https://www.axs.com/events/520382/sleep-token-tickets",
         bandInfo: "https://www.sleep-token.com/",
         image: "./images/sleep-token-concert.jpg"
+    },
+    {
+        headliner: "Wheel",
+        supportActs: ['Aviations'], 
+        date: new Date("2024,5,16"),
+        time: "8:00pm",
+        venue: "Moe's",
+        city: "Englewood",
+        state: "Co",
+        ticketURL: "https://www.eventbrite.com/e/wheel-w-aviations-tickets-811926944347",
+        bandInfo: "http://wheelband.net/",
+        image: "./images/wheel-band.jpg"
     },
     {
         headliner: "Soen",

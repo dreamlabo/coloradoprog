@@ -58,7 +58,7 @@ a {
 
 .background-image-one {
     position: absolute;
-    width: auto;
+    width: 100%;
     height: 100%;
     top: 0;
     right: 0;
@@ -66,6 +66,7 @@ a {
     z-index: -2;
     filter: grayscale(95%);
 }
+
 
 .overlay {
     position: absolute;
@@ -76,23 +77,14 @@ a {
     top: 0;
     right: 0;
     bottom: 0;
-    /* background: linear-gradient(135deg, rgba(18,18,18, 1.0) 20%,
-                                        rgba(18,18,18, 0.8) 35%, 
-                                        rgba(18,18,18, 0.7) 70%, 
-                                        rgba(18,18,18, 0.6) 100%);  */
-background: linear-gradient(110deg, rgba(18,18,18, 1.0) 25%,
-                                        rgba(18,18,18, 0.8) 35%,
-                                        rgba(18,18,18, 0.0) 100%); 
-
-                                        .overlay {
-                                            background: linear-gradient(135deg, rgba(18,18,18, 1.0) 20%,
-                                                                                rgba(18,18,18, 0.8) 40%, 
-                                                                                rgba(18,18,18, 0.6) 90%, 
-                                                                                rgba(18,18,18, 0.1) 100%);                             
-                                        }
+                                 
+    background: linear-gradient(135deg, rgba(18,18,18, 1.0) 20%,
+                                        rgba(18,18,18, 0.8) 40%, 
+                                        rgba(18,18,18, 0.6) 90%, 
+                                        rgba(18,18,18, 0.3) 100%);                                                               
 }
 
-@media (min-width: 1150px) {    
+@media (min-width: 1100px) {    
     .section-wrapper {
         height: 700px;
         overflow: hidden;
@@ -105,10 +97,10 @@ background: linear-gradient(110deg, rgba(18,18,18, 1.0) 25%,
     }
 
     .overlay {
-        background: linear-gradient(135deg, rgba(18,18,18, 1.0) 20%,
+        background: linear-gradient(135deg, rgba(18,18,18, 1.0) 30%,
                                             rgba(18,18,18, 0.8) 40%, 
                                             rgba(18,18,18, 0.6) 90%, 
-                                            rgba(18,18,18, 0.1) 100%);                             
+                                            rgba(18,18,18, 0.5) 100%);                             
     }
   }
 
@@ -142,25 +134,6 @@ background: linear-gradient(110deg, rgba(18,18,18, 1.0) 25%,
     letter-spacing: 1.5rem;
 }
 
-/* .social-icons {
-    display: flex;
-    align-items: center;
-    color: var(--clr-black);
-} */
-
-/* .social-icons li {
-    
-} */
-
-/* .social-icons a {
-    display: block;
-    padding: .9rem;
-}
-
-.main-links--wrapper {
-
-} */
-
 .main-links {
     display: flex;
     align-items: center;
@@ -171,10 +144,6 @@ background: linear-gradient(110deg, rgba(18,18,18, 1.0) 25%,
     font-weight: 500;
     overflow-y: hidden;
 }
-
-/* .main-links li {
-
-} */
 
 .main-links a {
     display: inline-block;
@@ -193,7 +162,6 @@ background: linear-gradient(110deg, rgba(18,18,18, 1.0) 25%,
     color: var(--clr-text-100) !important;
 }
 
-
 .progfest-ticket-button {
     position: relative;
     display: inline-block;
@@ -208,6 +176,7 @@ background: linear-gradient(110deg, rgba(18,18,18, 1.0) 25%,
     cursor: pointer;
     max-width: 380px;
 }
+
 .progfest-ticket-button:focus-visible,
 .progfest-ticket-button:hover {
     background-color: var(--clr-black);
@@ -215,11 +184,9 @@ background: linear-gradient(110deg, rgba(18,18,18, 1.0) 25%,
     border-color: var(--clr-accent-one)
 }
 
-
 .active-page-indicator {
     background-color: var(--clr-black);
     color: var(--clr-main)
-
 }
 
 .nav-bars {
@@ -292,10 +259,6 @@ background: linear-gradient(110deg, rgba(18,18,18, 1.0) 25%,
     transform-origin: 100%;
     z-index: 400;
 }
-
-/* .mobile-nav-link  {
-    
-} */
 
 .mobile-nav-link a {
     display: block;
@@ -433,9 +396,14 @@ background: linear-gradient(110deg, rgba(18,18,18, 1.0) 25%,
     }
 
     .overlay {
-        background: linear-gradient(110deg, rgba(18,18,18, 1.0) 25%,
-                                            rgba(18,18,18, 0.8) 35%,
+        background: linear-gradient(110deg, rgba(18,18,18, 1.0) 30%,
+                                            rgba(18,18,18, 0.8) 40%,
+                                            rgba(18,18,18, 0.4) 90%,
                                             rgba(18,18,18, 0.0) 100%); 
+    }
+
+    .background-image-one {
+        width: auto;
     }
 }
 
@@ -444,11 +412,13 @@ background: linear-gradient(110deg, rgba(18,18,18, 1.0) 25%,
         width: 15vw;
         max-width: 220px;
     }
+
     .overlay {
-        background: linear-gradient(110deg, rgba(18,18,18, 1.0) 20%,
-                                            rgba(18,18,18, 0.8) 30%,
-                                            rgba(18,18,18, 0.0) 100%); 
-        } 
+        background: linear-gradient(140deg, rgba(18,18,18, 1.0) 20%,
+                                            rgba(18,18,18, 1.0,) 30%,
+                                            rgba(18,18,18, 0.5) 90%,
+                                            rgba(18,18,18, 0.3) 100%); 
+    } 
 }
 
 @media screen and (max-width: 360px) {
@@ -782,11 +752,23 @@ background: linear-gradient(110deg, rgba(18,18,18, 1.0) 25%,
     box-shadow: 3px 5px 15px 4px  rgba(204, 204, 204, 0.1) ;
 }
 
+.latest-news-image-container {
+    position: relative;
+}
+
+
+.latest-news-image-credit {
+    position: absolute;
+    bottom: 12px;
+    right: 5px;
+    font-size: 8px;
+    color: var(--clr-white);
+}
+
 @media (max-width: 1587px) {
     .latest-news-container {
         grid-template-columns: repeat(auto-fit, minmax(316px, 1fr));
         gap: 1rem
-
     }
 
     .card__latest-news {
@@ -1109,9 +1091,6 @@ background: linear-gradient(110deg, rgba(18,18,18, 1.0) 25%,
 
 
  /* Progfest classes */
- /* .progFest-container {
- } */
-
  .progFest-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -1191,7 +1170,6 @@ background: linear-gradient(110deg, rgba(18,18,18, 1.0) 25%,
     font-weight: 300;
  }
 
-
  @media screen and (max-width: 1000px) {
     .progFest-essentials-container h4 {
         font-size: clamp(1.2rem, 2vw + 10px, 1.8rem);
@@ -1225,7 +1203,6 @@ background: linear-gradient(110deg, rgba(18,18,18, 1.0) 25%,
 .italics {
     font-style: italic;
 }
-
 /* End progfest container classes */
 
 /* Footer */
