@@ -76,10 +76,20 @@ a {
     top: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(135deg, rgba(18,18,18, 1.0) 20%,
+    /* background: linear-gradient(135deg, rgba(18,18,18, 1.0) 20%,
                                         rgba(18,18,18, 0.8) 35%, 
                                         rgba(18,18,18, 0.7) 70%, 
-                                        rgba(18,18,18, 0.6) 100%); 
+                                        rgba(18,18,18, 0.6) 100%);  */
+background: linear-gradient(110deg, rgba(18,18,18, 1.0) 25%,
+                                        rgba(18,18,18, 0.8) 35%,
+                                        rgba(18,18,18, 0.0) 100%); 
+
+                                        .overlay {
+                                            background: linear-gradient(135deg, rgba(18,18,18, 1.0) 20%,
+                                                                                rgba(18,18,18, 0.8) 40%, 
+                                                                                rgba(18,18,18, 0.6) 90%, 
+                                                                                rgba(18,18,18, 0.1) 100%);                             
+                                        }
 }
 
 @media (min-width: 1150px) {    
@@ -177,6 +187,34 @@ a {
     background-color: var(--clr-black);
     color: var(--clr-accent-one);
 }
+
+.schedule-band-link {
+    text-decoration: underline;
+    color: var(--clr-text-100) !important;
+}
+
+
+.progfest-ticket-button {
+    position: relative;
+    display: inline-block;
+    margin-top: 1rem;
+    padding: .6em 2.5em;
+    border: 3px solid transparent;
+    background: var(--clr-main);
+    font-weight: 500;
+    font-size: clamp(.8rem, 2vw + 2px, 1rem);
+    line-height: 1;
+    letter-spacing: .1rem;
+    cursor: pointer;
+    max-width: 380px;
+}
+.progfest-ticket-button:focus-visible,
+.progfest-ticket-button:hover {
+    background-color: var(--clr-black);
+    color: var(--clr-accent-one);
+    border-color: var(--clr-accent-one)
+}
+
 
 .active-page-indicator {
     background-color: var(--clr-black);
@@ -1078,7 +1116,7 @@ a {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     column-gap: 4rem;
-    color: white;
+    color: #ffffff;
     margin-top: 2rem;
  }
 
