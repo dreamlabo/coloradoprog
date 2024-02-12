@@ -1,28 +1,6 @@
 const events = [
-    {
-        headliner: "The Musical Box",
-        supportActs: [],
-        date: new Date("2023,12,08"),
-        time: "8:00pm",
-        venue: "Paramount Theater",
-        city: "Denver",
-        state: "Co",
-        ticketURL: "https://www.ticketmaster.com/the-musical-box-denver-colorado-12-08-2023/event/1E005EFF907E1B43?camefrom=CFC_KSE_gbjbnveBcU69DVgYv0JfZg&utm_source=gbjbnveBcU69DVgYv0JfZg&utm_medium=gbjbnveBcU69DVgYv0JfZg&utm_campaign=gbjbnveBcU69DVgYv0JfZg",
-        bandInfo: "https://www.themusicalbox.net/",
-        image: "./images/musicalBox.jpg"
-    },
-    {
-        headliner: "Tool",
-        supportActs: ['Elder'],
-        date: new Date("2024,2,05"),
-        time: "7:30pm",
-        venue: "Ball Arena",
-        city: "Denver",
-        state: "Co",
-        ticketURL: "https://www.axs.com/events/507475/tool-tickets",
-        bandInfo: "https://www.toolband.com/home",
-        image: "./images/tool-tix-concerts.jpg"
-    },
+
+
     {
         headliner: "Haken",
         supportActs: ["An Evening With Haken"],
@@ -33,7 +11,7 @@ const events = [
         state: "Co",
         ticketURL: "https://www.axs.com/events/502001/haken-tickets",
         bandInfo: "https://hakenmusic.com/",
-        image: "./images/haken-band-image.jpg"
+        image: "./images/upcomingEvents/haken-band-image.jpg"
     },
     {
         headliner: "The 2024 Progfest",
@@ -45,7 +23,7 @@ const events = [
         state: "Co",
         ticketURL: "https://nissis.com/events/progfest-451/",
         bandInfo: "https://www.coloradoprog.com/",
-        image: "./images/progfest-2024-small.jpg"
+        image: "./images/upcomingEvents/progfest-2024-small.jpg"
     },
     {
         headliner: "Sleepytime Gorrila Museum",
@@ -57,7 +35,7 @@ const events = [
         state: "Co",
         ticketURL: "https://www.axs.com/events/506879/sleepytime-gorilla-museum-tickets",
         bandInfo: "https://www.facebook.com/sleepytimegorillamuseum/",
-        image: "./images/sleepytime-gorilla-concert.jpg"
+        image: "./images/upcomingEvents/sleepytime-gorilla-concert.jpg"
     },
 
     {
@@ -70,7 +48,7 @@ const events = [
         state: "Co",
         ticketURL: "https://www.axs.com/events/520382/sleep-token-tickets",
         bandInfo: "https://www.sleep-token.com/",
-        image: "./images/sleep-token-concert.jpg"
+        image: "./images/upcomingEvents/sleep-token-concert.jpg"
     },
     {
         headliner: "Wheel",
@@ -82,7 +60,7 @@ const events = [
         state: "Co",
         ticketURL: "https://www.eventbrite.com/e/wheel-w-aviations-tickets-811926944347",
         bandInfo: "http://wheelband.net/",
-        image: "./images/wheel-band.jpg"
+        image: "./images/upcomingEvents/wheel-band.jpg"
     },
     {
         headliner: "Soen",
@@ -94,7 +72,7 @@ const events = [
         state: "Co",
         ticketURL: "https://www.axs.com/events/498617/soen-tickets",
         bandInfo: "https://soenmusic.com/",
-        image: "./images/soen.jpg"
+        image: "./images/upcomingEvents/soen.jpg"
     },
     {
         headliner: "The Ocean",
@@ -106,7 +84,7 @@ const events = [
         state: "Co",
         ticketURL: "https://www.axs.com/events/510028/the-ocean-tickets?q=the+Ocean",
         bandInfo: "https://www.theoceancollective.com/",
-        image: "./images/theOceanCollective.jpg"
+        image: "./images/upcomingEvents/theOceanCollective.jpg"
         
     },
     {
@@ -119,12 +97,12 @@ const events = [
         state: "Co",
         ticketURL: "https://www.gothictheatre.com/events/detail/?event_id=509530",
         bandInfo: "http://www.queensrycheofficial.com/",
-        image: "./images/Queensryche.jpeg"
+        image: "./images/upcomingEvents/Queensryche.jpeg"
         
     },
     {
         headliner: "Geoff Tate",
-        supportActs: [],
+        supportActs: ['Fire and Water'],
         date: new Date("2024,04,12"),
         time: "6:00pm",
         venue: "Gothic Theater",
@@ -132,20 +110,7 @@ const events = [
         state: "Co",
         ticketURL: "https://www.axs.com/artists/121926/geoff-tate-tickets",
         bandInfo: "https://www.geofftate.com/",
-        image: "./images/GeoffTate.jpg"
-        
-    },
-    {
-        headliner: "Geddy Lee",
-        supportActs: ["MY EFFIN' LIFE In Conversation"],
-        date: new Date("2023,11,30"),
-        time: "8:00pm",
-        venue: "Paramount Theatre",
-        city: "Denver",
-        state: "Co",
-        ticketURL: "https://www.ticketmaster.com/event/1E005F3CE9994033",
-        bandInfo: "https://www.rush.com/",
-        image: "./images/GeddyLeeBook.jpg"
+        image: "./images/upcomingEvents/GeoffTate.jpg"
     },
 ]
 

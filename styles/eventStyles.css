@@ -30,8 +30,6 @@
     border-radius: 2px;
 }
 
-
-
 .band-photo {
     display: block;
     width: 100%;
@@ -48,7 +46,6 @@
 .bands-container {
     display: grid;
     grid-template-rows: max-content;
-
 }
 
 .headliner-act {
