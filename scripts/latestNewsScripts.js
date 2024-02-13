@@ -40,7 +40,7 @@ const latestNewsInformation = [
     },
     {
         pubDate: "NOVEMBER 16th 2023",
-        title: "Steve Hackett To Release New Album 'The Circus and the Nightwhale'",
+        title: "Steve Hackett to Release New Album 'The Circus and the Nightwhale'",
         image: "./images/latestNews/Steve-Hacket-Album.jpg",
         imageCredit: "",
         text: [
