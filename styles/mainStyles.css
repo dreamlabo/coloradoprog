@@ -17,6 +17,7 @@
     --max-width: 1530px;
 
     --page-width: calc(100% - 4rem);
+    --header-height: 40px;
 
     --clr-100: #121212;
     --clr-200: #282828;
@@ -240,7 +241,7 @@ a {
     top: 100%;
     right: 0;
     min-width: 100%;
-    min-height: calc(100vh - 53px);
+    min-height: calc(100vh - var(--header-height));
     overflow-x: scroll;
     padding-top: .3rem;   
     background-color: var(--clr-gray);
@@ -636,7 +637,6 @@ a {
 
     .btn-main {
         margin-top: 1.7rem;
-
     }
 }
 
