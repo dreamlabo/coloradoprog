@@ -1149,7 +1149,7 @@ a {
     height: 1px;
     width: 100%;
     background: var(--clr-main);
-    opacity: .3;
+    opacity: .2;
  }
  
 
@@ -1224,6 +1224,12 @@ a {
         order: -1;
     }
  }
+
+ @media (max-width: 768px) {
+    body {
+      font-size: 14px; 
+    }
+  }
 
  @media screen and (max-width: 716px) {
     .progFest-grid {
