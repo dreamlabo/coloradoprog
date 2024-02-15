@@ -1181,8 +1181,8 @@ a {
     font-size: .9rem;
     color: var(--clr-text-200) !important;
     font-weight: 400;
-
  }
+
  .progFest-text-grid h5 {
     font-size: 1rem;
     color: var(--clr-text-300);
@@ -1208,10 +1208,18 @@ a {
  }
 
  @media screen and (max-width: 948px) {
+    .progFest-grid {
+        grid-template-columns: 1fr;
+     }
+
+     .progFest-essentials-container {
+        padding: 1rem 1rem;
+     }  
+    
     .progFest-grid--left {
         margin-top: 2rem;
     }
-    
+
     .progFest-grid--right {
         order: -1;
     }
@@ -1221,13 +1229,27 @@ a {
     .progFest-grid {
        margin-top: 1rem;
      }
-
-
-
-
 }
 
- @media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
+    .progFest-text-grid--performers {
+        grid-template-columns: 1fr;
+        gap: 6px;
+     }
+}
+
+@media screen and (max-width: 350px) {
+    .progFest-text-grid--performers {
+        grid-template-columns: 1fr;
+        gap: 16px;
+     }
+
+     .progFest-text-grid--performers h5 {
+        overflow-wrap: break-word;
+     }
+}
+
+ /* @media screen and (max-width: 400px) {
     .progFest-grid {
         grid-template-columns: 1fr;
      }
@@ -1235,7 +1257,7 @@ a {
      .progFest-essentials-container {
         padding: 1rem 1rem;
      }  
-}
+} */
 
 .italics {
     font-style: italic;
