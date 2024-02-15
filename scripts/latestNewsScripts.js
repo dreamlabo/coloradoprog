@@ -15,7 +15,7 @@ const latestNewsInformation = [
     },
     {
         pubDate: "FEBRUARY 2nd 2024",
-        title: "North Sea Echoes, Featuring Jim Matheos & Ray Alder, Release New Single",
+        title: "North Sea Echoes Release New Single From Their Upcoming Album",
         image: "./images/latestNews/north-sea-echoes.jpg",
         imageCredit: "Jeremy Saffer",
         text: [

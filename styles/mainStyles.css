@@ -57,6 +57,14 @@ a {
     margin-top: 2rem;
 }
 
+.bg-clr-dark {
+    background: var(--clr-100);
+}
+
+.bg-clr-black {
+    background: var(--clr-black);
+}
+
 .background-image-one {
     position: absolute;
     width: 100%;
@@ -67,7 +75,6 @@ a {
     z-index: -2;
     filter: grayscale(95%);
 }
-
 
 .overlay {
     position: absolute;
@@ -343,12 +350,12 @@ a {
     position: relative;
     display: inline-block;
     margin-top: 2.5rem;
-    padding: .6em 2.5em;
+    padding: .6em 2em;
     border: 3px solid transparent;
     background: var(--clr-main);
     font-weight: 500;
-    font-size: clamp(1.1rem, 2.3vw, 1.4rem);
-    line-height: 1;
+    font-size: clamp(1rem, calc(2.2vw + 5px), 1.2rem);
+    line-height: 1.3;
     letter-spacing: .1rem;
     cursor: pointer;
     max-width: 380px;
@@ -671,7 +678,7 @@ a {
     }
 
     .btn-main {
-        padding: .5em 2em;
+        padding: .5em 1.5em;
         font-size: .9rem;
     }
 
@@ -789,6 +796,7 @@ a {
 .card__latest-news--title {
     margin-top: .5em;
     font-size: 1rem;
+    color: var(--clr-text-100);
     letter-spacing: .05em;
     font-weight: 400;
 }
@@ -1073,7 +1081,7 @@ a {
  /* Progfest classes */
  .progFest-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     column-gap: 4rem;
     color: #ffffff;
     margin-top: 2rem;
@@ -1124,23 +1132,66 @@ a {
     margin-top: 1.3rem;
  }
 
+ .progFest-text-grid--performers {
+    position: relative;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    align-items: start;
+    gap: 24px;
+    padding-bottom: .7em;
+ }
+
+ .progFest-text-grid--performers:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    bottom: -3px;
+    left:0;
+    height: 1px;
+    width: 100%;
+    background: var(--clr-main);
+    opacity: .3;
+ }
+ 
+
  .progFest-text-grid {
     display: grid;
     grid-template-columns: 75px 1fr;
     align-items: start;
  }
 
+ .progFest-text-grid--performers a {
+    font-size: .9rem;
+    color: var(--clr-text-200) !important;
+    font-weight: 400;
+ }
+ 
+ 
  .progFest-text-grid a {
     color: var(--clr-main);
  }
  
+ .progFest-text-grid--performers + .progFest-text-grid--performers{
+    margin-top: 1.5rem;
+ }
  .progFest-text-grid + .progFest-text-grid {
     margin-top: 1rem;
  }
 
+ .progFest-text-grid--performers h5 {
+    font-size: .9rem;
+    color: var(--clr-text-200) !important;
+    font-weight: 400;
+
+ }
  .progFest-text-grid h5 {
     font-size: 1rem;
     color: var(--clr-text-300);
+    font-weight: 400;
+ }
+
+ .progFest-text-grid--performers p {
+    font-size: .9rem;
+    color: var(--clr-text-300) !important;
     font-weight: 400;
  }
 
@@ -1156,18 +1207,24 @@ a {
      }
  }
 
+ @media screen and (max-width: 948px) {
+    .progFest-grid--left {
+        margin-top: 2rem;
+    }
+    
+    .progFest-grid--right {
+        order: -1;
+    }
+ }
+
  @media screen and (max-width: 716px) {
     .progFest-grid {
        margin-top: 1rem;
      }
 
-    .progFest-grid--left {
-        margin-top: 2rem;
-    }
 
-    .progFest-grid--right {
-        order: -1;
-    }
+
+
 }
 
  @media screen and (max-width: 400px) {
@@ -1241,3 +1298,4 @@ a {
     }
 }
 /* End footer */
+

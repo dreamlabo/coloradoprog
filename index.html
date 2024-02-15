@@ -4,15 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/images/favicons/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/images/favicons/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicons/favicon-16x16.png">
 
     <link rel="stylesheet" href="./styles/mainStyles.css">
+    <link rel="stylesheet" href="./styles/pages/home/mailingListStyles.css">
     <script src="./scripts/mainScripts.js" defer></script>
     <script src="./scripts/homePageScripts.js" defer></script>
     <script src="./scripts/meetingsInfo.js" defer></script>
     <script src="./scripts/meetingsHomePage.js" defer></script>
     <script src="./scripts/latestNewsScripts.js" defer></script>
+    <script src="./scripts/utilities/mailingListFormValidation.js" defer></script>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function(){
+           emailjs.init({
+             publicKey: "EHs8Eo9CH7eStKTyR",
+           });
+        })();
+     </script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Jost:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -65,6 +77,7 @@
                             Colorado's source for
                             <br>all things <span class="hero-sub-title-span">Progressive Rock</span>
                         </p>
+                        <a href="#mailingListSection" class="btn-main">JOIN OUR MAILING LIST</a>
                     </div>
                     <div id="meeting-info" class="hero-section--meeting-info">
                         <h2 class="hero-section--meeting-title">Next&nbsp;<span class="meeting-span">Meeting</span></h2>
@@ -82,11 +95,14 @@
                             <img src="./images/pages/home/progfest2024poster.jpg" alt="">
                         </div>
                         <div class="progFest-grid--right">
-                            <p>ProgFest annually showcases top-notch musicians from Colorado, presenting 
-                                a mix of classic and original prog rock, art rock, jazz fusion, and related genres. 
-                                The lineup features tributes to iconic bands like Rush and Genesis, along with 
-                                original performances from local acts such as&nbsp;<span class="italics">Every Waking Hour</span>, <span class="italics">Monstradaumus</span>&nbsp;and&nbsp;<span class="italics">Jamie Krutz & Friends</span>.
+                            <p>Sponsored by the Colorado Art Rock Society (CARS), each year ProgFest features some of 
+                                the finest musicians in Colorado playing a variety of classic and original prog rock, 
+                                art rock, jazz fusion and related musical adventures. Expect to hear tributes to 
+                                classic bands like <span class="italics">Rush</span> and <span class="italics">Genesis</span> as well as 
+                                originals from ground-breaking Colorado acts 
+                                like <span class="italics">Every Waking Hour</span> <span class="italics">Monstradaumus</span> and <span class="italics">Jamie Krutz & Friends</span>. 
                             </p>
+                            <br>
                             <p>Headlining this year is<span class="italics">&nbsp;Steel Monkey</span>, a Jethro Tull 
                                 tribute band hailing from the front range. 
                             </p>
@@ -140,15 +156,19 @@
                                     </div>
                                     <div class="progFest-text-grid">
                                         <h5>4:40</h5>
-                                        <p>G3P</p>
+                                        <p>
+                                            <a class="schedule-band-link" href="https://g3pband.com/home" target="_blank">GP3</a>
+                                        </p>
                                     </div>
                                     <div class="progFest-text-grid">
                                         <h5>5:15</h5>
-                                        <p>Monstradaumus</p>
+                                        <p>
+                                            <a class="schedule-band-link" href="https://www.facebook.com/Monstradamusband" target="_blank">Monstradamus</a>
+                                        </p>
                                     </div>
                                     <div class="progFest-text-grid">
                                         <h5>5:50</h5>
-                                        <p>Kent Adamson & Co</p>
+                                        <p>All We Are Saying, Is Give Prog A Chance</p>
                                     </div>
                                     <div class="progFest-text-grid">
                                         <h5>6:25</h5>
@@ -156,7 +176,7 @@
                                     </div>
                                     <div class="progFest-text-grid">
                                         <h5>7:00</h5>
-                                        <p>The Genesis Effect</p>
+                                        <p>The Genesis Effect with Mike Masse</p>
                                     </div>
                                     <div class="progFest-text-grid">
                                         <h5>7:35</h5>
@@ -167,7 +187,7 @@
                                     <div class="progFest-text-grid">
                                         <h5>8:30</h5>
                                         <div>
-                                            <p>Barb Segal (w/Dave & Laura)</p>
+                                            <p>Rush Through Time</p>
                                         </div>
                                     </div>
                                     <div class="progFest-text-grid">
@@ -176,6 +196,76 @@
                                             <a class="schedule-band-link" href="https://www.jamiekrutz.com/" target="_blank">Jamie Krutz & Friends</a>
                                         </p>
                                     </div>
+                                </div>
+                            </div>
+                            <div class="progFest-essentials-container">
+                                <h4>Featured Festival Bands</h4>
+                                <div class="progFest-details-container"></div>
+                                    <div class="progFest-text-grid--performers">
+                                        <h5>
+                                            <a class="schedule-band-link" href="https://www.themc2project.com" target="_blank">The MC2 Project</a>
+                                        </h5>
+                                        <p>Instrumental prog rock influenced by hard rock, jazz and classic rock!</p>
+                                    </div>
+                                    <div class="progFest-text-grid--performers">
+                                        <h5>
+                                            <a class="schedule-band-link" href="https://g3pband.com/home" target="_blank">GP3</a>
+                                        </h5>
+                                        <p>Progressive rock power trio, original music with a wide range of genres and influences. Album Release Show!</p>
+                                    </div>
+                                    <div class="progFest-text-grid--performers">
+                                        <h5>
+                                            <a class="schedule-band-link" href="https://www.facebook.com/Monstradamusband" target="_blank">Monstradamus</a>
+                                        </h5>
+                                        <p>Epic Original Prog! Featuring Jon (bass/vox), Giovanni (gtr/lead vox), Armani (drums), and Jackson (Moog)</p>
+                                    </div>
+                                    <div class="progFest-text-grid--performers">
+                                        <h5>All We Are Saying, Is Give Prog A Chance</h5>
+                                        <p>
+                                            Rick Wakeman, Supertramp and Emerson Lake and Palmer tributes! 
+                                            Featuring Kent Adamson Vocals & sound effects, Joe Davidek 
+                                            Keyboards & sound effects, Steve Clymer Keyboards & sound effects, 
+                                            Stephen Terry Bass, Dan Williamson Tenor Saxophone and 
+                                            Jamie McGregor Drums!
+                                        </p>
+                                    </div>
+                                    <div class="progFest-text-grid--performers">
+                                        <h5>Every Waking Hour</h5>
+                                        <p>
+                                            Original Prog Rock. CD Release Show! 
+                                        </p>
+                                    </div>
+                                    <div class="progFest-text-grid--performers">
+                                        <h5>The Genesis Effect with Mike Masse</h5>
+                                        <p>
+                                            Genesis tribute! 
+                                        </p>
+                                    </div>
+                                    <div class="progFest-text-grid--performers">
+                                        <h5>
+                                            <a class="schedule-band-link" href="https://steelmonkeyband.com/" target="_blank">Steel Monkey</a>
+                                            
+                                        </h5>
+                                        <p>
+                                            Jethro Tull Tribute! 
+                                        </p>
+                                    </div>
+                                    <div class="progFest-text-grid--performers">
+                                        <h5>Rush Through Time</h5>
+                                        <p>
+                                            Rush Tribute!
+                                        </p>
+                                    </div>
+                                    <div class="progFest-text-grid--performers">
+                                        <h5>
+                                            <a class="schedule-band-link" href="https://steelmonkeyband.com/" target="_blank">Jamie Krutz & Friends</a>
+                                            
+                                        </h5>
+                                        <p>
+                                            Fearless Original Art/Prog/Celtic Rock from the heart, Singer/Songwriter/Multi-Instrumentalist 
+                                            Jamie Krutz, with Violinist/Vocalist Laura Quam, Guitarist Dave Fritzler, 
+                                            Guitarist/Bassist Todd Labo and drummer Jamie McGregor! 
+                                        </p>
                                 </div>
                             </div>
                         </div>
@@ -273,6 +363,45 @@
                 </div>
             </section>
         </div> -->
+
+        <div id="mailingListSection" class="main-page-wrapper bg-clr-black">
+            <section class="mailing-list-section">
+                <div class="mailing-list-container">
+                    <form id="mailing-list-form" class="mailing-list-form" action="" >
+                        <h3 class="mailing-list-form-header">Join Our Mailing List</h3>
+                        <p class="mailing-list-form-sub-header">Receive updates about upcoming meeting and events.</p>
+                        <label class="mailing-list-form--label" for="name">Name</label>
+                        <input id="name-input" class="mailing-list-form--input" type="text">
+                        <p class="mailing-list-form--error">Name required</p>
+                        <label class="mailing-list-form--label" for="email">Email</label>
+                        <input id="email-input" class="mailing-list-form--input"type="email">
+                        <p class="mailing-list-form--error">Valid email required</p>
+                        <div class="mailing-list-text-area--container">
+                            <div id="info-box" class="mailing-list-hover-text-area">
+                                <p>This could include bands you like, what got you into progressive music, or what instruments you play.</p>
+                                <p>(One sentence is fine.)</p>
+                            </div>
+        
+                            <label class="mailing-list-form--label" for="tell-us-about-yourself">Tell us about yourself</label>
+                           
+                            <i id="info-icon" tabindex="0" class="fa-solid fa-circle-info info-icon-style" ></i>
+                        </div>
+                            <textarea id="tell-us-input" class="mailing-list-form--text-area"name="" id="" cols="30" rows="5"></textarea>
+                       
+             
+                        <p class="mailing-list-form--error">Text area is required.</p>
+                        <input id="form-honeypot" type="text" name="honey-pot" style="display:none">
+                        <button id="mailing-list-form-btn" class="mailing-list-form-btn" type="submit">SUBMIT</button>
+                        <div class="success-message-container">
+                            <p id="mailing-list-success" class="mailing-list-success">Thanks for joining our mailing list.</p>
+                        </div>
+                    </form>
+                    <div class="mailing-list-image">
+                        <img src="./images/carsLogo.png" alt="">
+                    </div>
+                </div>
+            </section>
+        </div>
     </main>
     <footer class="main-footer-wrapper">
         <div class="main-footer-container">
@@ -311,7 +440,7 @@
                 <span class="latest-news-image-credit"></span>
             </div>
             <div class="card__latest-news--text">
-                
+
             </div>
             <a class="btn__read-more" href="" target="_blank"><span>READ MORE</span><i aria-hidden="true" class="fa-solid fa-arrow-right-long"></i></a>
         </article>
