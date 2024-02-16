@@ -1209,6 +1209,14 @@ a {
     font-weight: 300;
  }
 
+ .progFest-grid--right {
+    /* border: 1px solid red; */
+ }
+
+ .progFest-grid--right p {
+    /* border: 1px solid white; */
+ }
+
  @media screen and (max-width: 1000px) {
     .progFest-essentials-container h4 {
         font-size: clamp(1.2rem, 2vw + 10px, 1.8rem);
