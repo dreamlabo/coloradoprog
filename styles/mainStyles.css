@@ -1138,11 +1138,10 @@ a {
  .progFest-text-grid--performers {
     position: relative;
     display: grid;
-    grid-template-columns: 150px 1fr;
+    grid-template-columns: minmax(150px, auto) 1fr;
     align-items: start;
     gap: 24px;
     padding-bottom: .7em;
- 
  }
 
  .progFest-text-grid--performers:not(:last-child)::after {
