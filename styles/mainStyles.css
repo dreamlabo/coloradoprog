@@ -1138,7 +1138,7 @@ a {
  .progFest-text-grid--performers {
     position: relative;
     display: grid;
-    grid-template-columns: minmax(150px, auto) 1fr;
+    grid-template-columns: 150px 1fr;
     align-items: start;
     gap: 24px;
     padding-bottom: .7em;
@@ -1255,11 +1255,16 @@ a {
        margin-top: 1rem;
      }
 }
+@media screen and (max-width: 600px) {
+    .progFest-text-grid--performers {
+        grid-template-columns: 1fr;
+        gap: 6px;
+     }
+}
 
 @media screen and (max-width: 500px) {
 
-    .progFest-text-grid,
-    .progFest-text-grid--performers {
+    .progFest-text-grid {
         grid-template-columns: 1fr;
         gap: 6px;
      }
