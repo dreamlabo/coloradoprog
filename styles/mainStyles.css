@@ -1155,20 +1155,21 @@ a {
     opacity: .2;
  }
  
-
  .progFest-text-grid {
     display: grid;
     grid-template-columns: minmax(75px, auto) 1fr;
     align-items: start;
     gap: 1rem;
     overflow-wrap: break-word;
+    /* overflow-x: scroll; */
  }
 
  .progFest-text-grid--performers a {
     font-size: .9rem;
+    /* font-size: 4rem; */
     color: var(--clr-text-200) !important;
     font-weight: 400;
-
+    word-wrap:break-word;
  }
  
  
@@ -1186,8 +1187,10 @@ a {
 
  .progFest-text-grid--performers h5 {
     font-size: .9rem;
+    /* font-size: 4rem; */
     color: var(--clr-text-200) !important;
     font-weight: 400;
+    word-wrap:break-word;
  }
 
  .progFest-text-grid h5 {
@@ -1196,10 +1199,13 @@ a {
     font-weight: 400;
  }
 
- .progFest-text-grid--performers p {
+ .progFest-text-grid--performers-text {
     font-size: .9rem;
+    /* font-size: 5rem; */
     color: var(--clr-text-300) !important;
     font-weight: 400;
+    word-wrap:break-word;
+    overflow-x: scroll;
  }
 
  .progFest-text-grid p {
@@ -1240,6 +1246,13 @@ a {
     }
  }
 
+ @media screen and (max-width: 800px) {
+    .progFest-text-grid--performers {
+        grid-template-columns: 1fr;
+        gap: 6px;
+     }
+}
+
  @media (max-width: 768px) {
     body {
       font-size: 16px; 
@@ -1255,12 +1268,7 @@ a {
        margin-top: 1rem;
      }
 }
-@media screen and (max-width: 600px) {
-    .progFest-text-grid--performers {
-        grid-template-columns: 1fr;
-        gap: 6px;
-     }
-}
+
 
 @media screen and (max-width: 500px) {
 
