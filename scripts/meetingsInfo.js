@@ -1,9 +1,9 @@
 meetings = [
     {
-        date: new Date('2024/1/27'),
+        date: new Date('2024/3/30'),
         time: '6:00pm',
         host: 'Kent',
-        hostEmail: 'kentsEmail@mail.com',
+        hostEmail: 'kent.adamson@comcast.net',
         additionalInfo: []
     },
     {

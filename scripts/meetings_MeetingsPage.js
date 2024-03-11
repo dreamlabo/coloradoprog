@@ -19,7 +19,7 @@ if(currentMeeting) {
     meetingPlaceOne.textContent = `This month ${currentMeeting.host} is hosting (Thanks ${currentMeeting.host}!).`
     
     const meetingPlaceTwo = meetingDetails.querySelector('#meeting-place-two');
-    meetingPlaceTwo.textContent = `For directions to join the meeting and to RSVP, email ${currentMeeting.host} at ${currentMeeting.hostEmail}`
+    meetingPlaceTwo.innerHTML = `For directions to join the meeting and to RSVP, email ${currentMeeting.host} at <a class="meeting-email-link" href="mailto:${currentMeeting.hostEmail}"> ${currentMeeting.hostEmail}</a>`
 
     if(currentMeeting.additionalInfo.length > 0) {
         const additionalInfoTemplate = document.getElementById('additional-info-template')

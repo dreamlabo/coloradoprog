@@ -64,7 +64,7 @@ const events = [
     },
     {
         headliner: "Soen",
-        supportActs: [],
+        supportActs: ['Trope'],
         date: new Date("2024,06,09"),
         time: "7:30pm",
         venue: "Bluebird Theater",
@@ -111,6 +111,18 @@ const events = [
         ticketURL: "https://www.axs.com/artists/121926/geoff-tate-tickets",
         bandInfo: "https://www.geofftate.com/",
         image: "./images/upcomingEvents/GeoffTate.jpg"
+    },
+    {
+        headliner: "Todd Rundgren",
+        supportActs: [],
+        date: new Date("2024,06,16"),
+        time: "8:00pm",
+        venue: "Paramount Theater",
+        city: "Denver",
+        state: "Co",
+        ticketURL: "https://www.ticketmaster.com/todd-rundgren-mewe-denver-colorado-06-16-2024/event/1E00602CE8CE41CE",
+        bandInfo: "http://www.todd-rundgren.com/?utm_source=Tedium&utm_campaign=Tedium_08_08_2019&utm_medium=email",
+        image: "./images/upcomingEvents/todd-me-we.jpg"
     },
 ]
 

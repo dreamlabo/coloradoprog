@@ -2,13 +2,36 @@ const latestNewsContainer = document.getElementById("latest-news-container")
 
 const latestNewsInformation = [
     {
+        pubDate: "FEBRUARY 28th 2024",
+        title: "Whom Gods Destroy Release Third Single from Their Forthcoming Debut",
+        image: "./images/latestNews/whom-gods-destroy.jpg",
+        imageCredit: "",
+        text: [
+           "Whom Gods Destroy released a new video for their third single 'Crawl' from their debut album, 'Insanium'.",
+           "The progressive metal group features keyboardist Derek Sherinian and guitarist Ron 'Bumblefoot' Thal, alongside vocalist Dino Jelusick, bassist Yas Nomura, and drummer Bruno Valverde.",
+           "The album is set for release on March 15th, 2024, via InsideOut Music."
+        ],
+        readMoreLink: "https://www.youtube.com/watch?v=ARvSEzdqxnE"
+    },
+    {
+        pubDate: "FEBRUARY 17th 2024",
+        title: "Transatlantic Announce the Release of 'Live at Morsefest 2022'",
+        image: "./images/latestNews/transatlantic.jpg",
+        imageCredit: "",
+        text: [
+           "Transatlantic's website has unveiled the release of 'Live at Morsefest 2022: The Absolute Whirlwind,' slated for April 26th, 2024. This offering encompasses a Limited 5CD + 2 Blu-ray Artbook set, showcasing the entirety of both nights from Morsefest 2022, delivering an impressive total of nearly 4 and a half hours of music.",
+           "In celebration of this announcement, Transatlantic have released a live clip of the track 'Can You Feel It,' captured from the second night of performances."
+        ],
+        readMoreLink: "https://www.youtube.com/watch?v=YuAgUHnVnBk"
+    },
+    {
         pubDate: "FEBRUARY 7th 2024",
         title: "Nick Beggs to Fill In for Marillion's Pete Trewavas on Cruise to the Edge",
         image: "./images/latestNews/Pete-Trewavas.jpg",
         imageCredit: "René Obdeijn",
         text: [
             "Marillion have announced that due to an upcoming surgery, bassist Nick Beggs will fill in for Pete Trewavas during the bands performance on 'Cruise to the Edge' starting  March 8, 2024.",
-            "According to Marillion's website, 'As we approach rehearsals for Cruise To The Edge we regret to announce that Pete Trewavas must undergo a routine surgical procedure which will leave him unable to fly to the US for some weeks. We therefore have no option but to perform on CTTE without him'",
+            "According to Marillion's website, 'As we approach rehearsals for Cruise To The Edge we regret to announce that Pete Trewavas must undergo a routine surgical procedure which will leave him unable to fly to the US for some weeks. We therefore have no option but to perform on CTTE without him.'",
            
         ],
         readMoreLink: "https://www.marillion.com/news/newsitem.htm?id=531"

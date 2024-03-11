@@ -56,6 +56,14 @@
     clip-path: polygon(100% 0, 100% 75%, 85% 100%, 0 100%, 0 0);
 }
 
+.meeting-email-link {
+    color: var(--clr-main);
+}
+
+.meeting-email-link:hover {
+    text-decoration: underline;
+}
+
 .general-meeting-info {
     place-self: center;
     margin-top: 40px;
@@ -280,7 +288,6 @@
         padding: 2rem 1.5rem 9rem 2rem;
     }
 
- 
     .meetings-img-one--container::before {
         height: 45%;
     }
