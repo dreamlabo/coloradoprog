@@ -101,6 +101,30 @@ const events = [
         
     },
     {
+        headliner: "Between the Buried and Me",
+        supportActs: [],
+        date: new Date("2024,04,03"),
+        time: "7:00pm",
+        venue: "Summit",
+        city: "Denver",
+        state: "Co",
+        ticketURL: "https://concerts.livenation.com/between-the-buried-and-me-presents-denver-colorado-04-03-2024/event/1E00602CDA763CE3?_gl=1*bfro7j*_ga*MTU5NzgzOTAxMC4xNzEwMTA2NDEx*_ga_BKTTLZFK7N*MTcxMDY5Nzg4MC4yLjEuMTcxMDY5ODEzOS4wLjAuMA..",
+        bandInfo: "https://www.betweentheburiedandme.com/",
+        image: "./images/upcomingEvents/between-the-buried-and-me.jpg" 
+    },
+    {
+        headliner: "Between the Buried and Me",
+        supportActs: [],
+        date: new Date("2024,04,04"),
+        time: "7:00pm",
+        venue: "Summit",
+        city: "Denver",
+        state: "Co",
+        ticketURL: "https://concerts.livenation.com/between-the-buried-and-me-presents-denver-colorado-04-04-2024/event/1E00602CD92B3CA4?_gl=1*n91ple*_ga*MTU5NzgzOTAxMC4xNzEwMTA2NDEx*_ga_BKTTLZFK7N*MTcxMDY5Nzg4MC4yLjEuMTcxMDY5ODE0NC4wLjAuMA..",
+        bandInfo: "https://www.betweentheburiedandme.com/",
+        image: "./images/upcomingEvents/between-the-buried-and-me.jpg" 
+    },
+    {
         headliner: "Geoff Tate",
         supportActs: ['Fire and Water'],
         date: new Date("2024,04,12"),
@@ -113,6 +137,18 @@ const events = [
         image: "./images/upcomingEvents/GeoffTate.jpg"
     },
     {
+        headliner: "Kamelot",
+        supportActs: ['Hammerfall', 'Ad Infinitum'],
+        date: new Date("2024,05,14"),
+        time: "6:00pm",
+        venue: "Summit",
+        city: "Denver",
+        state: "Co",
+        ticketURL: "https://concerts.livenation.com/kamelot-awaken-the-world-tour-2024-denver-colorado-05-14-2024/event/1E00602B08024683?_gl=1*17ysrks*_ga*MTU5NzgzOTAxMC4xNzEwMTA2NDEx*_ga_BKTTLZFK7N*MTcxMDY5Nzg4MC4yLjEuMTcxMDY5ODI1OS4wLjAuMA..",
+        bandInfo: "https://kamelot.com/",
+        image: "./images/upcomingEvents/kamelot.jpg"
+    },
+    {
         headliner: "Todd Rundgren",
         supportActs: [],
         date: new Date("2024,06,16"),
@@ -123,6 +159,18 @@ const events = [
         ticketURL: "https://www.ticketmaster.com/todd-rundgren-mewe-denver-colorado-06-16-2024/event/1E00602CE8CE41CE",
         bandInfo: "http://www.todd-rundgren.com/?utm_source=Tedium&utm_campaign=Tedium_08_08_2019&utm_medium=email",
         image: "./images/upcomingEvents/todd-me-we.jpg"
+    },
+    {
+        headliner: "Jon Anderson and The Band Geeks",
+        supportActs: [],
+        date: new Date("2024,08,10"),
+        time: "8:00pm",
+        venue: "Paramount Theater",
+        city: "Denver",
+        state: "Co",
+        ticketURL: "https://www.ticketmaster.com/jon-anderson-and-the-band-geeks-denver-colorado-08-10-2024/event/1E006065750E79BE",
+        bandInfo: "https://www.jonanderson.com/",
+        image: "./images/upcomingEvents/jon-anderson.jpg"
     },
 ]
 
