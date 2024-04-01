@@ -1,7 +1,7 @@
 ﻿### Colorado Art Rock Society 
 
 Currently hosted via github pages while awaiting full deployment
-[Colorado Art Rock Society](https://dreamlabo.github.io/CarsStaticWebpage/)
+[Colorado Art Rock Society](https://dreamlabo.github.io/coloradoprog/)
 
  Technologies Used
  - JavaScript
