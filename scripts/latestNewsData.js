@@ -1,6 +1,4 @@
-const latestNewsContainer = document.getElementById("latest-news-container")
-
-const latestNewsInformation = [
+const latestNewsData = [
     {
         pubDate: "June 24th, 2024",
         title: "Steven Wilson Announces Solo Tour In Support of Upcoming Album",
@@ -189,27 +187,3 @@ const latestNewsInformation = [
         readMoreLink: "https://dreamtheater.net/dream-theater-announce-the-return-of-drummer-mike-portnoy/"
     },
 ]
-
-latestNewsInformation.forEach(newsItem => {
-    const latestNewsTemplate = document.getElementById("latest-news-template")
-    const article = latestNewsTemplate.content.cloneNode(true);
-
-    article.querySelector(".card__latest-news--date").innerText = newsItem.pubDate;
-    article.querySelector(".card__latest-news--title").innerText = newsItem.title;
-    article.querySelector(".card__latest-news--image").src = newsItem.image;
-    if(newsItem.imageCredit !== "") {
-        article.querySelector(".latest-news-image-credit").innerText = `image ${newsItem.imageCredit}`
-    }
-    
-    const textContent = article.querySelector(".card__latest-news--text")
-    
-    newsItem.text.forEach(itemText => {
-        const paragraphText = document.createElement('p');
-        paragraphText.innerText = itemText;
-        textContent.append(paragraphText);
-    })
-
-    article.querySelector(".btn__read-more").href = newsItem.readMoreLink;
-    latestNewsContainer.append(article)
-})
-

@@ -988,6 +988,30 @@ a {
     padding-right: .5em;
 }
 
+.btn-centered-container {
+    padding-top: 0.5rem;
+}
+
+.btn-centered {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    background: var(--clr-black);
+    color: var(--clr-main);
+    border: 1px solid var(--clr-main);
+    border-radius: 3px;
+    padding: .5em 1.4em;
+    font-weight: 300;
+    font-size: 1.2rem;
+    width: 100%;
+    max-width: 400px;
+}
+
+.btn-centered:hover {
+    color: var(--clr-accent-one);
+    border: 1px solid var(--clr-accent-one);
+}
+
 @media  (max-width: 1000px)   {
     .section-wrapper-two {
         --page-margin-mobile: 2rem;

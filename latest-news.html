@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/mainStyles.css">
-    <link rel="stylesheet" href="./styles/eventStyles.css">
-    <script src="./scripts/mainScripts.js" defer></script>
-    <script src="./scripts/eventsScripts.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Jost:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="./scripts/mainScripts.js" defer></script>
+    <script src="./scripts/latestNewsData.js" defer></script>
+    <script src="./scripts/latestNewsPageScripts.js" defer></script>
     <script src="https://kit.fontawesome.com/c43c1a8058.js" crossorigin="anonymous"></script>
-    <title>CARS - Upcoming Events</title>
+    <title>CARS - Latest News</title>
 </head>
 <body>
     <header class="header-wrapper">
@@ -22,8 +22,8 @@
                         class="main-links"
                         aria-label="primary navigation">
                     <li><a href="meetings.html">MEETINGS</a></li>
-                    <li><a href="upcomingEvents.html" class="active-page-indicator">UPCOMING EVENTS</a></li>
-                    <li><a href="latest-news.html">LATEST NEWS</a></li>
+                    <li><a href="upcomingEvents.html">UPCOMING EVENTS</a></li>
+                    <li><a href="latest-news.html" class="active-page-indicator">LATEST NEWS</a></li>
                     <li><a href="about.html">WHO WE ARE</a></li>
                 </ul>
             </nav>
@@ -37,9 +37,7 @@
             <nav class="mobile-menu"
                     id="mobile-menu"
                     aria-hidden="true">
-                <ul id="mobile-navigation"
-                        class=""
-                        aria-label="primary navigation">
+                <ul id="mobile-navigation" aria-label="primary navigation">
                     <li class="mobile-nav-link"><a tabindex="-1" onclick="closeMobileMenu()" href="index.html"><span aria-hidden="true">00</span>HOME</a></li>
                     <li class="mobile-nav-link"><a tabindex="-1" onclick="closeMobileMenu()" href="meetings.html"><span aria-hidden="true">01</span>MEETINGS</a></li>
                     <li class="mobile-nav-link"><a tabindex="-1" onclick="closeMobileMenu()" href="upcomingEvents.html"><span aria-hidden="true">02</span>UPCOMING EVENTS</a></li>
@@ -50,9 +48,17 @@
         </div>
     </header>
     <main class="main-section-container">
-        <h1 class="event-page-header">Latest News</h1>
-        <section id="cards-section" class="cards-section">
-        </section>
+        <div id="" class="main-page-wrapper">
+            <div id="bkgd-image-overlay" class="overlay-texture-dark"></div>
+            <!-- <img id="bkgd-image" class="background-image-texture" src="./images/powderedBlackTexture.jpg" alt=""> -->
+            <section class="section-wrapper-two">
+                <div class="section-container">
+                    <h3 class="section-title">LATEST NEWS</h3>
+                    <div id="latest-news-container" class="latest-news-container">
+                    </div>
+                </div>
+            </section>
+        </div>
     </main>
     <footer class="main-footer-wrapper">
         <div class="main-footer-container">
@@ -63,27 +69,20 @@
             <p><span>&#169;</span>2024 THE COLORADO ART ROCK SOCIETY</p>
         </div>
     </footer>
-
-    <template id="event-item-template">
-        <div class="card-container">
-            <img src="" alt="image of band" class="band-photo">
-            <div class="details-container">
-                <div class="concert-info-container">
-                    <div class="bands-container">
-                        <h2 class="headliner-act"></h2>
-                        <h3 class="support-acts"></h3>
-                    </div>
-                </div>
-                <div class="event-details">
-                    <p class="event-date"></p>
-                    <p class="event-time"></p>
-                    <p class="event-venue"></p>
-                    <p class="event-location"></p>
-                </div>
-                <div class="event-btn-container">
-                    <a class="btn-event btn-tickets" href="">Tickets</a>
-                    <a class="btn-event btn-artist-info" href="">Artist Info</a>
-                </div>
+    <template id="latest-news-template">
+        <article class="card__latest-news">
+            <span class="card__latest-news--date"></span>
+            <h4 class="card__latest-news--title"></h4>
+            <div class="latest-news-image-container">
+                <img class="card__latest-news--image" src="" alt="">
+                <span class="latest-news-image-credit"></span>
             </div>
-        </div>
+            <div class="card__latest-news--text">
+
+            </div>
+            <a class="btn__read-more" href="" target="_blank"><span>READ MORE</span><i aria-hidden="true" class="fa-solid fa-arrow-right-long"></i></a>
+        </article>
     </template>
+    
+</body>
+</html>
