@@ -2,6 +2,77 @@ const latestNewsContainer = document.getElementById("latest-news-container")
 
 const latestNewsInformation = [
     {
+        pubDate: "June 24th, 2024",
+        title: "Steven Wilson Announces Solo Tour In Support of Upcoming Album",
+        image: "./images/latestNews/wilson-tour.jpg",
+        imageCredit: "",
+        text: [
+           "Steven Wilson has unveiled tour dates for early 2025 across the UK and Europe to promote his forthcoming album, 'The Overview.'",
+           "On his website, Wilson shares, 'The Overview Tour will be an audio-visual experience based around a forthcoming new release of the same name: a space-themed album that features just two long pieces. I’ll also be playing music from The Harmony Codex for the first time, as well as songs from all of my previous records.",
+           "Here's hoping for a US tour, with a Colorado stop included."        ],
+        readMoreLink: "https://stevenwilsonhq.com/"
+    },
+    {
+        pubDate: "June 14th, 2024",
+        title: "Vincent Cavanagh Shares New Single 'Zero Blue' from Forthcoming EP",
+        image: "./images/latestNews/the-radicant.webp",
+        imageCredit: "",
+        text: [
+           "Vincent Cavanagh, former Anathema vocalist/guitarist, has shared the debut single 'Zero Blue' from his new project 'The Radicant.'",
+           "Speaking about the new single, Vincent states, 'I've waited for this day for a long time. After years of composing with (and for) visual artists, I'm excited to release my own music.'",
+           "The 'We Ascend' EP will be available on classic black 12” vinyl beginning July 12th, 2024 via Kscope Music."
+        ],
+        readMoreLink: "https://progreport.com/the-radicant-debut-single-zero-blue/"
+    },
+    // {
+    //     pubDate: "May 31th, 2024",
+    //     title: "'The Ocean's Australia Show Ironically Shut Down Due to Smoke",
+    //     image: "./images/latestNews/the-ocean-news.jpg",
+    //     imageCredit: "",
+    //     text: [
+    //         "The Ocean's Auckland, New Zealand show was shut down after an audience member's vape pen set off the venue's smoke alarm.",
+    //        "The band, who are notorious for their smoke filled shows, had agreed to go without their smog effects due to the venue's policies.",
+    //        ""
+    //     ],
+    //     readMoreLink: "https://www.instagram.com/p/C7okv3-phZ1/"
+    // },
+    // {
+    //     pubDate: "May 30th, 2024",
+    //     title: "Leprous Release Video for Single 'Atonement' From Upcoming Album",
+    //     image: "./images/latestNews/leprous-new-album.jpg",
+    //     imageCredit: "",
+    //     text: [
+    //        "Leprous have released a new music video for their latest single 'Atonement' from their upcoming eight album 'Melodies of Atonement'",
+    //        "",
+    //        ""
+    //     ],
+    //     readMoreLink: "https://leprous.net/leprous-release-music-video-for-new-single-atonement/"
+    // },
+    {
+        pubDate: "May 30th, 2024",
+        title: "Leprous Announce New Studio Album 'Melodies of Atonement'",
+        image: "./images/latestNews/leprous-new-album.jpg",
+        imageCredit: "",
+        text: [
+           "Leprous have announced their new album 'Melodies of Atonement' is set to be released on August 30th, 2024 via Inside Out Music.",
+           "Regarding the new album, frontman/songwriter Einar Solberg states, 'It's kind of heavier in its own way, and it's very modern sounding and not retro at all. It has a lot of electronic elements. It's heavy, it's catchy, and there are a lot of songs that could potentially work as singles.'",
+           "The new album was once again recorded with David Castillo (Opeth, Katatonia, Soen, etc.) at the helm."
+        ],
+        readMoreLink: "https://leprous.net/leprous-announce-new-studio-album-melodies-of-atonement/"
+    },
+    {
+        pubDate: "April 27th, 2024",
+        title: "David Gilmore's Announces New Album 'Luck and Strange.'",
+        image: "./images/latestNews/david-gilmore-news.webp",
+        imageCredit: "",
+        text: [
+           "David Gilmour has revealed that his new album, 'Luck and Strange', will be released on September 6th through Sony Music. ",
+           "The album features contributions from musicians such as bassists Guy Pratt and Tom Herbert, drummers Adam Betts, Steve Gadd, and Steve DiStanislao, and keyboardists Rob Gentry and Roger Eno, with string and choral arrangements by Will Gardner.",
+           "Notably, the title track includes a performance by the late Pink Floyd keyboardist Richard Wright, recorded during a 2007 jam session at David's house."
+        ],
+        readMoreLink: "https://www.davidgilmourtour.com/new-album"
+    },
+    {
         pubDate: "FEBRUARY 28th 2024",
         title: "Whom Gods Destroy Release Third Single from Their Forthcoming Debut",
         image: "./images/latestNews/whom-gods-destroy.jpg",

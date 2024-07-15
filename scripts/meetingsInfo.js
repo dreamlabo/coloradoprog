@@ -12,7 +12,14 @@ meetings = [
         host: 'Kent',
         hostEmail: 'kentsEmail@mail.com',
         additionalInfo: []
-    }
+    },
+    {
+        date: new Date('2024/07/27'),
+        time: '6:00pm',
+        host: 'Sharon',
+        hostEmail: 'sharon@mail.com',
+        additionalInfo: []
+    }, 
 ]
 
 function returnUpcomingMeeting() {
