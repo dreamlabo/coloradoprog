@@ -10,6 +10,6 @@ Currently hosted via github pages while awaiting full deployment
  - [EmailJS](https://www.emailjs.com/)
 
 For those interested, a full case study is available on my website:
-[Todd Labo](https://dreamlabo.github.io/Portfolio/cars-ui-case-study.html)
+[Todd Labo](https://dreamlabo.github.io/portfolio/cars-ui-case-study.html)
 
 
