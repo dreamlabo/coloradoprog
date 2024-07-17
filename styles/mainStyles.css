@@ -17,6 +17,7 @@
     --pg-margin-full: 4rem;
     --max-width: 1530px;
     --btn-border-width: 2px;
+    --border-radius-med: 3px;
 
     --page-width: calc(100% - 4rem);
     --header-height: 40px;

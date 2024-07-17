@@ -27,7 +27,7 @@
     min-width: 150px;
     box-shadow: 0 2px 4px 0 rgba(18,18,18, 0.1), 
                 0 6px 10px 0 rgba(18,18,18, 0.1);
-    border-radius: 2px;
+    border-radius: var(--border-radius-med);
 }
 
 .band-photo {
@@ -37,6 +37,7 @@
     object-fit: cover;
     max-height: 400px;
     object-position: center;
+    border-radius: var(--border-radius-med) var(--border-radius-med) 0 0;
 }
 
 .details-container {
@@ -95,11 +96,13 @@
     text-align: center;
     font-weight: 500;
     border: 3px solid transparent;
+    border-radius: var(--border-radius-med);
 }
 
 .btn-tickets {
     background: var(--clr-main);
     color: var(--clr-black);
+    border-radius: var(--border-radius-med);
 }
 
 .btn-artist-info {
