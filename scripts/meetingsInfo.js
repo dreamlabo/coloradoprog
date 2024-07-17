@@ -3,13 +3,13 @@ const KENTS_HOST_NAME = 'Kent'
 const MEETING_TIME_6PM = '6:00pm'
 
 meetings = [
-    {
-        date: new Date('2024/4/30'),
-        time: '6:00pm',
-        host: 'Kent',
-        hostEmail: 'kent.adamson@comcast.net',
-        additionalInfo: []
-    },
+    // {
+    //     date: new Date('2024/4/30'),
+    //     time: '6:00pm',
+    //     host: 'Kent',
+    //     hostEmail: 'kent.adamson@comcast.net',
+    //     additionalInfo: []
+    // },
     {
         date: new Date('2024/08/03'),
         time: MEETING_TIME_6PM ,
