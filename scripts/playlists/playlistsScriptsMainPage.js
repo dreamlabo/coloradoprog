@@ -6,6 +6,7 @@ if(featuredPlaylistContainer) {
         const songArticle = songArticleTemplate.content.cloneNode(true);
         songArticle.querySelector(".song-name").innerText = article.song;
         songArticle.querySelector(".artist-name").innerText = article.artist;
+        songArticle.querySelector(".artist-name").href = article.artistSite;
         songArticle.querySelector(".video-link").src = article.youtube;
 
         const aboutContent = songArticle.querySelector(".song-article__description__container")
