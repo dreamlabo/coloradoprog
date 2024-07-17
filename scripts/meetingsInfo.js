@@ -14,10 +14,10 @@ meetings = [
         additionalInfo: []
     },
     {
-        date: new Date('2024/07/27'),
+        date: new Date('2024/08/10'),
         time: '6:00pm',
-        host: 'Sharon',
-        hostEmail: 'sharon@mail.com',
+        host: 'Kent',
+        hostEmail: 'kent@mail.com',
         additionalInfo: []
     }, 
 ]
