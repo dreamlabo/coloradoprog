@@ -272,7 +272,7 @@ a {
     right: 0;
     min-width: 100%;
     min-height: calc(100vh - var(--header-height));
-    overflow-x: scroll;
+    /* overflow-x: scroll; */
     padding-top: .3rem;   
     background-color: var(--clr-gray);
     color: var(--clr-text-100);
@@ -1397,7 +1397,7 @@ a {
     color: var(--clr-text-300) !important;
     font-weight: 400;
     word-wrap:break-word;
-    overflow-x: scroll;
+    /* overflow-x: scroll; */
  }
 
  .progFest-text-grid p {
