@@ -34,7 +34,10 @@
 
 body {
     font-family: 'Jost', sans-serif;
-    background: var(--clr-black);   
+}
+
+.main-bkgd-100 {
+    background: var(--clr-100);  
 }
 
 li {
