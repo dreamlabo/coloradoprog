@@ -21,6 +21,10 @@ if(currentMeeting) {
     const meetingPlaceTwo = meetingDetails.querySelector('#meeting-place-two');
     meetingPlaceTwo.innerHTML = `For directions to join the meeting and to RSVP, email ${currentMeeting.host} at <a class="meeting-email-link" href="mailto:${currentMeeting.hostEmail}"> ${currentMeeting.hostEmail}</a>`
 
+
+    const meetingPlaceThree = meetingDetails.querySelector('#meeting-place-three');
+    meetingPlaceThree.innerText = `Don't wait until the last minute, RSVP as soon as you can. ${currentMeeting.host}  will then send you directions to join us at the meeting. `
+
     if(currentMeeting.additionalInfo.length > 0) {
         const additionalInfoTemplate = document.getElementById('additional-info-template')
         const additionalInfoElement =  additionalInfoTemplate.content.cloneNode(true);
