@@ -2,8 +2,12 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home3/tonartco/public_html/
-    - /bin/cp meetings.html $DEPLOYPATH
+    - /bin/cp about.html $DEPLOYPATH
     - /bin/cp index.html $DEPLOYPATH
-    - /bin/cp/styles  $DEPLOYPATH
+    - /bin/cp latest-news.html $DEPLOYPATH
+    - /bin/cp meetings.html $DEPLOYPATH
+    - /bin/cp upcomingEvents.html $DEPLOYPATH
+    - /bin/cp -r styles $DEPLOYPATH
+    - /bin/cp -r scripts $DEPLOYPATH
 
 
