@@ -33,7 +33,14 @@
     margin: 0 auto;
 }
 
-.meetings-section-container h1 {
+/* .meetings-section-container h1 {
+    color: var(--clr-main);
+    font-weight: 300;
+    font-size: 1.4rem;
+    padding-bottom: 0.3em;
+} */
+
+.next-meeting-title {
     color: var(--clr-main);
     font-weight: 300;
     font-size: 1.4rem;
@@ -116,6 +123,7 @@
     display: grid;
     grid-template-columns: 50px 1fr;
     column-gap: 1em;
+    padding-right: 3rem;
 }
 
 .additional-info-header {

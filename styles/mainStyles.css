@@ -77,6 +77,30 @@ a {
     background: var(--clr-black);
 }
 
+.main-page {
+
+}
+
+
+.enable-javascript-message,
+.enable-javascript-message__section__color_main,
+.enable-javascript-message__section__color_black {
+  
+    margin: 3rem;
+    color: var(--clr-main);
+    font-size: 2rem;
+    font-weight: 300;
+    text-align: center;
+}
+
+.enable-javascript-message__section__color_main {
+    font-size: 1rem;
+}
+
+.enable-javascript-message__section__color_black {
+    color: var(--clr-black);
+}
+
 .background-image-one {
     position: absolute;
     width: 100%;
