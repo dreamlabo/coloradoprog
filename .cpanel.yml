@@ -9,5 +9,6 @@ deployment:
     - /bin/cp upcomingEvents.html $DEPLOYPATH
     - /bin/cp -r styles $DEPLOYPATH
     - /bin/cp -r scripts $DEPLOYPATH
+    - /bin/cp -r images $DEPLOYPATH
 
 

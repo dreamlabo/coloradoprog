@@ -2,7 +2,7 @@ const latestNewsData = [
     {
         pubDate: "July 12th, 2024",
         title: "Big Big Train Announce New Live Album/DVD 'A Flare on the Lense'  ",
-        image: "./images/latestNews/Big-big-train.png",
+        image: "./images/latestNews/big-big-train.png", 
         imageCredit: "",
         text: [
            "Big Big Train are scheduled to release their latest live album 'A Flare on the Lense' on September 13th, 2024 via InsideOut Music.",
