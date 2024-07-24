@@ -200,6 +200,18 @@ const events = [
         image: "./images/upcomingEvents/jon-anderson.jpg"
     },
     {
+        headliner: "Dweezil Zappa",
+        supportActs: [false, "The Rox(Postroph)y Tour"],
+        date: new Date("2024,08,12"),
+        time: "8:00pm",
+        venue: PARAMOUNT_THEATER_VENUE,
+        city: PARAMOUNT_THEATER_CITY,
+        state: "Co",
+        ticketURL: "https://www.ticketmaster.com/kbco-presents-dweezil-zappa-the-roxpostrophy-denver-colorado-08-12-2024/event/1E006066A16C423B?camefrom=CFC_KSE_wZMc5Iv2w0ud2gDh5lfwTA&utm_source=wZMc5Iv2w0ud2gDh5lfwTA&utm_medium=wZMc5Iv2w0ud2gDh5lfwTA&utm_campaign=wZMc5Iv2w0ud2gDh5lfwTA",
+        bandInfo: "https://www.dweezilzappa.com/",
+        image: "https://cdn.connectsites.net/user_files/newdweezil/site_assets/000/050/323/original.jpg?1709591193"
+    },
+    {
         headliner: "The Alan Parsons Live Project",
         supportActs: [false],
         date: new Date("2024,08,14"),
@@ -238,7 +250,7 @@ const events = [
     {
         headliner: "Rush Archives",
         supportActs: [false, "A Tribute to Rush"],
-        date: new Date("2024, 09, 14"),
+        date: new Date("2024,09,14"),
         time: "7:00pm",
         venue: STARGAZERS_VENUE,
         city: STARGAZERS_CITY,
@@ -260,9 +272,21 @@ const events = [
         image: "./images/upcomingEvents/leprous-tour.jpg"
     },
     {
+        headliner: "Al Di Meola Electric Band",
+        supportActs: [false],
+        date: new Date("2024,10,01"),
+        time: "6:30pm",
+        venue: "Chautauqua Auditorium",
+        city: "Boulder",
+        state: "Co",
+        ticketURL: "https://www.z2ent.com/events/detail/al-di-meola-2024-cha",
+        bandInfo: "https://www.aldimeola.com/",
+        image: "https://www.z2ent.com/assets/img/2024-04-12-Al-Di-Meola-NYC-Ehud-Lazin-62-57308fbe87.jpg"
+    },
+    {
         headliner: "Jinjer",
         supportActs: ["Hanabie", " Born of Osiris"],
-        date: new Date("2024, 10, 09"),
+        date: new Date("2024,10,09"),
         time: "6:30pm",
         venue: OGDEN_THEATER_VENUE,
         city: OGDEN_THEATER_CITY,

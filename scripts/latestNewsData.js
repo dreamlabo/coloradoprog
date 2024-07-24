@@ -1,5 +1,17 @@
 const latestNewsData = [
     {
+        pubDate: "July 12th, 2024",
+        title: "Big Big Train Announce New Live Album/DVD 'A Flare on the Lense'  ",
+        image: "./images/latestNews/Big-big-train.png",
+        imageCredit: "",
+        text: [
+           "Big Big Train are scheduled to release their latest live album 'A Flare on the Lense' on September 13th, 2024 via InsideOut Music.",
+           "The new film package includes every song performed by the band over those two evenings and is available as a Limited 3CD+Blu-ray media book, with the concert film audio mixed in 5.1 surround sound and stereo.",
+           "A gatefold 180g 2LP vinyl version is also available, which features a carefully selected range of material from the Cadogan Hall shows."        
+        ],
+        readMoreLink: "https://www.bigbigtrain.com/"
+    },
+    {
         pubDate: "June 24th, 2024",
         title: "Steven Wilson Announces Solo Tour In Support of Upcoming Album",
         image: "./images/latestNews/wilson-tour.jpg",
