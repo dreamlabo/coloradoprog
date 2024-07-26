@@ -26,6 +26,23 @@
 .meetings-min-height {
     min-height: 100vh;
 }
+.save-the-date-container {
+    padding-bottom: 1rem;
+}
+
+.save-the-date-container__heading {
+    color: var(--clr-main);
+    font-size: 1rem;
+    font-weight: 300;
+
+}
+
+.save-the-date-container__text {
+    color: var(--clr-text-200);
+    font-weight: 300;
+    text-wrap: balance; 
+    padding-bottom: 0.5rem;
+}
 
 .meetings-section-container {
     width: var(--page-width);
