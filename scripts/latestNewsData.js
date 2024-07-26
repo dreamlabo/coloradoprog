@@ -34,30 +34,6 @@ const latestNewsData = [
         ],
         readMoreLink: "https://progreport.com/the-radicant-debut-single-zero-blue/"
     },
-    // {
-    //     pubDate: "May 31th, 2024",
-    //     title: "'The Ocean's Australia Show Ironically Shut Down Due to Smoke",
-    //     image: "./images/latestNews/the-ocean-news.jpg",
-    //     imageCredit: "",
-    //     text: [
-    //         "The Ocean's Auckland, New Zealand show was shut down after an audience member's vape pen set off the venue's smoke alarm.",
-    //        "The band, who are notorious for their smoke filled shows, had agreed to go without their smog effects due to the venue's policies.",
-    //        ""
-    //     ],
-    //     readMoreLink: "https://www.instagram.com/p/C7okv3-phZ1/"
-    // },
-    // {
-    //     pubDate: "May 30th, 2024",
-    //     title: "Leprous Release Video for Single 'Atonement' From Upcoming Album",
-    //     image: "./images/latestNews/leprous-new-album.jpg",
-    //     imageCredit: "",
-    //     text: [
-    //        "Leprous have released a new music video for their latest single 'Atonement' from their upcoming eight album 'Melodies of Atonement'",
-    //        "",
-    //        ""
-    //     ],
-    //     readMoreLink: "https://leprous.net/leprous-release-music-video-for-new-single-atonement/"
-    // },
     {
         pubDate: "May 30th, 2024",
         title: "Leprous Announce New Studio Album 'Melodies of Atonement'",
