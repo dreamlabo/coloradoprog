@@ -1,7 +1,7 @@
 ﻿### Colorado Art Rock Society 
 
-Currently hosted via github pages while awaiting full deployment
-[Colorado Art Rock Society](https://dreamlabo.github.io/coloradoprog/)
+
+[ColoradoProg.com](https://www.coloradoprog.com/)
 
  Technologies Used
  - JavaScript
@@ -9,7 +9,7 @@ Currently hosted via github pages while awaiting full deployment
  - CSS
  - [EmailJS](https://www.emailjs.com/)
 
-For those interested, a full case study is available on my website:
+For those interested, a case study is available on my website:
 [Todd Labo](https://dreamlabo.github.io/portfolio/cars-ui-case-study.html)
 
 
