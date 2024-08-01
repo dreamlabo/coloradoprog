@@ -9,9 +9,7 @@
 :root {
     --col-gap-full: 8rem;
     --col-gap-tablet: 4rem;
-
     --max-width: 1530px;
-
     --page-width: calc(100% - 4rem);
 }
 
@@ -26,6 +24,7 @@
 .meetings-min-height {
     min-height: 100vh;
 }
+
 .save-the-date-container {
     padding-bottom: 1rem;
 }
@@ -34,7 +33,6 @@
     color: var(--clr-main);
     font-size: 1rem;
     font-weight: 300;
-
 }
 
 .save-the-date-container__text {
@@ -49,13 +47,6 @@
     max-width: var(--max-width);
     margin: 0 auto;
 }
-
-/* .meetings-section-container h1 {
-    color: var(--clr-main);
-    font-weight: 300;
-    font-size: 1.4rem;
-    padding-bottom: 0.3em;
-} */
 
 .next-meeting-title {
     color: var(--clr-main);
@@ -337,6 +328,7 @@
     .meetings-img-two--container {
         place-self: end;
     }
+    
     .meetings-img-two {
         width: auto;
         height: 150px;
