@@ -1,3 +1,5 @@
+const BALL_ARENA_VENUE = "Ball Arena"
+const BALL_ARENA_CITY = "Denver"
 const GOTHIC_THEATER = "Gothic Theater"
 const GOTHIC_THEATER_CITY = "Englewood"
 const MISSION_BALLROOM_VENUE = "Mission Ballroom"
@@ -284,6 +286,18 @@ const events = [
         image: "https://www.z2ent.com/assets/img/2024-04-12-Al-Di-Meola-NYC-Ehud-Lazin-62-57308fbe87.jpg"
     },
     {
+        headliner: "Jeff Lynne's ELO",
+        supportActs: [false, "The Over And Out Tour 2024"],
+        date: new Date("2024,10,02"),
+        time: "8:00pm",
+        venue: BALL_ARENA_VENUE,
+        city: BALL_ARENA_CITY,
+        state: "Co",
+        ticketURL: "https://www.ticketmaster.com/jeff-lynnes-elo-the-over-and-denver-colorado-10-02-2024/event/1E00606D342D5D43",
+        bandInfo: "https://www.jefflynneselo.com/",
+        image: "https://www.livenation.com/_next/image?url=https%3A%2F%2Fs1.ticketm.net%2Fdam%2Fa%2F0e4%2F5784eabd-0726-44c3-ac2f-8745ce9a80e4_RETINA_PORTRAIT_16_9.jpg&w=768&q=70"
+    },
+    {
         headliner: "Jinjer",
         supportActs: ["Hanabie", " Born of Osiris"],
         date: new Date("2024,10,09"),
@@ -342,6 +356,18 @@ const events = [
         ticketURL: "https://www.ticketmaster.com/beat-belewvailevincarey-play-80s-king-crimson-denver-colorado-11-06-2024/event/1E00607B88F91473?camefrom=CFC_KSE_wZMc5Iv2w0ud2gDh5lfwTA&utm_source=wZMc5Iv2w0ud2gDh5lfwTA&utm_medium=wZMc5Iv2w0ud2gDh5lfwTA&utm_campaign=wZMc5Iv2w0ud2gDh5lfwTA",
         bandInfo: "https://beat-tour.com/",
         image: "./images/upcomingEvents/beat-tour.jpg"
+    },
+    {
+        headliner: "Zeal & Ardor",
+        supportActs: ["Gaerea", "Zetra"],
+        date: new Date("2024,12,06"),
+        time: "6:00pm",
+        venue: GOTHIC_THEATER,
+        city: GOTHIC_THEATER_CITY,
+        state: "Co",
+        ticketURL: "https://www.gothictheatre.com/events/detail/?event_id=627379",
+        bandInfo: "https://www.zealandardor.com/",
+        image: "./images/upcomingEvents/zeal-and-ardor.png"
     },
 ]
 
