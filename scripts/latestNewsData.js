@@ -2,7 +2,7 @@ const latestNewsData = [
     {
         pubDate: "August 1th, 2024",
         title: "Opeth to Release New Album 'The Last Will and Testament' on Oct 11",
-        image: "./images/latestNews/Big-big-train.png", 
+        image: "https://www.opeth.com/images/2024/07/16/otwat.jpg", 
         imageCredit: "",
         text: [
            "Opeth have announced their new concept album, 'The Last Will and Testament,' will be released on October 11th, 2024 via Reigning Phoenix Music.",
