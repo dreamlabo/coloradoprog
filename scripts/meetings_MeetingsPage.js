@@ -32,6 +32,7 @@ if(currentMeeting) {
         
         currentMeeting.additionalInfo.forEach(element => {
             const info = document.createElement('p');
+            info.classList.add("meetings-meeting-details__text")
             info.textContent = element;
             infoContainer.appendChild(info);
         })

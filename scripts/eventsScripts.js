@@ -1,7 +1,11 @@
 const BALL_ARENA_VENUE = "Ball Arena"
+const BLACK_SHEEP_VENUE = "Black Sheep"
+const BLACK_SHEEP_CITY = "Colorado Springs"
 const BALL_ARENA_CITY = "Denver"
 const GOTHIC_THEATER = "Gothic Theater"
 const GOTHIC_THEATER_CITY = "Englewood"
+const HQ_VENUE = "HQ"
+const HQ_CITY = "Denver"
 const MISSION_BALLROOM_VENUE = "Mission Ballroom"
 const MISSION_BALLROOM_CITY = "Denver"
 const OGDEN_THEATER_VENUE = "Ogden Theatre"
@@ -12,6 +16,8 @@ const PIKES_PEAK_CENTER_VENUE = "Pikes Peak Center"
 const PIKES_PEAK_CENTER_CITY = "Colorado Springs"
 const STARGAZERS_VENUE = "Stargazers Theater"
 const STARGAZERS_CITY = "Colorado Springs"
+const SUMMIT_VENUE = "Summit Music Hall"
+const SUMMIT_CITY = "Denver"
 const RED_ROCKS = "Red Rocks Ampitheater"
 const RED_ROCKS_CITY = "Morrison"
 
@@ -115,7 +121,6 @@ const events = [
         ticketURL: "https://www.gothictheatre.com/events/detail/?event_id=509530",
         bandInfo: "http://www.queensrycheofficial.com/",
         image: "./images/upcomingEvents/Queensryche.jpeg"
-        
     },
     {
         headliner: "Between the Buried and Me",
@@ -263,7 +268,7 @@ const events = [
     },
     {
         headliner: "Leprous",
-        supportActs: ["Monuments", "Fight the Fight"],
+        supportActs: ["Earthside", "Fight the Fight"],
         date: new Date("2024,09,23"),
         time: "7:00pm",
         venue: GOTHIC_THEATER,
@@ -272,6 +277,30 @@ const events = [
         ticketURL: "https://www.gothictheatre.com/events/detail/?event_id=540678",
         bandInfo: "https://leprous.net/",
         image: "./images/upcomingEvents/leprous-tour.jpg"
+    },
+    {
+        headliner: "Richie Kotzen",
+        supportActs: ["Mark Daly"],
+        date: new Date("2024,09,25"),
+        time: "7:00pm",
+        venue: BLACK_SHEEP_VENUE,
+        city: BLACK_SHEEP_CITY,
+        state: "Co",
+        ticketURL: "https://www.ticketweb.com/event/richie-kotzen-mark-daly-black-sheep-tickets/13559604?pl=blacksheep&REFID=clientsitewp",
+        bandInfo: "https://www.richiekotzen.com/",
+        image: "https://i.ticketweb.com/i/00/12/33/98/84_Original.jpg?v=5"
+    },
+    {
+        headliner: "Richie Kotzen",
+        supportActs: ["Mark Daly"],
+        date: new Date("2024,09,26"),
+        time: "7:00pm",
+        venue: HQ_VENUE,
+        city: HQ_CITY,
+        state: "Co",
+        ticketURL: "https://tickets.holdmyticket.com/tickets/432731",
+        bandInfo: "https://www.richiekotzen.com/",
+        image: "https://i.ticketweb.com/i/00/12/33/98/84_Original.jpg?v=5"
     },
     {
         headliner: "Al Di Meola Electric Band",
@@ -368,6 +397,18 @@ const events = [
         ticketURL: "https://www.gothictheatre.com/events/detail/?event_id=627379",
         bandInfo: "https://www.zealandardor.com/",
         image: "./images/upcomingEvents/zeal-and-ardor.png"
+    },
+    {
+        headliner: "Myles Kennedy",
+        supportActs: [false, "The Art Of Letting Go Tour"],
+        date: new Date("2025,02,25"),
+        time: "7:00pm",
+        venue:SUMMIT_VENUE ,
+        city: SUMMIT_CITY,
+        state: "Co",
+        ticketURL: "https://concerts.livenation.com/myles-kennedy-the-art-of-letting-denver-colorado-02-12-2025/event/1E0060C6C7EA4CB6?_gl=1*1qgkrr1*_ga*MTY0Mjk3ODIxMS4xNzI0MDg0MTI5*_ga_BKTTLZFK7N*MTcyNDA4NzkxMS4yLjEuMTcyNDA4ODI3MC4wLjAuMA..*_gcl_au*MTM4ODM2MzYzNi4xNzI0MDg0MTMw*_ga_H1KKSGW33X*MTcyNDA4NzkxMi4yLjEuMTcyNDA4ODI3MC42MC4wLjA.*_ga_C1T806G4DF*MTcyNDA4NzkxMi4yLjEuMTcyNDA4ODI3MC42MC4wLjA.",
+        bandInfo: "https://myleskennedy.com/",
+        image: "https://www.summitdenver.com/_next/image?url=https%3A%2F%2Fs1.ticketm.net%2Fdam%2Fa%2Ff64%2Fe8903abf-3066-495b-8b1b-a988d09eef64_RETINA_PORTRAIT_16_9.jpg&w=768&q=70&dpl=dpl_C3PPiUCPsMnfPUBzANpU3S28zyZh"
     },
 ]
 
