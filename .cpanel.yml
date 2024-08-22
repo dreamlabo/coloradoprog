@@ -6,6 +6,7 @@ deployment:
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp latest-news.html $DEPLOYPATH
     - /bin/cp meetings.html $DEPLOYPATH
+    - /bin/cp playlists.html $DEPLOYPATH
     - /bin/cp upcomingEvents.html $DEPLOYPATH
     - /bin/cp -r styles $DEPLOYPATH
     - /bin/cp -r scripts $DEPLOYPATH
