@@ -21,7 +21,7 @@ const currentPlaylistData = [
         artistSite: "https://frost.life/"
     },
     {
-        song: "",
+        song: "Someone's Daughter",
         artist: "Jinjer",
         about: [
             "Noted for progressive experiments with genres such as metal, R&B, soul, funk, jazz and reggae, and hailing from Donetsk, Ukraine, Jinger have released their new single <span class='italic'>Someone's Daughter.</span>",
