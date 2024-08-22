@@ -6,8 +6,7 @@ const latestNewsData = [
         imageCredit: "",
         text: [
            "Opeth have announced their new concept album, 'The Last Will and Testament,' will be released on October 11th, 2024 via Reigning Phoenix Music.",
-           "According to the bands press release, 'The Last Will and Testament is a concept album set in the post-World War I era, unfolding the story of a wealthy, conservative patriarch whose last will and testament reveals shocking family secrets. The narrative weaves through the patriarch's confessions, the reactions of his twin children, and the mysterious presence of a polio-ridden girl who the family have taken care of.",
-           ""        
+           "According to the bands press release, 'The Last Will and Testament is a concept album set in the post-World War I era, unfolding the story of a wealthy, conservative patriarch whose last will and testament reveals shocking family secrets. The narrative weaves through the patriarch's confessions, the reactions of his twin children, and the mysterious presence of a polio-ridden girl who the family have taken care of.",        
         ],
         readMoreLink: "https://www.youtube.com/watch?v=bwDrIelXirY"
     },

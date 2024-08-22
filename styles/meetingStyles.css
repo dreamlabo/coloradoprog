@@ -403,11 +403,13 @@
     }
 
     .meetings-meeting-details h2 {
-        font-size: .9rem;
+        /* font-size: .9rem; */
+        font-size: 1rem;
     }
     
     .meetings-meeting-details p {
-        font-size: 0.9rem;
+        /* font-size: 0.9rem; */
+        font-size: 1rem;
     }
     
     .meetings-meeting-details p + p {
