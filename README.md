@@ -1,9 +1,15 @@
-﻿### Colorado Art Rock Society 
+﻿## Colorado Art Rock Society 
+ 
+![CARS Homepage screenshot](https://raw.githubusercontent.com/dreamlabo/coloradoprog/main/images/cars-homepage-screenshot.png)
 
 
-[ColoradoProg.com](https://www.coloradoprog.com/)
 
- Technologies Used
+## Introduction
+This is the code repository for the Colorado Art Rock Society's website.  
+The live page can be found here: [ColoradoProg.com](https://www.coloradoprog.com/)  
+
+
+ Technologies
  - JavaScript
  - HTML
  - CSS
