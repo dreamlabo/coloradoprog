@@ -416,9 +416,14 @@ const whereToPlaceEvents = document.getElementById("cards-section");
 
 // Filter out the events that are in the past so we only show events in the future
 const currentDate = new Date();
-const futureEvents = events.filter(event => event.date >= currentDate);
+currentDate.setHours(0, 0, 0, 0); // Set the time to midnight
+// const futureEvents = events.filter(event => event.date >= currentDate);
 
-futureEvents.sort((a, b) => a.date - b.date);
+const futureEvents = events.filter(event => {
+    const eventDate = new Date(event.date);
+    eventDate.setHours(0, 0, 0, 0); // Set the time to midnight
+    return eventDate >= currentDate;
+  });
 
 futureEvents.forEach(event => {
     const eventTemplate = document.getElementById("event-item-template");
