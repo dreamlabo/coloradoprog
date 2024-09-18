@@ -410,6 +410,18 @@ const events = [
         bandInfo: "https://myleskennedy.com/",
         image: "https://www.summitdenver.com/_next/image?url=https%3A%2F%2Fs1.ticketm.net%2Fdam%2Fa%2Ff64%2Fe8903abf-3066-495b-8b1b-a988d09eef64_RETINA_PORTRAIT_16_9.jpg&w=768&q=70&dpl=dpl_C3PPiUCPsMnfPUBzANpU3S28zyZh"
     },
+    {
+        headliner: "Dream Theater",
+        supportActs: [false, "40th Anniversary Tour"],
+        date: new Date("2025,03,06"),
+        time: "7:00pm",
+        venue: MISSION_BALLROOM_VENUE,
+        city: MISSION_BALLROOM_CITY,
+        state: "Co",
+        ticketURL: "https://www.axs.com/events/669645/dream-theater-tickets?skin=missionballroom",
+        bandInfo: "https://dreamtheater.net/",
+        image: "https://images.discovery-prod.axs.com/2024/09/an-evening-with-dream-theater-tickets_03-06-25_17_66dfb4d7e3515.jpg"
+    },
 ]
 
 const whereToPlaceEvents = document.getElementById("cards-section");

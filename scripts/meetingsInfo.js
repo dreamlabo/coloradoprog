@@ -30,6 +30,13 @@ meetings = [
             
         ]
     }, 
+    {
+        date: new Date('2024/09/28'),
+        time: MEETING_TIME_6PM ,
+        host: KENTS_HOST_NAME,
+        hostEmail: KENTS_EMAIL,
+        additionalInfo: [        ]
+    }, 
 ]
 
 function returnUpcomingMeeting() {
