@@ -1,6 +1,6 @@
 const latestNewsData = [
     {
-        pubDate: "August 1th, 2024",
+        pubDate: "August 11th, 2024",
         title: "Opeth to Release New Album 'The Last Will and Testament' on Oct 11",
         image: "https://www.opeth.com/images/2024/07/16/otwat.jpg", 
         imageCredit: "",
