@@ -363,6 +363,18 @@ const events = [
         image: "./images/upcomingEvents/opeth-2024.jpg"
     },
     {
+        headliner: "Claudio Simonetti's GOBLIN",
+        supportActs: [false, "The Ultimate Anthology Tour"],
+        date: new Date("2024,11,03"),
+        time: "7:00pm",
+        venue: GOTHIC_THEATER,
+        city: GOTHIC_THEATER_CITY,
+        state: "Co",
+        ticketURL: "https://www.gothictheatre.com/events/detail/?event_id=691388",
+        bandInfo: "https://goblinsimonetti.com/",
+        image: "https://images.discovery-prod.axs.com/2024/09/claudio-simonetti-s-goblin-tickets_11-03-24_17_66f33da24c240.jpg"
+    },
+    {
         headliner: "Animals As Leaders",
         supportActs: [false, "Joy Of Motion X Tour"],
         date: new Date("2024,11,06"),
@@ -399,6 +411,18 @@ const events = [
         image: "./images/upcomingEvents/zeal-and-ardor.png"
     },
     {
+        headliner: "Rush Archives",
+        supportActs: [false, "A Tribute to Rush"],
+        date: new Date("2024,12,13"),
+        time: "8:00pm",
+        venue: "Aggie Theatre",
+        city: "Fort Collins",
+        state: "Co",
+        ticketURL: "https://www.axs.com/events/651163/rush-archives-tickets?skin=aggietheatre",
+        bandInfo: "https://www.facebook.com/rusharchives/",
+        image: "https://images.discovery-prod.axs.com/2024/08/uploadedimage_66c11796a2a99.jpg"
+    },
+    {
         headliner: "Myles Kennedy",
         supportActs: [false, "The Art Of Letting Go Tour"],
         date: new Date("2025,02,25"),
@@ -414,13 +438,25 @@ const events = [
         headliner: "Dream Theater",
         supportActs: [false, "40th Anniversary Tour"],
         date: new Date("2025,03,06"),
-        time: "7:00pm",
+        time: "7:30pm",
         venue: MISSION_BALLROOM_VENUE,
         city: MISSION_BALLROOM_CITY,
         state: "Co",
         ticketURL: "https://www.axs.com/events/669645/dream-theater-tickets?skin=missionballroom",
         bandInfo: "https://dreamtheater.net/",
         image: "https://images.discovery-prod.axs.com/2024/09/an-evening-with-dream-theater-tickets_03-06-25_17_66dfb4d7e3515.jpg"
+    },
+    {
+        headliner: "Alcest",
+        supportActs: ["Kaelan Mikla"],
+        date: new Date("2025,03,14"),
+        time: "6:30pm",
+        venue: SUMMIT_VENUE,
+        city: SUMMIT_CITY,
+        state: "Co",
+        ticketURL: "https://concerts.livenation.com/alcest-les-chants-de-laurore-north-denver-colorado-03-14-2025/event/1E00612F141966AD?_gl=1*kybosl*_ga*MTY0Mjk3ODIxMS4xNzI0MDg0MTI5*_ga_BKTTLZFK7N*MTcyNzQ4OTUzOC40LjEuMTcyNzQ4OTU3NS4wLjAuMA..*_gcl_au*MTM4ODM2MzYzNi4xNzI0MDg0MTMw*_ga_C1T806G4DF*MTcyNzQ4OTUzOS40LjAuMTcyNzQ4OTUzOS42MC4wLjA.*_ga_H1KKSGW33X*MTcyNzQ4OTUzOS40LjAuMTcyNzQ4OTUzOS42MC4wLjA.",
+        bandInfo: "https://www.nuclearblast.com/pages/alcest",
+        image: "https://media.ticketmaster.com/en-us/dam/a/08c/a68e876a-b712-4df2-986f-e7a0bb85608c_744761_CUSTOM.jpg"
     },
 ]
 
