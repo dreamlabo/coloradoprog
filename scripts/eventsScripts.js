@@ -10,6 +10,8 @@ const MISSION_BALLROOM_VENUE = "Mission Ballroom"
 const MISSION_BALLROOM_CITY = "Denver"
 const OGDEN_THEATER_VENUE = "Ogden Theatre"
 const OGDEN_THEATER_CITY = "Denver"
+const ORIENTAL_THEATER = "The Oriental Theater"
+const ORIENTAL_THEATER_CITY = "Denver"
 const PARAMOUNT_THEATER_VENUE = "Paramount Theatre";
 const PARAMOUNT_THEATER_CITY = "Denver";
 const PIKES_PEAK_CENTER_VENUE = "Pikes Peak Center"
@@ -351,6 +353,18 @@ const events = [
         image: "https://images.discovery-prod.axs.com/2024/04/kansas_04-02-24_19_660b5b104081c.png"
     },
     {
+        headliner: "The Dear Hunter",
+        supportActs: ["Bear Ghost", "Redwood"],
+        date: new Date("2024,10,22"),
+        time: "7:30pm",
+        venue: ORIENTAL_THEATER,
+        city: ORIENTAL_THEATER_CITY,
+        state: "Co",
+        ticketURL: "https://www.theorientaltheater.com/event/435349/The-Dear-Hunter",
+        bandInfo: "https://www.thedearhunter.com/",
+        image: "https://cdn.prod.website-files.com/6111d51e0590f5850079569d/62745727d67c70b8bb3b11f0_IMG_9710%203.jpeg"
+    },
+    {
         headliner: "Opeth",
         supportActs: ["Tribulation"],
         date: new Date("2024,10,27"),
@@ -456,7 +470,7 @@ const events = [
         state: "Co",
         ticketURL: "https://concerts.livenation.com/alcest-les-chants-de-laurore-north-denver-colorado-03-14-2025/event/1E00612F141966AD?_gl=1*kybosl*_ga*MTY0Mjk3ODIxMS4xNzI0MDg0MTI5*_ga_BKTTLZFK7N*MTcyNzQ4OTUzOC40LjEuMTcyNzQ4OTU3NS4wLjAuMA..*_gcl_au*MTM4ODM2MzYzNi4xNzI0MDg0MTMw*_ga_C1T806G4DF*MTcyNzQ4OTUzOS40LjAuMTcyNzQ4OTUzOS42MC4wLjA.*_ga_H1KKSGW33X*MTcyNzQ4OTUzOS40LjAuMTcyNzQ4OTUzOS42MC4wLjA.",
         bandInfo: "https://www.nuclearblast.com/pages/alcest",
-        image: "https://media.ticketmaster.com/en-us/dam/a/08c/a68e876a-b712-4df2-986f-e7a0bb85608c_744761_CUSTOM.jpg"
+        image: "https://www.invisibleoranges.com/wp-content/uploads/2017/01/23/alcest-4-1052x592.jpg?t=1689342948"
     },
 ]
 
