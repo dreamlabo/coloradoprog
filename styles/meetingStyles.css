@@ -25,6 +25,10 @@
     min-height: 100vh;
 }
 
+.meetings-coming-soon {
+    color: var(--clr-text-100);
+}
+
 .save-the-date-container {
     padding-bottom: 1rem;
 }
