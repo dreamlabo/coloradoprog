@@ -462,15 +462,27 @@ const events = [
     },
     {
         headliner: "Alcest",
+        supportActs: [false, "Operation Mindcrime - The Final Chapter"],
+        date: new Date("2025,03,21"),
+        time: "7:00pm",
+        venue: GOTHIC_THEATER,
+        city: GOTHIC_THEATER_CITY,
+        state: "Co",
+        ticketURL: "https://concerts.livenation.com/alcest-les-chants-de-laurore-north-denver-colorado-03-14-2025/event/1E00612F141966AD?_gl=1*kybosl*_ga*MTY0Mjk3ODIxMS4xNzI0MDg0MTI5*_ga_BKTTLZFK7N*MTcyNzQ4OTUzOC40LjEuMTcyNzQ4OTU3NS4wLjAuMA..*_gcl_au*MTM4ODM2MzYzNi4xNzI0MDg0MTMw*_ga_C1T806G4DF*MTcyNzQ4OTUzOS40LjAuMTcyNzQ4OTUzOS42MC4wLjA.*_ga_H1KKSGW33X*MTcyNzQ4OTUzOS40LjAuMTcyNzQ4OTUzOS42MC4wLjA.",
+        bandInfo: "https://www.nuclearblast.com/pages/alcest",
+        image: "https://www.invisibleoranges.com/wp-content/uploads/2017/01/23/alcest-4-1052x592.jpg?t=1689342948"
+    },
+    {
+        headliner: "Geoff Tate",
         supportActs: ["Kaelan Mikla"],
         date: new Date("2025,03,14"),
         time: "6:30pm",
         venue: SUMMIT_VENUE,
         city: SUMMIT_CITY,
         state: "Co",
-        ticketURL: "https://concerts.livenation.com/alcest-les-chants-de-laurore-north-denver-colorado-03-14-2025/event/1E00612F141966AD?_gl=1*kybosl*_ga*MTY0Mjk3ODIxMS4xNzI0MDg0MTI5*_ga_BKTTLZFK7N*MTcyNzQ4OTUzOC40LjEuMTcyNzQ4OTU3NS4wLjAuMA..*_gcl_au*MTM4ODM2MzYzNi4xNzI0MDg0MTMw*_ga_C1T806G4DF*MTcyNzQ4OTUzOS40LjAuMTcyNzQ4OTUzOS42MC4wLjA.*_ga_H1KKSGW33X*MTcyNzQ4OTUzOS40LjAuMTcyNzQ4OTUzOS42MC4wLjA.",
-        bandInfo: "https://www.nuclearblast.com/pages/alcest",
-        image: "https://www.invisibleoranges.com/wp-content/uploads/2017/01/23/alcest-4-1052x592.jpg?t=1689342948"
+        ticketURL: "https://www.gothictheatre.com/events/detail/?event_id=686834",
+        bandInfo: "https://www.geofftate.com/",
+        image: "https://images.discovery-prod.axs.com/2024/09/geoff-tate-s-operation-mindcrime-the-final-chapter-tickets_03-21-25_17_66fb311bf30c9.jpg"
     },
 ]
 
