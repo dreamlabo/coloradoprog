@@ -1,7 +1,10 @@
 const BALL_ARENA_VENUE = "Ball Arena"
+const BALL_ARENA_CITY = "Denver"
 const BLACK_SHEEP_VENUE = "Black Sheep"
 const BLACK_SHEEP_CITY = "Colorado Springs"
-const BALL_ARENA_CITY = "Denver"
+const BOULDER_THEATER_VENUE = "Boulder Theater"
+const BOULDER_THEATER_CITY = "Boulder"
+
 const GOTHIC_THEATER = "Gothic Theater"
 const GOTHIC_THEATER_CITY = "Englewood"
 const HQ_VENUE = "HQ"
@@ -483,6 +486,18 @@ const events = [
         ticketURL: "https://www.gothictheatre.com/events/detail/?event_id=686834",
         bandInfo: "https://www.geofftate.com/",
         image: "https://images.discovery-prod.axs.com/2024/09/geoff-tate-s-operation-mindcrime-the-final-chapter-tickets_03-21-25_17_66fb311bf30c9.jpg"
+    },
+    {
+        headliner: "Leprous: 10 Years of The Congregation",
+        supportActs: ["Wheel"],
+        date: new Date("2025,04,15"),
+        time: "6:30pm",
+        venue: BOULDER_THEATER_VENUE,
+        city: BOULDER_THEATER_CITY,
+        state: "Co",
+        ticketURL: "https://www.z2ent.com/events/detail/leprous-2025-bt",
+        bandInfo: "https://leprous.net/",
+        image: "https://images.discovery-prod.axs.com/2024/10/uploadedimage_6717dd5a055c2.jpg"
     },
 ]
 
