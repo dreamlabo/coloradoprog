@@ -1,45 +1,92 @@
 const currentPlaylistData = [
     {
-        song: "Jainism",
-        artist: "Devin Townsend",
+        song: "All Because of Me",
+        artist: "The Pineapple Thief",
         about: [
-            "<span class='italic'>Jainism</span> is the second song to be released from Devin Townsend's forthcoming album, <span class='italic'>PowerNerd</span> to be released on Oct. 25, 2024.",
-            "As Townsend explains, <span class='italic'>Jainism</span> was based on my connection to music in the mid nineties. Also the idea of what it means to rend yourself artistically to an unresponsive world in 2024. I referenced The Wildhearts in the chorus, as Ginger is one of our generations greatest songwriters."
+            "<span class='italic'>All Because of Me</span>, by <span class='italic'>The Pineapple Thief</span>, offers fans a glimpse of the band's upcoming EP, <span class='italic'>Last To Run</span> set to be released November 8 via Kscope.",
+            "<span class='italic'>'The songs on this EP are based on ideas from the It Leads To This sessions but have since evolved way beyond what we would have imagined at the time. We are delighted with the result—it really seems to capture a different mood and sound'</span> shared vocalist/guitarist Bruce Soord.",
         ],
-        youtube: "https://www.youtube.com/embed/IypFEGztl-4?si=gKamNYEMp_ltkNkO",
-        artistSite: "https://hevydevy.com/"
+        youtube: "https://www.youtube.com/embed/pWWOsQWgAO4?si=sMhWlkqmDV3-Dxr6",
+        artistSite: "https://www.pineapplethief.com/"
     },
     {
-        song: "War of Being",
-        artist: "TesseracT",
+        song: "Blood of the Iconoclast",
+        artist: "Anima Morte",
         about: [
-            "<span class='italic'>TesseractT</span>, hailing from Milton Keynes, UK, are renowned for their complex compositions, dynamic soundscapes, and pioneering role in the djent movement within progressive metal.",
-            "Taken from the 2023 album of the same name, <span class='italic'>War of Being</span> finds the protagonist initially being led to believe in a false reality, only to ultimately reject this deception and begin to question their circumstances.",
+            "<span class='italic'>Anima Morte</span> is a Swedish instrumental band celebrated for their unique fusion of cinematic horror soundtrack elements, inspired by Italian horror films such as <span class='italic'>Zombie</span>, <span class='italic'>The Beyond</span>, and <span class='italic'>Suspiria</span>, with classic progressive rock.",
+           "<span class='italic'>Blood of the Iconoclast</span>, from their 2022 album <span class='italic'>Serpents in the Fields of Sleep</span>, weaves strong musical motifs to create equal parts atmosphere and groove."
+           
 
         ],
-        youtube: "https://www.youtube.com/embed/UnkpPIupQxM?si=-fKLP8s7R6WJovreh",
-        artistSite: "https://www.tesseractband.co.uk/"
+        youtube: "https://www.youtube.com/embed/0V29fEHAZ1s?si=9aJexiLExHkZEpZW",
+        artistSite: "https://www.animamorte.com/"
     },
     {
-        song: "Preboreal",
-        artist: "The Ocean",
+        song: "Not Dead Yet",
+        artist: "Envy of None",
         about: [
-            "<span class='italic'>The Ocean</span> is a German progressive metal band known for their blend of post-metal, sludge, and experimental sounds.",
-            "<span class='italic'>Preboreal</span> is taken from their 2023 album <span class='italic'>Holocene</span>, which, according to guitarist Robin Staps, is an album about the '<span class='italic'>angst, alienation, loss of reason and critical thinking, rise of conspiracy theories and deconstruction of values in the modern age.</span>'"
+            "<span class='italic'>Envy of None</span> is a Canadian-American rock supergroup formed in 2021 by former Rush guitarist Alex Lifeson, alongside bassist Andy Curran, vocalist Maiah Wynne, and guitarist/keyboardist Alfio Annibalini.",
+            "Their song <span class='italic'>Not Dead Yet</span>, with lyrics written by Wynne and inspired by Curran's striking chorus line, 'I'm not dead yet, come on along and see what I am good for', is a song that, as Wynne describes, '<span class='italic'>embodies resilience and defiance against the forces that aim to tear us down.</span>'"
         ],
-        youtube: "https://www.youtube.com/embed/djsH7ngox_s?si=8ePBNCLly5_Xb_s1",
-        artistSite: "https://www.theoceancollective.com/"
-    },
+        youtube: "https://www.youtube.com/embed/-auAxRx99gA?si=59466cR82Iaeq_fR",
+        artistSite: "https://envyofnone.com/" 
+      },
     {
-        song: "Rogue",
-        artist: "Jinger",
+        song: "Night Terror",
+        artist: "Dream Theater",
         about: [
-            "Featuring lyrics that denounce a forced occupation and invasion: “And his order has become their thought,” “Collecting blood is his ambition,” and, “We are forcefully put on his map, War-drum always rattles,” <span class='italic'>Rogue</span> is a brutal, chaotic, and dissonant track that captures the raw intensity of resistance, crushing riffs, complex rhythms, and Tatiana Shmayluk's fierce vocal delivery to create a powerful anthem of defiance.",
+            "Returning with their 16th album—and their first with original drummer Mike Portnoy since 2009's <span class='italic'>Black Clouds & Silver Linings</span>—progressive metal pioneers Dream Theater need no introduction.",
+            "Their new track, <span class='italic'>Night Terror</span>, is taken from from their upcoming album <span class='italic'>Parasomnia</span>, which is set to be released February 7, 2025, through Inside Out Music/Sony Music. For better or worse, the track feels like a continuation of the energy and style the band had when Portnoy departed in 2010."
+
         ],
-        youtube: "https://www.youtube.com/embed/9Uaecbh8ta0?si=JRag1S4JoW7xJjks",
-        artistSite: "http://jinjer-metal.com/"
+        youtube: "https://www.youtube.com/embed/2IPT60hvGw4?si=eDJa34uZibAlpiob",
+        artistSite: "https://dreamtheater.net/"
     },
 ]
+
+
+// const currentPlaylistData = [
+//     {
+//         song: "Jainism",
+//         artist: "Devin Townsend",
+//         about: [
+//             "<span class='italic'>Jainism</span> is the second song to be released from Devin Townsend's forthcoming album, <span class='italic'>PowerNerd</span> to be released on Oct. 25, 2024.",
+//             "As Townsend explains, <span class='italic'>Jainism</span> was based on my connection to music in the mid nineties. Also the idea of what it means to rend yourself artistically to an unresponsive world in 2024. I referenced The Wildhearts in the chorus, as Ginger is one of our generations greatest songwriters."
+//         ],
+//         youtube: "https://www.youtube.com/embed/IypFEGztl-4?si=gKamNYEMp_ltkNkO",
+//         artistSite: "https://hevydevy.com/"
+//     },
+//     {
+//         song: "War of Being",
+//         artist: "TesseracT",
+//         about: [
+//             "<span class='italic'>TesseractT</span>, hailing from Milton Keynes, UK, are renowned for their complex compositions, dynamic soundscapes, and pioneering role in the djent movement within progressive metal.",
+//             "Taken from the 2023 album of the same name, <span class='italic'>War of Being</span> finds the protagonist initially being led to believe in a false reality, only to ultimately reject this deception and begin to question their circumstances.",
+
+//         ],
+//         youtube: "https://www.youtube.com/embed/UnkpPIupQxM?si=-fKLP8s7R6WJovreh",
+//         artistSite: "https://www.tesseractband.co.uk/"
+//     },
+//     {
+//         song: "Preboreal",
+//         artist: "The Ocean",
+//         about: [
+//             "<span class='italic'>The Ocean</span> is a German progressive metal band known for their blend of post-metal, sludge, and experimental sounds.",
+//             "<span class='italic'>Preboreal</span> is taken from their 2023 album <span class='italic'>Holocene</span>, which, according to guitarist Robin Staps, is an album about the '<span class='italic'>angst, alienation, loss of reason and critical thinking, rise of conspiracy theories and deconstruction of values in the modern age.</span>'"
+//         ],
+//         youtube: "https://www.youtube.com/embed/djsH7ngox_s?si=8ePBNCLly5_Xb_s1",
+//         artistSite: "https://www.theoceancollective.com/"
+//     },
+//     {
+//         song: "Rogue",
+//         artist: "Jinger",
+//         about: [
+//             "Featuring lyrics that denounce a forced occupation and invasion: “And his order has become their thought,” “Collecting blood is his ambition,” and, “We are forcefully put on his map, War-drum always rattles,” <span class='italic'>Rogue</span> is a brutal, chaotic, and dissonant track that captures the raw intensity of resistance, crushing riffs, complex rhythms, and Tatiana Shmayluk's fierce vocal delivery to create a powerful anthem of defiance.",
+//         ],
+//         youtube: "https://www.youtube.com/embed/9Uaecbh8ta0?si=JRag1S4JoW7xJjks",
+//         artistSite: "http://jinjer-metal.com/"
+//     },
+// ]
 
 
 
@@ -127,3 +174,24 @@ const playlistData = [
         artistSite: "https://www.facebook.com/ExploringBirdsong/"
     },
 ]
+
+
+
+
+// Frost 
+// Pineapple Thief - All Because of me
+// Dream Theater  - Night Terror
+// The Resonance/ Neal Morse
+// Entry of None - Not Dead Yet
+// Royal Sorrow - Metrograve
+// Anima Morte - Blood of the Iconoclast https://www.animamorte.com/
+// {
+//     song: "Night Terror",
+//     artist: "Dream Theater",
+//     about: [
+//         "<span class='italic'>Jainism</span> is the second song to be released from Devin Townsend's forthcoming album, <span class='italic'>PowerNerd</span> to be released on Oct. 25, 2024.",
+//         "As Townsend explains, <span class='italic'>Jainism</span> was based on my connection to music in the mid nineties. Also the idea of what it means to rend yourself artistically to an unresponsive world in 2024. I referenced The Wildhearts in the chorus, as Ginger is one of our generations greatest songwriters."
+//     ],
+//     youtube: "https://www.youtube.com/embed/IypFEGztl-4?si=gKamNYEMp_ltkNkO",
+//     artistSite: "https://dreamtheater.net/"
+// },
