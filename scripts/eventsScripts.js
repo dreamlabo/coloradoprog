@@ -4,7 +4,8 @@ const BLACK_SHEEP_VENUE = "Black Sheep"
 const BLACK_SHEEP_CITY = "Colorado Springs"
 const BOULDER_THEATER_VENUE = "Boulder Theater"
 const BOULDER_THEATER_CITY = "Boulder"
-
+const FOX_THEATER_VENUE = "Fox Theater"
+const FOX_THEATER_CITY = "Boulder"
 const GOTHIC_THEATER = "Gothic Theater"
 const GOTHIC_THEATER_CITY = "Englewood"
 const HQ_VENUE = "HQ"
@@ -440,6 +441,18 @@ const events = [
         image: "https://images.discovery-prod.axs.com/2024/08/uploadedimage_66c11796a2a99.jpg"
     },
     {
+        headliner: "Rush Archives",
+        supportActs: [false, "A Tribute to Rush"],
+        date: new Date("2025,01,11"),
+        time: "8:00pm",
+        venue: FOX_THEATER_VENUE,
+        city: FOX_THEATER_CITY,
+        state: "Co",
+        ticketURL: "https://www.axs.com/events/752411/rush-archives-tickets?skin=foxtheatre",
+        bandInfo: "https://www.facebook.com/rusharchives/",
+        image: "https://images.discovery-prod.axs.com/2024/08/uploadedimage_66c11796a2a99.jpg"
+    },
+    {
         headliner: "Myles Kennedy",
         supportActs: [false, "The Art Of Letting Go Tour"],
         date: new Date("2025,02,25"),
@@ -498,6 +511,30 @@ const events = [
         ticketURL: "https://www.z2ent.com/events/detail/leprous-2025-bt",
         bandInfo: "https://leprous.net/",
         image: "https://images.discovery-prod.axs.com/2024/10/uploadedimage_6717dd5a055c2.jpg"
+    },
+    {
+        headliner: "Devin Townsend",
+        supportActs: ["TesseracT"],
+        date: new Date("2025,05,21"),
+        time: "6:30pm",
+        venue: OGDEN_THEATER_VENUE,
+        city: OGDEN_THEATER_CITY,
+        state: "Co",
+        ticketURL: "https://www.ogdentheatre.com/events/detail/?event_id=757958",
+        bandInfo: "https://hevydevy.com/",
+        image: "https://images.discovery-prod.axs.com/2024/11/devin-townsend-tickets_05-21-25_17_673bc2ecd1eed.jpg"
+    },
+    {
+        headliner: "Brit Floyd",
+        supportActs: [false],
+        date: new Date("2025,06,05"),
+        time: "6:30pm",
+        venue: RED_ROCKS,
+        city: RED_ROCKS_CITY,
+        state: "Co",
+        ticketURL: "https://www.redrocksonline.com/events/brit-floyd-718652/",
+        bandInfo: "https://www.britfloydofficial.com/",
+        image: "https://assets.redrocksonline.com/wp-content/uploads/2024/10/14120452/brit-floyd-tickets_06-05-25_86_6706da7badaca.jpg"
     },
 ]
 
