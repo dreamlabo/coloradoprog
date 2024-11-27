@@ -1,48 +1,95 @@
 const currentPlaylistData = [
     {
-        song: "All Because of Me",
-        artist: "The Pineapple Thief",
+        song: "Landmine Blast",
+        artist: "Riverside",
         about: [
-            "<span class='italic'>All Because of Me</span>, by <span class='italic'>The Pineapple Thief</span>, offers fans a glimpse of the band's upcoming EP, <span class='italic'>Last To Run</span> set to be released November 8 via Kscope.",
-            "<span class='italic'>'The songs on this EP are based on ideas from the It Leads To This sessions but have since evolved way beyond what we would have imagined at the time. We are delighted with the result—it really seems to capture a different mood and sound'</span> shared vocalist/guitarist Bruce Soord.",
+            "<span class='italic'>Riverside</span>, have released the first single, <span class='italic'>Landmine Blast</span> from their upcoming live album <span class='italic'>Live.ID</span> set for release on January 24, 2025, via InsideOut Music.",
+            "As bassist and vocalist Mariusz Duda explains, 'There are a lot of nuances, quirks, and, above all, explanations of what Riverside's music is all about. That's why <span class='italic'>Live.ID</span> is not just an ordinary live album—it's an album that reveals the band's true identity.'"
         ],
-        youtube: "https://www.youtube.com/embed/pWWOsQWgAO4?si=sMhWlkqmDV3-Dxr6",
-        artistSite: "https://www.pineapplethief.com/"
+        youtube: "https://www.youtube.com/embed/zJJC7QysRp0?si=z2zdvw14voSzBA8n",
+        artistSite: "https://riversideband.pl/en/"
     },
     {
-        song: "Blood of the Iconoclast",
-        artist: "Anima Morte",
+        song: "Opaco",
+        artist: "Asymmetric Universe",
         about: [
-            "<span class='italic'>Anima Morte</span> is a Swedish instrumental band celebrated for their unique fusion of cinematic horror soundtrack elements, inspired by Italian horror films such as <span class='italic'>Zombie</span>, <span class='italic'>The Beyond</span>, and <span class='italic'>Suspiria</span>, with classic progressive rock.",
-           "<span class='italic'>Blood of the Iconoclast</span>, from their 2022 album <span class='italic'>Serpents in the Fields of Sleep</span>, weaves strong musical motifs to create equal parts atmosphere and groove."
-           
-
+            "Italy's <span class='italic'>Asymmetric Universe</span>, founded in 2018 by brothers Federico and Nicolò Vese, aims to push the limits of modern prog by seamlessly blending coherently different genres.",
+            "According to the brothers, <span class='italic'>Opaco</span>, 'is the most technically challenging song we have ever composed. It's inspired by the guitar style of bands like Animals As Leaders and Polyphia, but with genre-bending jazz sections inspired by Pat Metheny, Victor Wooten, and Jacob Collier.'",
         ],
-        youtube: "https://www.youtube.com/embed/0V29fEHAZ1s?si=9aJexiLExHkZEpZW",
-        artistSite: "https://www.animamorte.com/"
+        youtube: "https://www.youtube.com/embed/ycEx-xp0aQs?si=wj7RYe1CkqS8bpo8",
+        artistSite: "https://www.facebook.com/asymmetricuniverse/"
     },
     {
-        song: "Not Dead Yet",
-        artist: "Envy of None",
+        song: "Broken",
+        artist: "Kite Parade",
         about: [
-            "<span class='italic'>Envy of None</span> is a Canadian-American rock supergroup formed in 2021 by former Rush guitarist Alex Lifeson, alongside bassist Andy Curran, vocalist Maiah Wynne, and guitarist/keyboardist Alfio Annibalini.",
-            "Their song <span class='italic'>Not Dead Yet</span>, with lyrics written by Wynne and inspired by Curran's striking chorus line, 'I'm not dead yet, come on along and see what I am good for', is a song that, as Wynne describes, '<span class='italic'>embodies resilience and defiance against the forces that aim to tear us down.</span>'"
+            "Andy Foster, the Somerset-based musician behind <span class='italic'>Kite Parade</span> has unveiled a video for his heartfelt new single <span class='italic'>Broken</span>." ,
+            "Featuring the powerful vocals of <span class='italic'>Exploring Birdsong's</span> Lynsey Ward, the song embodies the melodic and accessible style that has become <span class='italic'>Kite Parade's</span> hallmark sound."
         ],
-        youtube: "https://www.youtube.com/embed/-auAxRx99gA?si=59466cR82Iaeq_fR",
-        artistSite: "https://envyofnone.com/" 
+        youtube: "https://www.youtube.com/embed/fSxClTaXx9w?si=5Y_t7E3eToAyzsub",
+        artistSite: "https://www.facebook.com/KiteParadeMusic/" 
+      
       },
     {
-        song: "Night Terror",
-        artist: "Dream Theater",
+        song: "§4",
+        artist: "Opeth",
         about: [
-            "Returning with their 16th album—and their first with original drummer Mike Portnoy since 2009's <span class='italic'>Black Clouds & Silver Linings</span>—progressive metal pioneers Dream Theater need no introduction.",
-            "Their new track, <span class='italic'>Night Terror</span>, is taken from from their upcoming album <span class='italic'>Parasomnia</span>, which is set to be released February 7, 2025, through Inside Out Music/Sony Music. For better or worse, the track feels like a continuation of the energy and style the band had when Portnoy departed in 2010."
-
+            "<span class='italic'>Opeth's §4</span>, from their latest album <span class='italic'>The Last Will and Testament</span>, features <span class='italic'>Jethro Tull's</span> Ian Anderson on flute and spoken word.",
+            "Set in the post-World War I era, <span class='italic'>The Last Will and Testament</span> tells the story of a wealthy patriarch whose shocking secrets are revealed after his death, casting a dark shadow over his family's history."
         ],
-        youtube: "https://www.youtube.com/embed/2IPT60hvGw4?si=eDJa34uZibAlpiob",
-        artistSite: "https://dreamtheater.net/"
+        youtube: "https://www.youtube.com/embed/UenLRXki8KA?si=SKq0IiR4t7JY3kK_",
+        artistSite: "https://www.opeth.com/"
+        
+        
     },
 ]
+
+
+// const currentPlaylistData = [
+//     {
+//         song: "All Because of Me",
+//         artist: "The Pineapple Thief",
+//         about: [
+//             "<span class='italic'>All Because of Me</span>, by <span class='italic'>The Pineapple Thief</span>, offers fans a glimpse of the band's upcoming EP, <span class='italic'>Last To Run</span> set to be released November 8 via Kscope.",
+//             "<span class='italic'>'The songs on this EP are based on ideas from the It Leads To This sessions but have since evolved way beyond what we would have imagined at the time. We are delighted with the result—it really seems to capture a different mood and sound'</span> shared vocalist/guitarist Bruce Soord.",
+//         ],
+//         youtube: "https://www.youtube.com/embed/pWWOsQWgAO4?si=sMhWlkqmDV3-Dxr6",
+//         artistSite: "https://www.pineapplethief.com/"
+//     },
+//     {
+//         song: "Blood of the Iconoclast",
+//         artist: "Anima Morte",
+//         about: [
+//             "<span class='italic'>Anima Morte</span> is a Swedish instrumental band celebrated for their unique fusion of cinematic horror soundtrack elements, inspired by Italian horror films such as <span class='italic'>Zombie</span>, <span class='italic'>The Beyond</span>, and <span class='italic'>Suspiria</span>, with classic progressive rock.",
+//            "<span class='italic'>Blood of the Iconoclast</span>, from their 2022 album <span class='italic'>Serpents in the Fields of Sleep</span>, weaves strong musical motifs to create equal parts atmosphere and groove."
+           
+
+//         ],
+//         youtube: "https://www.youtube.com/embed/0V29fEHAZ1s?si=9aJexiLExHkZEpZW",
+//         artistSite: "https://www.animamorte.com/"
+//     },
+//     {
+//         song: "Not Dead Yet",
+//         artist: "Envy of None",
+//         about: [
+//             "<span class='italic'>Envy of None</span> is a Canadian-American rock supergroup formed in 2021 by former Rush guitarist Alex Lifeson, alongside bassist Andy Curran, vocalist Maiah Wynne, and guitarist/keyboardist Alfio Annibalini.",
+//             "Their song <span class='italic'>Not Dead Yet</span>, with lyrics written by Wynne and inspired by Curran's striking chorus line, 'I'm not dead yet, come on along and see what I am good for', is a song that, as Wynne describes, '<span class='italic'>embodies resilience and defiance against the forces that aim to tear us down.</span>'"
+//         ],
+//         youtube: "https://www.youtube.com/embed/-auAxRx99gA?si=59466cR82Iaeq_fR",
+//         artistSite: "https://envyofnone.com/" 
+//       },
+//     {
+//         song: "Night Terror",
+//         artist: "Dream Theater",
+//         about: [
+//             "Returning with their 16th album—and their first with original drummer Mike Portnoy since 2009's <span class='italic'>Black Clouds & Silver Linings</span>—progressive metal pioneers Dream Theater need no introduction.",
+//             "Their new track, <span class='italic'>Night Terror</span>, is taken from from their upcoming album <span class='italic'>Parasomnia</span>, which is set to be released February 7, 2025, through Inside Out Music/Sony Music. For better or worse, the track feels like a continuation of the energy and style the band had when Portnoy departed in 2010."
+
+//         ],
+//         youtube: "https://www.youtube.com/embed/2IPT60hvGw4?si=eDJa34uZibAlpiob",
+//         artistSite: "https://dreamtheater.net/"
+//     },
+// ]
 
 
 // const currentPlaylistData = [
