@@ -35,14 +35,24 @@ meetings = [
         time: MEETING_TIME_6PM ,
         host: KENTS_HOST_NAME,
         hostEmail: KENTS_EMAIL,
-        additionalInfo: [        ]
+        additionalInfo: []
     }, 
     {
         date: new Date('2024/11/09'),
         time: MEETING_TIME_6PM ,
         host: KENTS_HOST_NAME,
         hostEmail: KENTS_EMAIL,
-        additionalInfo: [        ]
+        additionalInfo: []
+    }, 
+    {
+        date: new Date('2024/12/21'),
+        time: MEETING_TIME_5PM ,
+        host: KENTS_HOST_NAME,
+        hostEmail: KENTS_EMAIL,
+        additionalInfo: ["Please note the earlier start time.",
+
+            
+        ]
     }, 
 ]
 

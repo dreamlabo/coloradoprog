@@ -17,6 +17,8 @@
     background: #121212;
 }
 
+
+
 .meetings-bkgd-200 {
     background: #21272F;
 }
@@ -192,6 +194,10 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 280px 28px 224px;
+
+    /* FOR HOLIDAY MEETING ONLY */
+    grid-template-rows: 500px 28px 224px;
+
     margin: 0rem 2rem;
 }
 
@@ -213,11 +219,13 @@
 .meetings-img-one {
     width: auto;
     height: 400px;
+    animation: fade-background-image-full 5s 17s ease both;
 }
 
 .meetings-img-two {
     width: auto;
     height: 350px;
+    animation: fade-background-image-full  5s 17s ease both;
 }
 
 .meetings-img-one, 
@@ -233,7 +241,9 @@
     left: 105%;
     height: 35%;
     width: 1px;
-    background: var(--clr-main);
+    /* background: var(--clr-main); */
+    /* FOR HOLIDAY ONLY */
+    background: var(--clr-accent-one);
     opacity: 0.7;
 }
 
@@ -245,7 +255,9 @@
     left: calc(100% - 30px);
     height: 1px;
     width: 190%;
-    background: var(--clr-main);
+    /* background: var(--clr-main); */
+      /* FOR HOLIDAY ONLY */
+      background: var(--clr-accent-one);
     opacity: 0.7;
 }
 
@@ -257,7 +269,9 @@
     right: calc(100% + 100px);
     height: 1px;
     width: 60%;
-    background: var(--clr-main);
+    /* background: var(--clr-main); */
+      /* FOR HOLIDAY ONLY */
+      background: var(--clr-accent-one);
     opacity: 0.7;
 }
 
@@ -265,6 +279,8 @@
     .meetings-images-container {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 220px 28px 224px;
+        /* FOR HOLIDAY MEETING ONLY */
+        grid-template-rows: 480px 28px 224px;
     }
 
     .meetings-img-one {
@@ -302,6 +318,8 @@
     .meetings-images-container {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 150px 28px 160px;
+        /* FOR HOLIDAY MEETING ONLY */
+        grid-template-rows: 400px 28px 160px;
     }
 
     .meetings-img-one {
@@ -367,6 +385,8 @@
     .meetings-images-container {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 90px 20px 100px;
+           /* FOR HOLIDAY MEETING ONLY */
+        grid-template-rows: 400px 20px 100px;
     }
 
     .meetings-img-one--container::before {
@@ -436,6 +456,8 @@
 
     .meetings-images-container {
         grid-template-rows: 90px 50px 30px;
+           /* FOR HOLIDAY MEETING ONLY */
+        grid-template-rows: 400px 50px 30px;
     }
 
     .meetings-img-one--container::after,
@@ -456,6 +478,8 @@
 @media screen and (max-width: 500px) {
     .meetings-images-container {
         grid-template-rows: 70px 20px 50px;
+           /* FOR HOLIDAY MEETING ONLY */
+        grid-template-rows: 300px 20px 50px;
     }
 
     .meetings-img-one--container::before {
@@ -516,6 +540,8 @@
     .meetings-images-container {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 50px 10px 30px;
+           /* FOR HOLIDAY MEETING ONLY */
+        grid-template-rows: 275px 10px 30px;
     }
 }
 
@@ -531,3 +557,627 @@
     }
 }
 
+/* Meetings Holiday Party */
+.holiday-meetings-bkgd-100 {
+    background: #21272F;
+    /* position: relative; */
+}
+
+.holiday-relative {
+    position: relative;
+}
+.holiday-hero-grid-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    padding: 2rem; 
+}
+
+@media (max-width: 1000px) {
+    .holiday-hero-grid-wrapper {
+        padding: 2rem 1.7rem 2rem 2rem; 
+        gap: 3rem;
+    }
+}
+
+.holiday-hero-left-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.holiday-img-hero-container {
+    width: 100%;
+    position: relative;
+    display: inline-block;
+    border-radius: 3px;
+    animation: fade-image-in 8s 10s ease-in both;
+}
+
+@keyframes fade-image-in {
+    from {
+        opacity: 0
+    }
+    to {
+        opacity: 0.9
+    }
+}
+.holiday-img-hero-container--overlay {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 98%;
+    background: #21272F;
+    z-index: 1;
+    mix-blend-mode: overlay;
+    opacity: 0.5;
+    border-radius: 3px;;
+}
+
+.holiday-img-hero {
+    position: relative;
+    width: 100%;
+    height: auto;
+    z-index: 1;
+    border-radius: 3px;
+}
+
+.holiday-img-hero-container:before {
+    content: "";
+    position: absolute;
+    left: -16px;
+    top: -16px;
+    width: 50%;
+    height: 90%;
+    background: rgb(142 167 200);
+    background: linear-gradient(135deg, rgb(142, 167, 200) 0%, rgba(142, 167, 200, 0) 40%);
+    z-index: 0;
+    border-radius: 3px;
+    animation: move-before-left 2.5s 14s ease-in-out both;
+}
+
+@keyframes move-before-left {
+    from {
+        opacity: 0;
+        top: 0px;
+        left: 0px;
+    }
+    to {
+        opacity: 0.3;
+        top: -16px;
+        left: -16px;
+    }
+}
+
+@keyframes move-before-right {
+    from {
+        opacity: 0;
+        bottom: 0px;
+        right: 0px;
+    }
+    to {
+        opacity: 0.3;
+        bottom: -10px;
+        right: -16px;
+    }
+}
+
+.holiday-img-hero-container:after {
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 90%;
+    background: rgb(142 167 200);
+    background: linear-gradient(-45deg, rgb(142, 167, 200) 0%, rgba(142, 167, 200, 0) 40%);
+    z-index: 0;
+    border-radius: 3px;
+    animation: move-before-right 2.5s 14s ease-in-out both;
+}
+
+.holiday-hero-left-text {
+    width: 100%;
+    font-family: "Dancing Script", cursive;
+    color: #B7BDC5;
+    font-size: 28px;
+    font-size: clamp(16px, 2vw + 5px, 32px);
+    font-weight: 700;
+}
+
+.holiday-hero-right-container {
+    display: flex;
+    justify-content: center;
+}
+
+.holiday-invite-container {
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden;
+    max-width: 550px;
+}
+
+
+.holiday-invite-card-image {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    inset: 0;
+    opacity: 1;
+}
+
+.holiday-invite-card-image-overlay--left,
+.holiday-invite-card-image-overlay--right  {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 50%;
+    background: #21272F;
+    z-index: 1;
+}
+
+.holiday-invite-card-image-overlay--left {
+    left: 0;
+    animation: open-left 1.0s ease-in-out 3.5s forwards;
+}
+
+@keyframes open-left {
+    from {
+        width: 50%;
+    }
+    to {
+        width: 0%;
+    }
+}
+
+.holiday-invite-card-image-overlay--right {
+    right: 0;
+    animation: open-left 1.0s ease-in-out 3.5s forwards;
+}
+
+.holiday-invite-card-image-overlay {
+    position: absolute;
+    inset: 0;
+    background-color: #21272F;
+    mix-blend-mode: hard-light;
+}
+
+.holiday-invite-card-text-wrapper {
+    position: relative;
+    padding: 1.5rem 2rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 1.7rem;
+}
+
+.holiday-card-header {
+    font-family: "Dancing Script", cursive;
+    z-index: 2;
+    transform: translateY(300%);
+    animation: move-text-up 1.5s ease-in-out 2s forwards;
+}
+
+@keyframes move-text-up {
+    0% {
+        transform: translateY(300%);
+    }
+    35% {
+        transform: translateY(300%);
+    }
+    43% {
+        transform: translateY(320%);
+    }
+    100% {
+        transform: translateY(0%);
+    }
+}
+
+.holiday-card-header--top-text {
+    display: block;
+    color: #B7BDC5;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.holiday-card-header--bottom-text {
+    display: block;;
+    padding-top: 0.5rem;
+    color: #8EA7C8;
+    font-size: 40px;
+}
+
+.holiday-party-date-container {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   place-items: center;
+   color: #B7BDC5;
+   font-size: 20px;
+   opacity: 0;
+   animation: fade-in 2s ease-in-out 4.5s forwards;
+}
+
+.holiday-party-date-container--mobile {
+    display: none;
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.holiday-party-date--day {
+    transform: translateX(-200%);
+    animation: move-left 2s ease 4.5s both;
+}
+
+@keyframes move-left {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(0%);
+    }
+}
+
+.holiday-party-date--time {
+    transform: translateX(-200%);
+    animation: move-right 2s ease 4.5s both;
+}
+
+@keyframes move-right {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0%);
+    }
+}
+
+.holiday-party-date-inner-grid {
+    position: relative;
+    display: grid;
+    grid-template-rows: 32px 24px;
+    padding: 0 1.5rem;
+}
+
+.holiday-party-date-inner-grid:before,
+.holiday-party-date-inner-grid:after {
+    content: "";
+    position: absolute;
+    top: 50%; 
+    transform: translateY(-50%);
+    width: 1px;
+    background: #8EA7C8;
+    height: 65%;
+    opacity: 0.5;
+}
+
+.holiday-party-date-inner-grid:before {
+    left: 0;
+}
+
+.holiday-party-date-inner-grid:after {
+    right: 0;
+}
+
+.holiday-party-date-inner-grid--number {
+    font-size: 32px;
+    /* line-height: 32px; */
+}
+
+.holiday-card-info--header {
+    padding-bottom: 0.2rem;
+    color: #8EA7C8;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    opacity: 1;
+    animation: text-clip 2s 5.6s cubic-bezier(0.5, 0, 0.1, 1) both;
+}
+
+@keyframes text-clip {
+    from {
+      clip-path: polygon(0% 100%, 100% 100%, 100% 100%, 0% 100%);
+    }
+    to {
+      clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+  }
+
+  @keyframes text-clip-bottom {
+    from {
+      clip-path: polygon(0% 100%, 100% 100%, 100% 100%, 0% 100%);
+    }
+    to {
+      clip-path: polygon(0 100%, 100% 0, 100% 100%, 0 100%);
+    }
+  }
+
+@keyframes fade-up {
+    from {
+        opacity: 0;
+        transform: translateY(20%);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.barb-text,
+.holiday-card-info--paragraph {
+    color: #B7BDC5;
+    font-size: 1rem;
+    animation: fade-up 2s 6.2s ease both;
+}
+
+.barb-text {
+    padding-top: 0.3rem;
+    animation: fade-up 2s 8.4s ease both;
+}
+/* div */
+#first-phrase,
+#second-phrase,
+#third-phrase,
+#fourth-phrase {
+    display: inline-block;
+    min-width: max-content;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+#first-phrase {
+    /* padding-left: 1rem; */
+    animation: showup 2s 10s both;
+}
+
+#third-phrase {
+    /* padding-left: 1rem; */
+    animation: showup 2s 13s both;
+}
+
+@keyframes showup {
+    0% {
+        transform: translateX(120px);
+        opacity:0;
+    }
+    50% {
+        transform: translateX(120px);
+    }
+    100% {
+        opacity:1;
+        transform: translateX(0px);
+    }
+}
+
+/* second div */
+#second-phrase {
+    animation: reveal 1.8s 11.3s both;
+}
+
+/* span */
+#inner-second {
+    margin-left:-200px;
+    animation: slideIn 1.8s 11.3s both;
+}
+
+/* second div */
+#fourth-phrase {
+    width: 0px;
+    width: fit-content;
+    animation: reveal 1.8s 14.5s both;
+}
+
+/* span */
+#inner-fourth{
+    margin-left: -200px; 
+    animation: slideIn 1.8s 14.5s both;
+    width: fit-content;
+}
+
+@keyframes reveal {
+    0% {
+        opacity: 0;
+        width: 0px;
+    }
+    100% {
+        opacity: 1;
+        min-width: 175px;
+    }
+}
+
+@keyframes slideIn {
+    0% {
+         margin-left:-200px; 
+    }
+    100% { 
+        margin-left:0px; 
+    }
+}
+
+@media (max-width: 900px) {
+    .holiday-hero-grid-wrapper {
+        grid-template-columns: 1fr;
+        padding: 2rem 1.7rem 2rem 2rem; 
+        gap: 7rem;
+    }
+
+    .holiday-hero-left-container {
+        order: 2;
+    }
+
+    .holiday-hero-right-container {
+        order: 1;
+    }
+
+    .holiday-invite-container {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 650px) {
+    .holiday-hero-grid-wrapper {
+        padding: 2rem 2rem 2rem 2rem; 
+        gap: 5rem;
+    }
+
+    .holiday-img-hero-container {
+        width: calc(100% - 2rem);
+    }
+
+    #first-phrase,
+    #third-phrase {
+        padding-left: 1rem;
+    }
+}
+
+@media (max-width: 550px) {
+    .holiday-hero-grid-wrapper {
+        gap: 4rem;
+    }
+
+    .holiday-invite-card-text-wrapper {
+        padding: 1.5rem 1.5rem;
+        gap: 1.3rem;
+    }
+
+    .holiday-card-header--bottom-text {
+        font-size: 32px;
+    }
+
+    .holiday-party-date-inner-grid {
+        padding: 0 1rem;
+    }
+
+    .holiday-party-date-inner-grid--number {
+        font-size: 24px;
+    }
+
+    .holiday-party-date-container {
+        color: #B7BDC5;
+        font-size: 16px;
+     }
+
+    .holiday-card-info--header {
+        padding-bottom: 0.1rem;
+        font-size: 16px;
+    }
+
+    .barb-text,
+    .holiday-card-info--paragraph {
+        font-size: 0.875rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .holiday-hero-left-container {
+        gap: 1rem;
+    }
+
+    .holiday-img-hero-container {
+        width: 100%;
+    }
+
+    .holiday-img-hero-container:before,
+    .holiday-img-hero-container:after {
+        display: none;
+    }
+
+    .holiday-hero-left-text {
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    #first-phrase,
+    #third-phrase {
+        padding-left: 0rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .holiday-hero-grid-wrapper {
+        padding: 1rem 1.5rem 2rem 1rem; 
+    }
+
+    .holiday-party-date-inner-grid {
+        padding: 0 1rem;
+    }
+}
+
+@media (max-width: 350px) {
+    .holiday-party-date-inner-grid {
+        padding: 0 0.7rem;
+    }
+}
+
+@media (max-width: 325px) {
+    .holiday-party-date-container {
+        display: none;
+    }
+
+    .holiday-party-date-container--mobile {
+        display: block;
+        color: #B7BDC5;
+        font-size: 20px;
+        animation: fade-up 2s 4.5s ease both;
+    }
+
+    .holiday-party-date-container--mobile p + p {
+        padding-top: 0.2rem;
+    }
+}
+
+.church-background-overlay {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    background: #21272F;
+    mix-blend-mode: overlay;
+    /* animation: fade-background-image 10s 2s ease both; */
+}
+
+.church-background-image {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    mix-blend-mode: color-dodge;
+    opacity: 0.1;
+    animation: fade-background-image 5s 17s ease both;
+}
+
+@keyframes fade-background-image {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 0.3;
+    }
+}
+
+@keyframes fade-background-image-full {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@media (min-width: 1500px) {
+    .church-background-image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: bottom;
+    }
+}
