@@ -11,13 +11,15 @@
     --col-gap-tablet: 4rem;
     --max-width: 1530px;
     --page-width: calc(100% - 4rem);
+
+    --holiday-background-color: #21272F;
+    --holiday-text-dark: #8EA7C8;
+    --holiday-text-light: #B7BDC5;
 }
 
 .meetings-bkgd-100 {
     background: #121212;
 }
-
-
 
 .meetings-bkgd-200 {
     background: #21272F;
@@ -204,6 +206,7 @@
 .meetings-img-one--container,
 .meetings-img-two--container {
     position: relative;
+    border-radius: 3px;
 }
 
 .meetings-img-one--container {
@@ -558,24 +561,34 @@
 }
 
 /* Meetings Holiday Party */
+.holiday-email-link {
+    color: var(--holiday-text-dark);
+    text-decoration: underline;
+}
+
+.holiday-email-link:hover {
+    color: var(--holiday-text-light);
+    text-decoration-color: var(--holiday-text-light);
+}
+
 .holiday-meetings-bkgd-100 {
-    background: #21272F;
-    /* position: relative; */
+    background: var(--holiday-background-color);
 }
 
 .holiday-relative {
     position: relative;
 }
+
 .holiday-hero-grid-wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 4rem;
-    padding: 2rem; 
+    padding: 2rem 2rem 4rem 2rem; 
 }
 
 @media (max-width: 1000px) {
     .holiday-hero-grid-wrapper {
-        padding: 2rem 1.7rem 2rem 2rem; 
+        padding: 2rem 1.7rem 4rem 2rem; 
         gap: 3rem;
     }
 }
@@ -605,12 +618,13 @@
         opacity: 0.9
     }
 }
+
 .holiday-img-hero-container--overlay {
     position: absolute;
     inset: 0;
     width: 100%;
     height: 98%;
-    background: #21272F;
+    background: var(--holiday-background-color);
     z-index: 1;
     mix-blend-mode: overlay;
     opacity: 0.5;
@@ -680,7 +694,7 @@
 .holiday-hero-left-text {
     width: 100%;
     font-family: "Dancing Script", cursive;
-    color: #B7BDC5;
+    color: var(--holiday-text-light);
     font-size: 28px;
     font-size: clamp(16px, 2vw + 5px, 32px);
     font-weight: 700;
@@ -695,9 +709,8 @@
     position: relative;
     border-radius: 5px;
     overflow: hidden;
-    max-width: 550px;
+    max-width: 700%px;
 }
-
 
 .holiday-invite-card-image {
     width: 100%;
@@ -713,7 +726,7 @@
     top: 0;
     height: 100%;
     width: 50%;
-    background: #21272F;
+    background: var(--holiday-background-color);
     z-index: 1;
 }
 
@@ -739,7 +752,7 @@
 .holiday-invite-card-image-overlay {
     position: absolute;
     inset: 0;
-    background-color: #21272F;
+    background-color:var(--holiday-background-color);
     mix-blend-mode: hard-light;
 }
 
@@ -778,7 +791,7 @@
 
 .holiday-card-header--top-text {
     display: block;
-    color: #B7BDC5;
+    color: var(--holiday-text-light);
     font-size: 16px;
     font-weight: 400;
 }
@@ -786,7 +799,7 @@
 .holiday-card-header--bottom-text {
     display: block;;
     padding-top: 0.5rem;
-    color: #8EA7C8;
+    color: var(--holiday-text-dark);
     font-size: 40px;
 }
 
@@ -794,7 +807,7 @@
    display: grid;
    grid-template-columns: 1fr 1fr 1fr;
    place-items: center;
-   color: #B7BDC5;
+   color: var(--holiday-text-light);
    font-size: 20px;
    opacity: 0;
    animation: fade-in 2s ease-in-out 4.5s forwards;
@@ -855,7 +868,7 @@
     top: 50%; 
     transform: translateY(-50%);
     width: 1px;
-    background: #8EA7C8;
+    background: var(--holiday-text-dark);
     height: 65%;
     opacity: 0.5;
 }
@@ -870,12 +883,11 @@
 
 .holiday-party-date-inner-grid--number {
     font-size: 32px;
-    /* line-height: 32px; */
 }
 
 .holiday-card-info--header {
     padding-bottom: 0.2rem;
-    color: #8EA7C8;
+    color: var(--holiday-text-dark);
     font-size: 20px;
     font-weight: 400;
     text-transform: uppercase;
@@ -914,7 +926,7 @@
 
 .barb-text,
 .holiday-card-info--paragraph {
-    color: #B7BDC5;
+    color: var(--holiday-text-light);
     font-size: 1rem;
     animation: fade-up 2s 6.2s ease both;
 }
@@ -923,6 +935,7 @@
     padding-top: 0.3rem;
     animation: fade-up 2s 8.4s ease both;
 }
+
 /* div */
 #first-phrase,
 #second-phrase,
@@ -935,12 +948,10 @@
 }
 
 #first-phrase {
-    /* padding-left: 1rem; */
     animation: showup 2s 10s both;
 }
 
 #third-phrase {
-    /* padding-left: 1rem; */
     animation: showup 2s 13s both;
 }
 
@@ -1006,8 +1017,8 @@
 @media (max-width: 900px) {
     .holiday-hero-grid-wrapper {
         grid-template-columns: 1fr;
-        padding: 2rem 1.7rem 2rem 2rem; 
-        gap: 7rem;
+        padding: 2rem 1.7rem 4rem 2rem; 
+        gap: 5rem;
     }
 
     .holiday-hero-left-container {
@@ -1025,8 +1036,8 @@
 
 @media (max-width: 650px) {
     .holiday-hero-grid-wrapper {
-        padding: 2rem 2rem 2rem 2rem; 
-        gap: 5rem;
+        padding: 2rem 2rem 3rem 2rem; 
+        gap: 4rem;
     }
 
     .holiday-img-hero-container {
@@ -1041,7 +1052,7 @@
 
 @media (max-width: 550px) {
     .holiday-hero-grid-wrapper {
-        gap: 4rem;
+        gap: 3rem;
     }
 
     .holiday-invite-card-text-wrapper {
@@ -1062,7 +1073,7 @@
     }
 
     .holiday-party-date-container {
-        color: #B7BDC5;
+        color: var(--holiday-text-light);
         font-size: 16px;
      }
 
@@ -1104,7 +1115,7 @@
 
 @media (max-width: 400px) {
     .holiday-hero-grid-wrapper {
-        padding: 1rem 1.5rem 2rem 1rem; 
+        padding: 1rem 1.5rem 3rem 1rem; 
     }
 
     .holiday-party-date-inner-grid {
@@ -1125,7 +1136,7 @@
 
     .holiday-party-date-container--mobile {
         display: block;
-        color: #B7BDC5;
+        color: var(--holiday-text-light);
         font-size: 20px;
         animation: fade-up 2s 4.5s ease both;
     }
@@ -1140,7 +1151,7 @@
     inset: 0;
     width: 100%;
     height: 100%;
-    background: #21272F;
+    background: var(--holiday-background-color);
     mix-blend-mode: overlay;
     /* animation: fade-background-image 10s 2s ease both; */
 }
