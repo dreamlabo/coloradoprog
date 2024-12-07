@@ -4,6 +4,8 @@ const BLACK_SHEEP_VENUE = "Black Sheep"
 const BLACK_SHEEP_CITY = "Colorado Springs"
 const BOULDER_THEATER_VENUE = "Boulder Theater"
 const BOULDER_THEATER_CITY = "Boulder"
+const FILLMORE_AUDITORIUM_VENUE = "Fillmore Auditorium"
+const FILLMORE_AUDITORIUM_CITY = "Denver"
 const FOX_THEATER_VENUE = "Fox Theater"
 const FOX_THEATER_CITY = "Boulder"
 const GOTHIC_THEATER = "Gothic Theater"
@@ -490,15 +492,27 @@ const events = [
     },
     {
         headliner: "Geoff Tate",
-        supportActs: ["Kaelan Mikla"],
+        supportActs: ["Fire and Water"],
         date: new Date("2025,03,14"),
-        time: "6:30pm",
+        time: "5:30pm",
         venue: SUMMIT_VENUE,
         city: SUMMIT_CITY,
         state: "Co",
         ticketURL: "https://www.gothictheatre.com/events/detail/?event_id=686834",
         bandInfo: "https://www.geofftate.com/",
         image: "https://images.discovery-prod.axs.com/2024/09/geoff-tate-s-operation-mindcrime-the-final-chapter-tickets_03-21-25_17_66fb311bf30c9.jpg"
+    },
+    {
+        headliner: "Meshuggah",
+        supportActs: ["Cannibal Corpse", "Carcass"],
+        date: new Date("2025,04,04"),
+        time: "6:30pm",
+        venue: FILLMORE_AUDITORIUM_VENUE,
+        city: FILLMORE_AUDITORIUM_CITY,
+        state: "Co",
+        ticketURL: "https://concerts.livenation.com/meshuggah-with-special-guests-cannibal-corpse-denver-colorado-04-04-2025/event/1E006179E23020C8?_gl=1*1v6bok5*_ga*MTU5NjQxMTU2MC4xNzMzNTk5MDk3*_ga_MMQ2C7CEJ5*MTczMzU5OTA5Ni4xLjEuMTczMzU5OTQ2NC4wLjAuMA..*_gcl_au*OTI3MDAyNTc2LjE3MzM1OTkwOTc.*_ga_H1KKSGW33X*MTczMzU5OTA5Ny4xLjEuMTczMzU5OTI2Ni41MC4wLjA.",
+        bandInfo: "https://www.meshuggah.net/",
+        image: "https://images.squarespace-cdn.com/content/v1/57aa2e239de4bb1a055a98bc/e10af10b-0b7b-4905-b444-c52f26506e8f/Meshuggah-2022.jpg?format=2500w"
     },
     {
         headliner: "Leprous: 10 Years of The Congregation",
@@ -511,6 +525,18 @@ const events = [
         ticketURL: "https://www.z2ent.com/events/detail/leprous-2025-bt",
         bandInfo: "https://leprous.net/",
         image: "https://images.discovery-prod.axs.com/2024/10/uploadedimage_6717dd5a055c2.jpg"
+    },
+    {
+        headliner: "The Aristocrats",
+        supportActs: [false, "The Duck Tour 2025"],
+        date: new Date("2025,05,06"),
+        time: "7:00pm",
+        venue: FOX_THEATER_VENUE,
+        city: FOX_THEATER_CITY,
+        state: "Co",
+        ticketURL: "https://www.z2ent.com/events/detail/aristocrats-2025-fox",
+        bandInfo: "https://the-aristocrats-band.com/",
+        image: "https://www.z2ent.com/assets/img/Approved-Shot-2-TheAristocrats-2023-bw-PhotoByArthurRosato-955ea8994b.jpg"
     },
     {
         headliner: "Devin Townsend",
