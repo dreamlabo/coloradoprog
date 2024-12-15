@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home3/tonartco/public_html/
+    - export DEPLOYPATH=/home/color160/public_html/
     - /bin/cp about.html $DEPLOYPATH
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp latest-news.html $DEPLOYPATH
