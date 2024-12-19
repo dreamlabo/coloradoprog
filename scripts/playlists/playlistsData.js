@@ -1,48 +1,108 @@
 const currentPlaylistData = [
     {
-        song: "Landmine Blast",
-        artist: "Riverside",
+        song: "December Skies",
+        artist: "Steven Wilson",
         about: [
-            "<span class='italic'>Riverside</span>, have released the first single, <span class='italic'>Landmine Blast</span> from their upcoming live album <span class='italic'>Live.ID</span> set for release on January 24, 2025, via InsideOut Music.",
-            "As bassist and vocalist Mariusz Duda explains, 'There are a lot of nuances, quirks, and, above all, explanations of what Riverside's music is all about. That's why <span class='italic'>Live.ID</span> is not just an ordinary live album—it's an album that reveals the band's true identity.'"
+            "Steven Wilson's <span class='italic'>December Skies</span> is a unique song born from an unexpected collaboration—with AI. Challenged to create a holiday song, Wilson leaned into the experiment, guiding an AI to craft lyrics that feel introspective and evocative, without directly mentioning Christmas.",
+            "The result is a piece that captures the loneliness and reflection of the season."
         ],
-        youtube: "https://www.youtube.com/embed/zJJC7QysRp0?si=z2zdvw14voSzBA8n",
-        artistSite: "https://riversideband.pl/en/"
+        youtube: "https://www.youtube.com/embed/lQHqxPvzOI8?si=J2MFzr_v9JOPvovm",
+        artistSite: "https://stevenwilsonhq.com/"
     },
     {
-        song: "Opaco",
-        artist: "Asymmetric Universe",
+        song: "Snowfalls",
+        artist: "Big Big Train",
         about: [
-            "Italy's <span class='italic'>Asymmetric Universe</span>, founded in 2018 by brothers Federico and Nicolò Vese, aims to push the limits of modern prog by seamlessly blending coherently different genres.",
-            "According to the brothers, <span class='italic'>Opaco</span>, 'is the most technically challenging song we have ever composed. It's inspired by the guitar style of bands like Animals As Leaders and Polyphia, but with genre-bending jazz sections inspired by Pat Metheny, Victor Wooten, and Jacob Collier.'",
+            "<span class='italic'>Big Big Train's Snowfalls</span> is a reflective song written by bassist Greg Spawton in 2017. Spawton describes it as, <span class='italic'>...about the loneliness that some people feel at a time of year when others are able to celebrate with family and friends.</span>",
+            "The live version, recorded during a soundcheck on their autumn 2023 tour, adds a raw and authentic dimension to this heartfelt composition."
         ],
-        youtube: "https://www.youtube.com/embed/ycEx-xp0aQs?si=wj7RYe1CkqS8bpo8",
-        artistSite: "https://www.facebook.com/asymmetricuniverse/"
+        youtube: "https://www.youtube.com/embed/mQcIJLpjAxg?si=FdqkSNlTC6UMoniO",
+        artistSite: "https://www.bigbigtrain.com/"
     },
     {
-        song: "Broken",
-        artist: "Kite Parade",
+        song: "Amazing Grace",
+        artist: "Jeff Beck",
         about: [
-            "Andy Foster, the Somerset-based musician behind <span class='italic'>Kite Parade</span> has unveiled a video for his heartfelt new single <span class='italic'>Broken</span>." ,
-            "Featuring the powerful vocals of <span class='italic'>Exploring Birdsong's</span> Lynsey Ward, the song embodies the melodic and accessible style that has become <span class='italic'>Kite Parade's</span> hallmark sound."
+            "<span class='italic'>Amazing Grace</span> might not be the first song that comes to mind for the holidays, but in Jeff Beck's hands, it becomes something profoundly moving. His interpretation transforms this classic hymn into a stirring reflection of the hope and introspection that define the season.",
+            "Beck's rendition reminds us that holiday music isn't just about carols—it's about the emotions that connect us.",
         ],
-        youtube: "https://www.youtube.com/embed/fSxClTaXx9w?si=5Y_t7E3eToAyzsub",
-        artistSite: "https://www.facebook.com/KiteParadeMusic/" 
-      
+        youtube: "https://www.youtube.com/embed/BP_QB58wANI?si=yykK99p4z1CSkydV",
+        artistSite: "https://www.jeffbeck.com/"
+    },
+    {
+        song: "Christmas Time (Don't Let the Bells End)",
+        artist: "The Darkness",
+        about: [
+            "The Darkness's <span class='italic'>Christmas Time (Don't Let the Bells End)</span> brings a playful spin to the typical holiday song.",
+            "With Justin Hawkins' signature falsetto, a school choir's festive backing vocals from <span class='italic'>Haberdashers' Aske's Hatcham College</span> in New Cross, London—where Justin's mother once attended—and nods to classic Christmas themes, the track blends humor with a touch of parody."
+        ],
+        youtube: "https://www.youtube.com/embed/lrVg1toMzuo?si=gV3QgvrCl_dOxcxR",
+        artistSite: "https://www.thedarknesslive.com/" 
       },
     {
-        song: "§4",
-        artist: "Opeth",
+        song: "Happy Holiday",
+        artist: "Enuff Z'Nuff",
         about: [
-            "<span class='italic'>Opeth's §4</span>, from their latest album <span class='italic'>The Last Will and Testament</span>, features <span class='italic'>Jethro Tull's</span> Ian Anderson on flute and spoken word.",
-            "Set in the post-World War I era, <span class='italic'>The Last Will and Testament</span> tells the story of a wealthy patriarch whose shocking secrets are revealed after his death, casting a dark shadow over his family's history."
+            "Enuff Z'nuff's <span class='italic'>Happy Holiday</span> adds a psychedelic-flavored power pop twist to the holiday season. Known for their top 40 hits like <span class='italic'>Fly High Michelle</span> and <span class='italic'>New Thing</span>, the Chicago-based band brings a nostalgic touch to the holidays.",
+            "The song reminds us that the holidays are about more than just presents—it's about love, kindness, and the simple joys of childhood",
         ],
-        youtube: "https://www.youtube.com/embed/UenLRXki8KA?si=SKq0IiR4t7JY3kK_",
-        artistSite: "https://www.opeth.com/"
-        
-        
+        youtube: "https://www.youtube.com/embed/3bc5ud6BVFU?si=VkY29gCC2wzqruXv",
+        artistSite: "https://www.enuffznuff.com/" 
+    },
+    {
+        song: "The Season's Upon Us",
+        artist: "Dropkick Murphys",
+        about: [
+            "Dropkick Murphys' <span class='italic'>The Season's Upon Us</span> brings a punk rock edge to the holiday season. As bassist Bob Casey states, <span class='italic'> It's definitely not some cheesy Christmas tune. It's about a dysfunctional family</span> ...and the chaotic family dynamics that many can relate to during the holidays.",
+        ],
+        youtube: "https://www.youtube.com/embed/qTx-sdR6Yzk?si=_UOxviX4aZD9_Fok",
+        artistSite: "https://dropkickmurphys.com/" 
     },
 ]
+
+// const currentPlaylistData = [
+//     {
+//         song: "Landmine Blast",
+//         artist: "Riverside",
+//         about: [
+//             "<span class='italic'>Riverside</span>, have released the first single, <span class='italic'>Landmine Blast</span> from their upcoming live album <span class='italic'>Live.ID</span> set for release on January 24, 2025, via InsideOut Music.",
+//             "As bassist and vocalist Mariusz Duda explains, 'There are a lot of nuances, quirks, and, above all, explanations of what Riverside's music is all about. That's why <span class='italic'>Live.ID</span> is not just an ordinary live album—it's an album that reveals the band's true identity.'"
+//         ],
+//         youtube: "https://www.youtube.com/embed/zJJC7QysRp0?si=z2zdvw14voSzBA8n",
+//         artistSite: "https://riversideband.pl/en/"
+//     },
+//     {
+//         song: "Opaco",
+//         artist: "Asymmetric Universe",
+//         about: [
+//             "Italy's <span class='italic'>Asymmetric Universe</span>, founded in 2018 by brothers Federico and Nicolò Vese, aims to push the limits of modern prog by seamlessly blending coherently different genres.",
+//             "According to the brothers, <span class='italic'>Opaco</span>, 'is the most technically challenging song we have ever composed. It's inspired by the guitar style of bands like Animals As Leaders and Polyphia, but with genre-bending jazz sections inspired by Pat Metheny, Victor Wooten, and Jacob Collier.'",
+//         ],
+//         youtube: "https://www.youtube.com/embed/ycEx-xp0aQs?si=wj7RYe1CkqS8bpo8",
+//         artistSite: "https://www.facebook.com/asymmetricuniverse/"
+//     },
+//     {
+//         song: "Broken",
+//         artist: "Kite Parade",
+//         about: [
+//             "Andy Foster, the Somerset-based musician behind <span class='italic'>Kite Parade</span> has unveiled a video for his heartfelt new single <span class='italic'>Broken</span>." ,
+//             "Featuring the powerful vocals of <span class='italic'>Exploring Birdsong's</span> Lynsey Ward, the song embodies the melodic and accessible style that has become <span class='italic'>Kite Parade's</span> hallmark sound."
+//         ],
+//         youtube: "https://www.youtube.com/embed/fSxClTaXx9w?si=5Y_t7E3eToAyzsub",
+//         artistSite: "https://www.facebook.com/KiteParadeMusic/" 
+      
+//       },
+//     {
+//         song: "§4",
+//         artist: "Opeth",
+//         about: [
+//             "<span class='italic'>Opeth's §4</span>, from their latest album <span class='italic'>The Last Will and Testament</span>, features <span class='italic'>Jethro Tull's</span> Ian Anderson on flute and spoken word.",
+//             "Set in the post-World War I era, <span class='italic'>The Last Will and Testament</span> tells the story of a wealthy patriarch whose shocking secrets are revealed after his death, casting a dark shadow over his family's history."
+//         ],
+//         youtube: "https://www.youtube.com/embed/UenLRXki8KA?si=SKq0IiR4t7JY3kK_",
+//         artistSite: "https://www.opeth.com/" 
+//     },
+// ]
 
 
 // const currentPlaylistData = [
