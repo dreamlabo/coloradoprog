@@ -1,3 +1,5 @@
+const AGGIE_THEATER_VENUE = "Aggie Theater"
+const AGGIE_THEATER_CITY = "Ft. Collins"
 const BALL_ARENA_VENUE = "Ball Arena"
 const BALL_ARENA_CITY = "Denver"
 const BLACK_SHEEP_VENUE = "Black Sheep"
@@ -14,6 +16,8 @@ const HQ_VENUE = "HQ"
 const HQ_CITY = "Denver"
 const MISSION_BALLROOM_VENUE = "Mission Ballroom"
 const MISSION_BALLROOM_CITY = "Denver"
+const NISSIS_VENUE = "Nissi's"
+const NISSIS_CITY = "Lafayette"
 const OGDEN_THEATER_VENUE = "Ogden Theatre"
 const OGDEN_THEATER_CITY = "Denver"
 const ORIENTAL_THEATER = "The Oriental Theater"
@@ -455,6 +459,18 @@ const events = [
         image: "https://images.discovery-prod.axs.com/2024/08/uploadedimage_66c11796a2a99.jpg"
     },
     {
+        headliner: "Colorado Art Rock Society's ProgFest",
+        supportActs: [false, "Celebrating the best in vintage and modern progressive rock"],
+        date: new Date("2025,02,16"),
+        time: "3:00pm",
+        venue: NISSIS_VENUE,
+        city: NISSIS_CITY,
+        state: "Co",
+        ticketURL: "https://nissis.com/events/progfest-2025/",
+        bandInfo: "https://www.coloradoprog.com",
+        image: "https://nissis.com/wp-content/uploads/2024/12/Unknown.jpeg"
+    },
+    {
         headliner: "Myles Kennedy",
         supportActs: [false, "The Art Of Letting Go Tour"],
         date: new Date("2025,02,25"),
@@ -480,11 +496,11 @@ const events = [
     },
     {
         headliner: "Alcest",
-        supportActs: [false, "Operation Mindcrime - The Final Chapter"],
-        date: new Date("2025,03,21"),
-        time: "7:00pm",
-        venue: GOTHIC_THEATER,
-        city: GOTHIC_THEATER_CITY,
+        supportActs: ["Kaelan Mikla"],
+        date: new Date("2025,03,14"),
+        time: "6:30pm",
+        venue: SUMMIT_VENUE,
+        city: SUMMIT_CITY,
         state: "Co",
         ticketURL: "https://concerts.livenation.com/alcest-les-chants-de-laurore-north-denver-colorado-03-14-2025/event/1E00612F141966AD?_gl=1*kybosl*_ga*MTY0Mjk3ODIxMS4xNzI0MDg0MTI5*_ga_BKTTLZFK7N*MTcyNzQ4OTUzOC40LjEuMTcyNzQ4OTU3NS4wLjAuMA..*_gcl_au*MTM4ODM2MzYzNi4xNzI0MDg0MTMw*_ga_C1T806G4DF*MTcyNzQ4OTUzOS40LjAuMTcyNzQ4OTUzOS42MC4wLjA.*_ga_H1KKSGW33X*MTcyNzQ4OTUzOS40LjAuMTcyNzQ4OTUzOS42MC4wLjA.",
         bandInfo: "https://www.nuclearblast.com/pages/alcest",
@@ -493,7 +509,7 @@ const events = [
     {
         headliner: "Geoff Tate",
         supportActs: ["Fire and Water"],
-        date: new Date("2025,03,14"),
+        date: new Date("2025,03,21"),
         time: "5:30pm",
         venue: SUMMIT_VENUE,
         city: SUMMIT_CITY,
@@ -537,6 +553,18 @@ const events = [
         ticketURL: "https://www.z2ent.com/events/detail/aristocrats-2025-fox",
         bandInfo: "https://the-aristocrats-band.com/",
         image: "https://www.z2ent.com/assets/img/Approved-Shot-2-TheAristocrats-2023-bw-PhotoByArthurRosato-955ea8994b.jpg"
+    },
+    {
+        headliner: "The Aristocrats",
+        supportActs: [false, "The Duck Tour 2025"],
+        date: new Date("2025,05,07"),
+        time: "7:00pm",
+        venue: AGGIE_THEATER_VENUE,
+        city: AGGIE_THEATER_CITY,
+        state: "Co",
+        ticketURL: "https://www.axs.com/events/776144/the-aristocrats-tickets?skin=aggietheatre",
+        bandInfo: "https://the-aristocrats-band.com/",
+        image: "https://www.z2ent.com/assets/img/The-Aristocrats-eb17355621.jpg"
     },
     {
         headliner: "Devin Townsend",
@@ -609,7 +637,7 @@ futureEvents.forEach(event => {
                                                             {weekday: 'short', 
                                                                 year: 'numeric', 
                                                                 month: 'short', 
-                                                                day: 'numeric' })}`;
+                                                                day: 'numeric' })}`.replace(',', ''); // Remove the comma after the weekday
 
     eventItem.querySelector(".event-time").innerText = event.time;
     eventItem.querySelector(".event-venue").innerText = event.venue;
