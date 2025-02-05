@@ -67,7 +67,7 @@ mailingListForm.addEventListener('submit', (e) => {
             text: tellUsInput.value.trim(),
         }
 
-        emailjs.send('service_ysfctqs', 'template_uq8vzqk', templateParams).then(
+        emailjs.send('service_fl1wewp', 'template_uq8vzqk', templateParams).then(
             (response) => {
                 successfullySentContactInfo()
             },
