@@ -13,8 +13,8 @@
     --clr-gray:  #21272f;
     --clr-main: #c59f63;
     --clr-main-light-text: #a58654;
-    /* --clr-accent-one: #C563BA; */
-    --clr-accent-one: #8EA7C8;
+    --clr-accent-one: #C563BA;
+    /* --clr-accent-one: #8EA7C8; */
 
     /* --clr-accent-one: #ca48bb; */
     --pg-margin-full: 4rem;
@@ -77,6 +77,10 @@ a {
 
 .bg-clr-black {
     background: var(--clr-black);
+}
+
+.text-whitespace-top-med {
+    padding-top: 0.5rem;
 }
 
 .main-page {
@@ -205,6 +209,10 @@ a {
     text-decoration: underline;
     color: var(--clr-text-100) !important;
     word-break: break-word;
+}
+
+.schedule-band-link:hover {
+    color: var(--clr-main) !important;
 }
 
 .progfest-ticket-button {
@@ -1340,6 +1348,12 @@ a {
  /* End member spotlight section classes */
 
  /* Progfest classes */
+
+ .progfest-multi-paragraph {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+ }
  .progFest-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
@@ -1433,8 +1447,12 @@ a {
  .progFest-text-grid a {
     color: var(--clr-main);
  }
+
+ .progFest-text-grid a:hover {
+    color: var(--clr-accent-one);
+ }
  
- .progFest-text-grid--performers + .progFest-text-grid--performers{
+ .progFest-text-grid--performers + .progFest-text-grid--performers {
     margin-top: 1.5rem;
  }
 
@@ -1525,7 +1543,6 @@ a {
 }
 
 @media screen and (max-width: 500px) {
-
     .progFest-text-grid {
         grid-template-columns: 1fr;
         gap: 6px;
@@ -1550,7 +1567,6 @@ a {
 @media screen and (max-width: 350px) {
     .progFest-text-grid--performers {
         grid-template-columns: 1fr;
-        gap: 16px;
      }
 
      .progFest-text-grid--performers h5 {
