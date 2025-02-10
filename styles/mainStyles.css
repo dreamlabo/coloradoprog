@@ -13,8 +13,8 @@
     --clr-gray:  #21272f;
     --clr-main: #c59f63;
     --clr-main-light-text: #a58654;
-    /* --clr-accent-one: #C563BA; */
-    --clr-accent-one: #8EA7C8;
+    --clr-accent-one: #C563BA;
+    /* --clr-accent-one: #8EA7C8; */
 
     /* --clr-accent-one: #ca48bb; */
     --pg-margin-full: 4rem;
@@ -77,6 +77,10 @@ a {
 
 .bg-clr-black {
     background: var(--clr-black);
+}
+
+.text-whitespace-top-med {
+    padding-top: 0.5rem;
 }
 
 .main-page {
@@ -205,6 +209,10 @@ a {
     text-decoration: underline;
     color: var(--clr-text-100) !important;
     word-break: break-word;
+}
+
+.schedule-band-link:hover {
+    color: var(--clr-main) !important;
 }
 
 .progfest-ticket-button {
@@ -1340,6 +1348,12 @@ a {
  /* End member spotlight section classes */
 
  /* Progfest classes */
+
+ .progfest-multi-paragraph {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+ }
  .progFest-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
@@ -1433,13 +1447,17 @@ a {
  .progFest-text-grid a {
     color: var(--clr-main);
  }
+
+ .progFest-text-grid a:hover {
+    color: var(--clr-accent-one);
+ }
  
- .progFest-text-grid--performers + .progFest-text-grid--performers{
-    margin-top: 1.5rem;
+ .progFest-text-grid--performers + .progFest-text-grid--performers {
+    margin-top: 1rem;
  }
 
  .progFest-text-grid + .progFest-text-grid {
-    margin-top: 1rem;
+    margin-top: 0.5rem;
  }
 
  .progFest-text-grid--performers h5 {
@@ -1506,6 +1524,13 @@ a {
         grid-template-columns: 1fr;
         gap: 6px;
      }
+
+     .progFest-text-grid--performers p {
+        /* color: var(--clr-text-100); */
+        color: var(--clr-text-300);
+        font-size: 0.9rem;
+        
+     }
 }
 
 @media (max-width: 768px) {
@@ -1525,14 +1550,25 @@ a {
 }
 
 @media screen and (max-width: 500px) {
-
     .progFest-text-grid {
         grid-template-columns: 1fr;
         gap: 6px;
      }
 
+     .progFest-details-container {
+        margin-top: 0.8rem;
+     }
+
      .progFest-text-grid {
         position: relative;
+     }
+
+     .progFest-text-grid p {
+        font-size: 0.9rem;
+     }
+
+     .progFest-text-grid:not(:last-child) {
+        padding-bottom: 0.5rem;
      }
 
      .progFest-text-grid:not(:last-child)::after {
@@ -1550,7 +1586,6 @@ a {
 @media screen and (max-width: 350px) {
     .progFest-text-grid--performers {
         grid-template-columns: 1fr;
-        gap: 16px;
      }
 
      .progFest-text-grid--performers h5 {
