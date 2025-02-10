@@ -1453,11 +1453,11 @@ a {
  }
  
  .progFest-text-grid--performers + .progFest-text-grid--performers {
-    margin-top: 1.5rem;
+    margin-top: 1rem;
  }
 
  .progFest-text-grid + .progFest-text-grid {
-    margin-top: 1rem;
+    margin-top: 0.5rem;
  }
 
  .progFest-text-grid--performers h5 {
@@ -1524,6 +1524,13 @@ a {
         grid-template-columns: 1fr;
         gap: 6px;
      }
+
+     .progFest-text-grid--performers p {
+        /* color: var(--clr-text-100); */
+        color: var(--clr-text-300);
+        font-size: 0.9rem;
+        
+     }
 }
 
 @media (max-width: 768px) {
@@ -1548,8 +1555,20 @@ a {
         gap: 6px;
      }
 
+     .progFest-details-container {
+        margin-top: 0.8rem;
+     }
+
      .progFest-text-grid {
         position: relative;
+     }
+
+     .progFest-text-grid p {
+        font-size: 0.9rem;
+     }
+
+     .progFest-text-grid:not(:last-child) {
+        padding-bottom: 0.5rem;
      }
 
      .progFest-text-grid:not(:last-child)::after {
