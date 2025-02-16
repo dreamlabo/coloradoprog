@@ -157,6 +157,18 @@ const events = [
         bandInfo: "https://www.britfloydofficial.com/",
         image: "https://assets.redrocksonline.com/wp-content/uploads/2024/10/14120452/brit-floyd-tickets_06-05-25_86_6706da7badaca.jpg"
     },
+    {
+        headliner: "Steven Wilson",
+        supportActs: [false],
+        date: new Date("2025,09,14"),
+        time: "7:00pm",
+        venue: PARAMOUNT_THEATER_VENUE,
+        city: PARAMOUNT_THEATER_CITY,
+        state: "Co",
+        ticketURL: "https://www.ticketmaster.com/steven-wilson-the-overview-tour-denver-colorado-09-14-2025/event/1E006235E5643492?camefrom=CFC_KSE_wZMc5Iv2w0ud2gDh5lfwTA&utm_source=wZMc5Iv2w0ud2gDh5lfwTA&utm_medium=wZMc5Iv2w0ud2gDh5lfwTA&utm_campaign=wZMc5Iv2w0ud2gDh5lfwTA",
+        bandInfo: "https://stevenwilsonhq.com/",
+        image: "https://s1.ticketm.net/dam/a/716/30cf2527-54b4-4e0f-9877-492db09c6716_RETINA_PORTRAIT_3_2.jpg"
+    },
 ]
 
 const whereToPlaceEvents = document.getElementById("cards-section");
