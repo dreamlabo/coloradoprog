@@ -50,18 +50,6 @@ const events = [
         image: "https://nissis.com/wp-content/uploads/2024/12/Unknown.jpeg"
     },
     {
-        headliner: "Myles Kennedy",
-        supportActs: [false, "The Art Of Letting Go Tour"],
-        date: new Date("2025,02,25"),
-        time: "7:00pm",
-        venue:SUMMIT_VENUE ,
-        city: SUMMIT_CITY,
-        state: "Co",
-        ticketURL: "https://concerts.livenation.com/myles-kennedy-the-art-of-letting-denver-colorado-02-12-2025/event/1E0060C6C7EA4CB6?_gl=1*1qgkrr1*_ga*MTY0Mjk3ODIxMS4xNzI0MDg0MTI5*_ga_BKTTLZFK7N*MTcyNDA4NzkxMS4yLjEuMTcyNDA4ODI3MC4wLjAuMA..*_gcl_au*MTM4ODM2MzYzNi4xNzI0MDg0MTMw*_ga_H1KKSGW33X*MTcyNDA4NzkxMi4yLjEuMTcyNDA4ODI3MC42MC4wLjA.*_ga_C1T806G4DF*MTcyNDA4NzkxMi4yLjEuMTcyNDA4ODI3MC42MC4wLjA.",
-        bandInfo: "https://myleskennedy.com/",
-        image: "https://www.summitdenver.com/_next/image?url=https%3A%2F%2Fs1.ticketm.net%2Fdam%2Fa%2Ff64%2Fe8903abf-3066-495b-8b1b-a988d09eef64_RETINA_PORTRAIT_16_9.jpg&w=768&q=70&dpl=dpl_C3PPiUCPsMnfPUBzANpU3S28zyZh"
-    },
-    {
         headliner: "Dream Theater",
         supportActs: [false, "40th Anniversary Tour"],
         date: new Date("2025,03,06"),
