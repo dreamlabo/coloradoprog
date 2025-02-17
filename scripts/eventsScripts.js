@@ -38,21 +38,9 @@ const SUPPORT_ACTS_CLASS = ".support-acts"
 
 const events = [
     {
-        headliner: "Colorado Art Rock Society's ProgFest",
-        supportActs: [false, "Celebrating the best in vintage and modern progressive rock"],
-        date: new Date("2025,02,16"),
-        time: "3:00pm",
-        venue: NISSIS_VENUE,
-        city: NISSIS_CITY,
-        state: "Co",
-        ticketURL: "https://nissis.com/events/progfest-2025/",
-        bandInfo: "https://www.coloradoprog.com",
-        image: "https://nissis.com/wp-content/uploads/2024/12/Unknown.jpeg"
-    },
-    {
         headliner: "Dream Theater",
         supportActs: [false, "40th Anniversary Tour"],
-        date: new Date("2025,03,06"),
+        date: new Date("2025/03/06"),
         time: "7:30pm",
         venue: MISSION_BALLROOM_VENUE,
         city: MISSION_BALLROOM_CITY,
@@ -64,7 +52,7 @@ const events = [
     {
         headliner: "Alcest",
         supportActs: ["Kaelan Mikla"],
-        date: new Date("2025,03,14"),
+        date: new Date("2025/03/14"),
         time: "6:30pm",
         venue: SUMMIT_VENUE,
         city: SUMMIT_CITY,
@@ -76,7 +64,7 @@ const events = [
     {
         headliner: "Geoff Tate",
         supportActs: ["Fire and Water"],
-        date: new Date("2025,03,21"),
+        date: new Date("2025/03/21"),
         time: "5:30pm",
         venue: SUMMIT_VENUE,
         city: SUMMIT_CITY,
@@ -88,7 +76,7 @@ const events = [
     {
         headliner: "Meshuggah",
         supportActs: ["Cannibal Corpse", "Carcass"],
-        date: new Date("2025,04,04"),
+        date: new Date("2025/04/04"),
         time: "6:30pm",
         venue: FILLMORE_AUDITORIUM_VENUE,
         city: FILLMORE_AUDITORIUM_CITY,
@@ -100,7 +88,7 @@ const events = [
     {
         headliner: "Leprous: 10 Years of The Congregation",
         supportActs: ["Wheel"],
-        date: new Date("2025,04,15"),
+        date: new Date("202/04/15"),
         time: "6:30pm",
         venue: BOULDER_THEATER_VENUE,
         city: BOULDER_THEATER_CITY,
@@ -112,7 +100,7 @@ const events = [
     {
         headliner: "The Aristocrats",
         supportActs: [false, "The Duck Tour 2025"],
-        date: new Date("2025,05,06"),
+        date: new Date("2025/05/06"),
         time: "7:00pm",
         venue: FOX_THEATER_VENUE,
         city: FOX_THEATER_CITY,
@@ -124,7 +112,7 @@ const events = [
     {
         headliner: "The Aristocrats",
         supportActs: [false, "The Duck Tour 2025"],
-        date: new Date("2025,05,07"),
+        date: new Date("2025/05/07"),
         time: "7:00pm",
         venue: AGGIE_THEATER_VENUE,
         city: AGGIE_THEATER_CITY,
@@ -136,7 +124,7 @@ const events = [
     {
         headliner: "Devin Townsend",
         supportActs: ["TesseracT"],
-        date: new Date("2025,05,21"),
+        date: new Date("2025/05/21"),
         time: "6:30pm",
         venue: OGDEN_THEATER_VENUE,
         city: OGDEN_THEATER_CITY,
@@ -148,7 +136,7 @@ const events = [
     {
         headliner: "Brit Floyd",
         supportActs: [false],
-        date: new Date("2025,06,05"),
+        date: new Date("2025/06/05"),
         time: "6:30pm",
         venue: RED_ROCKS,
         city: RED_ROCKS_CITY,
@@ -160,7 +148,7 @@ const events = [
     {
         headliner: "Steven Wilson",
         supportActs: [false],
-        date: new Date("2025,09,14"),
+        date: new Date("2025/09/14"),
         time: "7:00pm",
         venue: PARAMOUNT_THEATER_VENUE,
         city: PARAMOUNT_THEATER_CITY,
