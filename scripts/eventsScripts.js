@@ -50,6 +50,18 @@ const events = [
         image: "https://images.discovery-prod.axs.com/2024/09/an-evening-with-dream-theater-tickets_03-06-25_17_66dfb4d7e3515.jpg"
     },
     {
+        headliner: "Intervals",
+        supportActs: ["VOLO, Arch Echo"],
+        date: new Date("2025/03/11"),
+        time: "7:30pm",
+        venue: GOTHIC_THEATER,
+        city: GOTHIC_THEATER_CITY,
+        state: "Co",
+        ticketURL: "https://www.axs.com/events/719764/intervals-tickets",
+        bandInfo: "https://intrvls.com/",
+        image: "https://images.discovery-prod.axs.com/2025/01/intervals-tickets_03-11-25_17_6791321b08b13.jpg"
+    },
+    {
         headliner: "Alcest",
         supportActs: ["Kaelan Mikla"],
         date: new Date("2025/03/14"),
@@ -60,6 +72,18 @@ const events = [
         ticketURL: "https://concerts.livenation.com/alcest-les-chants-de-laurore-north-denver-colorado-03-14-2025/event/1E00612F141966AD?_gl=1*kybosl*_ga*MTY0Mjk3ODIxMS4xNzI0MDg0MTI5*_ga_BKTTLZFK7N*MTcyNzQ4OTUzOC40LjEuMTcyNzQ4OTU3NS4wLjAuMA..*_gcl_au*MTM4ODM2MzYzNi4xNzI0MDg0MTMw*_ga_C1T806G4DF*MTcyNzQ4OTUzOS40LjAuMTcyNzQ4OTUzOS42MC4wLjA.*_ga_H1KKSGW33X*MTcyNzQ4OTUzOS40LjAuMTcyNzQ4OTUzOS42MC4wLjA.",
         bandInfo: "https://www.nuclearblast.com/pages/alcest",
         image: "https://www.invisibleoranges.com/wp-content/uploads/2017/01/23/alcest-4-1052x592.jpg?t=1689342948"
+    },
+    {
+        headliner: "Russian Circles",
+        supportActs: ["Pelican"],
+        date: new Date("2025/03/19"),
+        time: "8:00pm",
+        venue: GOTHIC_THEATER,
+        city: GOTHIC_THEATER_CITY,
+        state: "Co",
+        ticketURL: "https://www.axs.com/events/758066/russian-circles-tickets",
+        bandInfo: "https://russiancircles.com/home",
+        image: "https://images.discovery-prod.axs.com/2019/05/russian-circles_05-18-19_19_5ce037413a1c1.jpg"
     },
     {
         headliner: "Geoff Tate",
@@ -88,7 +112,7 @@ const events = [
     {
         headliner: "Leprous: 10 Years of The Congregation",
         supportActs: ["Wheel"],
-        date: new Date("202/04/15"),
+        date: new Date("2025/04/15"),
         time: "6:30pm",
         venue: BOULDER_THEATER_VENUE,
         city: BOULDER_THEATER_CITY,
