@@ -12,6 +12,8 @@ const FOX_THEATER_VENUE = "Fox Theater"
 const FOX_THEATER_CITY = "Boulder"
 const GOTHIC_THEATER = "Gothic Theater"
 const GOTHIC_THEATER_CITY = "Englewood"
+const KING_CENTER_VENUE = "King Center"
+const KING_CENTER_CITY = "Denver"
 const HQ_VENUE = "HQ"
 const HQ_CITY = "Denver"
 const MISSION_BALLROOM_VENUE = "Mission Ballroom"
@@ -48,6 +50,18 @@ const events = [
         ticketURL: "https://www.axs.com/events/669645/dream-theater-tickets?skin=missionballroom",
         bandInfo: "https://dreamtheater.net/",
         image: "https://images.discovery-prod.axs.com/2024/09/an-evening-with-dream-theater-tickets_03-06-25_17_66dfb4d7e3515.jpg"
+    },
+    {
+        headliner: "David Russell, Classical Guitar",
+        supportActs: [false, "Visiting Artist Series"],
+        date: new Date("2025/03/11"),
+        time: "7:30pm",
+        venue: KING_CENTER_VENUE,
+        city: KING_CENTER_CITY,
+        state: "Co",
+        ticketURL: "https://ahec.universitytickets.com/w/event.aspx?id=1855&fbclid=IwY2xjawItpg1leHRuA2FlbQIxMAABHZCohTiq1R2yf4lQkUc0yohIbB1VKhyaAHYPX488Tdnekl0fUgyRwALEMg_aem__VuNAZW92zAhS8sknOQcmQ",
+        bandInfo: "https://www.davidrussellguitar.com/",
+        image: "https://scontent-den2-1.xx.fbcdn.net/v/t39.30808-6/480156505_1139769144508388_8280131208441113532_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=110&ccb=1-7&_nc_sid=75d36f&_nc_ohc=Y4oEhR9vkgkQ7kNvgFmrt92&_nc_oc=AdiFVVdmpQsYZRbGVaYV75sI1d4d5cL3qBdhVfbNmUJkbky-uM6iJdlYbGXNK-OuQY8&_nc_zt=23&_nc_ht=scontent-den2-1.xx&_nc_gid=A7vK7yjDp4XEKV6Exp769a9&oh=00_AYAJkzTNiNnyBPfBqvQUX949yKdfitqJIcSqDYxihHVoKg&oe=67C699F6"
     },
     {
         headliner: "Intervals",
