@@ -105,9 +105,7 @@
 }
 
 .general-meeting-info {
-    /* place-self: center; */
     place-self: start;
-
     margin-top: 40px;
     margin-top: 15px;
     width: fit-content;

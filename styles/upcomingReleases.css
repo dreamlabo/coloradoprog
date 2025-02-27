@@ -1,5 +1,5 @@
 .ur-section-background-color {
-    background: #2F3843;
+    background: var(--clr-background-three);
 }
 
 .upcoming-releases-monthly-wrapper {
@@ -54,14 +54,14 @@
 }
 
 .ur-ind-header-text {
-    color: #949290;
+    color: var(--clr-text-300);
     font-size: 0.75rem;
     font-weight: 500;
     text-transform: uppercase;
 }
 
 .ur-ind-text {
-    color: #E2E2E2;
+    color: var(--clr-white);
     font-size: 1rem;
 }
 
@@ -71,7 +71,7 @@
 
 .ur-artist-link {
     position: relative;
-    color: #E2E2E2;
+    color: var(--clr-text-100);
     transition: color 0.2s ease-in-out;
 }
 
@@ -119,9 +119,12 @@
         border-radius: 5px 0 0 5px;
     }
 
-    .ur-text-container div  {
-        padding-bottom: 0.5rem;
+    .ur-text-container {
+        padding: 1.2rem 1rem;
+    }
 
+    .ur-text-container div  {
+        padding-bottom: 0.7rem;
     }
 
     .ur-image-container {
