@@ -124,6 +124,18 @@ const events = [
         image: "https://images.squarespace-cdn.com/content/v1/57aa2e239de4bb1a055a98bc/e10af10b-0b7b-4905-b444-c52f26506e8f/Meshuggah-2022.jpg?format=2500w"
     },
     {
+        headliner: "Darkside Of The Movie Experience ",
+        supportActs: [false, "performed by The Colorado Art Rock Society's All-Stars"],
+        date: new Date("2025/04/11"),
+        time: "6:30pm",
+        venue: ORIENTAL_THEATER,
+        city: ORIENTAL_THEATER_CITY,
+        state: "Co",
+        ticketURL: "https://www.theorientaltheater.com/event/445718/Darkside-Of-The-Movie-Experience",
+        bandInfo: "https://www.coloradoprog.com/",
+        image: "./images/upcomingEvents/dark-side-2.png"
+    },
+    {
         headliner: "Leprous: 10 Years of The Congregation",
         supportActs: ["Wheel"],
         date: new Date("2025/04/15"),
