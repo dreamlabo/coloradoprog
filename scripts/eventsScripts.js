@@ -207,6 +207,19 @@ const events = [
         bandInfo: "https://stevenwilsonhq.com/",
         image: "https://s1.ticketm.net/dam/a/716/30cf2527-54b4-4e0f-9877-492db09c6716_RETINA_PORTRAIT_3_2.jpg"
     },
+    {
+        headliner: "Steve Hackett",
+        supportActs: [false, "Genesis Greats, Lamb Highlights & Solo North America Tour 2025"],
+        date: new Date("2025/11/08"),
+        time: "7:00pm",
+        venue: BOULDER_THEATER_VENUE,
+        city: BOULDER_THEATER_CITY,
+        state: "Co",
+        ticketURL: "https://www.z2ent.com/events/detail/steve-hackett-2025-bt",
+        bandInfo: "https://www.hackettsongs.com/",
+        image: "https://images.discovery-prod.axs.com/2025/03/uploadedimage_67cee97c516a6.jpg"
+    },
+    
 ]
 
 const whereToPlaceEvents = document.getElementById("cards-section");
