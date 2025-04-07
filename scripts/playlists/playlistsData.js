@@ -17,7 +17,6 @@ const currentPlaylistData = [
             "<span class='italic'>No Longer We Lie,</span> the closing track from their 2023 EP <span class='italic'>Dancing in the Face of Danger</span> showcases the band's innovative approach to progressive music."
         ],
         youtube: "https://www.youtube.com/embed/UgsxdCzJCe8?si=Iu7_GtPJdzkiAH8-",
-      
         artistSite: "https://www.facebook.com/ExploringBirdsong/"
     },
     {
