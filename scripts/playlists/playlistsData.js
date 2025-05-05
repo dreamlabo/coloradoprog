@@ -4,7 +4,7 @@ const currentPlaylistData = [
     artist: "Haken",
     about: [
       "<span class='italic'>Puzzle Box</span>, originally released on <span class='italic'>Haken's</span> 2018 album <span class='italic'>Vector</span>, appears here as part of their latest live release, <span class='italic'>Liveforms: An Evening with Haken.</span>",
-      "The song references <span class='italic'>Plato's Allegory of the Cave</span> while exploring themes of self-discovery, memory, and mental breakdown.",
+      "The song references <span class='italic'>Plato's Allegory of the Cave</span>, while exploring themes of self-discovery, memory, and mental breakdown.",
     ], 
     youtube: "https://www.youtube.com/embed/pCznO-Venyo?si=AoTLKX3nZVDA_ZVx",
     artistSite: "https://hakenmusic.com/",
@@ -22,7 +22,7 @@ const currentPlaylistData = [
     song: "Deep Water Suite: Launch Out",
     artist: "Cosmic Cathedral",
     about: [
-      "<span class='italic'>Deep Water Suite: Launch Out</span> from the powerhouse prog group <span class='italic'>Cosmic Cathedral</span>, featuring drumming legend <span class='italic'>Chester Thompson (Genesis, Frank Zappa)</span>, guitar virtuoso <span class='italic'>Phil Keaggy (Glass Harp)</span>, acclaimed bassist <span class='italic'>Byron House (Robert Plant, Alison Krauss)</span>, and prog mainstay <span class='italic'> Neal Morse</span>. ",
+      "<span class='italic'>Deep Water Suite: Launch Out</span>, from the powerhouse prog group <span class='italic'>Cosmic Cathedral</span>, featuring drumming legend <span class='italic'>Chester Thompson (Genesis, Frank Zappa)</span>, guitar virtuoso <span class='italic'>Phil Keaggy (Glass Harp)</span>, acclaimed bassist <span class='italic'>Byron House (Robert Plant, Alison Krauss)</span>, and prog mainstay <span class='italic'> Neal Morse</span>.",
     ],
     youtube: "https://www.youtube.com/embed/ehkwCgOTS0I?si=ZixFV4yIh8sV2JGU",
     artistSite: "https://nealmorse.com/product/cosmic-cathedral-deep-water/",
@@ -32,7 +32,6 @@ const currentPlaylistData = [
     artist: "Altesia",
     about: [
       "<span class='italic'>Her Ghost on Limbo</span> is taken from <span class='italic'>The Somnambulist</span>, the upcoming album by French based progressive metal band <span class='italic'>Altesia</span>. Founded by Clément Darrieu and influenced by acts like Opeth, Haken, and Leprous, <span class='italic'>Altesia</span> has grown into a fully collaborative unit. <span class='italic'>Every note, every interpretation, every silence has been thought out and discussed</span>, says Darrieu, calling <span class='italic'>The Somnambulist</span> their <span class='italic'>most accomplished, collective, and diverse work to date.</span>",
-    
     ],
     youtube: "https://www.youtube.com/embed/xGDqcsftG-M?si=wBYmDDnFV6p85_w0",
     artistSite: "https://altesiamusic.com/",
