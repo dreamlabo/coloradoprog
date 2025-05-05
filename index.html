@@ -1,576 +1,929 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta property="og:title" content="Colorado Art Rock Society">
-    <meta property="og:description" content="Colorado's source for all things progressive rock.">
-    <meta property="og:image" content="./images/cars-homepage-screenshot.png">
-    <meta property="og:url" content="https://www.coloradoprog.com/">
-    <meta property="og:type" content="website">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="627">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicons/favicon-16x16.png">
-    <link rel="stylesheet" href="./styles/mainStyles.css">
-    <link rel="stylesheet" href="./styles/pages/home/mailingListStyles.css">
-    <link rel="stylesheet" href="./styles/upcomingReleases.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta property="og:title" content="Colorado Art Rock Society" />
+    <meta
+      property="og:description"
+      content="Colorado's source for all things progressive rock."
+    />
+    <meta property="og:image" content="./images/cars-homepage-screenshot.png" />
+    <meta property="og:url" content="https://www.coloradoprog.com/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="627" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/images/favicons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/images/favicons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/images/favicons/favicon-16x16.png"
+    />
+    <link rel="stylesheet" href="./styles/mainStyles.css" />
+    <link rel="stylesheet" href="./styles/pages/home/mailingListStyles.css" />
+    <link rel="stylesheet" href="./styles/upcomingReleases.css" />
     <script src="./scripts/mainScripts.js" defer></script>
     <script src="./scripts/homePageScripts.js" defer></script>
     <script src="./scripts/meetingsInfo.js" defer></script>
     <script src="./scripts/meetingsHomePage.js" defer></script>
     <script src="./scripts/latestNewsData.js" defer></script>
     <script src="./scripts/latestNewsHomePageScripts.js" defer></script>
-    <script src="./scripts/utilities/mailingListFormValidation.js" defer></script>
+    <script
+      src="./scripts/utilities/mailingListFormValidation.js"
+      defer
+    ></script>
 
     <script src="./scripts/playlists/playlistsData.js" defer></script>
-    <script src="./scripts/playlists/playlistsScriptsMainPage.js" defer></script>
-    <script type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
-    </script>
+    <script
+      src="./scripts/playlists/playlistsScriptsMainPage.js"
+      defer
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
     <script type="text/javascript">
-        (function(){
-           emailjs.init({
-             publicKey: "EHs8Eo9CH7eStKTyR",
-           });
-        })();
-     </script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Jost:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/c43c1a8058.js" crossorigin="anonymous"></script>
+      (function () {
+        emailjs.init({
+          publicKey: "EHs8Eo9CH7eStKTyR",
+        });
+      })();
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Jost:wght@100;200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/c43c1a8058.js"
+      crossorigin="anonymous"
+    ></script>
     <title>CARS - Home</title>
-</head>
-<body class="main-bkgd-100">
+  </head>
+  <body class="main-bkgd-100">
     <header class="header-wrapper">
-        <div class="container flex">
-            <a href="index.html" class="logo">CARS</a>
-            <nav class="main-links--wrapper">
-                <ul id="primary-navigation"
-                        class="main-links"
-                        aria-label="primary navigation">
-                        <li><a href="meetings.html">MEETINGS</a></li>
-                        <li><a href="upcomingEvents.html">EVENTS</a></li>
-                        <li><a href="playlists.html">PLAYLISTS</a></li>
-                        <li><a href="latest-news.html">NEWS</a></li>
-                        <li ><a href="about.html">WHO WE ARE</a></li>
-                </ul>
-            </nav>
-            <button class="nav-bars" 
-                    id="mobile-menu-btn"
-                    aria-expanded="false">
-                <div class="bar bar-one"></div>
-                <div class="bar bar-two"></div>
-                <div class="bar bar-three"></div>
-            </button>
-            <nav class="mobile-menu"
-                    id="mobile-menu"
-                    aria-hidden="true">
-                <ul id="mobile-navigation" aria-label="primary navigation">
-                    <li class="mobile-nav-link"><a tabindex="-1" onclick="closeMobileMenu()" href="index.html"><span aria-hidden="true">00</span>HOME</a></li>
-                    <li class="mobile-nav-link"><a tabindex="-1" onclick="closeMobileMenu()" href="meetings.html"><span aria-hidden="true">01</span>MEETINGS</a></li>
-                    <li class="mobile-nav-link"><a tabindex="-1" onclick="closeMobileMenu()" href="upcomingEvents.html"><span aria-hidden="true">02</span>UPCOMING EVENTS</a></li>
-                    <li class="mobile-nav-link"><a tabindex="-1" onclick="closeMobileMenu()" href="playlists.html"><span aria-hidden="true">03</span>PLAYLISTS</a></li>
-                    <li class="mobile-nav-link"><a tabindex="-1" onclick="closeMobileMenu()" href="latest-news.html"><span aria-hidden="true">04</span>LATEST NEWS</a></li>
-                    <li class="mobile-nav-link"><a tabindex="-1" onclick="closeMobileMenu()" href="about.html"><span aria-hidden="true">05</span>WHO WE ARE</a></li>
-                </ul>
-            </nav>
-        </div>
+      <div class="container flex">
+        <a href="index.html" class="logo">CARS</a>
+        <nav class="main-links--wrapper">
+          <ul
+            id="primary-navigation"
+            class="main-links"
+            aria-label="primary navigation"
+          >
+            <li><a href="meetings.html">MEETINGS</a></li>
+            <li><a href="upcomingEvents.html">EVENTS</a></li>
+            <li><a href="playlists.html">PLAYLISTS</a></li>
+            <li><a href="latest-news.html">NEWS</a></li>
+            <li><a href="about.html">WHO WE ARE</a></li>
+          </ul>
+        </nav>
+        <button class="nav-bars" id="mobile-menu-btn" aria-expanded="false">
+          <div class="bar bar-one"></div>
+          <div class="bar bar-two"></div>
+          <div class="bar bar-three"></div>
+        </button>
+        <nav class="mobile-menu" id="mobile-menu" aria-hidden="true">
+          <ul id="mobile-navigation" aria-label="primary navigation">
+            <li class="mobile-nav-link">
+              <a tabindex="-1" onclick="closeMobileMenu()" href="index.html"
+                ><span aria-hidden="true">00</span>HOME</a
+              >
+            </li>
+            <li class="mobile-nav-link">
+              <a tabindex="-1" onclick="closeMobileMenu()" href="meetings.html"
+                ><span aria-hidden="true">01</span>MEETINGS</a
+              >
+            </li>
+            <li class="mobile-nav-link">
+              <a
+                tabindex="-1"
+                onclick="closeMobileMenu()"
+                href="upcomingEvents.html"
+                ><span aria-hidden="true">02</span>UPCOMING EVENTS</a
+              >
+            </li>
+            <li class="mobile-nav-link">
+              <a tabindex="-1" onclick="closeMobileMenu()" href="playlists.html"
+                ><span aria-hidden="true">03</span>PLAYLISTS</a
+              >
+            </li>
+            <li class="mobile-nav-link">
+              <a
+                tabindex="-1"
+                onclick="closeMobileMenu()"
+                href="latest-news.html"
+                ><span aria-hidden="true">04</span>LATEST NEWS</a
+              >
+            </li>
+            <li class="mobile-nav-link">
+              <a tabindex="-1" onclick="closeMobileMenu()" href="about.html"
+                ><span aria-hidden="true">05</span>WHO WE ARE</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <main id="" class="main-page">
-        <div id="main-page-wrapper" class="main-page-wrapper">
-            <div id="bkgd-image-overlay" class="overlay"></div>
-            <img id="bkgd-image" class="background-image-one" src="./images/pages/home/backgroundImage.png" alt="">
-            <section class="section-wrapper">
-                <div class="hero-section" id="hero-section">
-                    <div class="hero-section--left">
-                        <h1 class="hero-main-title">
-                            Colorado Art Rock Society
-                        </h1>
-                        <p class="hero-sub-title">
-                            Colorado's source for
-                            <br>all things <span class="hero-sub-title-span">Progressive Rock</span>
-                        </p>
-                        <a href="#mailingListSection" class="btn-main">JOIN OUR MAILING LIST</a>
-                    </div>
-                    <div id="meeting-info" class="hero-section--meeting-info">
-                        <h2 class="hero-section--meeting-title">Next&nbsp;<span class="meeting-span">Meeting</span></h2>
-                    </div>
-                </div>
-            </section>
-        </div>
+      <div id="main-page-wrapper" class="main-page-wrapper">
+        <div id="bkgd-image-overlay" class="overlay"></div>
+        <img
+          id="bkgd-image"
+          class="background-image-one"
+          src="./images/pages/home/backgroundImage.png"
+          alt=""
+        />
+        <section class="section-wrapper">
+          <div class="hero-section" id="hero-section">
+            <div class="hero-section--left">
+              <h1 class="hero-main-title">Colorado Art Rock Society</h1>
+              <p class="hero-sub-title">
+                Colorado's source for
+                <br />all things
+                <span class="hero-sub-title-span">Progressive Rock</span>
+              </p>
+              <a href="#mailingListSection" class="btn-main"
+                >JOIN OUR MAILING LIST</a
+              >
+            </div>
+            <div id="meeting-info" class="hero-section--meeting-info">
+              <h2 class="hero-section--meeting-title">
+                Next&nbsp;<span class="meeting-span">Meeting</span>
+              </h2>
+            </div>
+          </div>
+        </section>
+      </div>
 
-        <div class="main-page-wrapper bg-clr-dark">
-            <div class="listening-overlay"></div>
-            <img class="background-image-one" src="./images/console.jpg" alt="">
-            <section class="section-wrapper-two">
-                <div class="section-container" >
-                    <h3 class="section-title">INNOVATIVE SOUNDS</h3>
-                    <p class="main-holiday-sub-text">This Women's History Month, join us as we spotlight the innovators whose unique voices and bold creativity continue to shape the genre.</p>
-                    <!-- <p class="main-holiday-sub-text">Our meetings are often filled with discussions of bands outside the progressive rock genre, sometimes from the most unexpected places and tastes. That's the message of this year's holiday playlist: an eclectic mix that reflects the Colorado Art Rock Society's love for all kinds of music.</p>
-                    <p class="main-holiday-sub-text holiday-accent">After all, good music is good music, no matter the genre.</p> -->
-                    <div class="listening-container">
-                        <div id="playlist-featured-artists-container" class="listening-container__left">
-                        </div>
-                        <div class="listening-container__Right">
-                            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/5EfpxPOVIsMsSvTjohCiIl?utm_source=generator&theme=0" width="100%" height="850" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-                            <!-- <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/7AoSqrUO6qOWReH63qhuVj?utm_source=generator" width="100%" height="1050" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe> -->
-                        </div>
+      <div class="main-page-wrapper bg-clr-dark">
+        <div class="listening-overlay"></div>
+        <img class="background-image-one" src="./images/console.jpg" alt="" />
+        <section class="section-wrapper-two">
+          <div class="section-container">
+            <h3 class="section-title">INNOVATIVE SOUNDS</h3>
+            <div class="listening-container">
+              <div
+                id="playlist-featured-artists-container"
+                class="listening-container__left"
+              ></div>
+              <div class="listening-container__Right">
+                <iframe
+                  style="border-radius: 12px"
+                  src="https://open.spotify.com/embed/playlist/0obCUHiVzSDUvlruSuNESU?utm_source=generator&theme=0"
+                  width="100%"
+                  height="850"
+                  frameborder="0"
+                  allowfullscreen=""
+                  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                  loading="lazy"
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div id="" class="main-page-wrapper">
+        <div id="bkgd-image-overlay" class="overlay-texture-dark"></div>
+        <img
+          id="bkgd-image"
+          class="background-image-texture"
+          src="./images/powderedBlackTexture.jpg"
+          alt=""
+        />
+        <section class="section-wrapper-two">
+          <div class="section-container">
+            <h3 class="section-title">LATEST NEWS</h3>
+            <div id="latest-news-container" class="latest-news-container"></div>
+            <div class="btn-centered-container">
+              <a href="latest-news.html" class="btn-centered">SEE MORE NEWS</a>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="main-page-wrapper ur-section-background-color">
+        <section class="section-wrapper-two">
+          <div class="section-container">
+            <h3 class="section-title">UPCOMING RELEASES</h3>
+            <!-- <div class="upcoming-releases-monthly-wrapper">
+              <h4 class="ur-month-text">March</h4>
+              <div class="upcoming-releases-monthly-container">
+                <article class="ur-ind-container">
+                  <div class="ur-image-container">
+                    <img
+                      class="ur-image"
+                      src="https://jethrotull.com/wp-content/uploads/2025/01/JethroTull_CuriousRuminant-1.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="ur-text-container">
+                    <div>
+                      <h5 class="ur-ind-header-text">Artist</h5>
+                      <p class="ur-ind-text">Jethro Tull</p>
                     </div>
+                    <div>
+                      <h5 class="ur-ind-header-text">Album</h5>
+                      <p class="ur-ind-text">Curious Ruminant</p>
+                    </div>
+                    <div>
+                      <h5 class="ur-ind-header-text">Release Date</h5>
+                      <p class="ur-ind-text">March 7, 2025</p>
+                    </div>
+                    <div class="ur-artist-link-container">
+                      <a class="ur-artist-link" href="https://jethrotull.com/"
+                        >jethrotull.com</a
+                      >
+                    </div>
+                  </div>
+                </article>
+                <article class="ur-ind-container">
+                  <div class="ur-image-container">
+                    <img
+                      class="ur-image"
+                      src="https://progreport.com/wp-content/uploads/2025/01/the-overview-album-cover-v0-vtl6zqztoh8d1.webp"
+                      alt=""
+                    />
+                  </div>
+                  <div class="ur-text-container">
+                    <div>
+                      <h5 class="ur-ind-header-text">Artist</h5>
+                      <p class="ur-ind-text">Steven Wilson</p>
+                    </div>
+                    <div>
+                      <h5 class="ur-ind-header-text">Album</h5>
+                      <p class="ur-ind-text">The Overview</p>
+                    </div>
+                    <div>
+                      <h5 class="ur-ind-header-text">Release Date</h5>
+                      <p class="ur-ind-text">March 14, 2025</p>
+                    </div>
+                    <div class="ur-artist-link-container">
+                      <a
+                        class="ur-artist-link"
+                        href="https://stevenwilsonhq.com/"
+                        >stevenwilsonhq.com</a
+                      >
+                    </div>
+                  </div>
+                </article>
+                <article class="ur-ind-container">
+                  <div class="ur-image-container">
+                    <img
+                      class="ur-image"
+                      src="https://static.wixstatic.com/media/b87719_7a8ecf3cb24846e3bbd7416bf5dc1712~mv2.jpg/v1/fill/w_650,h_650,al_c,q_85,enc_avif,quality_auto/b87719_7a8ecf3cb24846e3bbd7416bf5dc1712~mv2.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="ur-text-container">
+                    <div>
+                      <h5 class="ur-ind-header-text">Artist</h5>
+                      <p class="ur-ind-text">
+                        Tiktaalika (Haken's Charlie Griffiths)
+                      </p>
+                    </div>
+                    <div>
+                      <h5 class="ur-ind-header-text">Album</h5>
+                      <p class="ur-ind-text">Gods of Pangaea</p>
+                    </div>
+                    <div>
+                      <h5 class="ur-ind-header-text">Release Date</h5>
+                      <p class="ur-ind-text">March 14, 2025</p>
+                    </div>
+                    <div class="ur-artist-link-container">
+                      <a
+                        class="ur-artist-link"
+                        href="https://www.charliegriffiths.com/"
+                        >charliegriffiths.com</a
+                      >
+                    </div>
+                  </div>
+                </article>
+                <article class="ur-ind-container">
+                  <div class="ur-image-container">
+                    <img
+                      class="ur-image"
+                      src="https://www.iq-hq.co.uk/templates/yootheme/cache/35/Dominion-Final-Approved-3585f5b9.webp"
+                      alt=""
+                    />
+                  </div>
+                  <div class="ur-text-container">
+                    <div>
+                      <h5 class="ur-ind-header-text">Artist</h5>
+                      <p class="ur-ind-text">IQ</p>
+                    </div>
+                    <div>
+                      <h5 class="ur-ind-header-text">Album</h5>
+                      <p class="ur-ind-text">Dominion</p>
+                    </div>
+                    <div>
+                      <h5 class="ur-ind-header-text">Release Date</h5>
+                      <p class="ur-ind-text">March 28, 2025</p>
+                    </div>
+                    <div class="ur-artist-link-container">
+                      <a class="ur-artist-link" href="https://www.iq-hq.co.uk/"
+                        >iq-hq.co.uk</a
+                      >
+                    </div>
+                  </div>
+                </article>
+              </div>
+            </div> -->
+            <!-- <div class="upcoming-releases-monthly-wrapper">
+              <h4 class="ur-month-text">April</h4>
+              <div class="upcoming-releases-monthly-container">
+                <article class="ur-ind-container">
+                  <div class="ur-image-container">
+                    <img
+                      class="ur-image"
+                      src="https://www.solsticeprog.uk/images/2025/02/03/clanncoverart.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="ur-text-container">
+                    <div>
+                      <h5 class="ur-ind-header-text">Artist</h5>
+                      <p class="ur-ind-text">Solstice</p>
+                    </div>
+                    <div>
+                      <h5 class="ur-ind-header-text">Album</h5>
+                      <p class="ur-ind-text">Clann</p>
+                    </div>
+                    <div>
+                      <h5 class="ur-ind-header-text">Release Date</h5>
+                      <p class="ur-ind-text">April 4, 2025</p>
+                    </div>
+                    <div class="ur-artist-link-container">
+                      <a
+                        class="ur-artist-link"
+                        href="https://www.solsticeprog.uk/"
+                        >solsticeprog.uk</a
+                      >
+                    </div>
+                  </div>
+                </article>
+                <article class="ur-ind-container">
+                  <div class="ur-image-container">
+                    <img
+                      class="ur-image"
+                      src="https://benthos-band.com/album_covers/large/benthos_fromnothing_cover-lg.avif"
+                      alt=""
+                    />
+                  </div>
+                  <div class="ur-text-container">
+                    <div>
+                      <h5 class="ur-ind-header-text">Artist</h5>
+                      <p class="ur-ind-text">Benthos</p>
+                    </div>
+                    <div>
+                      <h5 class="ur-ind-header-text">Album</h5>
+                      <p class="ur-ind-text">As A Cordyceps</p>
+                    </div>
+                    <div>
+                      <h5 class="ur-ind-header-text">Release Date</h5>
+                      <p class="ur-ind-text">April 11th, 2025</p>
+                    </div>
+                    <div class="ur-artist-link-container">
+                      <a class="ur-artist-link" href="https://benthos-band.com/"
+                        >benthos-band.com</a
+                      >
+                    </div>
+                  </div>
+                </article>
+                <article class="ur-ind-container">
+                  <div class="ur-image-container">
+                    <img
+                      class="ur-image"
+                      src="https://glasshammer.com/wp-content/uploads/GH-Rogue-300x300-1.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="ur-text-container">
+                    <div>
+                      <h5 class="ur-ind-header-text">Artist</h5>
+                      <p class="ur-ind-text">Glass Hammer</p>
+                    </div>
+                    <div>
+                      <h5 class="ur-ind-header-text">Album</h5>
+                      <p class="ur-ind-text">Rogue</p>
+                    </div>
+                    <div>
+                      <h5 class="ur-ind-header-text">Release Date</h5>
+                      <p class="ur-ind-text">April 11th, 2025</p>
+                    </div>
+                    <div class="ur-artist-link-container">
+                      <a class="ur-artist-link" href="https://glasshammer.com/"
+                        >glasshammer.com</a
+                      >
+                    </div>
+                  </div>
+                </article>
+                <article class="ur-ind-container">
+                  <div class="ur-image-container">
+                    <img
+                      class="ur-image"
+                      src="https://static.wixstatic.com/media/fbbdae_4b7258f273384fa7be8e536e08e36a9d~mv2.png/v1/fill/w_750,h_750,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/fbbdae_4b7258f273384fa7be8e536e08e36a9d~mv2.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="ur-text-container">
+                    <div>
+                      <h5 class="ur-ind-header-text">Artist</h5>
+                      <p class="ur-ind-text">Hawkwind</p>
+                    </div>
+                    <div>
+                      <h5 class="ur-ind-header-text">Album</h5>
+                      <p class="ur-ind-text">There Is No Space For Us</p>
+                    </div>
+                    <div>
+                      <h5 class="ur-ind-header-text">Release Date</h5>
+                      <p class="ur-ind-text">April 18th, 2025</p>
+                    </div>
+                    <div class="ur-artist-link-container">
+                      <a class="ur-artist-link" href="https://www.hawkwind.com/"
+                        >hawkwind.com</a
+                      >
+                    </div>
+                  </div>
+                </article>
+                <article class="ur-ind-container">
+                  <div class="ur-image-container">
+                    <img
+                      class="ur-image"
+                      src="https://thebandwagonusa.com/cdn/shop/files/y9atfhtn_360x.png?v=1740577449"
+                      alt=""
+                    />
+                  </div>
+                  <div class="ur-text-container">
+                    <div>
+                      <h5 class="ur-ind-header-text">Artist</h5>
+                      <p class="ur-ind-text">Lux Terminus</p>
+                    </div>
+                    <div>
+                      <h5 class="ur-ind-header-text">Album</h5>
+                      <p class="ur-ind-text">Cinder</p>
+                    </div>
+                    <div>
+                      <h5 class="ur-ind-header-text">Release Date</h5>
+                      <p class="ur-ind-text">April 18th, 2025</p>
+                    </div>
+                    <div class="ur-artist-link-container">
+                      <a
+                        class="ur-artist-link"
+                        href="https://www.facebook.com/LuxTerminus/"
+                        >LuxTerminus.com</a
+                      >
+                    </div>
+                  </div>
+                </article>
+                <article class="ur-ind-container">
+                  <div class="ur-image-container">
+                    <img
+                      class="ur-image"
+                      src="https://nealmorse.com/wp-content/uploads/CC-Deep-Water-768x768.jpeg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="ur-text-container">
+                    <div>
+                      <h5 class="ur-ind-header-text">Artist</h5>
+                      <p class="ur-ind-text">Cosmic Cathedral</p>
+                    </div>
+                    <div>
+                      <h5 class="ur-ind-header-text">Album</h5>
+                      <p class="ur-ind-text">Deep Water</p>
+                    </div>
+                    <div>
+                      <h5 class="ur-ind-header-text">Release Date</h5>
+                      <p class="ur-ind-text">April 25th, 2025</p>
+                    </div>
+                    <div class="ur-artist-link-container">
+                      <a
+                        class="ur-artist-link"
+                        href="https://nealmorse.com/product/cosmic-cathedral-deep-water/"
+                        >nealmorse.com</a
+                      >
+                    </div>
+                  </div>
+                </article>
+              </div>
+            </div> -->
+            <div class="upcoming-releases-monthly-wrapper">
+              <h4 class="ur-month-text">May</h4>
+              <div class="upcoming-releases-monthly-container">
+                <article class="ur-ind-container">
+                  <div class="ur-image-container">
+                    <img
+                      class="ur-image"
+                      src="https://f4.bcbits.com/img/a0959303941_16.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="ur-text-container">
+                    <div>
+                      <h5 class="ur-ind-header-text">Artist</h5>
+                      <p class="ur-ind-text">The Flower Kings</p>
+                    </div>
+                    <div>
+                      <h5 class="ur-ind-header-text">Album</h5>
+                      <p class="ur-ind-text">LOVE</p>
+                    </div>
+                    <div>
+                      <h5 class="ur-ind-header-text">Release Date</h5>
+                      <p class="ur-ind-text">May 2nd, 2025</p>
+                    </div>
+                    <div class="ur-artist-link-container">
+                      <a
+                        class="ur-artist-link"
+                        href="https://www.roinestolt.com/"
+                        target="_blank"
+                        >roinestolt.com</a
+                      >
+                    </div>
+                  </div>
+                </article>
+                <article class="ur-ind-container">
+                  <div class="ur-image-container">
+                    <img
+                      class="ur-image"
+                      src="https://hakenmusic.com/wp-content/uploads/2025/02/Haken_Liveforms_AnEveningWithHaken.jpg"
+                      alt="Liveforms: An Evening With Haken"
+                    />
+                  </div>
+                  <div class="ur-text-container">
+                    <div>
+                      <h5 class="ur-ind-header-text">Artist</h5>
+                      <p class="ur-ind-text">Haken</p>
+                    </div>
+                    <div>
+                      <h5 class="ur-ind-header-text">Album</h5>
+                      <p class="ur-ind-text">
+                        Liveforms: An Evening With Haken
+                      </p>
+                    </div>
+                    <div>
+                      <h5 class="ur-ind-header-text">Release Date</h5>
+                      <p class="ur-ind-text">May 9th, 2025</p>
+                    </div>
+                    <div class="ur-artist-link-container">
+                      <a
+                        class="ur-artist-link"
+                        href="https://hakenmusic.com/"
+                        target="_blank"
+                        >hakenmusic.com</a
+                      >
+                    </div>
+                  </div>
+                </article>
+                <article class="ur-ind-container">
+                  <div class="ur-image-container">
+                    <img
+                      class="ur-image"
+                      src="https://images.kerrangcdn.com/images/Sleep-Token-Even-In-Arcadia-album-cover.jpg?auto=compress&fit=max&w=1920"
+                      alt="Even In Arcadia by Sleep Token album cover"
+                    />
+                  </div>
+                  <div class="ur-text-container">
+                    <div>
+                      <h5 class="ur-ind-header-text">Artist</h5>
+                      <p class="ur-ind-text">Sleep Token</p>
+                    </div>
+                    <div>
+                      <h5 class="ur-ind-header-text">Album</h5>
+                      <p class="ur-ind-text">Even In Arcadia</p>
+                    </div>
+                    <div>
+                      <h5 class="ur-ind-header-text">Release Date</h5>
+                      <p class="ur-ind-text">May 9th, 2025</p>
+                    </div>
+                    <div class="ur-artist-link-container">
+                      <a
+                        class="ur-artist-link"
+                        href="https://www.sleep-token.com/"
+                        target="_blank"
+                        >sleep-token.com</a
+                      >
+                    </div>
+                  </div>
+                </article>
+              </div>
+            </div>
+            <div class="upcoming-releases-monthly-wrapper">
+              <h4 class="ur-month-text">June</h4>
+              <div class="upcoming-releases-monthly-container">
+                <article class="ur-ind-container">
+                  <div class="ur-image-container">
+                    <img
+                      class="ur-image"
+                      src="https://katatonia.com/content/themes/NAEOTWS/images/layout/album-cover-1080x1080.jpg"
+                      alt="Nightmares As Extensions of the Waking State by Katatonia album cover"
+                    />
+                  </div>
+                  <div class="ur-text-container">
+                    <div>
+                      <h5 class="ur-ind-header-text">Artist</h5>
+                      <p class="ur-ind-text">Katatonia</p>
+                    </div>
+                    <div>
+                      <h5 class="ur-ind-header-text">Album</h5>
+                      <p class="ur-ind-text">
+                        Nightmares As Extensions of the Waking State
+                      </p>
+                    </div>
+                    <div>
+                      <h5 class="ur-ind-header-text">Release Date</h5>
+                      <p class="ur-ind-text">June 6th, 2025</p>
+                    </div>
+                    <div class="ur-artist-link-container">
+                      <a
+                        class="ur-artist-link"
+                        href="https://www.katatonia.com/"
+                        target="_blank"
+                        >katatonia.com</a
+                      >
+                    </div>
+                  </div>
+                </article>
+                <article class="ur-ind-container">
+                  <div class="ur-image-container">
+                    <img
+                      class="ur-image"
+                      src="./images/upcomingReleasesAlbumCovers/phase-transition-album-art.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="ur-text-container">
+                    <div>
+                      <h5 class="ur-ind-header-text">Artist</h5>
+                      <p class="ur-ind-text">Phase Transition</p>
+                    </div>
+                    <div>
+                      <h5 class="ur-ind-header-text">Album</h5>
+                      <p class="ur-ind-text">In Search of Being</p>
+                    </div>
+                    <div>
+                      <h5 class="ur-ind-header-text">Release Date</h5>
+                      <p class="ur-ind-text">June 6th, 2025</p>
+                    </div>
+                    <div class="ur-artist-link-container">
+                      <a
+                        class="ur-artist-link"
+                        href="https://phasetransitionofficial.com/"
+                        target="_blank"
+                        >phasetransitionofficial.com</a
+                      >
+                    </div>
+                  </div>
+                </article>
+                <article class="ur-ind-container">
+                  <div class="ur-image-container">
+                    <img
+                      class="ur-image"
+                      src="https://www.progarchives.com/progressive_rock_discography_covers/11230/cover_3859732025_r.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="ur-text-container">
+                    <div>
+                      <h5 class="ur-ind-header-text">Artist</h5>
+                      <p class="ur-ind-text">Altesia</p>
+                    </div>
+                    <div>
+                      <h5 class="ur-ind-header-text">Album</h5>
+                      <p class="ur-ind-text">The Somnambulist</p>
+                    </div>
+                    <div>
+                      <h5 class="ur-ind-header-text">Release Date</h5>
+                      <p class="ur-ind-text">June 13th, 2025</p>
+                    </div>
+                    <div class="ur-artist-link-container">
+                      <a
+                        class="ur-artist-link"
+                        href="https://altesiamusic.com/"
+                        target="_blank"
+                        >altesiamusic.com</a
+                      >
+                    </div>
+                  </div>
+                </article>
+              </div>
+            </div>
+            <div class="upcoming-releases-monthly-wrapper">
+              <h4 class="ur-month-text">September</h4>
+              <div class="upcoming-releases-monthly-container">
+                <article class="ur-ind-container">
+                  <div class="ur-image-container">
+                    <img
+                      class="ur-image"
+                      src="https://burningshed.com/image/cache/data/Big%20Big%20Train/big-big-train_are-we-nearly-there-yet_2cd-300x300.jpg"
+                      alt="Are We Nearly There Yet? by Big Big Train album cover"
+                    />
+                  </div>
+                  <div class="ur-text-container">
+                    <div>
+                      <h5 class="ur-ind-header-text">Artist</h5>
+                      <p class="ur-ind-text">Big Big Train</p>
+                    </div>
+                    <div>
+                      <h5 class="ur-ind-header-text">Album</h5>
+                      <p class="ur-ind-text">Are We Nearly There Yet?</p>
+                    </div>
+                    <div>
+                      <h5 class="ur-ind-header-text">Release Date</h5>
+                      <p class="ur-ind-text">September 19th, 2025</p>
+                    </div>
+                    <div class="ur-artist-link-container">
+                      <a
+                        class="ur-artist-link"
+                        href="https://www.bigbigtrain.com/"
+                        target="_blank"
+                        >bigbigtrain.com</a
+                      >
+                    </div>
+                  </div>
+                </article>
+                <article></article>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div id="mailingListSection" class="main-page-wrapper bg-clr-black">
+        <section class="mailing-list-section">
+          <div class="mailing-list-container">
+            <form id="mailing-list-form" class="mailing-list-form" action="">
+              <h3 class="mailing-list-form-header">Join Our Mailing List</h3>
+              <p class="mailing-list-form-sub-header">
+                Receive updates about upcoming meeting and events.
+              </p>
+              <label class="mailing-list-form--label" for="name">Name</label>
+              <input
+                id="name-input"
+                class="mailing-list-form--input"
+                type="text"
+              />
+              <p class="mailing-list-form--error">Name required</p>
+              <label class="mailing-list-form--label" for="email">Email</label>
+              <input
+                id="email-input"
+                class="mailing-list-form--input"
+                type="email"
+              />
+              <p class="mailing-list-form--error">Valid email required</p>
+              <div class="mailing-list-text-area--container">
+                <div id="info-box" class="mailing-list-hover-text-area">
+                  <p>
+                    This could include bands you like, what got you into
+                    progressive music, or what instruments you play.
+                  </p>
+                  <p>(One sentence is fine.)</p>
                 </div>
-            </section>
-        </div>
-        <div id="" class="main-page-wrapper">
-            <div id="bkgd-image-overlay" class="overlay-texture-dark"></div>
-            <img id="bkgd-image" class="background-image-texture" src="./images/powderedBlackTexture.jpg" alt="">
-            <section class="section-wrapper-two">
-                <div class="section-container">
-                    <h3 class="section-title">LATEST NEWS</h3>
-                    <div id="latest-news-container" class="latest-news-container">
-                    </div>
-                    <div class="btn-centered-container">
-                        <a href="latest-news.html" class="btn-centered">SEE MORE NEWS</a>
-                    </div>
-                </div>
-            </section>
-        </div>
-        <div class="main-page-wrapper ur-section-background-color">
-            <section class="section-wrapper-two">
-                <div class="section-container">
-                    <h3 class="section-title">UPCOMING RELEASES</h3>
-                    <div class="upcoming-releases-monthly-wrapper">
-                        <h4 class="ur-month-text">March</h4>
-                        <div class="upcoming-releases-monthly-container">
-                            <article class="ur-ind-container">
-                                <div class="ur-image-container">
-                                    <img class="ur-image" src="https://jethrotull.com/wp-content/uploads/2025/01/JethroTull_CuriousRuminant-1.jpg" alt="">
-                                </div>
-                                <div class="ur-text-container">
-                                    <div>
-                                        <h5 class="ur-ind-header-text">Artist</h5>
-                                        <p class="ur-ind-text">Jethro Tull</p>
-                                    </div>
-                                    <div>
-                                        <h5 class="ur-ind-header-text">Album</h5>
-                                        <p class="ur-ind-text">Curious Ruminant</p>
-                                    </div>
-                                    <div>
-                                        <h5 class="ur-ind-header-text">Release Date</h5>
-                                        <p class="ur-ind-text">March 7, 2025</p>
-                                    </div>
-                                    <div class="ur-artist-link-container">
-                                        <a class="ur-artist-link" href="https://jethrotull.com/">jethrotull.com</a>
-                                    </div>
-                                </div>
-                            </article>
-                            <article class="ur-ind-container">
-                                <div class="ur-image-container">
-                                    <img class="ur-image" src="https://progreport.com/wp-content/uploads/2025/01/the-overview-album-cover-v0-vtl6zqztoh8d1.webp" alt="">
-                                </div>
-                                <div class="ur-text-container">
-                                    <div>
-                                        <h5 class="ur-ind-header-text">Artist</h5>
-                                        <p class="ur-ind-text">Steven Wilson</p>
-                                    </div>
-                                    <div>
-                                        <h5 class="ur-ind-header-text">Album</h5>
-                                        <p class="ur-ind-text">The Overview</p>
-                                    </div>
-                                    <div>
-                                        <h5 class="ur-ind-header-text">Release Date</h5>
-                                        <p class="ur-ind-text">March 14, 2025</p>
-                                    </div>
-                                    <div class="ur-artist-link-container">
-                                        <a class="ur-artist-link" href="https://stevenwilsonhq.com/">stevenwilsonhq.com</a>
-                                    </div>
-                                </div>
-                            </article>
-                            <article class="ur-ind-container">
-                                <div class="ur-image-container">
-                                    <img class="ur-image" src="https://static.wixstatic.com/media/b87719_7a8ecf3cb24846e3bbd7416bf5dc1712~mv2.jpg/v1/fill/w_650,h_650,al_c,q_85,enc_avif,quality_auto/b87719_7a8ecf3cb24846e3bbd7416bf5dc1712~mv2.jpg" alt="">
-                                </div>
-                                <div class="ur-text-container">
-                                    <div>
-                                        <h5 class="ur-ind-header-text">Artist</h5>
-                                        <p class="ur-ind-text">Tiktaalika (Haken's Charlie Griffiths)</p>
-                                    </div>
-                                    <div>
-                                        <h5 class="ur-ind-header-text">Album</h5>
-                                        <p class="ur-ind-text">Gods of Pangaea</p>
-                                    </div>
-                                    <div>
-                                        <h5 class="ur-ind-header-text">Release Date</h5>
-                                        <p class="ur-ind-text">March 14, 2025</p>
-                                    </div>
-                                    <div class="ur-artist-link-container">
-                                        <a class="ur-artist-link" href="https://www.charliegriffiths.com/">charliegriffiths.com</a>
-                                    </div>
-                                </div>
-                            </article>
-                            <article class="ur-ind-container">
-                                <div class="ur-image-container">
-                                    <img class="ur-image" src="https://www.iq-hq.co.uk/templates/yootheme/cache/35/Dominion-Final-Approved-3585f5b9.webp" alt="">
-                                </div>
-                                <div class="ur-text-container">
-                                    <div>
-                                        <h5 class="ur-ind-header-text">Artist</h5>
-                                        <p class="ur-ind-text">IQ</p>
-                                    </div>
-                                    <div>
-                                        <h5 class="ur-ind-header-text">Album</h5>
-                                        <p class="ur-ind-text">Dominion</p>
-                                    </div>
-                                    <div>
-                                        <h5 class="ur-ind-header-text">Release Date</h5>
-                                        <p class="ur-ind-text">March 28, 2025</p>
-                                    </div>
-                                    <div class="ur-artist-link-container">
-                                        <a class="ur-artist-link" href="https://www.iq-hq.co.uk/">iq-hq.co.uk</a>
-                                    </div>
-                                </div>
-                            </article>
-                        </div>
-                    </div>
-                    <div class="upcoming-releases-monthly-wrapper">
-                        <h4 class="ur-month-text">April</h4>
-                        <div class="upcoming-releases-monthly-container">
-                            <article class="ur-ind-container">
-                                <div class="ur-image-container">
-                                    <img class="ur-image" src="https://www.solsticeprog.uk/images/2025/02/03/clanncoverart.jpg" alt="">
-                                </div>
-                                <div class="ur-text-container">
-                                    <div>
-                                        <h5 class="ur-ind-header-text">Artist</h5>
-                                        <p class="ur-ind-text">Solstice</p>
-                                    </div>
-                                    <div>
-                                        <h5 class="ur-ind-header-text">Album</h5>
-                                        <p class="ur-ind-text">Clann</p>
-                                    </div>
-                                    <div>
-                                        <h5 class="ur-ind-header-text">Release Date</h5>
-                                        <p class="ur-ind-text">April 4, 2025</p>
-                                    </div>
-                                    <div class="ur-artist-link-container">
-                                        <a class="ur-artist-link" href="https://www.solsticeprog.uk/">solsticeprog.uk</a>
-                                    </div>
-                                </div>
-                            </article>
-                            <article class="ur-ind-container">
-                                <div class="ur-image-container">
-                                    <img class="ur-image" src="https://benthos-band.com/album_covers/large/benthos_fromnothing_cover-lg.avif" alt="">
-                                </div>
-                                <div class="ur-text-container">
-                                    <div>
-                                        <h5 class="ur-ind-header-text">Artist</h5>
-                                        <p class="ur-ind-text">Benthos</p>
-                                    </div>
-                                    <div>
-                                        <h5 class="ur-ind-header-text">Album</h5>
-                                        <p class="ur-ind-text">As A Cordyceps</p>
-                                    </div>
-                                    <div>
-                                        <h5 class="ur-ind-header-text">Release Date</h5>
-                                        <p class="ur-ind-text">April 11th, 2025</p>
-                                    </div>
-                                    <div class="ur-artist-link-container">
-                                        <a class="ur-artist-link" href="https://benthos-band.com/">benthos-band.com</a>
-                                    </div>
-                                </div>
-                            </article>
-                            <article class="ur-ind-container">
-                                <div class="ur-image-container">
-                                    <img class="ur-image" src="https://glasshammer.com/wp-content/uploads/GH-Rogue-300x300-1.jpg" alt="">
-                                </div>
-                                <div class="ur-text-container">
-                                    <div>
-                                        <h5 class="ur-ind-header-text">Artist</h5>
-                                        <p class="ur-ind-text">Glass Hammer</p>
-                                    </div>
-                                    <div>
-                                        <h5 class="ur-ind-header-text">Album</h5>
-                                        <p class="ur-ind-text">Rogue</p>
-                                    </div>
-                                    <div>
-                                        <h5 class="ur-ind-header-text">Release Date</h5>
-                                        <p class="ur-ind-text">April 11th, 2025</p>
-                                    </div>
-                                    <div class="ur-artist-link-container">
-                                        <a class="ur-artist-link" href="https://glasshammer.com/">glasshammer.com</a>
-                                    </div>
-                                </div>
-                            </article>
-                            <article class="ur-ind-container">
-                                <div class="ur-image-container">
-                                    <img class="ur-image" src="https://static.wixstatic.com/media/fbbdae_4b7258f273384fa7be8e536e08e36a9d~mv2.png/v1/fill/w_750,h_750,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/fbbdae_4b7258f273384fa7be8e536e08e36a9d~mv2.png" alt="">
-                                </div>
-                                <div class="ur-text-container">
-                                    <div>
-                                        <h5 class="ur-ind-header-text">Artist</h5>
-                                        <p class="ur-ind-text">Hawkwind</p>
-                                    </div>
-                                    <div>
-                                        <h5 class="ur-ind-header-text">Album</h5>
-                                        <p class="ur-ind-text">There Is No Space For Us</p>
-                                    </div>
-                                    <div>
-                                        <h5 class="ur-ind-header-text">Release Date</h5>
-                                        <p class="ur-ind-text">April 18th, 2025</p>
-                                    </div>
-                                    <div class="ur-artist-link-container">
-                                        <a class="ur-artist-link" href="https://www.hawkwind.com/">hawkwind.com</a>
-                                    </div>
-                                </div>
-                            </article>
-                            <article class="ur-ind-container">
-                                <div class="ur-image-container">
-                                    <img class="ur-image" src="https://thebandwagonusa.com/cdn/shop/files/y9atfhtn_360x.png?v=1740577449" alt="">
-                                </div>
-                                <div class="ur-text-container">
-                                    <div>
-                                        <h5 class="ur-ind-header-text">Artist</h5>
-                                        <p class="ur-ind-text">Lux Terminus</p>
-                                    </div>
-                                    <div>
-                                        <h5 class="ur-ind-header-text">Album</h5>
-                                        <p class="ur-ind-text">Cinder</p>
-                                    </div>
-                                    <div>
-                                        <h5 class="ur-ind-header-text">Release Date</h5>
-                                        <p class="ur-ind-text">April 18th, 2025</p>
-                                    </div>
-                                    <div class="ur-artist-link-container">
-                                        <a class="ur-artist-link" href="https://www.facebook.com/LuxTerminus/">LuxTerminus.com</a>
-                                    </div>
-                                </div>
-                            </article>
-                            <article class="ur-ind-container">
-                                <div class="ur-image-container">
-                                    <img class="ur-image" src="https://nealmorse.com/wp-content/uploads/CC-Deep-Water-768x768.jpeg" alt="">
-                                </div>
-                                <div class="ur-text-container">
-                                    <div>
-                                        <h5 class="ur-ind-header-text">Artist</h5>
-                                        <p class="ur-ind-text">Cosmic Cathedral</p>
-                                    </div>
-                                    <div>
-                                        <h5 class="ur-ind-header-text">Album</h5>
-                                        <p class="ur-ind-text">Deep Water</p>
-                                    </div>
-                                    <div>
-                                        <h5 class="ur-ind-header-text">Release Date</h5>
-                                        <p class="ur-ind-text">April 25th, 2025</p>
-                                    </div>
-                                    <div class="ur-artist-link-container">
-                                        <a class="ur-artist-link" href="https://nealmorse.com/product/cosmic-cathedral-deep-water/">nealmorse.com</a>
-                                    </div>
-                                </div>
-                            </article>
-                        </div>
-                    </div>
-                    <div class="upcoming-releases-monthly-wrapper">
-                        <h4 class="ur-month-text">May</h4>
-                        <div class="upcoming-releases-monthly-container">
-                            <article class="ur-ind-container">
-                                <div class="ur-image-container">
-                                    <img class="ur-image" src="https://f4.bcbits.com/img/a0959303941_16.jpg" alt="">
-                                </div>
-                                <div class="ur-text-container">
-                                    <div>
-                                        <h5 class="ur-ind-header-text">Artist</h5>
-                                        <p class="ur-ind-text">The Flower Kings</p>
-                                    </div>
-                                    <div>
-                                        <h5 class="ur-ind-header-text">Album</h5>
-                                        <p class="ur-ind-text">LOVE</p>
-                                    </div>
-                                    <div>
-                                        <h5 class="ur-ind-header-text">Release Date</h5>
-                                        <p class="ur-ind-text">May 2nd, 2025</p>
-                                    </div>
-                                    <div class="ur-artist-link-container">
-                                        <a class="ur-artist-link" href="https://www.roinestolt.com/">roinestolt.com</a>
-                                    </div>
-                                </div>
-                            </article>
-                            <article class="ur-ind-container">
-                                <div class="ur-image-container">
-                                    <img class="ur-image" src="https://cdn.supremechaos.com/thumbnail/d8/8f/dd/1743158127/cds_sleep_token_-_even_in_arcadia__cd_g_em00157102_800x800.webp" alt="Even In Arcadia by Sleep Token album cover">
-                                </div>
-                                <div class="ur-text-container">
-                                    <div>
-                                        <h5 class="ur-ind-header-text">Artist</h5>
-                                        <p class="ur-ind-text">Sleep Token</p>
-                                    </div>
-                                    <div>
-                                        <h5 class="ur-ind-header-text">Album</h5>
-                                        <p class="ur-ind-text">Even In Arcadia</p>
-                                    </div>
-                                    <div>
-                                        <h5 class="ur-ind-header-text">Release Date</h5>
-                                        <p class="ur-ind-text">May 9th, 2025</p>
-                                    </div>
-                                    <div class="ur-artist-link-container">
-                                        <a class="ur-artist-link" href="https://www.sleep-token.com/">sleep-token.com</a>
-                                    </div>
-                                </div>
-                            </article>
-                           
-                        </div>
-                    </div>
-                    
-                    <div class="upcoming-releases-monthly-wrapper">
-                        <h4 class="ur-month-text">June</h4>
-                        <div class="upcoming-releases-monthly-container">
-                            <article class="ur-ind-container">
-                                <div class="ur-image-container">
-                                    <img class="ur-image" src="./images/upcomingReleasesAlbumCovers/phase-transition-album-art.png" alt="">
-                                </div>
-                                <div class="ur-text-container">
-                                    <div>
-                                        <h5 class="ur-ind-header-text">Artist</h5>
-                                        <p class="ur-ind-text">Phase Transition</p>
-                                    </div>
-                                    <div>
-                                        <h5 class="ur-ind-header-text">Album</h5>
-                                        <p class="ur-ind-text">In Search of Being</p>
-                                    </div>
-                                    <div>
-                                        <h5 class="ur-ind-header-text">Release Date</h5>
-                                        <p class="ur-ind-text"> June 6th, 2025</p>
-                                    </div>
-                                    <div class="ur-artist-link-container">
-                                        <a class="ur-artist-link" href="https://phasetransitionofficial.com/">phasetransitionofficial.com</a>
-                                    </div>
-                                </div>
-                            </article>
-                            <article class="ur-ind-container">
-                                <div class="ur-image-container">
-                                    <img class="ur-image" src="https://www.progarchives.com/progressive_rock_discography_covers/11230/cover_3859732025_r.jpg" alt="">
-                                </div>
-                                <div class="ur-text-container">
-                                    <div>
-                                        <h5 class="ur-ind-header-text">Artist</h5>
-                                        <p class="ur-ind-text">Altesia</p>
-                                    </div>
-                                    <div>
-                                        <h5 class="ur-ind-header-text">Album</h5>
-                                        <p class="ur-ind-text">The Somnambulist</p>
-                                    </div>
-                                    <div>
-                                        <h5 class="ur-ind-header-text">Release Date</h5>
-                                        <p class="ur-ind-text">June 13th, 2025</p>
-                                    </div>
-                                    <div class="ur-artist-link-container">
-                                        <a class="ur-artist-link" href="https://altesiamusic.com/">altesiamusic.com</a>
-                                    </div>
-                                </div>
-                            </article>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </div>
-        <div id="mailingListSection" class="main-page-wrapper bg-clr-black">
-            <section class="mailing-list-section">
-                <div class="mailing-list-container">
-                    <form id="mailing-list-form" class="mailing-list-form" action="" >
-                        <h3 class="mailing-list-form-header">Join Our Mailing List</h3>
-                        <p class="mailing-list-form-sub-header">Receive updates about upcoming meeting and events.</p>
-                        <label class="mailing-list-form--label" for="name">Name</label>
-                        <input id="name-input" class="mailing-list-form--input" type="text">
-                        <p class="mailing-list-form--error">Name required</p>
-                        <label class="mailing-list-form--label" for="email">Email</label>
-                        <input id="email-input" class="mailing-list-form--input"type="email">
-                        <p class="mailing-list-form--error">Valid email required</p>
-                        <div class="mailing-list-text-area--container">
-                            <div id="info-box" class="mailing-list-hover-text-area">
-                                <p>This could include bands you like, what got you into progressive music, or what instruments you play.</p>
-                                <p>(One sentence is fine.)</p>
-                            </div>
-                            <label class="mailing-list-form--label" for="tell-us-about-yourself">Tell us about yourself</label>
-                            <i id="info-icon" tabindex="0" class="fa-solid fa-circle-info info-icon-style" ></i>
-                        </div>
-                            <textarea id="tell-us-input" class="mailing-list-form--text-area"name="" id="" cols="30" rows="5"></textarea>
-                        <p class="mailing-list-form--error">Text area is required.</p>
-                        <input id="form-honeypot" type="text" name="honey-pot" style="display:none">
-                        <button id="mailing-list-form-btn" class="mailing-list-form-btn" type="submit">SUBMIT</button>
-                        <div class="success-message-container">
-                            <p id="mailing-list-success" class="mailing-list-success">Thanks for joining our mailing list.</p>
-                        </div>
-                    </form>
-                    <div class="mailing-list-image">
-                        <img src="./images/carsLogo.png" alt="">
-                    </div>
-                </div>
-            </section>
-        </div>
+                <label
+                  class="mailing-list-form--label"
+                  for="tell-us-about-yourself"
+                  >Tell us about yourself</label
+                >
+                <i
+                  id="info-icon"
+                  tabindex="0"
+                  class="fa-solid fa-circle-info info-icon-style"
+                ></i>
+              </div>
+              <textarea
+                id="tell-us-input"
+                class="mailing-list-form--text-area"
+                name=""
+                id=""
+                cols="30"
+                rows="5"
+              ></textarea>
+              <p class="mailing-list-form--error">Text area is required.</p>
+              <input
+                id="form-honeypot"
+                type="text"
+                name="honey-pot"
+                style="display: none"
+              />
+              <button
+                id="mailing-list-form-btn"
+                class="mailing-list-form-btn"
+                type="submit"
+              >
+                SUBMIT
+              </button>
+              <div class="success-message-container">
+                <p id="mailing-list-success" class="mailing-list-success">
+                  Thanks for joining our mailing list.
+                </p>
+              </div>
+            </form>
+            <div class="mailing-list-image">
+              <img src="./images/carsLogo.png" alt="" />
+            </div>
+          </div>
+        </section>
+      </div>
     </main>
     <noscript>
-        <style>
-            .main-page {
-            display: none;
-            }
-        </style>
-        <h1 class="enable-javascript-message">Javascript must be enabled to view this site.</h1>
+      <style>
+        .main-page {
+          display: none;
+        }
+      </style>
+      <h1 class="enable-javascript-message">
+        Javascript must be enabled to view this site.
+      </h1>
     </noscript>
     <footer class="main-footer-wrapper">
-        <div class="main-footer-container">
-            <ul class="social-media-icons">
-                <li class="social-icon"><a href="https://www.facebook.com/ColoradoArtRockSociety" target="_blank"><i class="fa-brands fa-facebook fa-2xl"></i></a></li>
-            </ul>
-            <p>WEBSITE BY LCR DESIGNS</p>
-            <p><span>&#169;</span>2025 THE COLORADO ART ROCK SOCIETY</p>
-        </div>
+      <div class="main-footer-container">
+        <ul class="social-media-icons">
+          <li class="social-icon">
+            <a
+              href="https://www.facebook.com/ColoradoArtRockSociety"
+              target="_blank"
+              ><i class="fa-brands fa-facebook fa-2xl"></i
+            ></a>
+          </li>
+        </ul>
+        <p>WEBSITE BY LCR DESIGNS</p>
+        <p><span>&#169;</span>2025 THE COLORADO ART ROCK SOCIETY</p>
+      </div>
     </footer>
 
     <template id="meeting-info-template">
-        <div class="meeting-info__container">
-            <p class="meeting-info__day"></p>
-            <p class="meeting-info__month"></p>
-            <div class="meeting-info__date-number"></div>
-            <p class="meeting-time"><p> 
-        </div>
-        <a href="meetings.html" class="btn-meeting-details"><span>MEETING INFO</span><i aria-hidden="true" class="fa-solid fa-arrow-right-long"></i></a>
+      <div class="meeting-info__container">
+        <p class="meeting-info__day"></p>
+        <p class="meeting-info__month"></p>
+        <div class="meeting-info__date-number"></div>
+        <p class="meeting-time"></p>
+        <p></p>
+      </div>
+
+      <a href="meetings.html" class="btn-meeting-details"
+        ><span>MEETING INFO</span
+        ><i aria-hidden="true" class="fa-solid fa-arrow-right-long"></i
+      ></a>
     </template>
 
     <template id="meeting-coming-soon-template">
-        <div class="coming-soon__container">
-            <p class="coming-soon--oops">Oops...</p>
-            <p class="coming-soon--one">We're still in the process of planning the next meeting.</p>
-            <p class="coming-soon--two">Stay tuned for more details.</p>
-        </div>
+      <div class="coming-soon__container">
+        <p class="coming-soon--oops">Oops...</p>
+        <p class="coming-soon--one">
+          We're still in the process of planning the next meeting.
+        </p>
+        <p class="coming-soon--two">Stay tuned for more details.</p>
+      </div>
     </template>
 
     <template id="latest-news-template">
-        <article class="card__latest-news">
-            <span class="card__latest-news--date"></span>
-            <h4 class="card__latest-news--title"></h4>
-            <div class="latest-news-image-container">
-                <img class="card__latest-news--image" src="" alt="">
-                <span class="latest-news-image-credit"></span>
-            </div>
-            <div class="card__latest-news--text">
-            </div>
-            <a class="btn__read-more" href="" target="_blank"><span>READ MORE</span><i aria-hidden="true" class="fa-solid fa-arrow-right-long"></i></a>
-        </article>
+      <article class="card__latest-news">
+        <span class="card__latest-news--date"></span>
+        <h4 class="card__latest-news--title"></h4>
+        <div class="latest-news-image-container">
+          <img class="card__latest-news--image" src="" alt="" />
+          <span class="latest-news-image-credit"></span>
+        </div>
+        <div class="card__latest-news--text"></div>
+        <a class="btn__read-more" href="" target="_blank"
+          ><span>READ MORE</span
+          ><i aria-hidden="true" class="fa-solid fa-arrow-right-long"></i
+        ></a>
+      </article>
     </template>
 
     <template id="song-article-template">
-        <article class="song-article">
-            <div>
-                <h4 class="song-article__heading">
-                    <span class="song-name"></span>
-                    <a class="artist-name" href="" target="_blank"></a>
-                </h4>
-                <div class="song-article__description__container">
-                </div>
-            </div>
-            <div class="article-video-wrapper">
-                <iframe class="video-link" width="560" height="315" src="https://www.youtube.com/embed/ksu0ZhDgxXM?si=WV9ytJMZ9u2Mp72a" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
-        </article>
+      <article class="song-article">
+        <div>
+          <h4 class="song-article__heading">
+            <span class="song-name"></span>
+            <a class="artist-name" href="" target="_blank"></a>
+          </h4>
+          <div class="song-article__description__container"></div>
+        </div>
+        <div class="article-video-wrapper">
+          <iframe
+            class="video-link"
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/ksu0ZhDgxXM?si=WV9ytJMZ9u2Mp72a"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </article>
     </template>
-</body>
+  </body>
 </html>

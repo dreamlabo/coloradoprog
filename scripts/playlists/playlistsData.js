@@ -1,66 +1,105 @@
 const currentPlaylistData = [
-    {
-        song: "A Natural Disaster",
-        artist: "Anathema",
-        about: [
-            "Lee Douglas's vocal on <span class='italic'>A Natural Disaster</span> marked a turning point for <span class='italic'>Anathema</span>, introducing a new emotional depth to the band's evolving sound. Originally rooted in doom metal <span class='italic'>Anathema</span> shifted towards progressive rock in the 2000s, and Lee's voice became a vital part of that transformation.",
-            "Her performance on this track is both fragile and powerful, and captures the song's sense of longing and introspection."
-        ],
-        youtube: "https://www.youtube.com/embed/JB1djmYr0aA?si=aEN68XO5WVKhxRFK",
-        artistSite: "https://www.anathemamusic.com/"
-    },
-    {
-        song: "No Longer We Lie",
-        artist: "Exploring Birdsong",
-        about: [
-            "Liverpool-based trio <span class='italic'>Exploring Birdsong</span> captivates listeners by seamlessly merging progressive rock, pop, and classical influences and vocalist/keyboardist Lynsey Ward is central to the band's distinctive style.",
-            "<span class='italic'>No Longer We Lie,</span> the closing track from their 2023 EP <span class='italic'>Dancing in the Face of Danger</span> showcases the band's innovative approach to progressive music."
-        ],
-        youtube: "https://www.youtube.com/embed/UgsxdCzJCe8?si=Iu7_GtPJdzkiAH8-",
-        artistSite: "https://www.facebook.com/ExploringBirdsong/"
-    },
-    {
-        song: "Becoming, (R)evolution",
-        artist: "Phase Transition",
-        about: [
-            "Hailing from Porto, Portugal, <span class='italic'>Phase Transition</span>, blends classical and technical progressive metal. At the center is Sofia Beco, whose violin and vocals shape the band's distinct sound.",
-            "According to Sofia, <span class='italic'>Becoming, (R)evolution</span>, from their upcoming album <span class='italic'>In Search of Being</span>, is about 'youth, growing up — that time of your life when you learn you have a voice.'"
-        ],
-        youtube: "https://www.youtube.com/embed/hsSkp_9lhjc?si=HHHg4xBmf2M5mmL3",
-        artistSite: "https://phasetransitionofficial.com/home"
-    },
-    {
-        song: "Holy Ghost",
-        artist: "Bent Knee",
-        about: [
-            "Known for blending pop, industrial rock, progressive rock, and avant-garde influences, <span class='italic'>Bent Knee</span> is an American art rock band formed at the Berklee College of Music in 2009.",
-            "At the forefront is vocalist Courtney Swain, whose powerful performance on <span class='italic'>Holy Ghost</span> from their album <span class='italic'>Land Animal</span> captures the band's experimental spirit."
-        ],
-        youtube: "https://www.youtube.com/embed/e9QAlYV6qsY?si=06UviD3fc5f0lb5g",
-        artistSite: "https://www.bentkneemusic.com/" 
-      },
-      {
-        song: "Stay for the Ending",
-        artist: "District 97",
-        about: [
-            "Formed in 2006 in Chicago, Illinois and featuring 2007 American Idol Top 10 finalist Leslie Hunt, <span class='italic'>District 97</span> fuses influences ranging from heavy metal to avant-garde jazz.",
-            "Their song <span class='italic'>Stay for the Ending</span>, from their 2023 album of the same name, encapsulates their blending of styles."
-        ],
-        youtube: "https://www.youtube.com/embed/AHOMo2ayc9k?si=3Wgm27yV8ip3S5y0",
-        artistSite: "https://district97.net/" 
-      },
-      {
-        song: "Cause We've Ended As Lovers",
-        artist: "Jeff Beck",
-        about: [
-            "While our list is heavily focused on female vocalists, we must acknowledge the extraordinary contribution of bassist <span class='italic'>Tal Wilkenfeld</span> on <span class='italic'>Jeff Beck's Cause We Ended as Lovers</span>, recorded at Ronnie Scott's in London in 2007 when she was just 20 years old.",
-            "Tal has performed with Chick Corea, Herbie Hancock, and Wayne Shorter, and appears on Prince's 2021 album <span class='italic'>Welcome 2 America</span>, the first posthumous release featuring previously unreleased music recorded in 2010."
-        ], 
-        youtube: "https://www.youtube.com/embed/f6n_EJ5ynQo?si=p4H--cQjijE04-GJ",
-        artistSite: "https://en.wikipedia.org/wiki/Jeff_Beck/" 
-      },
-]
-
+  {
+    song: "Puzzle Box",
+    artist: "Haken",
+    about: [
+      "<span class='italic'>Puzzle Box</span>, originally released on <span class='italic'>Haken's</span> 2018 album <span class='italic'>Vector</span>, appears here as part of their latest live release, <span class='italic'>Liveforms: An Evening with Haken.</span>",
+      "The song references <span class='italic'>Plato's Allegory of the Cave</span> while exploring themes of self-discovery, memory, and mental breakdown.",
+    ], 
+    youtube: "https://www.youtube.com/embed/pCznO-Venyo?si=AoTLKX3nZVDA_ZVx",
+    artistSite: "https://hakenmusic.com/",
+  },
+  {
+    song: "Catalyst",
+    artist: "Lux Terminus",
+    about: [
+      "<span class='italic'>Catalyst</span> is a track from Cleveland-based prog trio <span class='italic'>Lux Terminus'</span> album <span class='italic'>Cinder</span>, which dives into the emotional battlefield of mental health. Featuring guest vocalists <span class='italic'>Ross Jennings</span> and <span class='italic'>Jon Pyres</span> as the protagonist's opposing inner voices, the song captures the struggle between light and darkness—the fight to hold onto hope in the bleakest moments. Musically, it's a journey through metal, jazz, and cinematic textures, anchored by the band's signature piano-driven sound.", 
+    ],
+    youtube: "https://www.youtube.com/embed/JGwzyOUqNzQ?si=f-m9Zdb2mm6D3j08",
+    artistSite: "https://luxterminus.bandcamp.com/",
+  },
+  {
+    song: "Deep Water Suite: Launch Out",
+    artist: "Cosmic Cathedral",
+    about: [
+      "<span class='italic'>Deep Water Suite: Launch Out</span> from the powerhouse prog group <span class='italic'>Cosmic Cathedral</span>, featuring drumming legend <span class='italic'>Chester Thompson (Genesis, Frank Zappa)</span>, guitar virtuoso <span class='italic'>Phil Keaggy (Glass Harp)</span>, acclaimed bassist <span class='italic'>Byron House (Robert Plant, Alison Krauss)</span>, and prog mainstay <span class='italic'> Neal Morse</span>. ",
+    ],
+    youtube: "https://www.youtube.com/embed/ehkwCgOTS0I?si=ZixFV4yIh8sV2JGU",
+    artistSite: "https://nealmorse.com/product/cosmic-cathedral-deep-water/",
+  },
+  {
+    song: "Her Ghost In Limbo",
+    artist: "Altesia",
+    about: [
+      "<span class='italic'>Her Ghost on Limbo</span> is taken from <span class='italic'>The Somnambulist</span>, the upcoming album by French based progressive metal band <span class='italic'>Altesia</span>. Founded by Clément Darrieu and influenced by acts like Opeth, Haken, and Leprous, <span class='italic'>Altesia</span> has grown into a fully collaborative unit. <span class='italic'>Every note, every interpretation, every silence has been thought out and discussed</span>, says Darrieu, calling <span class='italic'>The Somnambulist</span> their <span class='italic'>most accomplished, collective, and diverse work to date.</span>",
+    
+    ],
+    youtube: "https://www.youtube.com/embed/xGDqcsftG-M?si=wBYmDDnFV6p85_w0",
+    artistSite: "https://altesiamusic.com/",
+  },
+];
+// const currentPlaylistData = [
+//     {
+//         song: "A Natural Disaster",
+//         artist: "Anathema",
+//         about: [
+//             "Lee Douglas's vocal on <span class='italic'>A Natural Disaster</span> marked a turning point for <span class='italic'>Anathema</span>, introducing a new emotional depth to the band's evolving sound. Originally rooted in doom metal <span class='italic'>Anathema</span> shifted towards progressive rock in the 2000s, and Lee's voice became a vital part of that transformation.",
+//             "Her performance on this track is both fragile and powerful, and captures the song's sense of longing and introspection."
+//         ],
+//         youtube: "https://www.youtube.com/embed/JB1djmYr0aA?si=aEN68XO5WVKhxRFK",
+//         artistSite: "https://www.anathemamusic.com/"
+//     },
+//     {
+//         song: "No Longer We Lie",
+//         artist: "Exploring Birdsong",
+//         about: [
+//             "Liverpool-based trio <span class='italic'>Exploring Birdsong</span> captivates listeners by seamlessly merging progressive rock, pop, and classical influences and vocalist/keyboardist Lynsey Ward is central to the band's distinctive style.",
+//             "<span class='italic'>No Longer We Lie,</span> the closing track from their 2023 EP <span class='italic'>Dancing in the Face of Danger</span> showcases the band's innovative approach to progressive music."
+//         ],
+//         youtube: "https://www.youtube.com/embed/UgsxdCzJCe8?si=Iu7_GtPJdzkiAH8-",
+//         artistSite: "https://www.facebook.com/ExploringBirdsong/"
+//     },
+//     {
+//         song: "Becoming, (R)evolution",
+//         artist: "Phase Transition",
+//         about: [
+//             "Hailing from Porto, Portugal, <span class='italic'>Phase Transition</span>, blends classical and technical progressive metal. At the center is Sofia Beco, whose violin and vocals shape the band's distinct sound.",
+//             "According to Sofia, <span class='italic'>Becoming, (R)evolution</span>, from their upcoming album <span class='italic'>In Search of Being</span>, is about 'youth, growing up — that time of your life when you learn you have a voice.'"
+//         ],
+//         youtube: "https://www.youtube.com/embed/hsSkp_9lhjc?si=HHHg4xBmf2M5mmL3",
+//         artistSite: "https://phasetransitionofficial.com/home"
+//     },
+//     {
+//         song: "Holy Ghost",
+//         artist: "Bent Knee",
+//         about: [
+//             "Known for blending pop, industrial rock, progressive rock, and avant-garde influences, <span class='italic'>Bent Knee</span> is an American art rock band formed at the Berklee College of Music in 2009.",
+//             "At the forefront is vocalist Courtney Swain, whose powerful performance on <span class='italic'>Holy Ghost</span> from their album <span class='italic'>Land Animal</span> captures the band's experimental spirit."
+//         ],
+//         youtube: "https://www.youtube.com/embed/e9QAlYV6qsY?si=06UviD3fc5f0lb5g",
+//         artistSite: "https://www.bentkneemusic.com/"
+//       },
+//       {
+//         song: "Stay for the Ending",
+//         artist: "District 97",
+//         about: [
+//             "Formed in 2006 in Chicago, Illinois and featuring 2007 American Idol Top 10 finalist Leslie Hunt, <span class='italic'>District 97</span> fuses influences ranging from heavy metal to avant-garde jazz.",
+//             "Their song <span class='italic'>Stay for the Ending</span>, from their 2023 album of the same name, encapsulates their blending of styles."
+//         ],
+//         youtube: "https://www.youtube.com/embed/AHOMo2ayc9k?si=3Wgm27yV8ip3S5y0",
+//         artistSite: "https://district97.net/"
+//       },
+//       {
+//         song: "Cause We've Ended As Lovers",
+//         artist: "Jeff Beck",
+//         about: [
+//             "While our list is heavily focused on female vocalists, we must acknowledge the extraordinary contribution of bassist <span class='italic'>Tal Wilkenfeld</span> on <span class='italic'>Jeff Beck's Cause We Ended as Lovers</span>, recorded at Ronnie Scott's in London in 2007 when she was just 20 years old.",
+//             "Tal has performed with Chick Corea, Herbie Hancock, and Wayne Shorter, and appears on Prince's 2021 album <span class='italic'>Welcome 2 America</span>, the first posthumous release featuring previously unreleased music recorded in 2010."
+//         ],
+//         youtube: "https://www.youtube.com/embed/f6n_EJ5ynQo?si=p4H--cQjijE04-GJ",
+//         artistSite: "https://en.wikipedia.org/wiki/Jeff_Beck/"
+//       },
+// ]
 
 // const currentPlaylistData = [
 //     {
@@ -102,8 +141,6 @@ const currentPlaylistData = [
 //         ],
 
 //         youtube: "https://www.youtube.com/embed/8Q4oJETGecE?si=FRJdGexyh3mpob6z",
-//         artistSite: "https://www.charliegriffiths.com/" 
+//         artistSite: "https://www.charliegriffiths.com/"
 //       },
 // ]
-
-
