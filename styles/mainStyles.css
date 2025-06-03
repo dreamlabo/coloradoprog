@@ -31,6 +31,7 @@
 
     --clr-text-100: #e3dede;
     --clr-text-200: #d3cfcf;
+    --clr-text-250: #c6c3bf;
     --clr-text-300: #8B8B8B;
 
     --clr-mode-accent: #BA9FFB;
@@ -87,7 +88,6 @@ a {
 .main-page {
 
 }
-
 
 .enable-javascript-message,
 .enable-javascript-message__section__color_main,
@@ -872,13 +872,11 @@ a {
     align-items: baseline;
     flex-wrap: wrap;
     column-gap: 2rem;
-    /* row-gap: 0.5rem; */
     color: var(--clr-main);
     font-size: 1.25rem;
     font-size: clamp(1rem, 4vw + 2px, 1.25rem);
     font-weight: 300;
-    padding-bottom: 0.5rem;
-    /* width: fit-content; */
+    padding-bottom: 1.2rem;
 }
 /* --clr-main-light-text */
 .artist-name {
@@ -917,7 +915,7 @@ a {
 } */
 
 .song-article__description {
-    color: var(--clr-text-200);
+    color: var(--clr-text-250);
     font-size: clamp(14px, 3vw + 2px, 1rem);
     line-height: 1.5;
 }

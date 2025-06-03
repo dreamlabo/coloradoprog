@@ -1,74 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="/images/favicons/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/images/favicons/favicon-16x16.png">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Jost:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="./styles/mainStyles.css">
-        <script src="./scripts/mainScripts.js" defer></script>
-        <script src="./scripts/meetingsInfo.js" defer></script>
-        <script src="./scripts/playlists/playlistsData.js" defer></script>
-        <script src="./scripts/playlists/playlistsScriptsMainPage.js" defer></script>
-        <script src="https://kit.fontawesome.com/c43c1a8058.js" crossorigin="anonymous"></script>
-        <title>CARS - Playlists</title>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link
+        rel="apple-touch-icon"
+        sizes="180x180"
+        href="/images/favicons/apple-touch-icon.png"
+      />
+      <link
+        rel="icon"
+        type="image/png"
+        sizes="32x32"
+        href="/images/favicons/favicon-32x32.png"
+      />
+      <link
+        rel="icon"
+        type="image/png"
+        sizes="16x16"
+        href="/images/favicons/favicon-16x16.png"
+      />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Jost:wght@100;200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet"
+      />
+      <link rel="stylesheet" href="./styles/mainStyles.css" />
+      <script src="./scripts/mainScripts.js" defer></script>
+      <script src="./scripts/meetingsInfo.js" defer></script>
+      <script src="./scripts/playlists/playlistsData.js" defer></script>
+      <script
+        src="./scripts/playlists/playlistsScriptsMainPage.js"
+        defer
+      ></script>
+      <script src="./scripts/playlists/playlistScripts.js" defer></script>
+      <script
+        src="https://kit.fontawesome.com/c43c1a8058.js"
+        crossorigin="anonymous"
+      ></script>
+      <title>CARS - Playlists</title>
     </head>
-</head>
-<body>
+  </head>
+  <body>
     <header class="header-wrapper">
-        <div class="container flex">
-            <a href="index.html" class="logo">CARS</a>
-            <nav class="main-links--wrapper">
-                <ul id="primary-navigation"
-                        class="main-links"
-                        aria-label="primary navigation">
-                        <li><a href="meetings.html">MEETINGS</a></li>
-                        <li><a href="upcomingEvents.html">EVENTS</a></li>
-                        <li><a href="playlists.html" class="active-page-indicator">PLAYLISTS</a></li>
-                    <li><a href="latest-news.html">NEWS</a></li>
-                    <li><a href="about.html">WHO WE ARE</a></li>
-                </ul>
-            </nav>
-            <button class="nav-bars" 
-                    id="mobile-menu-btn"
-                    aria-expanded="false">
-                <div class="bar bar-one"></div>
-                <div class="bar bar-two"></div>
-                <div class="bar bar-three"></div>
-            </button>
-            <nav class="mobile-menu"
-                id="mobile-menu"
-                aria-hidden="true">
-                <ul id="mobile-navigation"
-                        class=""
-                        aria-label="primary navigation">
-                    <li class="mobile-nav-link"><a tabindex="-1" onclick="closeMobileMenu()" href="index.html"><span aria-hidden="true">00</span>HOME</a></li>
-                    <li class="mobile-nav-link"><a tabindex="-1" onclick="closeMobileMenu()" href="meetings.html"><span aria-hidden="true">01</span>MEETINGS</a></li>
-                    <li class="mobile-nav-link"><a tabindex="-1" onclick="closeMobileMenu()" href="upcomingEvents.html"><span aria-hidden="true">02</span>UPCOMING EVENTS</a></li>
-                    <li class="mobile-nav-link"><a tabindex="-1" onclick="closeMobileMenu()" href="playlists.html"><span aria-hidden="true">03</span>PLAYLISTS</a></li>
-                    <li class="mobile-nav-link"><a tabindex="-1" onclick="closeMobileMenu()" href="latest-news.html"><span aria-hidden="true">04</span>LATEST NEWS</a></li>
-                    <li class="mobile-nav-link"><a tabindex="-1" onclick="closeMobileMenu()" href="about.html"><span aria-hidden="true">05</span>WHO WE ARE</a></li>
-                </ul>
-            </nav>
-        </div>
+      <div class="container flex">
+        <a href="index.html" class="logo">CARS</a>
+        <nav class="main-links--wrapper">
+          <ul
+            id="primary-navigation"
+            class="main-links"
+            aria-label="primary navigation"
+          >
+            <li><a href="meetings.html">MEETINGS</a></li>
+            <li><a href="upcomingEvents.html">EVENTS</a></li>
+            <li>
+              <a href="playlists.html" class="active-page-indicator"
+                >PLAYLISTS</a
+              >
+            </li>
+            <li><a href="latest-news.html">NEWS</a></li>
+            <li><a href="about.html">WHO WE ARE</a></li>
+          </ul>
+        </nav>
+        <button class="nav-bars" id="mobile-menu-btn" aria-expanded="false">
+          <div class="bar bar-one"></div>
+          <div class="bar bar-two"></div>
+          <div class="bar bar-three"></div>
+        </button>
+        <nav class="mobile-menu" id="mobile-menu" aria-hidden="true">
+          <ul id="mobile-navigation" class="" aria-label="primary navigation">
+            <li class="mobile-nav-link">
+              <a tabindex="-1" onclick="closeMobileMenu()" href="index.html"
+                ><span aria-hidden="true">00</span>HOME</a
+              >
+            </li>
+            <li class="mobile-nav-link">
+              <a tabindex="-1" onclick="closeMobileMenu()" href="meetings.html"
+                ><span aria-hidden="true">01</span>MEETINGS</a
+              >
+            </li>
+            <li class="mobile-nav-link">
+              <a
+                tabindex="-1"
+                onclick="closeMobileMenu()"
+                href="upcomingEvents.html"
+                ><span aria-hidden="true">02</span>UPCOMING EVENTS</a
+              >
+            </li>
+            <li class="mobile-nav-link">
+              <a tabindex="-1" onclick="closeMobileMenu()" href="playlists.html"
+                ><span aria-hidden="true">03</span>PLAYLISTS</a
+              >
+            </li>
+            <li class="mobile-nav-link">
+              <a
+                tabindex="-1"
+                onclick="closeMobileMenu()"
+                href="latest-news.html"
+                ><span aria-hidden="true">04</span>LATEST NEWS</a
+              >
+            </li>
+            <li class="mobile-nav-link">
+              <a tabindex="-1" onclick="closeMobileMenu()" href="about.html"
+                ><span aria-hidden="true">05</span>WHO WE ARE</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <main>
-        <div class="main-page-wrapper bg-clr-dark">
-            <div class="section-wrapper-two">
-                <div class="section-container">
-                    <h3 class="section-title">INNOVATIVE SOUNDS</h3>
-                    <p class="section-sub-title">Discover new music while enjoying the sounds of classic prog.</p>
-                </div>
-            </div>
+      <div class="main-page-wrapper bg-clr-dark">
+        <div class="section-wrapper-two">
+          <div class="section-container">
+            <h3 class="section-title">INNOVATIVE SOUNDS</h3>
+            <p class="section-sub-title">
+              Discover new music while enjoying the sounds of classic prog.
+            </p>
+          </div>
         </div>
-        <div class="main-page-wrapper bg-clr-dark">
+      </div>
+
+      <div id="playlist-container"></div>
+
+      <!-- <div class="main-page-wrapper bg-clr-dark">
             <div class="listening-overlay"></div>
-            <img class="background-image-one" src="./images/pages/playlists/record-background.jpg" alt="">
+            <img class="background-image-one" src="./images/pages/playlists/record-background.jpg" alt=""/>
             <section class="section-wrapper-two">
                 <div class="section-container" >
                     <h3 class="section-title">April 2025</h3>
@@ -816,33 +875,140 @@
                     </div>
                 </div>
             </section>
-        </div>
+        </div> -->
     </main>
     <footer class="main-footer-wrapper">
-        <div class="main-footer-container">
-            <ul class="social-media-icons">
-                <li class="social-icon"><a href="https://www.facebook.com/ColoradoArtRockSociety" target="_blank"><i class="fa-brands fa-facebook fa-2xl"></i></a></li>
-            </ul>
-            <p>WEBSITE BY LCR DESIGNS</p>
-            <p><span>&#169;</span>2025 THE COLORADO ART ROCK SOCIETY</p>
-        </div>
+      <div class="main-footer-container">
+        <ul class="social-media-icons">
+          <li class="social-icon">
+            <a
+              href="https://www.facebook.com/ColoradoArtRockSociety"
+              target="_blank"
+              ><i class="fa-brands fa-facebook fa-2xl"></i
+            ></a>
+          </li>
+        </ul>
+        <p>WEBSITE BY LCR DESIGNS</p>
+        <p><span>&#169;</span>2025 THE COLORADO ART ROCK SOCIETY</p>
+      </div>
     </footer>
 
     <template id="song-article-template">
-        <article class="song-article">
-            <div>
-                <h4 class="song-article__heading">
-                    <span class="song-name"></span>
-                    <a class="artist-name" href="" target="_blank"></a>
-                </h4>
-                <div class="song-article__description__container">
-                </div>
-            </div>
-            <div class="article-video-wrapper">
-                <iframe class="video-link" width="560" height="315" src="https://www.youtube.com/embed/ksu0ZhDgxXM?si=WV9ytJMZ9u2Mp72a" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
-        </article>
+      <article class="song-article">
+        <div>
+          <h4 class="song-article__heading">
+            <span class="song-name"></span>
+            <a class="artist-name" href="" target="_blank"></a>
+          </h4>
+          <div class="song-article__description__container"></div>
+        </div>
+        <div class="article-video-wrapper">
+          <iframe
+            class="video-link"
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/ksu0ZhDgxXM?si=WV9ytJMZ9u2Mp72a"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </article>
     </template>
-    
-</body>
+
+    <template id="playlist-monthly-container">
+      <div class="main-page-wrapper bg-clr-dark">
+        <div class="listening-overlay"></div>
+        <img
+          class="background-image-one"
+          src="./images/pages/playlists/record-background.jpg"
+          alt=""
+        />
+        <section class="section-wrapper-two">
+          <div class="section-container">
+            <h3 class="section-title"></h3>
+            <p class="main-holiday-sub-text"></p>
+            <div class="listening-container">
+              <div id="videos-go-here" class="listening-container__left"></div>
+              <div class="listening-container__Right">
+                <iframe class="spotify-iframe"
+                  style="border-radius: 12px"
+                  src="https://open.spotify.com/embed/playlist/5EfpxPOVIsMsSvTjohCiIl?utm_source=generator&theme=0"
+                  width="100%"
+                  height="850"
+                  frameborder="0"
+                  allowfullscreen=""
+                  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                  loading="lazy"
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </template>
+
+    <template id="playlist-monthly-container__playlist-left">
+      <div class="main-page-wrapper bg-clr-dark">
+        <div class="listening-overlay"></div>
+        <img class="background-image-one" src="./images/console.jpg" alt="" />
+        <section class="section-wrapper-two">
+          <div class="section-container">
+            <h3 class="section-title"></h3>
+            <p class="main-holiday-sub-text"></p>
+            <div class="listening-container--reverse">
+              <div
+                class="listening-container__Right reorder-listening-container"
+              >
+              <iframe class="spotify-iframe"
+                  style="border-radius: 12px"
+                  src="https://open.spotify.com/embed/playlist/1CzaFCkX5V2YfrUYmiyYA2?utm_source=generator&theme=0"
+                  width="100%"
+                  height="850"
+                  frameborder="0"
+                  allowfullscreen=""
+                  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                  loading="lazy"
+                ></iframe>
+              </div>
+           
+            <div id="videos-go-here" class="listening-container__left"></div>
+          </div>
+        </section>
+      </div>
+    </template>
+
+    <template id="song-article-template">
+      <article class="song-article">
+        <div>
+          <h4 class="song-article__heading">
+            <span class="song-name"></span>
+            <a class="artist-name" href="" target="_blank"></a>
+          </h4>
+          <div
+            id="about-text-line"
+            class="song-article__description__container"
+          ></div>
+        </div>
+        <div class="article-video-wrapper">
+          <iframe
+            class="video-link"
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/ksu0ZhDgxXM?si=WV9ytJMZ9u2Mp72a"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </article>
+    </template>
+    <template id="song-description-text">
+      <p class="song-article__description"></p>
+    </template>
+  </body>
 </html>

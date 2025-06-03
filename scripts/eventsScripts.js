@@ -106,7 +106,7 @@ const events = [
   },
   {
     headliner: "Steven Wilson",
-    supportActs: [false],
+    supportActs: [false, "The Overview Tour"],
     date: new Date("2025/09/14"),
     time: "7:00pm",
     venue: PARAMOUNT_THEATER_VENUE,
@@ -117,6 +117,20 @@ const events = [
     bandInfo: "https://stevenwilsonhq.com/",
     image:
       "https://s1.ticketm.net/dam/a/716/30cf2527-54b4-4e0f-9877-492db09c6716_RETINA_PORTRAIT_3_2.jpg",
+  },
+  {
+    headliner: "Dream Theater",
+    supportActs: [false, "Parasomnia Tour 2025"],
+    date: new Date("2025/09/30"),
+    time: "7:00pm",
+    venue: SUMMIT_VENUE,
+    city: SUMMIT_CITY,
+    state: "Co",
+    ticketURL:
+      "https://www.pikespeakcenter.com/events/detail/dreamtheater",
+    bandInfo: "https://dreamtheater.net/",
+    image:
+      "https://images.discovery-prod.axs.com/2025/05/dream-theater-tickets_09-29-25_17_682bb8bc0bfcc.jpg",
   },
   {
     headliner: "Bruce Dickinson",
