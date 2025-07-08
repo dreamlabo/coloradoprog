@@ -22,17 +22,12 @@ if (playlistContainer) {
       );
     }
 
-    // monthlyPlaylistTemplate = document.getElementById(
-    //   "playlist-monthly-container__playlist-left"
-    // );
-
     const monthlyContainer = monthlyPlaylistTemplate.content.cloneNode(true);
 
     const imageOverlay = monthlyContainer.querySelector(
       ".background-image-one"
     );
-    // imageOverlay.src = placeSpotifyListOnLeft ? "./images/pages/playlists/record-background.jpg" : "./images/console.jpg"
-
+   
     const iframe = monthlyContainer.querySelector(".spotify-iframe");
     if (iframe) {
       iframe.style.height = playlist.spotifyHeight; 

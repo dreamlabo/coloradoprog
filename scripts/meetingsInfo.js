@@ -44,11 +44,18 @@ meetings = [
     hostEmail: KENTS_EMAIL,
     additionalInfo: [],
   },
+  {
+    date: new Date("2025/07/12"),
+    time: MEETING_TIME_6PM,
+    host: KENTS_HOST_NAME,
+    hostEmail: KENTS_EMAIL,
+    additionalInfo: [],
+  }
 ];
 
 function returnUpcomingMeeting() {
   var currentDate = new Date(new Date().toDateString());
-  console.log("hello");
+  // console.log("hello");
 
   return meetings.find((meeting) => {
     var date2 = new Date(new Date(meeting.date).toDateString());
