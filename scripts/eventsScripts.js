@@ -123,8 +123,8 @@ const events = [
     supportActs: [false, "Parasomnia Tour 2025"],
     date: new Date("2025/09/30"),
     time: "7:00pm",
-    venue: SUMMIT_VENUE,
-    city: SUMMIT_CITY,
+    venue: PIKES_PEAK_CENTER_VENUE,
+    city: PIKES_PEAK_CENTER_CITY,
     state: "Co",
     ticketURL:
       "https://www.pikespeakcenter.com/events/detail/dreamtheater",
