@@ -39,58 +39,6 @@ const SUPPORT_ACTS_CLASS = ".support-acts";
 
 const events = [
   {
-    headliner: "The Aristocrats",
-    supportActs: [false, "The Duck Tour 2025"],
-    date: new Date("2025/05/06"),
-    time: "7:00pm",
-    venue: FOX_THEATER_VENUE,
-    city: FOX_THEATER_CITY,
-    state: "Co",
-    ticketURL: "https://www.z2ent.com/events/detail/aristocrats-2025-fox",
-    bandInfo: "https://the-aristocrats-band.com/",
-    image:
-      "https://www.z2ent.com/assets/img/Approved-Shot-2-TheAristocrats-2023-bw-PhotoByArthurRosato-955ea8994b.jpg",
-  },
-  {
-    headliner: "The Aristocrats",
-    supportActs: [false, "The Duck Tour 2025"],
-    date: new Date("2025/05/07"),
-    time: "7:00pm",
-    venue: AGGIE_THEATER_VENUE,
-    city: AGGIE_THEATER_CITY,
-    state: "Co",
-    ticketURL:
-      "https://www.axs.com/events/776144/the-aristocrats-tickets?skin=aggietheatre",
-    bandInfo: "https://the-aristocrats-band.com/",
-    image: "https://www.z2ent.com/assets/img/The-Aristocrats-eb17355621.jpg",
-  },
-  {
-    headliner: "Devin Townsend",
-    supportActs: ["TesseracT"],
-    date: new Date("2025/05/21"),
-    time: "6:30pm",
-    venue: OGDEN_THEATER_VENUE,
-    city: OGDEN_THEATER_CITY,
-    state: "Co",
-    ticketURL: "https://www.ogdentheatre.com/events/detail/?event_id=757958",
-    bandInfo: "https://hevydevy.com/",
-    image:
-      "https://images.discovery-prod.axs.com/2024/11/devin-townsend-tickets_05-21-25_17_673bc2ecd1eed.jpg",
-  },
-  {
-    headliner: "Brit Floyd",
-    supportActs: [false],
-    date: new Date("2025/06/05"),
-    time: "6:30pm",
-    venue: RED_ROCKS,
-    city: RED_ROCKS_CITY,
-    state: "Co",
-    ticketURL: "https://www.redrocksonline.com/events/brit-floyd-718652/",
-    bandInfo: "https://www.britfloydofficial.com/",
-    image:
-      "https://assets.redrocksonline.com/wp-content/uploads/2024/10/14120452/brit-floyd-tickets_06-05-25_86_6706da7badaca.jpg",
-  },
-  {
     headliner: "Architects",
     supportActs: ["Erra", "Holy Water"],
     date: new Date("2025/08/08"),
@@ -103,6 +51,20 @@ const events = [
     bandInfo: "https://www.architectsofficial.com/",
     image:
       "https://external-preview.redd.it/architects-to-headline-summer-north-american-tour-with-erra-v0-8mbBburVVWbaPh_KGOHAoeM3qiS9UGsWA2nouTGS7mM.jpg?width=640&crop=smart&auto=webp&s=a5f29f191d9e8a984013cb3bd0a6d5e05c787843",
+  },
+    {
+    headliner: "10cc",
+    supportActs: [false, "The Ultimate Ultimate Greatest Hits Tour"],
+    date: new Date("2025/09/02"),
+    time: "7:30pm",
+    venue: PARAMOUNT_THEATER_VENUE,
+    city: PARAMOUNT_THEATER_CITY,
+    state: "Co",
+    ticketURL:
+      "https://www.ticketmaster.com/10cc-the-ultimate-ultimate-greatest-hits-denver-colorado-09-02-2025/event/1E00628BE1704F61",
+    bandInfo: "https://www.10cc.world/",
+    image:
+      "https://lirp.cdn-website.com/91e364a2/dms3rep/multi/opt/10cc+Live+1+-+%283-guitar+frontline%29+Rick-+Graham-+Andy+DSC02075-1920w.jpg",
   },
   {
     headliner: "Steven Wilson",
@@ -145,6 +107,36 @@ const events = [
     bandInfo: "https://www.themandrakeproject.com/",
     image:
       "https://s1.ticketm.net/dam/a/1a2/5674cc33-6181-4c84-8949-f349a43331a2_RETINA_PORTRAIT_3_2.jpg",
+  },
+    {
+    headliner: "Between the Buried and Me",
+    supportActs: [
+      "Hail the Sun", "Delta Sleep",
+    ],
+    date: new Date("2025/10/24"),
+    time: "7:00pm",
+    venue: SUMMIT_VENUE,
+    city: SUMMIT_CITY,
+    state: "Co",
+    ticketURL: "https://www.ticketmaster.com/between-the-buried-and-me-hail-denver-colorado-10-24-2025/event/1E0062D4EA025E3E?_gl=1*1eiqz79*_gcl_au*NDcwNzA0NzM4LjE3NDY0MTc4ODg.*_ga*MTg3NzkzNjk0Mi4xNzQ2NDE3ODg4*_ga_C1T806G4DF*czE3NTI4ODM0MzYkbzMkZzEkdDE3NTI4ODM0MzckajU5JGwwJGgw*_ga_H1KKSGW33X*czE3NTI4ODM0MzYkbzMkZzEkdDE3NTI4ODM0MzckajU5JGwwJGgw",
+    bandInfo: "https://www.betweentheburiedandme.com/",
+    image:
+      "https://www.summitdenver.com/_next/image?url=https%3A%2F%2Fs1.ticketm.net%2Fdam%2Fa%2F7dc%2F014860f4-da0d-4e5b-bc86-2a2cde0f57dc_RETINA_PORTRAIT_16_9.jpg&w=768&q=70",
+  },
+    {
+    headliner: "Queensryche",
+    supportActs: [
+      "Accept",
+    ],
+    date: new Date("2025/11/07"),
+    time: "6:00pm",
+    venue: SUMMIT_VENUE,
+    city: SUMMIT_CITY,
+    state: "Co",
+    ticketURL: "https://www.ticketmaster.com/queensryche-volume-and-vengance-tour-denver-colorado-11-07-2025/event/1E0062D43E846F80?_gl=1*id5qsg*_gcl_au*NDcwNzA0NzM4LjE3NDY0MTc4ODg.*_ga*MTg3NzkzNjk0Mi4xNzQ2NDE3ODg4*_ga_C1T806G4DF*czE3NTI4ODM0MzYkbzMkZzEkdDE3NTI4ODQyNzkkajQ3JGwwJGgw*_ga_H1KKSGW33X*czE3NTI4ODM0MzYkbzMkZzEkdDE3NTI4ODQyNzkkajQ3JGwwJGgw",
+    bandInfo: "http://www.queensrycheofficial.com/",
+    image:
+      "https://themusicuniverse.com/wp-content/uploads/2025/07/queensryche.jpg",
   },
   {
     headliner: "Steve Hackett",
