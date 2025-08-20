@@ -50,7 +50,20 @@ meetings = [
     host: KENTS_HOST_NAME,
     hostEmail: KENTS_EMAIL,
     additionalInfo: [],
-  }
+  },
+  {
+    date: new Date("2025/08/23"),
+    time: MEETING_TIME_5PM,
+    host: KENTS_HOST_NAME,
+    hostEmail: KENTS_EMAIL,
+    additionalInfo: [
+      "IMPORTANT: Please RSVP to Kent at kent.adamson@comcast.net by Thursday, August 21, so we know how much food to order.",
+      "Please note the earlier start time.",
+      "Using the proceeds from our annual Progfest, food from GQue Barbecue, including ribs, chicken, brisket, coleslaw, beans, buns & sauces, will be provided.",
+      "Please bring your own beverages, and if you'd like, feel free to bring a dessert (or side dish) to share!",
+      "Hope to see you there!",
+    ],
+  },
 ];
 
 function returnUpcomingMeeting() {
