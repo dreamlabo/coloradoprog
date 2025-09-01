@@ -40,6 +40,11 @@
     <script src="./scripts/latestNewsData.js" defer></script>
     <script src="./scripts/latestNewsHomePageScripts.js" defer></script>
     <script
+      type="module"
+      src="./scripts/AlbumReleases/albumReleases.js"
+      defer
+    ></script>
+    <script
       src="./scripts/utilities/mailingListFormValidation.js"
       defer
     ></script>
@@ -213,7 +218,7 @@
         </section>
       </div>
       <div class="main-page-wrapper ur-section-background-color">
-        <section class="section-wrapper-two">
+        <!-- <section class="section-wrapper-two">
           <div class="section-container">
             <h3 class="section-title">UPCOMING RELEASES</h3>
             <div class="upcoming-releases-monthly-wrapper">
@@ -387,7 +392,7 @@
                   <div class="ur-image-container">
                     <img
                       class="ur-image"
-                      src="https://www.progarchives.com/progressive_rock_discography_covers/11230/cover_3859732025_r.jpg"
+                      src="https://progreport.com/wp-content/uploads/2025/03/Altesia-The-Somnambulist-front-cover-1000x1000.jpg"
                       alt=""
                     />
                   </div>
@@ -419,7 +424,7 @@
             <div class="upcoming-releases-monthly-wrapper">
               <h4 class="ur-month-text">August</h4>
               <div class="upcoming-releases-monthly-container">
-                                <article class="ur-ind-container">
+                <article class="ur-ind-container">
                   <div class="ur-image-container">
                     <img
                       class="ur-image"
@@ -543,14 +548,14 @@
                     <div class="ur-artist-link-container">
                       <a
                         class="ur-artist-link"
-                        href="https://www.bigbigtrain.com/"
+                        href="https://www.bigbigtrain.com"
                         target="_blank"
                         >bigbigtrain.com</a
                       >
                     </div>
                   </div>
                 </article>
-                     <article class="ur-ind-container">
+                <article class="ur-ind-container">
                   <div class="ur-image-container">
                     <img
                       class="ur-image"
@@ -581,11 +586,18 @@
                     </div>
                   </div>
                 </article>
-             
               </div>
             </div>
           </div>
-        </section>
+        </section> -->
+        <div class="main-page-wrapper ur-section-background-color">
+          <section class="section-wrapper-two">
+            <div class="section-container">
+              <h3 class="section-title">UPCOMING RELEASES</h3>
+              <div id="upcoming-releases-monthly-wrapper"></div>
+            </div>
+          </section>
+        </div>
       </div>
       <div id="mailingListSection" class="main-page-wrapper bg-clr-black">
         <section class="mailing-list-section">
@@ -753,6 +765,45 @@
           ></iframe>
         </div>
       </article>
+    </template>
+
+    <!-- Upcoming releases individual album container -->
+    <template id="template__album_release__individual-album">
+      <article class="ur-ind-container">
+        <div class="ur-image-container">
+          <img class="ur-image" src="" alt="" />
+        </div>
+        <div class="ur-text-container">
+          <div>
+            <h5 class="ur-ind-header-text">Artist</h5>
+            <p id="ur_album-artist" class="ur-ind-text"></p>
+          </div>
+          <div>
+            <h5 class="ur-ind-header-text">Album</h5>
+            <p id="ur_album-name" class="ur-ind-text"></p>
+          </div>
+          <div>
+            <h5 class="ur-ind-header-text">Release Date</h5>
+            <time id="ur_album-release-date" class="ur-ind-text"></time>
+          </div>
+          <div class="ur-artist-link-container">
+            <a
+              id="ur_band_website"
+              class="ur-artist-link"
+              href="https://beat-tour.com/"
+              target="_blank"
+            ></a>
+          </div>
+        </div>
+      </article>
+    </template>
+
+    <!-- Upcoming releases monthly container -->
+    <template id="template__ur-monthly-wrapper">
+      <div class="upcoming-releases-monthly-wrapper">
+        <h4 class="ur-month-text">September</h4>
+        <div class="upcoming-releases-monthly-container"></div>
+      </div>
     </template>
   </body>
 </html>

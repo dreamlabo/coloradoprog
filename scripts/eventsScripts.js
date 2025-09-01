@@ -52,7 +52,7 @@ const events = [
     image:
       "https://external-preview.redd.it/architects-to-headline-summer-north-american-tour-with-erra-v0-8mbBburVVWbaPh_KGOHAoeM3qiS9UGsWA2nouTGS7mM.jpg?width=640&crop=smart&auto=webp&s=a5f29f191d9e8a984013cb3bd0a6d5e05c787843",
   },
-    {
+  {
     headliner: "10cc",
     supportActs: [false, "The Ultimate Ultimate Greatest Hits Tour"],
     date: new Date("2025/09/02"),
@@ -88,8 +88,7 @@ const events = [
     venue: PIKES_PEAK_CENTER_VENUE,
     city: PIKES_PEAK_CENTER_CITY,
     state: "Co",
-    ticketURL:
-      "https://www.pikespeakcenter.com/events/detail/dreamtheater",
+    ticketURL: "https://www.pikespeakcenter.com/events/detail/dreamtheater",
     bandInfo: "https://dreamtheater.net/",
     image:
       "https://images.discovery-prod.axs.com/2025/05/dream-theater-tickets_09-29-25_17_682bb8bc0bfcc.jpg",
@@ -108,32 +107,44 @@ const events = [
     image:
       "https://s1.ticketm.net/dam/a/1a2/5674cc33-6181-4c84-8949-f349a43331a2_RETINA_PORTRAIT_3_2.jpg",
   },
-    {
+  {
     headliner: "Between the Buried and Me",
-    supportActs: [
-      "Hail the Sun", "Delta Sleep",
-    ],
+    supportActs: ["Hail the Sun", "Delta Sleep"],
     date: new Date("2025/10/24"),
     time: "7:00pm",
     venue: SUMMIT_VENUE,
     city: SUMMIT_CITY,
     state: "Co",
-    ticketURL: "https://www.ticketmaster.com/between-the-buried-and-me-hail-denver-colorado-10-24-2025/event/1E0062D4EA025E3E?_gl=1*1eiqz79*_gcl_au*NDcwNzA0NzM4LjE3NDY0MTc4ODg.*_ga*MTg3NzkzNjk0Mi4xNzQ2NDE3ODg4*_ga_C1T806G4DF*czE3NTI4ODM0MzYkbzMkZzEkdDE3NTI4ODM0MzckajU5JGwwJGgw*_ga_H1KKSGW33X*czE3NTI4ODM0MzYkbzMkZzEkdDE3NTI4ODM0MzckajU5JGwwJGgw",
+    ticketURL:
+      "https://www.ticketmaster.com/between-the-buried-and-me-hail-denver-colorado-10-24-2025/event/1E0062D4EA025E3E?_gl=1*1eiqz79*_gcl_au*NDcwNzA0NzM4LjE3NDY0MTc4ODg.*_ga*MTg3NzkzNjk0Mi4xNzQ2NDE3ODg4*_ga_C1T806G4DF*czE3NTI4ODM0MzYkbzMkZzEkdDE3NTI4ODM0MzckajU5JGwwJGgw*_ga_H1KKSGW33X*czE3NTI4ODM0MzYkbzMkZzEkdDE3NTI4ODM0MzckajU5JGwwJGgw",
     bandInfo: "https://www.betweentheburiedandme.com/",
     image:
       "https://www.summitdenver.com/_next/image?url=https%3A%2F%2Fs1.ticketm.net%2Fdam%2Fa%2F7dc%2F014860f4-da0d-4e5b-bc86-2a2cde0f57dc_RETINA_PORTRAIT_16_9.jpg&w=768&q=70",
   },
     {
+    headliner: "Ne Obliviscaris",
+    supportActs: ["Rivers of Nihil", "Psycroptic"],
+    date: new Date("2025/11/05"),
+    time: "7:00pm",
+    venue: GOTHIC_THEATER,
+    city: GOTHIC_THEATER_CITY,
+    state: "Co",
+    ticketURL:
+      "https://www.gothictheatre.com/events/detail/?event_id=1110853",
+    bandInfo: "https://neobliviscaris.com.au/",
+    image:
+      "https://images.discovery-prod.axs.com/2025/08/ne-obliviscaris-tickets_11-05-25_17_68ac8ce3f34d2.jpg",
+  },
+  {
     headliner: "Queensryche",
-    supportActs: [
-      "Accept",
-    ],
+    supportActs: ["Accept"],
     date: new Date("2025/11/07"),
     time: "6:00pm",
     venue: SUMMIT_VENUE,
     city: SUMMIT_CITY,
     state: "Co",
-    ticketURL: "https://www.ticketmaster.com/queensryche-volume-and-vengance-tour-denver-colorado-11-07-2025/event/1E0062D43E846F80?_gl=1*id5qsg*_gcl_au*NDcwNzA0NzM4LjE3NDY0MTc4ODg.*_ga*MTg3NzkzNjk0Mi4xNzQ2NDE3ODg4*_ga_C1T806G4DF*czE3NTI4ODM0MzYkbzMkZzEkdDE3NTI4ODQyNzkkajQ3JGwwJGgw*_ga_H1KKSGW33X*czE3NTI4ODM0MzYkbzMkZzEkdDE3NTI4ODQyNzkkajQ3JGwwJGgw",
+    ticketURL:
+      "https://www.ticketmaster.com/queensryche-volume-and-vengance-tour-denver-colorado-11-07-2025/event/1E0062D43E846F80?_gl=1*id5qsg*_gcl_au*NDcwNzA0NzM4LjE3NDY0MTc4ODg.*_ga*MTg3NzkzNjk0Mi4xNzQ2NDE3ODg4*_ga_C1T806G4DF*czE3NTI4ODM0MzYkbzMkZzEkdDE3NTI4ODQyNzkkajQ3JGwwJGgw*_ga_H1KKSGW33X*czE3NTI4ODM0MzYkbzMkZzEkdDE3NTI4ODQyNzkkajQ3JGwwJGgw",
     bandInfo: "http://www.queensrycheofficial.com/",
     image:
       "https://themusicuniverse.com/wp-content/uploads/2025/07/queensryche.jpg",
@@ -153,6 +164,32 @@ const events = [
     bandInfo: "https://www.hackettsongs.com/",
     image:
       "https://images.discovery-prod.axs.com/2025/03/uploadedimage_67cee97c516a6.jpg",
+  },
+  {
+    headliner: "Yes",
+    supportActs: [false, "The Fragile 2025 Tour"],
+    date: new Date("2025/11/09"),
+    time: "7:00pm",
+    venue: PARAMOUNT_THEATER_VENUE,
+    city: PARAMOUNT_THEATER_CITY,
+    state: "Co",
+    ticketURL:
+      "https://www.ticketmaster.com/yes-the-fragile-2025-tour-denver-colorado-11-09-2025/event/1E0062C5F5B85458?camefrom=CFC_KSE_wZMc5Iv2w0ud2gDh5lfwTA&utm_source=wZMc5Iv2w0ud2gDh5lfwTA&utm_medium=wZMc5Iv2w0ud2gDh5lfwTA&utm_campaign=wZMc5Iv2w0ud2gDh5lfwTA",
+    bandInfo: "https://www.yesworld.com/",
+    image: "https://appellcenter.org/wp-content/uploads/YESPREVIEW2.jpg",
+  },
+  {
+    headliner: "Geoff Tate",
+    supportActs: [false, "Operation: Mindcrime - The Final Chapter"],
+    date: new Date("2026/02/21"),
+    time: "7:00pm",
+    venue: OGDEN_THEATER_VENUE,
+    city: OGDEN_THEATER_CITY,
+    state: "Co",
+    ticketURL:
+      "https://www.axs.com/events/1022163/geoff-tate-s-operation-mindcrime-the-final-chapter-tickets",
+    bandInfo: "https://www.geofftate.com/",
+    image: "https://images.discovery-prod.axs.com/2025/06/geoff-tate-s-operation-mindcrime-the-final-chapter-tickets_02-21-26_17_6851965bf18f6.jpg",
   },
 ];
 
