@@ -2,15 +2,6 @@ export const albumReleases = [
   {
     month: "2025-05-15",
     albums: [
-      //   {
-      //     releaseDate: "",
-      //     artist: "",
-      //     album: "",
-      //     bandLink: "",
-      //     bandLinkText: "",
-      //     imageLink: "",
-      //     imageAltText: "",
-      //   },
       {
         releaseDate: "2025-05-02",
         artist: "The Flower Kings",
@@ -30,7 +21,7 @@ export const albumReleases = [
           "https://hakenmusic.com/wp-content/uploads/2025/02/Haken_Liveforms_AnEveningWithHaken.jpg",
         imageAltText: "",
       },
-            {
+      {
         releaseDate: "2025-05-09",
         artist: "Sleep Token",
         album: "Even In Arcadia",
@@ -42,7 +33,7 @@ export const albumReleases = [
       },
     ],
   },
-    {
+  {
     month: "2025-06-15",
     albums: [
       {
@@ -51,7 +42,8 @@ export const albumReleases = [
         album: "Nightmares As Extensions of the Waking State",
         bandLink: "https://www.katatonia.com/",
         bandLinkText: "katatonia.com",
-        imageLink: "https://katatonia.com/content/themes/NAEOTWS/images/layout/album-cover-1080x1080.jpg",
+        imageLink:
+          "https://katatonia.com/content/themes/NAEOTWS/images/layout/album-cover-1080x1080.jpg",
         imageAltText: "",
       },
       {
@@ -64,7 +56,7 @@ export const albumReleases = [
           "./images/upcomingReleasesAlbumCovers/phase-transition-album-art.png",
         imageAltText: "",
       },
-            {
+      {
         releaseDate: "2025-06-13",
         artist: "Altesia",
         album: "The Somnambulist",
@@ -134,25 +126,30 @@ export const albumReleases = [
       },
     ],
   },
+  {
+    month: "2025-10-15",
+    albums: [
+      {
+        releaseDate: "2025-10-31",
+        artist: "Gazpacho",
+        album: "Magic 8-Ball",
+        bandLink: "https://gazpachoworld.com/",
+        bandLinkText: "gazpachoworld.com/",
+        imageLink:
+          "https://gazpachoworld.com/store/wp-content/uploads/2025/08/Magic8-BallCover-scaled.jpg",
+        imageAltText: "",
+      },
+
+    ],
+  },
 ];
 
-// Month
-// list of albums being released
-
-// Month
-// list of albums being released
-
-// loop through each month
-
-// get only the months/years that are equal or greater than the current year and put into the current array
-// sort that array based on the current month year and place in the
-//( hmm, could we make this more extensable so I on;ly need to put the new album at the end)
-
-// {
-//            releaseDate: '',
-// artist: '',
-// album: '',
-// bandLink: '',
-// imageLink: '',
-// imageAltText: ''
-// } ,
+//   {
+//     releaseDate: "",
+//     artist: "",
+//     album: "",
+//     bandLink: "",
+//     bandLinkText: "",
+//     imageLink: "",
+//     imageAltText: "",
+//   },

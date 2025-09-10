@@ -1,8 +1,6 @@
 import { albumReleases } from "../../data/AlbumReleasesData.js";
 
-// console.log(albumReleases);
-
-// get the container it is going to live in
+// get the container it is going to render in
 const upcomingReleasesMonthlyContainer = document.getElementById(
   "upcoming-releases-monthly-wrapper"
 );
@@ -11,6 +9,7 @@ const upcomingReleasesMonthlyContainer = document.getElementById(
 const upcomingReleasesMonthlyContainerTemplate = document.getElementById(
   "template__ur-monthly-wrapper"
 );
+
 const upcomingReleasesAlbumContainerTemplate = document.getElementById(
   "template__album_release__individual-album"
 );
@@ -30,7 +29,6 @@ const getFormattedDate = (dateString) => {
 };
 
 albumReleases.map((month) => {
-  console.log(month.albums);
   const monthlyContainer =
     upcomingReleasesMonthlyContainerTemplate.content.cloneNode(true);
 
@@ -42,10 +40,9 @@ albumReleases.map((month) => {
     ".upcoming-releases-monthly-container"
   );
 
-
   upcomingReleasesMonthlyContainer.append(monthlyContainer);
   month.albums.map((album) => {
-    console.log(album);
+
     const albumContainer =
       upcomingReleasesAlbumContainerTemplate.content.cloneNode(true);
     albumContainer.getElementById("ur_album-artist").innerText = album.artist;
@@ -56,10 +53,14 @@ albumReleases.map((month) => {
     albumContainer.querySelector(
       ".ur-image"
     ).alt = `${album.album} by ${album.artist} album cover`;
-    
-    albumContainer.querySelector(".ur-artist-link").href = album.bandLink
-    albumContainer.querySelector(".ur-artist-link").innerText = album.bandLinkText
+
+    albumContainer.querySelector(".ur-artist-link").href = album.bandLink;
+    albumContainer.querySelector(".ur-artist-link").innerText =
+      album.bandLinkText;
     albumsContainer.append(albumContainer);
+    if(month.albums.length === 1){
+        const div = document.createElement("div");
+         albumsContainer.append(div);
+    }
   });
 });
-
