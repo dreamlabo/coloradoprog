@@ -8,9 +8,9 @@ export const albumReleases = [
         artist: "The Flower Kings",
         album: "LOVE",
         bandLink: "https://www.roinestolt.com/",
-        bandLinkText: "",
+        bandLinkText: "roinestolt.com",
         imageLink: "https://f4.bcbits.com/img/a0959303941_16.jpg",
-        imageAltText: "roinestolt.com",
+        imageAltText: "",
       },
       {
         releaseDate: "2025-05-09",
@@ -140,7 +140,6 @@ export const albumReleases = [
           "https://gazpachoworld.com/store/wp-content/uploads/2025/08/Magic8-BallCover-scaled.jpg",
         imageAltText: "",
       },
-
     ],
   },
 ];
@@ -154,7 +153,6 @@ export const albumReleases = [
 //     imageLink: "",
 //     imageAltText: "",
 //   },
-
 
 // get the container it is going to render in
 const upcomingReleasesMonthlyContainer = document.getElementById(
@@ -198,7 +196,6 @@ albumReleases.map((month) => {
 
   upcomingReleasesMonthlyContainer.append(monthlyContainer);
   month.albums.map((album) => {
-
     const albumContainer =
       upcomingReleasesAlbumContainerTemplate.content.cloneNode(true);
     albumContainer.getElementById("ur_album-artist").innerText = album.artist;
@@ -214,9 +211,9 @@ albumReleases.map((month) => {
     albumContainer.querySelector(".ur-artist-link").innerText =
       album.bandLinkText;
     albumsContainer.append(albumContainer);
-    if(month.albums.length === 1){
-        const div = document.createElement("div");
-         albumsContainer.append(div);
+    if (month.albums.length === 1) {
+      const div = document.createElement("div");
+      albumsContainer.append(div);
     }
   });
 });
