@@ -130,14 +130,65 @@ export const albumReleases = [
   {
     month: "2025-10-15",
     albums: [
+            {
+        releaseDate: "2025-10-04",
+        artist: "Time's Forgotten",
+        album: "Songs Of Awakening",
+        bandLink: "https://timesforgotten.bandcamp.com/album/songs-of-awakening/",
+        bandLinkText: "timesforgotten.com",
+        imageLink:
+          "https://f4.bcbits.com/img/a0453944846_16.jpg",
+        imageAltText: "",
+      },
+      {
+        releaseDate: "2025-10-24",
+        artist: "Leprous",
+        album: "An Evening Of Atonement",
+        bandLink: "https://leprous.net/",
+        bandLinkText: "leprous.net",
+        imageLink:
+          "https://burningshed.com/image/cache/data/Leprous/leprous_an-evening-of-atonement_2cd_blu-ray-300x300.jpeg",
+        imageAltText: "",
+      },
       {
         releaseDate: "2025-10-31",
         artist: "Gazpacho",
         album: "Magic 8-Ball",
         bandLink: "https://gazpachoworld.com/",
-        bandLinkText: "gazpachoworld.com/",
+        bandLinkText: "gazpachoworld.com",
         imageLink:
           "https://gazpachoworld.com/store/wp-content/uploads/2025/08/Magic8-BallCover-scaled.jpg",
+        imageAltText: "",
+      },
+    ],
+  },
+  {
+    month: "2025-11-15",
+    albums: [
+      {
+        releaseDate: "2025-11-21",
+        artist: "Spock's Beard",
+        album: "Magic 8-Ball",
+        bandLink: "https://www.spocksbeard.com/",
+        bandLinkText: "spocksbeard.com",
+        imageLink:
+          "https://www.spocksbeard.com/cdn-cgi/image/format=auto,onerror=redirect/images/albums/archaeoptimist.jpg",
+        imageAltText: "",
+      },
+    ],
+  },
+
+  {
+    month: "2026-01-15",
+    albums: [
+      {
+        releaseDate: "2026-01-16",
+        artist: "Soen",
+        album: "Reliance",
+        bandLink: "https://soenmusic.com/",
+        bandLinkText: "soenmusic.com",
+        imageLink:
+          "https://progreport.com/wp-content/uploads/2025/09/soen-reliance.jpeg",
         imageAltText: "",
       },
     ],

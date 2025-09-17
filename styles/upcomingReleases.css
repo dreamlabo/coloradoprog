@@ -55,14 +55,14 @@
 
 .ur-ind-header-text {
     color: var(--clr-text-300);
-    font-size: 0.75rem;
+    font-size: 0.825rem;
     font-weight: 500;
     text-transform: uppercase;
 }
 
 .ur-ind-text {
     color: var(--clr-white);
-    font-size: 1rem;
+    font-size: 1.1rem;
 }
 
 .ur-artist-link-container {
@@ -73,6 +73,7 @@
     position: relative;
     color: var(--clr-text-100);
     transition: color 0.2s ease-in-out;
+    font-size: 1.1rem;
 }
 
 .ur-artist-link::after {
