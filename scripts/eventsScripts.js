@@ -80,6 +80,19 @@ const events = [
     image:
       "https://s1.ticketm.net/dam/a/716/30cf2527-54b4-4e0f-9877-492db09c6716_RETINA_PORTRAIT_3_2.jpg",
   },
+    {
+    headliner: "Crazy Diamonds",
+    supportActs: ["Stuck in Traffic"],
+    date: new Date("2025/09/26"),
+    time: "7:30pm",
+    venue: NISSIS_VENUE,
+    city: NISSIS_CITY,
+    state: "Co",
+    ticketURL: "https://nissis.com/events/crazydiamonds/",
+    bandInfo: "https://www.facebook.com/profile.php?id=61576798750471",
+    image:
+      "https://nissis.com/wp-content/uploads/2025/06/Crazy-Diamonds-Sept-2025-3-1536x864.png",
+  },
   {
     headliner: "Dream Theater",
     supportActs: [false, "Parasomnia Tour 2025"],
@@ -177,6 +190,19 @@ const events = [
       "https://www.ticketmaster.com/yes-the-fragile-2025-tour-denver-colorado-11-09-2025/event/1E0062C5F5B85458?camefrom=CFC_KSE_wZMc5Iv2w0ud2gDh5lfwTA&utm_source=wZMc5Iv2w0ud2gDh5lfwTA&utm_medium=wZMc5Iv2w0ud2gDh5lfwTA&utm_campaign=wZMc5Iv2w0ud2gDh5lfwTA",
     bandInfo: "https://www.yesworld.com/",
     image: "https://appellcenter.org/wp-content/uploads/YESPREVIEW2.jpg",
+  },
+    {
+    headliner: "The Mars Volta",
+    supportActs: [],
+    date: new Date("2025/11/18"),
+    time: "7:00pm",
+    venue: MISSION_BALLROOM_VENUE,
+    city: MISSION_BALLROOM_CITY,
+    state: "Co",
+    ticketURL:
+      "https://www.axs.com/events/922226/the-mars-volta-tickets",
+    bandInfo: "https://www.themarsvoltaofficial.com/",
+    image: "https://images.discovery-prod.axs.com/2025/04/the-mars-volta-tickets_11-18-25_17_67f84a0f7a0a9.jpg",
   },
   {
     headliner: "Geoff Tate",
