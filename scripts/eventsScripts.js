@@ -83,7 +83,7 @@ const events = [
   {
     headliner: "Dream Theater",
     supportActs: [false, "Parasomnia Tour 2025"],
-    date: new Date("2025/09/30"),
+    date: new Date("2025/09/29"),
     time: "7:00pm",
     venue: PIKES_PEAK_CENTER_VENUE,
     city: PIKES_PEAK_CENTER_CITY,

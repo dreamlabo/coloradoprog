@@ -1,44 +1,94 @@
 const currentPlaylistData = [
   {
-    song: "Puzzle Box",
-    artist: "Haken",
+    song: "Thela Hun Ginjeet",
+    artist: "BEAT",
     about: [
-      "<span class='italic'>Puzzle Box</span>, originally released on <span class='italic'>Haken's</span> 2018 album <span class='italic'>Vector</span>, appears here as part of their latest live release, <span class='italic'>Liveforms: An Evening with Haken.</span>",
-      "The song references <span class='italic'>Plato's Allegory of the Cave</span>, while exploring themes of self-discovery, memory, and mental breakdown.",
+      "This version of <span class='italic'>Thela Hun Ginjeet</span> comes from <span class='italic'>BEAT</span>'s upcoming live album <span class='italic'>BEAT LIVE</span>, recorded at the <span class='italic'>United Theater on Broadway</span> in Los Angeles. Former King Crimson members Adrian Belew and Tony Levin joined forces with guitar virtuoso Steve Vai and Tool drummer Danny Carey to reinterpret classic King Crimson material from the iconic 80s albums <span class='italic'>Discipline, Beat</span>, and <span class='italic'>Three of a Perfect Pair</span>.",
     ],
-    youtube: "https://www.youtube.com/embed/pCznO-Venyo?si=AoTLKX3nZVDA_ZVx",
-    artistSite: "https://hakenmusic.com/",
+
+    youtube: "https://www.youtube.com/embed/YkAEm3pGGN4?si=33aJD7Z_raq8wSbx",
+    artistSite: "https://beat-tour.com/",
   },
   {
-    song: "Catalyst",
-    artist: "Lux Terminus",
+    song: "Things We Tell Ourselves In The Dark",
+    artist: "Between the Buried and Me",
     about: [
-      "<span class='italic'>Catalyst</span> is a track from Cleveland-based prog trio <span class='italic'>Lux Terminus'</span> album <span class='italic'>Cinder</span>, which dives into the emotional battlefield of mental health. Featuring guest vocalists <span class='italic'>Ross Jennings</span> and <span class='italic'>Jon Pyres</span> as the protagonist's opposing inner voices, the song captures the struggle between light and darkness—the fight to hold onto hope in the bleakest moments. Musically, it's a journey through metal, jazz, and cinematic textures, anchored by the band's signature piano-driven sound.",
+      "<span class='italic'>Things We Tell Ourselves in the Dark</span> comes from Between the Buried and Me's new album <span class='italic'>The Blue Nowhere</span>. Unlike their past concept albums, this record takes a more introspective turn, with vocalist Tommy Rogers describing the lyrics as \"journal entries, fleeting thoughts - chaotic at times.\" Known for their mix of technical prog-metal, avant-garde experimentation, and genre shifts, the band delivers a track that's both intricate and direct.",
     ],
-    youtube: "https://www.youtube.com/embed/JGwzyOUqNzQ?si=f-m9Zdb2mm6D3j08",
-    artistSite: "https://luxterminus.bandcamp.com/",
+    youtube: "https://www.youtube.com/embed/6FdXmAPM8u4?si=5IWIXFGEPns1doGc",
+    artistSite: "https://www.betweentheburiedandme.com/",
   },
   {
-    song: "Deep Water Suite: Launch Out",
-    artist: "Cosmic Cathedral",
+    song: "Bend the Clock",
+    artist: "Dream Theater",
     about: [
-      "<span class='italic'>Deep Water Suite: Launch Out</span>, from the powerhouse prog group <span class='italic'>Cosmic Cathedral</span>, featuring drumming legend <span class='italic'>Chester Thompson (Genesis, Frank Zappa)</span>, guitar virtuoso <span class='italic'>Phil Keaggy (Glass Harp)</span>, acclaimed bassist <span class='italic'>Byron House (Robert Plant, Alison Krauss)</span>, and prog mainstay <span class='italic'> Neal Morse</span>.",
+      "<span class='italic'>Bend the Clock</span> comes from Dream Theater's 2025 album <span class='italic'>Parasomnia</span>. Opening with softly overdriven guitar and subdued vocals, the track conveys a vulnerability alongside the heavier moments. Petrucci's opening guitar parts reveal subtle Hendrix-like touches, while his final solo channels a hint of David Gilmour in his own signature style. Nostalgic yet mature, the song balances simplicity and emotional depth, making it one of the album's most memorable moments.",
     ],
-    youtube: "https://www.youtube.com/embed/ehkwCgOTS0I?si=ZixFV4yIh8sV2JGU",
-    artistSite: "https://nealmorse.com/product/cosmic-cathedral-deep-water/",
+    youtube: "https://www.youtube.com/embed/JuZ2zp-6lLY?si=Ou105ap23KJd3c5v",
+    artistSite: "https://dreamtheater.net/",
   },
   {
-    song: "Her Ghost In Limbo",
-    artist: "Altesia",
+    song: "Black With Ink",
+    artist: "Big Big Train",
     about: [
-      "<span class='italic'>Her Ghost on Limbo</span> is taken from <span class='italic'>The Somnambulist</span>, the upcoming album by French based progressive metal band <span class='italic'>Altesia</span>. Founded by Clément Darrieu and influenced by acts like Opeth, Haken, and Leprous, <span class='italic'>Altesia</span> has grown into a fully collaborative unit. <span class='italic'>Every note, every interpretation, every silence has been thought out and discussed</span>, says Darrieu, calling <span class='italic'>The Somnambulist</span> their <span class='italic'>most accomplished, collective, and diverse work to date.</span>",
+      "<span class='italic'>Black With Ink</span> was originally released on Big Big Trains 2021 album <span class='italic'>Common Ground</span>, but this version comes from their 2025 live album <span class='italic'>Are We Nearly There Yet?</span>. Recorded in London in October 2024, the track showcases the band's dynamic live energy, with vocals shared among Rikard Sjöblom, Nick D'Virgilio, Clare Lindley, and Oskar Holldorff. Guitarist/keyboardist Rikard Sjöblom says, \"I always thought it could be a kick-ass tune live and that's exactly how it turned out.\"",
     ],
-    youtube: "https://www.youtube.com/embed/xGDqcsftG-M?si=wBYmDDnFV6p85_w0",
-    artistSite: "https://altesiamusic.com/",
+    youtube: "https://www.youtube.com/embed/wHXUBNpT80A?si=vxQClLMq7wlx-n3c",
+    artistSite: "https://www.bigbigtrain.com/",
   },
 ];
 
 const playlistPageData = [
+  {
+    date: new Date("2025-09-15"),
+    description: "",
+    spotifyPlaylist:
+      "https://open.spotify.com/embed/playlist/0AuglytL7juRSC2lgmbC4p?utm_source=generator&theme=0",
+    spotifyHeight: "850px",
+    songs: [
+      {
+        song: "Thela Hun Ginjeet",
+        artist: "BEAT",
+        about: [
+          "This version of <span class='italic'>Thela Hun Ginjeet</span> comes from <span class='italic'>BEAT</span>'s upcoming live album <span class='italic'>BEAT LIVE</span>, recorded at the <span class='italic'>United Theater on Broadway</span> in Los Angeles. Former King Crimson members Adrian Belew and Tony Levin joined forces with guitar virtuoso Steve Vai and Tool drummer Danny Carey to reinterpret classic King Crimson material from the iconic 80s albums <span class='italic'>Discipline, Beat</span>, and <span class='italic'>Three of a Perfect Pair</span>.",
+        ],
+
+        youtube:
+          "https://www.youtube.com/embed/YkAEm3pGGN4?si=33aJD7Z_raq8wSbx",
+        artistSite: "https://beat-tour.com/",
+      },
+      {
+        song: "Things We Tell Ourselves In The Dark",
+        artist: "Between the Buried and Me",
+        about: [
+          "<span class='italic'>Things We Tell Ourselves in the Dark</span> comes from Between the Buried and Me's new album <span class='italic'>The Blue Nowhere</span>. Unlike their past concept albums, this record takes a more introspective turn, with vocalist Tommy Rogers describing the lyrics as \"journal entries, fleeting thoughts - chaotic at times.\" Known for their mix of technical prog-metal, avant-garde experimentation, and genre shifts, the band delivers a track that's both intricate and direct.",
+        ],
+        youtube:
+          "https://www.youtube.com/embed/6FdXmAPM8u4?si=5IWIXFGEPns1doGc",
+        artistSite: "https://www.betweentheburiedandme.com/",
+      },
+      {
+        song: "Bend the Clock",
+        artist: "Dream Theater",
+        about: [
+          "<span class='italic'>Bend the Clock</span> comes from Dream Theater's 2025 album <span class='italic'>Parasomnia</span>. Opening with softly overdriven guitar and subdued vocals, the track conveys a vulnerability alongside the heavier moments. Petrucci's opening guitar parts reveal subtle Hendrix-like touches, while his final solo channels a hint of David Gilmour in his own signature style. Nostalgic yet mature, the song balances simplicity and emotional depth, making it one of the album's most memorable moments.",
+        ],
+        youtube:
+          "https://www.youtube.com/embed/JuZ2zp-6lLY?si=Ou105ap23KJd3c5v",
+        artistSite: "https://dreamtheater.net/",
+      },
+      {
+        song: "Black With Ink",
+        artist: "Big Big Train",
+        about: [
+          "<span class='italic'>Black With Ink</span> was originally released on Big Big Trains 2021 album <span class='italic'>Common Ground</span>, but this version comes from their 2025 live album <span class='italic'>Are We Nearly There Yet?</span>. Recorded in London in October 2024, the track showcases the band's dynamic live energy, with vocals shared among Rikard Sjöblom, Nick D'Virgilio, Clare Lindley, and Oskar Holldorff. Guitarist/keyboardist Rikard Sjöblom says, \"I always thought it could be a kick-ass tune live and that's exactly how it turned out.\"",
+        ],
+        youtube:
+          "https://www.youtube.com/embed/wHXUBNpT80A?si=vxQClLMq7wlx-n3c",
+        artistSite: "https://www.bigbigtrain.com/",
+      },
+    ],
+  },
   {
     date: new Date("2025-04-15"),
     description: "",
