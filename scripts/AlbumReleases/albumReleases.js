@@ -106,16 +106,6 @@ export const albumReleases = [
         imageAltText: "",
       },
       {
-        releaseDate: "2025-09-19",
-        artist: "Big Big Train",
-        album: "Are We Nearly There Yet?",
-        bandLink: "https://www.bigbigtrain.com/",
-        bandLinkText: "bigbigtrain.com",
-        imageLink:
-          "https://burningshed.com/image/cache/data/Big%20Big%20Train/big-big-train_are-we-nearly-there-yet_2cd-300x300.jpg",
-        imageAltText: "",
-      },
-      {
         releaseDate: "2025-09-26",
         artist: "Beat",
         album: "Live in Los Angeles",
@@ -130,14 +120,24 @@ export const albumReleases = [
   {
     month: "2025-10-15",
     albums: [
-            {
-        releaseDate: "2025-10-04",
+      {
+        releaseDate: "2025-10-03",
+        artist: "Big Big Train",
+        album: "Are We Nearly There Yet?",
+        bandLink: "https://www.bigbigtrain.com/",
+        bandLinkText: "bigbigtrain.com",
+        imageLink:
+          "https://burningshed.com/image/cache/data/Big%20Big%20Train/big-big-train_are-we-nearly-there-yet_2cd-300x300.jpg",
+        imageAltText: "",
+      },
+      {
+        releaseDate: "2025-10-03",
         artist: "Time's Forgotten",
         album: "Songs Of Awakening",
-        bandLink: "https://timesforgotten.bandcamp.com/album/songs-of-awakening/",
+        bandLink:
+          "https://timesforgotten.bandcamp.com/album/songs-of-awakening/",
         bandLinkText: "timesforgotten.com",
-        imageLink:
-          "https://f4.bcbits.com/img/a0453944846_16.jpg",
+        imageLink: "https://f4.bcbits.com/img/a0453944846_16.jpg",
         imageAltText: "",
       },
       {
