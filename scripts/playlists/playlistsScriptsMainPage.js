@@ -3,7 +3,7 @@ const featuredPlaylistContainer = document.getElementById(
 );
 
 if (featuredPlaylistContainer) {
-  currentPlaylistData.forEach((article) => {
+  playlistPageData[0].songs.forEach((article) => {
     const songArticleTemplate = document.getElementById(
       "song-article-template"
     );

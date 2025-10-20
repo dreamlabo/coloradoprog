@@ -80,7 +80,7 @@ const events = [
     image:
       "https://s1.ticketm.net/dam/a/716/30cf2527-54b4-4e0f-9877-492db09c6716_RETINA_PORTRAIT_3_2.jpg",
   },
-    {
+  {
     headliner: "Crazy Diamonds",
     supportActs: ["Stuck in Traffic"],
     date: new Date("2025/09/26"),
@@ -134,7 +134,7 @@ const events = [
     image:
       "https://www.summitdenver.com/_next/image?url=https%3A%2F%2Fs1.ticketm.net%2Fdam%2Fa%2F7dc%2F014860f4-da0d-4e5b-bc86-2a2cde0f57dc_RETINA_PORTRAIT_16_9.jpg&w=768&q=70",
   },
-    {
+  {
     headliner: "Ne Obliviscaris",
     supportActs: ["Rivers of Nihil", "Psycroptic"],
     date: new Date("2025/11/05"),
@@ -142,8 +142,7 @@ const events = [
     venue: GOTHIC_THEATER,
     city: GOTHIC_THEATER_CITY,
     state: "Co",
-    ticketURL:
-      "https://www.gothictheatre.com/events/detail/?event_id=1110853",
+    ticketURL: "https://www.gothictheatre.com/events/detail/?event_id=1110853",
     bandInfo: "https://neobliviscaris.com.au/",
     image:
       "https://images.discovery-prod.axs.com/2025/08/ne-obliviscaris-tickets_11-05-25_17_68ac8ce3f34d2.jpg",
@@ -191,7 +190,7 @@ const events = [
     bandInfo: "https://www.yesworld.com/",
     image: "https://appellcenter.org/wp-content/uploads/YESPREVIEW2.jpg",
   },
-    {
+  {
     headliner: "The Mars Volta",
     supportActs: [],
     date: new Date("2025/11/18"),
@@ -199,10 +198,24 @@ const events = [
     venue: MISSION_BALLROOM_VENUE,
     city: MISSION_BALLROOM_CITY,
     state: "Co",
-    ticketURL:
-      "https://www.axs.com/events/922226/the-mars-volta-tickets",
+    ticketURL: "https://www.axs.com/events/922226/the-mars-volta-tickets",
     bandInfo: "https://www.themarsvoltaofficial.com/",
-    image: "https://images.discovery-prod.axs.com/2025/04/the-mars-volta-tickets_11-18-25_17_67f84a0f7a0a9.jpg",
+    image:
+      "https://images.discovery-prod.axs.com/2025/04/the-mars-volta-tickets_11-18-25_17_67f84a0f7a0a9.jpg",
+  },
+  {
+    headliner: "Opeth",
+    supportActs: ["Katatonia"],
+    date: new Date("2026/02/18"),
+    time: "7:30pm",
+    venue: PIKES_PEAK_CENTER_VENUE,
+    city: PIKES_PEAK_CENTER_CITY,
+    state: "Co",
+    ticketURL:
+      "https://www.axs.com/events/1131618/opeth-the-last-will-and-testament-tickets?skin=pikespeakcenter&_gl=1*s6t2xg*_gcl_au*MTAyODIzNjg4Ny4xNzU4MTY0NTkx*_ga*MTA4MzUzMzI3OS4xNzU4MTY0NTkx*_ga_J0TK0THXD6*czE3NjA5MzA1MDAkbzUkZzAkdDE3NjA5MzA1MDAkajYwJGwwJGgw",
+    bandInfo: "https://www.opeth.com",
+    image:
+      "https://images.discovery-prod.axs.com/2025/09/opeth-the-last-will-and-testament-tickets_02-18-26_17_68d2ad4d75f58.jpg",
   },
   {
     headliner: "Geoff Tate",
@@ -215,7 +228,8 @@ const events = [
     ticketURL:
       "https://www.axs.com/events/1022163/geoff-tate-s-operation-mindcrime-the-final-chapter-tickets",
     bandInfo: "https://www.geofftate.com/",
-    image: "https://images.discovery-prod.axs.com/2025/06/geoff-tate-s-operation-mindcrime-the-final-chapter-tickets_02-21-26_17_6851965bf18f6.jpg",
+    image:
+      "https://images.discovery-prod.axs.com/2025/06/geoff-tate-s-operation-mindcrime-the-final-chapter-tickets_02-21-26_17_6851965bf18f6.jpg",
   },
 ];
 
