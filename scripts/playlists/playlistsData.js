@@ -39,59 +39,70 @@ const currentPlaylistData = [
 ];
 
 const playlistPageData = [
-  // {
-  //   date: new Date("2025-10-15"),
-  //   description: "",
-  //   spotifyPlaylist:
-  //     "https://open.spotify.com/embed/playlist/6tl9fXdUDd8uaXhR4OykBF?utm_source=generator&theme=0",
-  //   spotifyHeight: "850px",
-  //   songs: [
-  //     {
-  //       song: "Index",
-  //       artist: "Steven Wilson",
-  //       about: ["<span class='italic'>Index</span> by Steven Wilson draws from John Fowles' 1963 novel <span class='italic'>The Collector</span> — a dark tale of obsession and control. The song captures the mindset of a man who kidnaps a woman in a desperate bid for love. Its mechanical pulse and haunting vocals portray a meticulous, hollow mindset consumed by compulsion. This live version, from the <span class='italic'>Get All You Deserve</span> release, intensifies the song's eerie, unsettling atmosphere."],
-  //       youtube:
-  //         "https://www.youtube.com/embed/pROd0gGABlw?si=XqT9Ke2G4uy71Ov5",
-  //       artistSite: "https://stevenwilsonhq.com/",
-  //     },
-  //     {
-  //       song: "Ghost of Perdition",
-  //       artist: "Opeth",
-  //       about: [""],
+  {
+    date: new Date("2025-10-15"),
+    description:
+      "This month's playlist drifts through the haunted corridors of progressive music — where ghosts, guilt, and the unknown converge. From the psychological unease of Steven Wilson's <span class='italic'>Index</span>, to the infernal descent of Opeth's <span class='italic'>Ghost of Perdition</span>, and the occult dreamscape of Goblins <span class='italic'>Suspiria</span>, each piece pulls back the veil just a little more. Jethro Tull's <span class='italic'>The Witch's Promise</span> summons the old spirits, while <span class='italic'>The Raven That Refused to Sing</span> closes the circle in quiet, spectral sorrow.",
+    spotifyPlaylist:
+      "https://open.spotify.com/embed/playlist/0vOygkBDgJDfcJNrFOGkno?utm_source=generator&theme=0",
+    spotifyHeight: "950px",
+    songs: [
+      {
+        song: "Index",
+        artist: "Steven Wilson",
+        about: [
+          "<span class='italic'>Index</span> by Steven Wilson draws from John Fowles' 1963 novel <span class='italic'>The Collector</span> — a dark tale of obsession and control. The song captures the mindset of a man who kidnaps a woman in a desperate bid for love. Its mechanical pulse and haunting vocals portray a meticulous, hollow mindset consumed by compulsion. This live version, from the <span class='italic'>Get All You Deserve</span> release, intensifies the song's eerie, unsettling atmosphere.",
+        ],
+        youtube:
+          "https://www.youtube.com/embed/pROd0gGABlw?si=XqT9Ke2G4uy71Ov5",
+        artistSite: "https://stevenwilsonhq.com/",
+      },
+      {
+        song: "Ghost of Perdition",
+        artist: "Opeth",
+        about: [
+          "<span class='italic'>Ghost of Perdition</span>, the opening track from Opeth's 2005 album <span class='italic'>Ghost Reveries</span>, opens with a set of clean guitar chords before descending into chaos with the cry, “Ghost of mother! Lingering death!” Originally part of a planned occult concept album, the song follows a once-Christian man spiraling into darkness after murdering his mother. Though the larger narrative was left unfinished, <span class='italic'>Ghost of Perdition</span> endures as the chilling first step in that doomed descent.",
+        ],
 
-  //       youtube:
-  //         "https://www.youtube.com/embed/p3SXIWS7rBQ?si=yXyeu2I7QAKJ4FLt",
-  //       artistSite: "https://www.opeth.com/",
-  //     },
-  //     {
-  //       song: "Susperia",
-  //       artist: "Goblin",
-  //       about: [""],
+        youtube:
+          "https://www.youtube.com/embed/p3SXIWS7rBQ?si=yXyeu2I7QAKJ4FLt",
+        artistSite: "https://www.opeth.com/",
+      },
+      {
+        song: "Susperia",
+        artist: "Goblin",
+        about: [
+          "<span class='italic'>Suspiria</span> by Goblin, from Dario Argento's 1977 horror classic of the same name, remains one of the most haunting marriages of music and film. The track's whispered voices, music-box motifs, and unsettling rhythms mirror the film's dreamlike terror, where a ballet school hides something far more sinister. Goblin's blend of prog-rock, ritual percussion, and avant-garde sound design transforms <span class='italic'>Suspiria</span> into an incantation — as hypnotic and unsettling as the film itself.",
+        ],
 
-  //       youtube:
-  //         "https://www.youtube.com/embed/LegptRrPR_s?si=-Sjf7MO4etmEj94N",
-  //       artistSite: "https://www.goblinofficial.com",
-  //     },
-  //     {
-  //       song: "The Witch's Promise",
-  //       artist: "Jethro Tull",
-  //       about: [""],
+        youtube:
+          "https://www.youtube.com/embed/LegptRrPR_s?si=-Sjf7MO4etmEj94N",
+        artistSite: "https://www.goblinofficial.com",
+      },
+      {
+        song: "The Witch's Promise",
+        artist: "Jethro Tull",
+        about: [
+          "<span class='italic'>The Witch's Promise</span> by Jethro Tull tells the story of a man seduced by a witch, only to abandon her for a new love — a betrayal that brings about a haunting curse. Recorded in 1969 and released as a standalone single in 1970, the track features John Evan on piano and mellotron. The witch's promise itself feels like a spell — one that begins in enchantment but ends in punishment for forsaking true affection.",
+        ],
 
-  //       youtube:
-  //         "https://www.youtube.com/embed/lrGlfeA-JdY?si=LTH3jy9vBBMJMcWv",
-  //       artistSite: "https://jethrotull.com/",
-  //     },
-  //     {
-  //       song: "The Raven That Refused to Sing",
-  //       artist: "Steven Wilson",
-  //       about: [""],
+        youtube:
+          "https://www.youtube.com/embed/lrGlfeA-JdY?si=LTH3jy9vBBMJMcWv",
+        artistSite: "https://jethrotull.com/",
+      },
+      {
+        song: "The Raven That Refused to Sing",
+        artist: "Steven Wilson",
+        about: [
+          "<span class='italic'>The Raven That Refused to Sing</span> closes Steven Wilson's 2013 album of the same name with a ghostly fable of loss and regret. Wilson describes it as &quot;the story of an old man at the end of his life who is waiting to die… He becomes convinced that a raven in his garden is a manifestation of his sister. She used to sing to him whenever he was afraid, and he believes that if he can make the raven sing, it will prove she has come back to take him to the next life.&quot;",
+        ],
 
-  //       youtube:
-  //         "https://www.youtube.com/embed/n8sLcvWG1M4?si=WPzmoJ5MhgrANB96",
-  //       artistSite: "https://stevenwilsonhq.com/",
-  //     },
-  //   ],
-  // },
+        youtube:
+          "https://www.youtube.com/embed/n8sLcvWG1M4?si=WPzmoJ5MhgrANB96",
+        artistSite: "https://stevenwilsonhq.com/",
+      },
+    ],
+  },
   {
     date: new Date("2025-09-15"),
     description: "",

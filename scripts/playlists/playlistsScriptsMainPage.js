@@ -2,7 +2,14 @@ const featuredPlaylistContainer = document.getElementById(
   "playlist-featured-artists-container"
 );
 
+const featuredPlaylistDescription = document.getElementById(
+  "playlist-main-page-description"
+);
+
 if (featuredPlaylistContainer) {
+  if (featuredPlaylistDescription && playlistPageData[0].description) {
+    featuredPlaylistDescription.innerHTML = playlistPageData[0].description;
+  }
   playlistPageData[0].songs.forEach((article) => {
     const songArticleTemplate = document.getElementById(
       "song-article-template"
@@ -48,7 +55,8 @@ if (featuredPlaylistContainer) {
 // Need to alternate the spotify playlist on large screens left and right, always on bottom on small screens
 // Need to alternate the background image
 
-{/* <div class="main-page-wrapper bg-clr-dark">
+{
+  /* <div class="main-page-wrapper bg-clr-dark">
   <div class="listening-overlay"></div>
   <img
     class="background-image-one"
@@ -121,4 +129,5 @@ if (featuredPlaylistContainer) {
       </div>
     </div>
   </section>
-</div>; */}
+</div>; */
+}

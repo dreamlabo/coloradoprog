@@ -12,7 +12,6 @@ if (playlistContainer) {
   playlistPageData.forEach((playlist) => {
     let monthlyPlaylistTemplate;
     if (placeSpotifyListOnLeft) {
-     
       monthlyPlaylistTemplate = document.getElementById(
         "playlist-monthly-container__playlist-left"
       );
@@ -27,16 +26,16 @@ if (playlistContainer) {
     const imageOverlay = monthlyContainer.querySelector(
       ".background-image-one"
     );
-   
+
     const iframe = monthlyContainer.querySelector(".spotify-iframe");
     if (iframe) {
-      iframe.style.height = playlist.spotifyHeight; 
+      iframe.style.height = playlist.spotifyHeight;
     }
 
     monthlyContainer.querySelector(".section-title").innerText =
       playlistFormattedDate(playlist.date);
     if (playlist.description.length > 0) {
-      monthlyContainer.querySelector(".main-holiday-sub-text").innerText =
+      monthlyContainer.querySelector(".main-holiday-sub-text").innerHTML =
         playlist.description;
     }
 

@@ -810,7 +810,7 @@ a {
     padding-bottom: 1rem;
     color: var( --clr-text-200);
     font-size: 1.2rem;
-    font-size: clamp(0.875px, 3vw + 2px, 1rem);
+    font-size: clamp(0.875rem, 3vw + 2px, 1rem);
     font-weight: 300;
 }
 
