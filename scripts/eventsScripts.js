@@ -257,6 +257,20 @@ const events = [
     image:
       "https://images.discovery-prod.axs.com/2025/06/geoff-tate-s-operation-mindcrime-the-final-chapter-tickets_02-21-26_17_6851965bf18f6.jpg",
   },
+    {
+    headliner: "Pat Metheny Side-Eye III+",
+    supportActs: [],
+    date: new Date("2026/04/07"),
+    time: "7:00pm",
+    venue: BOULDER_THEATER_VENUE,
+    city: BOULDER_THEATER_CITY,
+    state: "Co",
+    ticketURL:
+      "https://www.axs.com/events/1189659/pat-metheny-side-eye-iii-tickets?skin=bouldertheater",
+    bandInfo: "https://www.patmetheny.com/",
+    image:
+      "https://images.discovery-prod.axs.com/2025/10/uploadedimage_69000c6aa5b17.jpg",
+  },
 ];
 
 const whereToPlaceEvents = document.getElementById("cards-section");
