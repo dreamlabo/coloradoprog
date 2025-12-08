@@ -18,11 +18,17 @@ meetings = [
     ],
   },
   {
-    date: new Date("2025/11/01"),
+    date: new Date("2025/12/12"),
     time: MEETING_TIME_6PM,
     host: KENTS_HOST_NAME,
     hostEmail: KENTS_EMAIL,
-    additionalInfo: [],
+    additionalInfo: [
+      "IMPORTANT: If you'd like to attend, you MUST RSVP to Kent at kent.adamson@comcast.net by Wednesday, December 10th.Kent will then send you directions to join us at the party.",
+      "Please note the earlier start time.",
+      "Using the proceeds from our annual Progfest, food from GQue Barbecue, including ribs, chicken, brisket, coleslaw, beans, buns & sauces, will be provided.",
+      "Please bring your own beverages, and if you'd like, feel free to bring a dessert (or side dish) to share!",
+      "Hope to see you there!",
+    ],
   },
 ];
 

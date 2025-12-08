@@ -1,67 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicons/favicon-16x16.png">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Jost:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
-   
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
-   
-    <link rel="stylesheet" href="./styles/mainStyles.css">
-    <link rel="stylesheet" href="./styles/meetingStyles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/images/favicons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/images/favicons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/images/favicons/favicon-16x16.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Jost:wght@100;200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./styles/mainStyles.css" />
+    <link rel="stylesheet" href="./styles/meetingStyles.css" />
     <script src="./scripts/mainScripts.js" defer></script>
     <script src="./scripts/meetingsInfo.js" defer></script>
     <script src="./scripts/meetings_MeetingsPage.js" defer></script>
-    <script src="https://kit.fontawesome.com/c43c1a8058.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/c43c1a8058.js"
+      crossorigin="anonymous"
+    ></script>
     <title>CARS - Meetings</title>
-</head>
-<body class="meetings-bkgd-100 meetings-min-height">
+  </head>
+  <body class="meetings-bkgd-100 meetings-min-height">
     <header class="header-wrapper">
-        <div class="container flex">
-            <a href="index.html" class="logo">CARS</a>
-            <nav class="main-links--wrapper">
-                <ul id="primary-navigation"
-                        class="main-links"
-                        aria-label="primary navigation">
-                        <li><a href="meetings.html" class="active-page-indicator">MEETINGS</a></li>
-                        <li><a href="upcomingEvents.html">EVENTS</a></li>
-                        <li><a href="playlists.html">PLAYLISTS</a></li>
-                    <li><a href="latest-news.html">NEWS</a></li>
-                    <li><a href="about.html">WHO WE ARE</a></li>
-                </ul>
-            </nav>
-            <button class="nav-bars" 
-                    id="mobile-menu-btn"
-                    aria-expanded="false">
-                <div class="bar bar-one"></div>
-                <div class="bar bar-two"></div>
-                <div class="bar bar-three"></div>
-            </button>
-            <nav class="mobile-menu"
-                id="mobile-menu"
-                aria-hidden="true">
-                <ul id="mobile-navigation"
-                        class=""
-                        aria-label="primary navigation">
-                    <li class="mobile-nav-link"><a tabindex="-1" onclick="closeMobileMenu()" href="index.html"><span aria-hidden="true">00</span>HOME</a></li>
-                    <li class="mobile-nav-link"><a tabindex="-1" onclick="closeMobileMenu()" href="meetings.html"><span aria-hidden="true">01</span>MEETINGS</a></li>
-                    <li class="mobile-nav-link"><a tabindex="-1" onclick="closeMobileMenu()" href="upcomingEvents.html"><span aria-hidden="true">02</span>UPCOMING EVENTS</a></li>
-                    <li class="mobile-nav-link"><a tabindex="-1" onclick="closeMobileMenu()" href="playlists.html"><span aria-hidden="true">03</span>PLAYLISTS</a></li>
-                    <li class="mobile-nav-link"><a tabindex="-1" onclick="closeMobileMenu()" href="latest-news.html"><span aria-hidden="true">04</span>LATEST NEWS</a></li>
-                    <li class="mobile-nav-link"><a tabindex="-1" onclick="closeMobileMenu()" href="about.html"><span aria-hidden="true">05</span>WHO WE ARE</a></li>
-                </ul>
-            </nav>
-        </div>
+      <div class="container flex">
+        <a href="index.html" class="logo">CARS</a>
+        <nav class="main-links--wrapper">
+          <ul
+            id="primary-navigation"
+            class="main-links"
+            aria-label="primary navigation"
+          >
+            <li>
+              <a href="meetings.html" class="active-page-indicator">MEETINGS</a>
+            </li>
+            <li><a href="upcomingEvents.html">EVENTS</a></li>
+            <li><a href="playlists.html">PLAYLISTS</a></li>
+            <li><a href="latest-news.html">NEWS</a></li>
+            <li><a href="about.html">WHO WE ARE</a></li>
+          </ul>
+        </nav>
+        <button class="nav-bars" id="mobile-menu-btn" aria-expanded="false">
+          <div class="bar bar-one"></div>
+          <div class="bar bar-two"></div>
+          <div class="bar bar-three"></div>
+        </button>
+        <nav class="mobile-menu" id="mobile-menu" aria-hidden="true">
+          <ul id="mobile-navigation" class="" aria-label="primary navigation">
+            <li class="mobile-nav-link">
+              <a tabindex="-1" onclick="closeMobileMenu()" href="index.html"
+                ><span aria-hidden="true">00</span>HOME</a
+              >
+            </li>
+            <li class="mobile-nav-link">
+              <a tabindex="-1" onclick="closeMobileMenu()" href="meetings.html"
+                ><span aria-hidden="true">01</span>MEETINGS</a
+              >
+            </li>
+            <li class="mobile-nav-link">
+              <a
+                tabindex="-1"
+                onclick="closeMobileMenu()"
+                href="upcomingEvents.html"
+                ><span aria-hidden="true">02</span>UPCOMING EVENTS</a
+              >
+            </li>
+            <li class="mobile-nav-link">
+              <a tabindex="-1" onclick="closeMobileMenu()" href="playlists.html"
+                ><span aria-hidden="true">03</span>PLAYLISTS</a
+              >
+            </li>
+            <li class="mobile-nav-link">
+              <a
+                tabindex="-1"
+                onclick="closeMobileMenu()"
+                href="latest-news.html"
+                ><span aria-hidden="true">04</span>LATEST NEWS</a
+              >
+            </li>
+            <li class="mobile-nav-link">
+              <a tabindex="-1" onclick="closeMobileMenu()" href="about.html"
+                ><span aria-hidden="true">05</span>WHO WE ARE</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
-    <main class="meetings-bkgd-100">
-        <div class="meetings-bkgd-100">
+    <main class="holiday-meetings-bkgd-100">
+      <div class="holiday-relative">
+        <img
+          class="church-background-image"
+          src="./images/pages/meetings/church-background.jpg"
+          alt=""
+        />
+        <div class="church-background-overlay"></div>
+
+        <!-- <div class="meetings-bkgd-100">
             <div class="meetings-section-container">
                 <div class="meetings-section-grid">
                     <section id="" class="meetings-meeting-details">
@@ -97,51 +156,199 @@
                     </div>
                 </div>
             </div>
+        </div> -->
+
+        <div class="holiday-page-wrapper meetings-section-container">
+          <div class="holiday-hero-grid-wrapper">
+            <div class="holiday-hero-left-container">
+              <div class="holiday-img-hero-container">
+                <img
+                  class="holiday-img-hero"
+                  src="./images/pages/meetings/mountain-snow.jpg"
+                  alt=""
+                />
+                <div class="holiday-img-hero-container--overlay"></div>
+              </div>
+              <div class="holiday-hero-left-text">
+                <div>
+                  <p id="first-phrase">In the Chill</p>
+                  <p id="second-phrase">
+                    <span id="inner-second"> of Winter's Night,</span>
+                  </p>
+                </div>
+                <div>
+                  <p id="third-phrase">A Gathering Beckons</p>
+                  <p id="fourth-phrase">
+                    <span id="inner-fourth"> with Joy and Light.</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="holiday-hero-right-container">
+              <article class="holiday-invite-container">
+                <img
+                  class="holiday-invite-card-image"
+                  src="./images/pages/meetings/invite-card-background.jpg"
+                  alt=""
+                />
+                <div class="holiday-invite-card-image-overlay"></div>
+                <div class="holiday-invite-card-image-overlay--left"></div>
+                <div class="holiday-invite-card-image-overlay--right"></div>
+                <div class="holiday-invite-card-text-wrapper">
+                  <h1 class="holiday-card-header">
+                    <span class="holiday-card-header--top-text"
+                      >You're Invited To Attend Our Annual</span
+                    >
+                    <span class="holiday-card-header--bottom-text"
+                      >Holiday Party</span
+                    >
+                  </h1>
+                  <div class="holiday-party-date-container">
+                    <p class="holiday-party-date--day">Friday</p>
+                    <div class="holiday-party-date-inner-grid">
+                      <p class="holiday-party-date-inner-grid--number">12</p>
+                      <p class="holiday-party-date-inner-grid--month">
+                        December
+                      </p>
+                    </div>
+                    <p class="holiday-party-date--time">6:00 PM</p>
+                  </div>
+                  <div class="holiday-party-date-container--mobile">
+                    <p class="">Friday</p>
+                    <p class="">December 12th</p>
+                    <p class="">6:00 PM</p>
+                  </div>
+                  <div class="holiday-card-text-container">
+                    <h2 class="holiday-card-info--header">Rsvp</h2>
+                    <p class="holiday-card-info--paragraph">
+                      If you'd like to attend, you must RSVP to Kent at
+                      <a
+                        class="holiday-email-link"
+                        href="mailto:kent.adamson@comcast.net"
+                        >kent.adamson@comcast.net</a
+                      >
+                      by Wednesday, December 10th.
+                    </p>
+                    <p class="holiday-card-info--paragraph">
+                      Kent will then send you directions to join us at the
+                      party.
+                    </p>
+                  </div>
+                  <div class="holiday-card-text-container">
+                    <h2 class="holiday-card-info--header">POTLUCK & BYOB</h2>
+                    <p class="holiday-card-info--paragraph">
+                      CARS will provide the ham.
+                    </p>
+                    <p class="holiday-card-info--paragraph">
+                      Please bring your favorite drink (BYOB) along with a side
+                      dish or dessert to share.
+                    </p>
+                  </div>
+                  <div class="holiday-card-text-container">
+                    <h2 class="holiday-card-info--header">
+                      PROG-THEMED WHITE ELEPHANT GIFT EXCHANGE
+                    </h2>
+                    <p class="holiday-card-info--paragraph">
+                      We'll do our epic annual gift exchange as part of the
+                      holiday festivities! Participation is optional, but if you
+                      want to take a gift home, bring one to share. Prog-related
+                      gifts are highly encouraged—think Vinyl, CDs, DVDs, books,
+                      or t-shirts! Gifts will be selected, traded, and stolen in
+                      the spirit of friendly fun. If you've never joined before,
+                      it's simple and always a jolly good time.
+                    </p>
+                    <p class="barb-text">
+                      And yes, the Barb rule will be in effect!
+                    </p>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
         </div>
+      </div>
+      <div id="image-container" class="meetings-bkgd-200">
+        <div class="meetings-section-container">
+          <div class="meetings-images-container">
+            <div class="meetings-img-one--container">
+              <!-- <img class="meetings-img-one" src="./images/pages/meetings/turntable.png" alt="turntable"> -->
+              <img
+                class="meetings-img-one"
+                src="./images/pages/meetings/holiday-street-snow.jpg"
+                alt="holiday street"
+              />
+            </div>
+            <div class="meetings-img-two--container">
+              <!-- <img  class="meetings-img-two" src="./images/pages/meetings/kidSinging.png" alt="">  -->
+              <img
+                class="meetings-img-two"
+                src="./images/pages/meetings/holiday-street-angel.jpg"
+                alt="holiday street"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
     <footer class="main-footer-wrapper">
-        <div class="main-footer-container">
-            <ul class="social-media-icons">
-                <li class="social-icon"><a href="https://www.facebook.com/ColoradoArtRockSociety" target="_blank"><i class="fa-brands fa-facebook fa-2xl"></i></a></li>
-            </ul>
-            <p>WEBSITE BY LCR DESIGNS</p>
-            <p><span>&#169;</span>2025 THE COLORADO ART ROCK SOCIETY</p>
-        </div>
+      <div class="main-footer-container">
+        <ul class="social-media-icons">
+          <li class="social-icon">
+            <a
+              href="https://www.facebook.com/ColoradoArtRockSociety"
+              target="_blank"
+              ><i class="fa-brands fa-facebook fa-2xl"></i
+            ></a>
+          </li>
+        </ul>
+        <p>WEBSITE BY LCR DESIGNS</p>
+        <p><span>&#169;</span>2025 THE COLORADO ART ROCK SOCIETY</p>
+      </div>
     </footer>
 
     <template id="meeting-details-template">
-        <div>
-            <div class="meetings-grid-area">
-                <h2>DATE</h2>
-                <p id="date" class="meetings-meeting-details__text"></p>
-            </div>
-            <div class="meetings-grid-area">
-                <h2>TIME</h2>
-                <p id="meeting-time" class="meetings-meeting-details__text"></p>
-            </div>
-            <div class="meetings-grid-area">
-                <h2>PLACE</h2>
-                <div>
-                    <p id="meeting-place-one" class="meetings-meeting-details__text"></p>
-                    <p id="meeting-place-two"class="meetings-meeting-details__text"></p>
-                    <p id="meeting-place-three" class="meetings-meeting-details__text"></p>
-                </div>
-            </div>  
+      <div>
+        <div class="meetings-grid-area">
+          <h2>DATE</h2>
+          <p id="date" class="meetings-meeting-details__text"></p>
         </div>
+        <div class="meetings-grid-area">
+          <h2>TIME</h2>
+          <p id="meeting-time" class="meetings-meeting-details__text"></p>
+        </div>
+        <div class="meetings-grid-area">
+          <h2>PLACE</h2>
+          <div>
+            <p
+              id="meeting-place-one"
+              class="meetings-meeting-details__text"
+            ></p>
+            <p
+              id="meeting-place-two"
+              class="meetings-meeting-details__text"
+            ></p>
+            <p
+              id="meeting-place-three"
+              class="meetings-meeting-details__text"
+            ></p>
+          </div>
+        </div>
+      </div>
     </template>
 
     <template id="additional-info-template">
-        <h2 class="additional-info-header">ADDITIONAL INFO</h2>
-        <div class="meetings-grid-area">
-            <div class="additional-info-container">
-            </div>
-        </div>
+      <h2 class="additional-info-header">ADDITIONAL INFO</h2>
+      <div class="meetings-grid-area">
+        <div class="additional-info-container"></div>
+      </div>
     </template>
 
     <template id="coming-soon-template">
-        <p class="meetings-coming-soon">Oops...</p>
-        <p class="meetings-coming-soon">We're still in the process of planning the next meeting.</p>
-        <p class="meetings-coming-soon">Stay tuned for details.</p>
+      <p class="meetings-coming-soon">Oops...</p>
+      <p class="meetings-coming-soon">
+        We're still in the process of planning the next meeting.
+      </p>
+      <p class="meetings-coming-soon">Stay tuned for details.</p>
     </template>
-</body>
+  </body>
 </html>
