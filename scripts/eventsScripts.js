@@ -211,10 +211,10 @@ const events = [
     venue: "Buffalo Rose",
     city: "Golden",
     state: "Co",
-    ticketURL:
-      "https://tickets.holdmyticket.com/tickets/449507",
+    ticketURL: "https://tickets.holdmyticket.com/tickets/449507",
     bandInfo: "https://www.facebook.com/profile.php?id=61576798750471",
-    image: "https://buffalorosegolden.com/wp-content/uploads/2025/10/2025-11-23_CrazyDiamonds_StuckinTraffic_FB_post-1024x538.jpg",
+    image:
+      "https://buffalorosegolden.com/wp-content/uploads/2025/10/2025-11-23_CrazyDiamonds_StuckinTraffic_FB_post-1024x538.jpg",
   },
   {
     headliner: "The Mars Volta",
@@ -244,6 +244,19 @@ const events = [
       "https://images.discovery-prod.axs.com/2025/09/opeth-the-last-will-and-testament-tickets_02-18-26_17_68d2ad4d75f58.jpg",
   },
   {
+    headliner: "The Colorado Art Rock Society Presents",
+    supportActs: [false, "The 21st Annual PROGFEST"],
+    date: new Date("2026/02/15"),
+    time: "3:00pm",
+    venue: NISSIS_VENUE,
+    city: NISSIS_CITY,
+    state: "Co",
+    ticketURL: "https://www.showclix.com/event/progfest-2026",
+    bandInfo: "https://coloradoprog.com/",
+    image:
+      "https://nissis.com/wp-content/uploads/2025/12/cars-progfest-2026-FB-event-REVISED-1024x536.png",
+  },
+  {
     headliner: "Geoff Tate",
     supportActs: [false, "Operation: Mindcrime - The Final Chapter"],
     date: new Date("2026/02/21"),
@@ -257,7 +270,7 @@ const events = [
     image:
       "https://images.discovery-prod.axs.com/2025/06/geoff-tate-s-operation-mindcrime-the-final-chapter-tickets_02-21-26_17_6851965bf18f6.jpg",
   },
-    {
+  {
     headliner: "Pat Metheny Side-Eye III+",
     supportActs: [],
     date: new Date("2026/04/07"),
@@ -270,6 +283,62 @@ const events = [
     bandInfo: "https://www.patmetheny.com/",
     image:
       "https://images.discovery-prod.axs.com/2025/10/uploadedimage_69000c6aa5b17.jpg",
+  },
+  {
+    headliner: "SatchVai Band ft. Joe Satriani & Steve Vai",
+    supportActs: ["Animals As Leaders"],
+    date: new Date("2026/04/14"),
+    time: "7:00pm",
+    venue: MISSION_BALLROOM_VENUE,
+    city: MISSION_BALLROOM_CITY,
+    state: "Co",
+    ticketURL:
+      "https://www.axs.com/events/1247253/satchvai-band-ft-joe-satriani-steve-vai-tickets?_gl=1*1kbg7t8*_gcl_au*MTAzMTQ0NjQ3OC4xNzY4NzYzNTA4",
+    bandInfo: "https://satchvaiband.com/",
+    image:
+      "https://images.discovery-prod.axs.com/2025/12/satchvai-band-ft-joe-satriani-steve-vai-tickets_04-14-26_17_6936d78e4c863.jpg",
+  },
+  {
+    headliner: "Eric Johnson",
+    supportActs: [false, "Texaphonic Tour 2026"],
+    date: new Date("2026/05/16"),
+    time: "8:00pm",
+    venue: PARAMOUNT_THEATER_VENUE,
+    city: PARAMOUNT_THEATER_CITY,
+    state: "Co",
+    ticketURL:
+      "https://www.ticketmaster.com/eric-johnson-texaphonic-tour-2026-denver-colorado-05-16-2026/event/1E00638464D123F7?camefrom=CFC_KSE_wZMc5Iv2w0ud2gDh5lfwTA&utm_source=wZMc5Iv2w0ud2gDh5lfwTA&utm_medium=wZMc5Iv2w0ud2gDh5lfwTA&utm_campaign=wZMc5Iv2w0ud2gDh5lfwTA",
+    bandInfo: "https://www.ericjohnson.com/",
+    image:
+      "https://carolinatheatre.org/wp-content/uploads/2025/05/EricJohnson-CTD-Website-1440x810-1-1280x720.png",
+  },
+  {
+    headliner: "Rush",
+    supportActs: [false, "Fifty Something Tour"],
+    date: new Date("2026/10/05"),
+    time: "8:00pm",
+    venue: BALL_ARENA_VENUE,
+    city: BALL_ARENA_CITY,
+    state: "Co",
+    ticketURL:
+      "https://www.ticketmaster.com/rush-fifty-something-denver-colorado-10-05-2026/event/1E006350ABE16A13",
+    bandInfo: "https://www.rush.com/",
+    image:
+      "https://www.ballarena.com/media/flcgkjsh/static_outdoor-concertvision_1920x1080_rush_2026_regional_ballarena_1005-07.jpg?anchor=center&mode=crop&width=1920&height=1080&rnd=134056008326270000",
+  },
+  {
+    headliner: "Rush",
+    supportActs: [false, "Fifty Something Tour"],
+    date: new Date("2026/10/07"),
+    time: "8:00pm",
+    venue: BALL_ARENA_VENUE,
+    city: BALL_ARENA_CITY,
+    state: "Co",
+    ticketURL:
+      "https://www.ticketmaster.com/rush-fifty-something-denver-colorado-10-07-2026/event/1E006350ABE76A15",
+    bandInfo: "https://www.rush.com/",
+    image:
+      "https://www.ballarena.com/media/flcgkjsh/static_outdoor-concertvision_1920x1080_rush_2026_regional_ballarena_1005-07.jpg?anchor=center&mode=crop&width=1920&height=1080&rnd=134056008326270000",
   },
 ];
 

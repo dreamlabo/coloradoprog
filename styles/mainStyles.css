@@ -13,9 +13,9 @@
   --clr-gray: #21272f;
   --clr-main: #c59f63;
   --clr-main-light-text: #a58654;
-  /* --clr-accent-one: #C563BA; */
-  /* --clr-accent-one: #8EA7C8; */
-  --clr-accent-one: #8ea7c8;
+  --clr-accent-one: #C563BA;
+  /* --clr-accent-one: #8EA7C8;  for holiday times */
+
   /* --clr-accent-one: #ca48bb; */
   --pg-margin-full: 4rem;
   --max-width: 1530px;
