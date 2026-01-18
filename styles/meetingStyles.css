@@ -101,9 +101,7 @@
 }
 
 .general-meeting-info {
-  /* place-self: center; */
   place-self: start;
-
   margin-top: 40px;
   margin-top: 15px;
   width: fit-content;
@@ -111,7 +109,7 @@
 
 .general-meeting-info > p {
   color: var(--clr-text-200);
-  font-weight: 300;
+  font-weight: 400;
   margin-bottom: 0.7em;
   max-width: 50ch;
 }
