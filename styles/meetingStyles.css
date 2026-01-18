@@ -215,13 +215,15 @@
 .meetings-img-one {
   width: auto;
   height: 400px;
-  animation: fade-background-image-full 5s 17s ease both;
+  animation: fade-background-image-full 5s 0.5s ease both;
+  /* animation: fade-background-image-full 5s 17s ease both; */
 }
 
 .meetings-img-two {
   width: auto;
   height: 350px;
-  animation: fade-background-image-full 5s 17s ease both;
+  animation: fade-background-image-full 5s 1.5s ease both;
+  /* animation: fade-background-image-full 5s 17s ease both; */
 }
 
 .meetings-img-one,
