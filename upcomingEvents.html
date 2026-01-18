@@ -1,103 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicons/favicon-16x16.png">
-    <link rel="stylesheet" href="./styles/mainStyles.css">
-    <link rel="stylesheet" href="./styles/eventStyles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/images/favicons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/images/favicons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/images/favicons/favicon-16x16.png"
+    />
+    <link rel="stylesheet" href="./styles/mainStyles.css" />
+    <link rel="stylesheet" href="./styles/eventStyles.css" />
     <script src="./scripts/mainScripts.js" defer></script>
     <script src="./scripts/eventsScripts.js" defer></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Jost:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/c43c1a8058.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Jost:wght@100;200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/c43c1a8058.js"
+      crossorigin="anonymous"
+    ></script>
     <title>CARS - Upcoming Events</title>
-</head>
-<body>
+  </head>
+  <body>
     <header class="header-wrapper">
-        <div class="container flex">
-            <a href="index.html" class="logo">CARS</a>
-            <nav class="main-links--wrapper">
-                <ul id="primary-navigation"
-                        class="main-links"
-                        aria-label="primary navigation">
-                        <li><a href="meetings.html">MEETINGS</a></li>
-                        <li><a href="upcomingEvents.html" class="active-page-indicator">EVENTS</a></li>
-                        <li><a href="playlists.html">PLAYLISTS</a></li>
-                    <li><a href="latest-news.html">NEWS</a></li>
-                    <li><a href="about.html">WHO WE ARE</a></li>
-                </ul>
-            </nav>
-            <button class="nav-bars" 
-                    id="mobile-menu-btn"
-                    aria-expanded="false">
-                <div class="bar bar-one"></div>
-                <div class="bar bar-two"></div>
-                <div class="bar bar-three"></div>
-            </button>
-            <nav class="mobile-menu"
-                    id="mobile-menu"
-                    aria-hidden="true">
-                <ul id="mobile-navigation"
-                        class=""
-                        aria-label="primary navigation">
-                    <li class="mobile-nav-link"><a tabindex="-1" onclick="closeMobileMenu()" href="index.html"><span aria-hidden="true">00</span>HOME</a></li>
-                    <li class="mobile-nav-link"><a tabindex="-1" onclick="closeMobileMenu()" href="meetings.html"><span aria-hidden="true">01</span>MEETINGS</a></li>
-                    <li class="mobile-nav-link"><a tabindex="-1" onclick="closeMobileMenu()" href="upcomingEvents.html"><span aria-hidden="true">02</span>UPCOMING EVENTS</a></li>
-                    <li class="mobile-nav-link"><a tabindex="-1" onclick="closeMobileMenu()" href="playlists.html"><span aria-hidden="true">03</span>PLAYLISTS</a></li>
-                    <li class="mobile-nav-link"><a tabindex="-1" onclick="closeMobileMenu()" href="latest-news.html"><span aria-hidden="true">04</span>LATEST NEWS</a></li>
-                    <li class="mobile-nav-link"><a tabindex="-1" onclick="closeMobileMenu()" href="about.html"><span aria-hidden="true">05</span>WHO WE ARE</a></li>
-                </ul>
-            </nav>
-        </div>
+      <div class="container flex">
+        <a href="index.html" class="logo">CARS</a>
+        <nav class="main-links--wrapper">
+          <ul
+            id="primary-navigation"
+            class="main-links"
+            aria-label="primary navigation"
+          >
+            <li><a href="meetings.html">MEETINGS</a></li>
+            <li>
+              <a href="upcomingEvents.html" class="active-page-indicator"
+                >EVENTS</a
+              >
+            </li>
+            <li><a href="playlists.html">PLAYLISTS</a></li>
+            <li><a href="latest-news.html">NEWS</a></li>
+            <li><a href="about.html">WHO WE ARE</a></li>
+          </ul>
+        </nav>
+        <button class="nav-bars" id="mobile-menu-btn" aria-expanded="false">
+          <div class="bar bar-one"></div>
+          <div class="bar bar-two"></div>
+          <div class="bar bar-three"></div>
+        </button>
+        <nav class="mobile-menu" id="mobile-menu" aria-hidden="true">
+          <ul id="mobile-navigation" class="" aria-label="primary navigation">
+            <li class="mobile-nav-link">
+              <a tabindex="-1" onclick="closeMobileMenu()" href="index.html"
+                ><span aria-hidden="true">00</span>HOME</a
+              >
+            </li>
+            <li class="mobile-nav-link">
+              <a tabindex="-1" onclick="closeMobileMenu()" href="meetings.html"
+                ><span aria-hidden="true">01</span>MEETINGS</a
+              >
+            </li>
+            <li class="mobile-nav-link">
+              <a
+                tabindex="-1"
+                onclick="closeMobileMenu()"
+                href="upcomingEvents.html"
+                ><span aria-hidden="true">02</span>UPCOMING EVENTS</a
+              >
+            </li>
+            <li class="mobile-nav-link">
+              <a tabindex="-1" onclick="closeMobileMenu()" href="playlists.html"
+                ><span aria-hidden="true">03</span>PLAYLISTS</a
+              >
+            </li>
+            <li class="mobile-nav-link">
+              <a
+                tabindex="-1"
+                onclick="closeMobileMenu()"
+                href="latest-news.html"
+                ><span aria-hidden="true">04</span>LATEST NEWS</a
+              >
+            </li>
+            <li class="mobile-nav-link">
+              <a tabindex="-1" onclick="closeMobileMenu()" href="about.html"
+                ><span aria-hidden="true">05</span>WHO WE ARE</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <main class="main-section-container">
-        <h1 class="event-page-header">Upcoming Events</h1>
-        <section id="cards-section" class="cards-section">
-        </section>
-        <noscript>
-            <style>
-                .main-footer-wrapper,
-                .section-wrapper-two {
-                    display: none;
-                }
-            </style>
-            <h1 class="enable-javascript-message__section__color_black">Javascript must be enabled to view upcoming events.</h1>
-        </noscript>
+      <h1 class="event-page-header">Upcoming Events</h1>
+      <section id="cards-section" class="cards-section"></section>
+      <noscript>
+        <style>
+          .main-footer-wrapper,
+          .section-wrapper-two {
+            display: none;
+          }
+        </style>
+        <h1 class="enable-javascript-message__section__color_black">
+          Javascript must be enabled to view upcoming events.
+        </h1>
+      </noscript>
     </main>
     <footer class="main-footer-wrapper">
-        <div class="main-footer-container">
-            <ul class="social-media-icons">
-                <li class="social-icon"><a href="https://www.facebook.com/ColoradoArtRockSociety" target="_blank"><i class="fa-brands fa-facebook fa-2xl"></i></a></li>
-            </ul>
-            <p>WEBSITE BY LCR DESIGNS</p>
-            <p><span>&#169;</span>2025 THE COLORADO ART ROCK SOCIETY</p>
-        </div>
+      <div class="main-footer-container">
+        <ul class="social-media-icons">
+          <li class="social-icon">
+            <a
+              href="https://www.facebook.com/ColoradoArtRockSociety"
+              target="_blank"
+              ><i class="fa-brands fa-facebook fa-2xl"></i
+            ></a>
+          </li>
+        </ul>
+        <p>WEBSITE BY LCR DESIGNS</p>
+        <p><span>&#169;</span>2026 THE COLORADO ART ROCK SOCIETY</p>
+      </div>
     </footer>
 
     <template id="event-item-template">
-        <div class="card-container">
-            <img src="" alt="image of band" class="band-photo">
-            <div class="details-container">
-                <div class="concert-info-container">
-                    <div class="bands-container">
-                        <h2 class="headliner-act"></h2>
-                        <h3 class="support-acts"></h3>
-                    </div>
-                </div>
-                <div class="event-details">
-                    <p class="event-date"></p>
-                    <p class="event-time"></p>
-                    <p class="event-venue"></p>
-                    <p class="event-location"></p>
-                </div>
-                <div class="event-btn-container">
-                    <a class="btn-event btn-tickets" href="">Tickets</a>
-                    <a class="btn-event btn-artist-info" href="">Artist Info</a>
-                </div>
+      <div class="card-container">
+        <img src="" alt="image of band" class="band-photo" />
+        <div class="details-container">
+          <div class="concert-info-container">
+            <div class="bands-container">
+              <h2 class="headliner-act"></h2>
+              <h3 class="support-acts"></h3>
             </div>
+          </div>
+          <div class="event-details">
+            <p class="event-date"></p>
+            <p class="event-time"></p>
+            <p class="event-venue"></p>
+            <p class="event-location"></p>
+          </div>
+          <div class="event-btn-container">
+            <a class="btn-event btn-tickets" href="">Tickets</a>
+            <a class="btn-event btn-artist-info" href="">Artist Info</a>
+          </div>
         </div>
+      </div>
     </template>
+  </body>
+</html>
