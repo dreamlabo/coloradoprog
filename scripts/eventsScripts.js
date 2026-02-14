@@ -229,6 +229,20 @@ const events = [
     image:
       "https://images.discovery-prod.axs.com/2025/04/the-mars-volta-tickets_11-18-25_17_67f84a0f7a0a9.jpg",
   },
+
+  {
+    headliner: "The Colorado Art Rock Society Presents",
+    supportActs: [false, "The 21st Annual PROGFEST"],
+    date: new Date("2026/02/15"),
+    time: "3:00pm",
+    venue: NISSIS_VENUE,
+    city: NISSIS_CITY,
+    state: "Co",
+    ticketURL: "https://www.showclix.com/event/progfest-2026",
+    bandInfo: "https://coloradoprog.com/",
+    image:
+      "https://nissis.com/wp-content/uploads/2025/12/cars-progfest-2026-FB-event-REVISED-1024x536.png",
+  },
   {
     headliner: "Opeth",
     supportActs: ["Katatonia"],
@@ -242,19 +256,6 @@ const events = [
     bandInfo: "https://www.opeth.com",
     image:
       "https://images.discovery-prod.axs.com/2025/09/opeth-the-last-will-and-testament-tickets_02-18-26_17_68d2ad4d75f58.jpg",
-  },
-  {
-    headliner: "The Colorado Art Rock Society Presents",
-    supportActs: [false, "The 21st Annual PROGFEST"],
-    date: new Date("2026/02/15"),
-    time: "3:00pm",
-    venue: NISSIS_VENUE,
-    city: NISSIS_CITY,
-    state: "Co",
-    ticketURL: "https://www.showclix.com/event/progfest-2026",
-    bandInfo: "https://coloradoprog.com/",
-    image:
-      "https://nissis.com/wp-content/uploads/2025/12/cars-progfest-2026-FB-event-REVISED-1024x536.png",
   },
   {
     headliner: "Geoff Tate",
@@ -376,14 +377,12 @@ futureEvents.forEach((event) => {
       event.supportActs[0] === false &&
       event.supportActs.length === 2
     ) {
-      eventItem.querySelector(
-        SUPPORT_ACTS_CLASS
-      ).innerText = `${event.supportActs[1]}`;
+      eventItem.querySelector(SUPPORT_ACTS_CLASS).innerText =
+        `${event.supportActs[1]}`;
     } else {
       const supportActsString = event.supportActs.join(", ");
-      eventItem.querySelector(
-        SUPPORT_ACTS_CLASS
-      ).innerText = `with ${supportActsString}`;
+      eventItem.querySelector(SUPPORT_ACTS_CLASS).innerText =
+        `with ${supportActsString}`;
     }
   } else {
     eventItem.querySelector(SUPPORT_ACTS_CLASS).innerText = `\u00A0`;
@@ -399,9 +398,8 @@ futureEvents.forEach((event) => {
 
   eventItem.querySelector(".event-time").innerText = event.time;
   eventItem.querySelector(".event-venue").innerText = event.venue;
-  eventItem.querySelector(
-    ".event-location"
-  ).innerText = `${event.city}, ${event.state}`;
+  eventItem.querySelector(".event-location").innerText =
+    `${event.city}, ${event.state}`;
   eventItem.querySelector(".btn-tickets").href = event.ticketURL;
   eventItem.querySelector(".btn-tickets").target = "_blank";
   eventItem.querySelector(".btn-artist-info").href = event.bandInfo;
