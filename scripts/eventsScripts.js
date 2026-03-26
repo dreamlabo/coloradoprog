@@ -272,6 +272,20 @@ const events = [
       "https://images.discovery-prod.axs.com/2025/06/geoff-tate-s-operation-mindcrime-the-final-chapter-tickets_02-21-26_17_6851965bf18f6.jpg",
   },
   {
+    headliner: "Dark Tranquillity & Soen",
+    supportActs: ["Persefone"],
+    date: new Date("2026/03/30"),
+    time: "7:00pm",
+    venue: ORIENTAL_THEATER,
+    city: ORIENTAL_THEATER_CITY,
+    state: "Co",
+    ticketURL:
+      "https://theorientaltheater.holdmyticket.com/tickets/457480?tc=theorientaltheater&_ga=2.267482830.1393212687.1774477167-1696900737.1774477167",
+    bandInfo: "https://www.soenmusic.com/",
+    image:
+      "https://www.masqueradeatlanta.com/wp-content/uploads/2026/01/041326_darktranquility_ForSite.jpg",
+  },
+  {
     headliner: "Pat Metheny Side-Eye III+",
     supportActs: [],
     date: new Date("2026/04/07"),
@@ -312,6 +326,34 @@ const events = [
     bandInfo: "https://www.ericjohnson.com/",
     image:
       "https://carolinatheatre.org/wp-content/uploads/2025/05/EricJohnson-CTD-Website-1440x810-1-1280x720.png",
+  },
+  {
+    headliner: "Between the Buried and Me",
+    supportActs: ["Imperial Triumphant", "Fallujah"],
+    date: new Date("2026/06/02"),
+    time: "7:00pm",
+    venue: BOULDER_THEATER_VENUE,
+    city: BOULDER_THEATER_CITY,
+    state: "Co",
+    ticketURL:
+      "https://www.z2ent.com/events/detail/between-the-buried-and-me-2026-bt",
+    bandInfo: "https://www.betweentheburiedandme.com/",
+    image:
+      "https://images.discovery-prod.axs.com/2026/02/uploadedimage_699cd247342e2.jpg",
+  },
+  {
+    headliner: "Jinjer",
+    supportActs: ["Entheos"],
+    date: new Date("2026/07/21"),
+    time: "8:00pm",
+    venue: SUMMIT_VENUE,
+    city: SUMMIT_CITY,
+    state: "Co",
+    ticketURL:
+      "https://www.ticketmaster.com/jinjer-duel-north-america-2026-denver-colorado-07-21-2026/event/1E00646D9F468C21",
+    bandInfo: "https://jinjer-metal.com/",
+    image:
+      "https://media.ticketmaster.com/en-us/dam/a/219/b7f0eacf-4fa6-411d-bb91-648d27876219_CUSTOM.jpg",
   },
   {
     headliner: "Rush",
