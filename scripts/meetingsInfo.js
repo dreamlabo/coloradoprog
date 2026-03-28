@@ -31,7 +31,7 @@ meetings = [
     ],
   },
   {
-    date: new Date("2026/05/28"),
+    date: new Date("2026/03/28"),
     time: MEETING_TIME_6PM,
     host: KENTS_HOST_NAME,
     hostEmail: KENTS_EMAIL,
