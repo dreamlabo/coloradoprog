@@ -3,6 +3,10 @@ const KENTS_HOST_NAME = "Kent";
 const MEETING_TIME_6PM = "6:00pm";
 const MEETING_TIME_5PM = "5:00pm";
 
+const SHARONS_EMAIL = "sharonbradford@centurylink.net";
+const SHARONS_HOST_NAME = "Sharon";
+
+
 meetings = [
   {
     date: new Date("2025/08/23"),
@@ -35,6 +39,13 @@ meetings = [
     time: MEETING_TIME_6PM,
     host: KENTS_HOST_NAME,
     hostEmail: KENTS_EMAIL,
+    additionalInfo: [],
+  },
+    {
+    date: new Date("2026/06/20"),
+    time: MEETING_TIME_6PM,
+    host: SHARONS_HOST_NAME,
+    hostEmail: SHARONS_EMAIL,
     additionalInfo: [],
   },
 ];
