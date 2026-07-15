@@ -55,7 +55,7 @@ meetings = [
     host: KENTS_HOST_NAME,
     hostEmail: KENTS_EMAIL,
     additionalInfo: [
-      "IMPORTANT: Please note the later start time of 6:30 this month.",
+      "IMPORTANT: Please note the later start time of 6:30pm this month.",
     ],
   },
 ];
