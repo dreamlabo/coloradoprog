@@ -1,5 +1,6 @@
 const KENTS_EMAIL = "kent.adamson@comcast.net";
 const KENTS_HOST_NAME = "Kent";
+const MEETING_TIME_630PM = "6:30pm";
 const MEETING_TIME_6PM = "6:00pm";
 const MEETING_TIME_5PM = "5:00pm";
 
@@ -47,6 +48,15 @@ meetings = [
     host: SHARONS_HOST_NAME,
     hostEmail: SHARONS_EMAIL,
     additionalInfo: [],
+  },
+    {
+    date: new Date("2026/07/18"),
+    time: MEETING_TIME_630PM,
+    host: KENTS_HOST_NAME,
+    hostEmail: KENTS_EMAIL,
+    additionalInfo: [
+      "IMPORTANT: Please note the later start time of 6:30 this month.",
+    ],
   },
 ];
 
