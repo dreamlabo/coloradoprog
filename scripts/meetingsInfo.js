@@ -58,6 +58,21 @@ meetings = [
       "IMPORTANT: Please note the later start time of 6:30pm this month.",
     ],
   },
+    {
+    date: new Date("2026/10/03"),
+    time: MEETING_TIME_5PM,
+    host: KENTS_HOST_NAME,
+    hostEmail: KENTS_EMAIL,
+    additionalInfo: [
+      "It's our annual BBQ! ", 
+      "IMPORTANT: Please RSVP to Kent at kent.adamson@comcast.net by Tuesday, September 29, so we know how much food to order.",
+      "Please note the earlier start time.",
+      "Using the proceeds from our annual Progfest, food from GQue Barbecue, including ribs, chicken, brisket, coleslaw, beans, buns & sauces, will be provided.",
+      "Please bring your own beverages, and if you'd like, feel free to bring a dessert (or side dish) to share!",
+      "Hope to see you there!",
+    ],
+  },
+
 ];
 
 function returnUpcomingMeeting() {

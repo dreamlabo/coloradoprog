@@ -2,6 +2,8 @@ const AGGIE_THEATER_VENUE = "Aggie Theater";
 const AGGIE_THEATER_CITY = "Ft. Collins";
 const BALL_ARENA_VENUE = "Ball Arena";
 const BALL_ARENA_CITY = "Denver";
+const BELLCO_THEATER_VENUE = "Bellco Theatre";
+const BELLCO_THEATER_CITY = "Denver";
 const BLACK_SHEEP_VENUE = "Black Sheep";
 const BLACK_SHEEP_CITY = "Colorado Springs";
 const BOULDER_THEATER_VENUE = "Boulder Theater";
@@ -39,323 +41,6 @@ const SUPPORT_ACTS_CLASS = ".support-acts";
 
 const events = [
   {
-    headliner: "Architects",
-    supportActs: ["Erra", "Holy Water"],
-    date: new Date("2025/08/08"),
-    time: "7:00pm",
-    venue: FILLMORE_AUDITORIUM_VENUE,
-    city: FILLMORE_AUDITORIUM_CITY,
-    state: "Co",
-    ticketURL:
-      "https://www.fillmoreauditorium.org/events/architects-08-august-2025/",
-    bandInfo: "https://www.architectsofficial.com/",
-    image:
-      "https://external-preview.redd.it/architects-to-headline-summer-north-american-tour-with-erra-v0-8mbBburVVWbaPh_KGOHAoeM3qiS9UGsWA2nouTGS7mM.jpg?width=640&crop=smart&auto=webp&s=a5f29f191d9e8a984013cb3bd0a6d5e05c787843",
-  },
-  {
-    headliner: "10cc",
-    supportActs: [false, "The Ultimate Ultimate Greatest Hits Tour"],
-    date: new Date("2025/09/02"),
-    time: "7:30pm",
-    venue: PARAMOUNT_THEATER_VENUE,
-    city: PARAMOUNT_THEATER_CITY,
-    state: "Co",
-    ticketURL:
-      "https://www.ticketmaster.com/10cc-the-ultimate-ultimate-greatest-hits-denver-colorado-09-02-2025/event/1E00628BE1704F61",
-    bandInfo: "https://www.10cc.world/",
-    image:
-      "https://lirp.cdn-website.com/91e364a2/dms3rep/multi/opt/10cc+Live+1+-+%283-guitar+frontline%29+Rick-+Graham-+Andy+DSC02075-1920w.jpg",
-  },
-  {
-    headliner: "Steven Wilson",
-    supportActs: [false, "The Overview Tour"],
-    date: new Date("2025/09/14"),
-    time: "7:00pm",
-    venue: PARAMOUNT_THEATER_VENUE,
-    city: PARAMOUNT_THEATER_CITY,
-    state: "Co",
-    ticketURL:
-      "https://www.ticketmaster.com/steven-wilson-the-overview-tour-denver-colorado-09-14-2025/event/1E006235E5643492?camefrom=CFC_KSE_wZMc5Iv2w0ud2gDh5lfwTA&utm_source=wZMc5Iv2w0ud2gDh5lfwTA&utm_medium=wZMc5Iv2w0ud2gDh5lfwTA&utm_campaign=wZMc5Iv2w0ud2gDh5lfwTA",
-    bandInfo: "https://stevenwilsonhq.com/",
-    image:
-      "https://s1.ticketm.net/dam/a/716/30cf2527-54b4-4e0f-9877-492db09c6716_RETINA_PORTRAIT_3_2.jpg",
-  },
-  {
-    headliner: "Crazy Diamonds",
-    supportActs: ["Stuck in Traffic"],
-    date: new Date("2025/09/26"),
-    time: "7:30pm",
-    venue: NISSIS_VENUE,
-    city: NISSIS_CITY,
-    state: "Co",
-    ticketURL: "https://nissis.com/events/crazydiamonds/",
-    bandInfo: "https://www.facebook.com/profile.php?id=61576798750471",
-    image:
-      "https://nissis.com/wp-content/uploads/2025/06/Crazy-Diamonds-Sept-2025-3-1536x864.png",
-  },
-  {
-    headliner: "Dream Theater",
-    supportActs: [false, "Parasomnia Tour 2025"],
-    date: new Date("2025/09/29"),
-    time: "7:00pm",
-    venue: PIKES_PEAK_CENTER_VENUE,
-    city: PIKES_PEAK_CENTER_CITY,
-    state: "Co",
-    ticketURL: "https://www.pikespeakcenter.com/events/detail/dreamtheater",
-    bandInfo: "https://dreamtheater.net/",
-    image:
-      "https://images.discovery-prod.axs.com/2025/05/dream-theater-tickets_09-29-25_17_682bb8bc0bfcc.jpg",
-  },
-  {
-    headliner: "Bruce Dickinson",
-    supportActs: [false],
-    date: new Date("2025/09/30"),
-    time: "7:00pm",
-    venue: SUMMIT_VENUE,
-    city: SUMMIT_CITY,
-    state: "Co",
-    ticketURL:
-      "https://concerts.livenation.com/bruce-dickinson-denver-colorado-09-30-2025/event/1E006263A6DD1DEE?_gl=1*1pnroln*_ga*MTg3NzkzNjk0Mi4xNzQ2NDE3ODg4*_ga_BKTTLZFK7N*czE3NDY0MTc4ODckbzEkZzEkdDE3NDY0MTc5MjAkajAkbDAkaDA.*_gcl_au*NDcwNzA0NzM4LjE3NDY0MTc4ODg.*_ga_C1T806G4DF*MTc0NjQxNzg4OC4xLjEuMTc0NjQxNzg5MC41OC4wLjA.*_ga_H1KKSGW33X*MTc0NjQxNzg4OC4xLjEuMTc0NjQxNzg5MC41OC4wLjA.",
-    bandInfo: "https://www.themandrakeproject.com/",
-    image:
-      "https://s1.ticketm.net/dam/a/1a2/5674cc33-6181-4c84-8949-f349a43331a2_RETINA_PORTRAIT_3_2.jpg",
-  },
-  {
-    headliner: "Sons of Genesis",
-    supportActs: [false, "A Genesis Tribute and Beyond"],
-    date: new Date("2025/10/23"),
-    time: "7:00pm",
-    venue: SUMMIT_VENUE,
-    city: SUMMIT_CITY,
-    state: "Co",
-    ticketURL: "https://tickets.holdmyticket.com/tickets/449495",
-    bandInfo: "https://sonsofgenesis.com/",
-    image:
-      "https://buffalorosegolden.com/wp-content/uploads/2021/08/2025-10-23_SonsofGenesis_FB_post_-1024x538.jpg",
-  },
-  {
-    headliner: "Between the Buried and Me",
-    supportActs: ["Hail the Sun", "Delta Sleep"],
-    date: new Date("2025/10/24"),
-    time: "7:00pm",
-    venue: "The Buffalo Rose",
-    city: "Golden",
-    state: "Co",
-    ticketURL:
-      "https://www.ticketmaster.com/between-the-buried-and-me-hail-denver-colorado-10-24-2025/event/1E0062D4EA025E3E?_gl=1*1eiqz79*_gcl_au*NDcwNzA0NzM4LjE3NDY0MTc4ODg.*_ga*MTg3NzkzNjk0Mi4xNzQ2NDE3ODg4*_ga_C1T806G4DF*czE3NTI4ODM0MzYkbzMkZzEkdDE3NTI4ODM0MzckajU5JGwwJGgw*_ga_H1KKSGW33X*czE3NTI4ODM0MzYkbzMkZzEkdDE3NTI4ODM0MzckajU5JGwwJGgw",
-    bandInfo: "https://www.betweentheburiedandme.com/",
-    image:
-      "https://www.summitdenver.com/_next/image?url=https%3A%2F%2Fs1.ticketm.net%2Fdam%2Fa%2F7dc%2F014860f4-da0d-4e5b-bc86-2a2cde0f57dc_RETINA_PORTRAIT_16_9.jpg&w=768&q=70",
-  },
-  {
-    headliner: "Ne Obliviscaris",
-    supportActs: ["Rivers of Nihil", "Psycroptic"],
-    date: new Date("2025/11/05"),
-    time: "7:00pm",
-    venue: GOTHIC_THEATER,
-    city: GOTHIC_THEATER_CITY,
-    state: "Co",
-    ticketURL: "https://www.gothictheatre.com/events/detail/?event_id=1110853",
-    bandInfo: "https://neobliviscaris.com.au/",
-    image:
-      "https://images.discovery-prod.axs.com/2025/08/ne-obliviscaris-tickets_11-05-25_17_68ac8ce3f34d2.jpg",
-  },
-  {
-    headliner: "Queensryche",
-    supportActs: ["Accept"],
-    date: new Date("2025/11/07"),
-    time: "6:00pm",
-    venue: SUMMIT_VENUE,
-    city: SUMMIT_CITY,
-    state: "Co",
-    ticketURL:
-      "https://www.ticketmaster.com/queensryche-volume-and-vengance-tour-denver-colorado-11-07-2025/event/1E0062D43E846F80?_gl=1*id5qsg*_gcl_au*NDcwNzA0NzM4LjE3NDY0MTc4ODg.*_ga*MTg3NzkzNjk0Mi4xNzQ2NDE3ODg4*_ga_C1T806G4DF*czE3NTI4ODM0MzYkbzMkZzEkdDE3NTI4ODQyNzkkajQ3JGwwJGgw*_ga_H1KKSGW33X*czE3NTI4ODM0MzYkbzMkZzEkdDE3NTI4ODQyNzkkajQ3JGwwJGgw",
-    bandInfo: "http://www.queensrycheofficial.com/",
-    image:
-      "https://themusicuniverse.com/wp-content/uploads/2025/07/queensryche.jpg",
-  },
-  {
-    headliner: "Steve Hackett",
-    supportActs: [
-      false,
-      "Genesis Greats, Lamb Highlights & Solo North America Tour 2025",
-    ],
-    date: new Date("2025/11/08"),
-    time: "7:00pm",
-    venue: BOULDER_THEATER_VENUE,
-    city: BOULDER_THEATER_CITY,
-    state: "Co",
-    ticketURL: "https://www.z2ent.com/events/detail/steve-hackett-2025-bt",
-    bandInfo: "https://www.hackettsongs.com/",
-    image:
-      "https://images.discovery-prod.axs.com/2025/03/uploadedimage_67cee97c516a6.jpg",
-  },
-  {
-    headliner: "Yes",
-    supportActs: [false, "The Fragile 2025 Tour"],
-    date: new Date("2025/11/09"),
-    time: "7:00pm",
-    venue: PARAMOUNT_THEATER_VENUE,
-    city: PARAMOUNT_THEATER_CITY,
-    state: "Co",
-    ticketURL:
-      "https://www.ticketmaster.com/yes-the-fragile-2025-tour-denver-colorado-11-09-2025/event/1E0062C5F5B85458?camefrom=CFC_KSE_wZMc5Iv2w0ud2gDh5lfwTA&utm_source=wZMc5Iv2w0ud2gDh5lfwTA&utm_medium=wZMc5Iv2w0ud2gDh5lfwTA&utm_campaign=wZMc5Iv2w0ud2gDh5lfwTA",
-    bandInfo: "https://www.yesworld.com/",
-    image: "https://appellcenter.org/wp-content/uploads/YESPREVIEW2.jpg",
-  },
-  {
-    headliner: "Crazy Diamonds",
-    supportActs: ["Stuck In Traffic"],
-    date: new Date("2025/11/23"),
-    time: "7:00pm",
-    venue: "Buffalo Rose",
-    city: "Golden",
-    state: "Co",
-    ticketURL: "https://tickets.holdmyticket.com/tickets/449507",
-    bandInfo: "https://www.facebook.com/profile.php?id=61576798750471",
-    image:
-      "https://buffalorosegolden.com/wp-content/uploads/2025/10/2025-11-23_CrazyDiamonds_StuckinTraffic_FB_post-1024x538.jpg",
-  },
-  {
-    headliner: "The Mars Volta",
-    supportActs: [],
-    date: new Date("2025/11/18"),
-    time: "6:00pm",
-    venue: MISSION_BALLROOM_VENUE,
-    city: MISSION_BALLROOM_CITY,
-    state: "Co",
-    ticketURL: "https://www.axs.com/events/922226/the-mars-volta-tickets",
-    bandInfo: "https://www.themarsvoltaofficial.com/",
-    image:
-      "https://images.discovery-prod.axs.com/2025/04/the-mars-volta-tickets_11-18-25_17_67f84a0f7a0a9.jpg",
-  },
-
-  {
-    headliner: "The Colorado Art Rock Society Presents",
-    supportActs: [false, "The 21st Annual PROGFEST"],
-    date: new Date("2026/02/15"),
-    time: "3:00pm",
-    venue: NISSIS_VENUE,
-    city: NISSIS_CITY,
-    state: "Co",
-    ticketURL: "https://www.showclix.com/event/progfest-2026",
-    bandInfo: "https://coloradoprog.com/",
-    image:
-      "https://nissis.com/wp-content/uploads/2025/12/cars-progfest-2026-FB-event-REVISED-1024x536.png",
-  },
-  {
-    headliner: "Opeth",
-    supportActs: ["Katatonia"],
-    date: new Date("2026/02/18"),
-    time: "7:30pm",
-    venue: PIKES_PEAK_CENTER_VENUE,
-    city: PIKES_PEAK_CENTER_CITY,
-    state: "Co",
-    ticketURL:
-      "https://www.axs.com/events/1131618/opeth-the-last-will-and-testament-tickets?skin=pikespeakcenter&_gl=1*s6t2xg*_gcl_au*MTAyODIzNjg4Ny4xNzU4MTY0NTkx*_ga*MTA4MzUzMzI3OS4xNzU4MTY0NTkx*_ga_J0TK0THXD6*czE3NjA5MzA1MDAkbzUkZzAkdDE3NjA5MzA1MDAkajYwJGwwJGgw",
-    bandInfo: "https://www.opeth.com",
-    image:
-      "https://images.discovery-prod.axs.com/2025/09/opeth-the-last-will-and-testament-tickets_02-18-26_17_68d2ad4d75f58.jpg",
-  },
-  {
-    headliner: "Geoff Tate",
-    supportActs: [false, "Operation: Mindcrime - The Final Chapter"],
-    date: new Date("2026/02/21"),
-    time: "7:00pm",
-    venue: OGDEN_THEATER_VENUE,
-    city: OGDEN_THEATER_CITY,
-    state: "Co",
-    ticketURL:
-      "https://www.axs.com/events/1022163/geoff-tate-s-operation-mindcrime-the-final-chapter-tickets",
-    bandInfo: "https://www.geofftate.com/",
-    image:
-      "https://images.discovery-prod.axs.com/2025/06/geoff-tate-s-operation-mindcrime-the-final-chapter-tickets_02-21-26_17_6851965bf18f6.jpg",
-  },
-  {
-    headliner: "Dark Tranquillity & Soen",
-    supportActs: ["Persefone"],
-    date: new Date("2026/03/30"),
-    time: "7:00pm",
-    venue: ORIENTAL_THEATER,
-    city: ORIENTAL_THEATER_CITY,
-    state: "Co",
-    ticketURL:
-      "https://theorientaltheater.holdmyticket.com/tickets/457480?tc=theorientaltheater&_ga=2.267482830.1393212687.1774477167-1696900737.1774477167",
-    bandInfo: "https://www.soenmusic.com/",
-    image:
-      "https://www.masqueradeatlanta.com/wp-content/uploads/2026/01/041326_darktranquility_ForSite.jpg",
-  },
-  {
-    headliner: "Pat Metheny Side-Eye III+",
-    supportActs: [],
-    date: new Date("2026/04/07"),
-    time: "7:00pm",
-    venue: BOULDER_THEATER_VENUE,
-    city: BOULDER_THEATER_CITY,
-    state: "Co",
-    ticketURL:
-      "https://www.axs.com/events/1189659/pat-metheny-side-eye-iii-tickets?skin=bouldertheater",
-    bandInfo: "https://www.patmetheny.com/",
-    image:
-      "https://images.discovery-prod.axs.com/2025/10/uploadedimage_69000c6aa5b17.jpg",
-  },
-  {
-    headliner: "SatchVai Band ft. Joe Satriani & Steve Vai",
-    supportActs: ["Animals As Leaders"],
-    date: new Date("2026/04/14"),
-    time: "7:00pm",
-    venue: MISSION_BALLROOM_VENUE,
-    city: MISSION_BALLROOM_CITY,
-    state: "Co",
-    ticketURL:
-      "https://www.axs.com/events/1247253/satchvai-band-ft-joe-satriani-steve-vai-tickets?_gl=1*1kbg7t8*_gcl_au*MTAzMTQ0NjQ3OC4xNzY4NzYzNTA4",
-    bandInfo: "https://satchvaiband.com/",
-    image:
-      "https://images.discovery-prod.axs.com/2025/12/satchvai-band-ft-joe-satriani-steve-vai-tickets_04-14-26_17_6936d78e4c863.jpg",
-  },
-  {
-    headliner: "Eric Johnson",
-    supportActs: [false, "Texaphonic Tour 2026"],
-    date: new Date("2026/05/16"),
-    time: "8:00pm",
-    venue: PARAMOUNT_THEATER_VENUE,
-    city: PARAMOUNT_THEATER_CITY,
-    state: "Co",
-    ticketURL:
-      "https://www.ticketmaster.com/eric-johnson-texaphonic-tour-2026-denver-colorado-05-16-2026/event/1E00638464D123F7?camefrom=CFC_KSE_wZMc5Iv2w0ud2gDh5lfwTA&utm_source=wZMc5Iv2w0ud2gDh5lfwTA&utm_medium=wZMc5Iv2w0ud2gDh5lfwTA&utm_campaign=wZMc5Iv2w0ud2gDh5lfwTA",
-    bandInfo: "https://www.ericjohnson.com/",
-    image:
-      "https://carolinatheatre.org/wp-content/uploads/2025/05/EricJohnson-CTD-Website-1440x810-1-1280x720.png",
-  },
-  {
-    headliner: "Between the Buried and Me",
-    supportActs: ["Imperial Triumphant", "Fallujah"],
-    date: new Date("2026/06/02"),
-    time: "7:00pm",
-    venue: BOULDER_THEATER_VENUE,
-    city: BOULDER_THEATER_CITY,
-    state: "Co",
-    ticketURL:
-      "https://www.z2ent.com/events/detail/between-the-buried-and-me-2026-bt",
-    bandInfo: "https://www.betweentheburiedandme.com/",
-    image:
-      "https://images.discovery-prod.axs.com/2026/02/uploadedimage_699cd247342e2.jpg",
-  },
-  {
-    headliner: "Jinjer",
-    supportActs: ["Entheos"],
-    date: new Date("2026/07/21"),
-    time: "8:00pm",
-    venue: SUMMIT_VENUE,
-    city: SUMMIT_CITY,
-    state: "Co",
-    ticketURL:
-      "https://www.ticketmaster.com/jinjer-duel-north-america-2026-denver-colorado-07-21-2026/event/1E00646D9F468C21",
-    bandInfo: "https://jinjer-metal.com/",
-    image:
-      "https://media.ticketmaster.com/en-us/dam/a/219/b7f0eacf-4fa6-411d-bb91-648d27876219_CUSTOM.jpg",
-  },
-  {
     headliner: "Rush",
     supportActs: [false, "Fifty Something Tour"],
     date: new Date("2026/10/05"),
@@ -382,6 +67,118 @@ const events = [
     bandInfo: "https://www.rush.com/",
     image:
       "https://www.ballarena.com/media/flcgkjsh/static_outdoor-concertvision_1920x1080_rush_2026_regional_ballarena_1005-07.jpg?anchor=center&mode=crop&width=1920&height=1080&rnd=134056008326270000",
+  },
+  {
+    headliner: "Mastodon",
+    supportActs: ["Deafheaven", "Alcest"],
+    date: new Date("2026/10/14"),
+    time: "8:00pm",
+    venue: FILLMORE_AUDITORIUM_VENUE,
+    city: FILLMORE_AUDITORIUM_CITY,
+    state: "Co",
+    ticketURL:
+      "https://www.ticketmaster.com/mastodon-denver-colorado-10-14-2026/event/1E0064BCA83EBE0C?_gl=1*11h4h6w*_ga*MTgyMTU5NzI5LjE3OTAzNzgxNDU.*_ga_C1T806G4DF*czE3OTAzNzgxNDYkbzEkZzEkdDE3OTAzNzgyOTYkajQwJGwwJGgw",
+    bandInfo: "https://www.mastodonrocks.com/",
+    image:
+      "https://s1.ticketm.net/dam/a/e95/539dec42-6e24-4d0d-bf3a-b84f6e381e95_RETINA_PORTRAIT_3_2.jpg",
+  },
+  {
+    headliner: "Beat",
+    supportActs: [false, "Belew/Vai/Levin/Bozzio Performing the Music of KING CRIMSON"],
+    date: new Date("2026/10/16"),
+    time: "8:00pm",
+    venue: BELLCO_THEATER_VENUE,
+    city: BELLCO_THEATER_CITY,
+    state: "Co",
+    ticketURL:
+      "https://www.axs.com/events/1542338/beat-belewvailevinbozzio-performing-the-music-of-king-crimson-tickets",
+    bandInfo: "https://beat-official.com/",
+    image:
+      "https://images.discovery-prod.axs.com/2026/08/uploadedimage_6a737c653d382.jpg",
+  },
+  {
+    headliner: "Dweezil Zappa ",
+    supportActs: [false, "DZ20: Like Father, Like Son"],
+    date: new Date("2026/10/26"),
+    time: "7:30pm",
+    venue: PARAMOUNT_THEATER_VENUE,
+    city: PARAMOUNT_THEATER_CITY,
+    state: "Co",
+    ticketURL:
+      "https://www.ticketmaster.com/dweezil-zappa-dz20-like-father-like-denver-colorado-10-26-2026/event/1E0064BBF0A6784F?camefrom=CFC_KSE_wZMc5Iv2w0ud2gDh5lfwTA&utm_source=wZMc5Iv2w0ud2gDh5lfwTA&utm_medium=wZMc5Iv2w0ud2gDh5lfwTA&utm_campaign=wZMc5Iv2w0ud2gDh5lfwTA",
+    bandInfo: "https://www.dweezilzappa.com/",
+    image:
+      "https://s1.ticketm.net/dam/a/1f7/518f1877-3460-4738-a3b0-f5a6a1ff91f7_CUSTOM.jpg",
+  },
+  {
+    headliner: "Periphery",
+    supportActs: ["Ne Obliviscaris", "Greyhaven"],
+    date: new Date("2026/11/02"),
+    time: "5:00pm",
+    venue: PARAMOUNT_THEATER_VENUE,
+    city: PARAMOUNT_THEATER_CITY,
+    state: "Co",
+    ticketURL:
+      "https://www.ticketmaster.com/periphery-a-pale-white-dot-us-denver-colorado-11-02-2026/event/1E0064B3CCC1D95A?_gl=1*g1tjkl*_ga*MTgyMTU5NzI5LjE3OTAzNzgxNDU.*_ga_C1T806G4DF*czE3OTAzNzgxNDYkbzEkZzEkdDE3OTAzNzg2OTkkajYkbDAkaDA.",
+    bandInfo: "https://periphery.net/",
+    image:
+      "https://media.ticketmaster.com/en-us/dam/a/d9b/330d6d55-fc37-46ac-b875-0e17346f4d9b_CUSTOM.jpg",
+  },
+  {
+    headliner: "Stewart Copeland",
+    supportActs: [false, "Have I Said Too Much"],
+    date: new Date("2026/11/03"),
+    time: "7:00pm",
+    venue: BOULDER_THEATER_VENUE,
+    city: BOULDER_THEATER_CITY,
+    state: "Co",
+    ticketURL:
+      "https://www.z2ent.com/events/detail/stewart-copeland-2026-bt",
+    bandInfo: "https://www.stewartcopeland.net/",
+    image:
+      "https://cdn.prod.website-files.com/69ecfe0ac661b6c09b6a7de5/69f0eb468c7481923b174075_de365965-7625-4bb9-b927-56688f55763d.webp",
+  },
+  {
+    headliner: "Todd Rundgren",
+    supportActs: [],
+    date: new Date("2026/11/10"),
+    time: "7:30pm",
+    venue: PARAMOUNT_THEATER_VENUE,
+    city: PARAMOUNT_THEATER_CITY,
+    state: "Co",
+    ticketURL:
+      "https://www.ticketmaster.com/todd-rundgren-denver-colorado-11-10-2026/event/1E0064E290CA77B5?camefrom=CFC_KSE_wZMc5Iv2w0ud2gDh5lfwTA&utm_source=wZMc5Iv2w0ud2gDh5lfwTA&utm_medium=wZMc5Iv2w0ud2gDh5lfwTA&utm_campaign=wZMc5Iv2w0ud2gDh5lfwTA",
+    bandInfo: "http://www.todd-rundgren.com/",
+    image:
+      "https://s1.ticketm.net/dam/a/10c/d7303d2f-b6e8-4f0d-a456-902c4abfa10c_1251021_CUSTOM.jpg",
+  },
+  {
+    headliner: "The Musical Box",
+    supportActs: [false, "...and then there was PHIL..."],
+    date: new Date("2026/11/12"),
+    time: "7:30pm",
+    venue: PARAMOUNT_THEATER_VENUE,
+    city: PARAMOUNT_THEATER_CITY,
+    state: "Co",
+    ticketURL:
+      "https://www.ticketmaster.com/the-musical-box-denver-colorado-11-12-2026/event/1E0064BCA82BBDEB?camefrom=CFC_KSE_wZMc5Iv2w0ud2gDh5lfwTA&utm_source=wZMc5Iv2w0ud2gDh5lfwTA&utm_medium=wZMc5Iv2w0ud2gDh5lfwTA&utm_campaign=wZMc5Iv2w0ud2gDh5lfwTA",
+    bandInfo: "https://www.themusicalbox.net/",
+    image:
+      "https://s1.ticketm.net/dam/e/85b/5f7aced1-17b5-4328-a7c6-1782508f485b_CUSTOM.jpg",
+  },
+  {
+    headliner: "The Pineapple Thief",
+    supportActs: [],
+    date: new Date("2026/12/03"),
+    time: "7:00pm",
+    venue: SUMMIT_VENUE,
+    city: SUMMIT_CITY,
+    state: "Co",
+    ticketURL:
+      "https://www.ticketmaster.com/the-pineapple-thief-denver-colorado-12-03-2026/event/1E00648ADFE5F818?_gl=1*81q9k9*_ga*MTkyODA2MjUzMS4xNzkwMzc5Mzcz*_ga_C1T806G4DF*czE3OTAzNzkzNzQkbzEkZzAkdDE3OTAzNzk1MTQkajE4JGwwJGgw",
+    bandInfo: "https://www.pineapplethief.com/",
+    image:
+      "https://media.ticketmaster.com/en-us/dam/a/ba4/6ab45818-4738-4ee0-9eb5-0bafbb966ba4_CUSTOM.jpg",
   },
 ];
 

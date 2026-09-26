@@ -178,42 +178,132 @@ export const albumReleases = [
   //   ],
   // },
 
+  // {
+  //   month: "2026-01-15",
+  //   albums: [
+  //     {
+  //       releaseDate: "2026-01-16",
+  //       artist: "Soen",
+  //       album: "Reliance",
+  //       bandLink: "https://soenmusic.com/",
+  //       bandLinkText: "soenmusic.com",
+  //       imageLink:
+  //         "https://progreport.com/wp-content/uploads/2025/09/soen-reliance.jpeg",
+  //       imageAltText: "",
+  //     },
+  //   ],
+  // },
+  // {
+  //   month: "2026-02-15",
+  //   albums: [
+  //     {
+  //       releaseDate: "2026-02-06",
+  //       artist: "Big Big Train",
+  //       album: "Woodcut",
+  //       bandLink: "https://www.bigbigtrain.com/",
+  //       bandLinkText: "bigbigtrain.com",
+  //       imageLink:
+  //         "https://www.bigbigtrain.com/wp-content/uploads/2025/11/woodcut-pack-shot-1024x1009.webp",
+  //       imageAltText: "",
+  //     },
+  //     {
+  //       releaseDate: "2026-02-27",
+  //       artist: "Neal Morse Band",
+  //       album: "L.I.F.T",
+  //       bandLink: "https://nealmorse.com/",
+  //       bandLinkText: "nealmorse.com",
+  //       imageLink:
+  //         "https://nealmorse.com/wp-content/uploads/NMB_L.I.F.T-1536x1536.jpg",
+  //       imageAltText: "",
+  //     },
+  //   ],
+  // },
   {
-    month: "2026-01-15",
+    month: "2026-08-15",
     albums: [
       {
-        releaseDate: "2026-01-16",
-        artist: "Soen",
-        album: "Reliance",
-        bandLink: "https://soenmusic.com/",
-        bandLinkText: "soenmusic.com",
+        releaseDate: "2026-08-28",
+        artist: "Mastodon",
+        album: "Marrow Deep",
+        bandLink: "https://www.mastodonrocks.com/",
+        bandLinkText: "mastodon.com/",
         imageLink:
-          "https://progreport.com/wp-content/uploads/2025/09/soen-reliance.jpeg",
+          "https://progreport.com/wp-content/uploads/2026/07/mastodon-marrow-deep-20260712212258.jpg",
         imageAltText: "",
       },
     ],
   },
   {
-    month: "2026-02-15",
+    month: "2026-09-15",
     albums: [
       {
-        releaseDate: "2026-02-06",
-        artist: "Big Big Train",
-        album: "Woodcut",
-        bandLink: "https://www.bigbigtrain.com/",
-        bandLinkText: "bigbigtrain.com",
+        releaseDate: "2026-09-25",
+        artist: "Pure Reason Revolution",
+        album: "Terrifying Angels",
+        bandLink: "https://www.purereasonrevolutionofficial.com/",
+        bandLinkText: "purereasonrevolution.com",
         imageLink:
-          "https://www.bigbigtrain.com/wp-content/uploads/2025/11/woodcut-pack-shot-1024x1009.webp",
+          "https://sites.create-cdn.net/siteimages/66/1/8/661841/21/9/5/21959543/1000x1000.jpeg?1784281512",
+        imageAltText: "",
+      },
+    ],
+  },
+  {
+    month: "2026-10-15",
+    albums: [
+      {
+        releaseDate: "2026-10-02",
+        artist: "TEMIC",
+        album: "Ceiba",
+        bandLink: "https://temicband.com/",
+        bandLinkText: "temicband.com",
+        imageLink:
+          "https://impro.usercontent.one/appid/oneComBlog/domain/temicband.com/media/temicband.com/onewebmedia/CEIBA%20cover.png?rotate=0&etag=%22W%2F1cb79b-19f58824ff8%22",
         imageAltText: "",
       },
       {
-        releaseDate: "2026-02-27",
-        artist: "Neal Morse Band",
-        album: "L.I.F.T",
-        bandLink: "https://nealmorse.com/",
-        bandLinkText: "nealmorse.com",
+        releaseDate: "2026-10-09",
+        artist: "The Pineapple Thief",
+        album: "Far and Wide",
+        bandLink: "https://www.pineapplethief.com/",
+        bandLinkText: "pineapplethief.com",
         imageLink:
-          "https://nealmorse.com/wp-content/uploads/NMB_L.I.F.T-1536x1536.jpg",
+          "https://progreport.com/wp-content/uploads/2026/08/ThePineappleThief_FarAndWide-1000x1000.jpg",
+        imageAltText: "",
+      },
+      {
+        releaseDate: "2026-10-23",
+        artist: "The Flower Kings",
+        album: "HOPE",
+        bandLink: "https://www.roinestolt.com/",
+        bandLinkText: "roinestolt.com",
+        imageLink:
+          "https://122022093.cdn6.editmysite.com/uploads/1/2/2/0/122022093/s228191781301347849_p111_i1_w4000.jpeg?width=640&dpr=1",
+        imageAltText: "",
+      },
+    ],
+  },
+  {
+    month: "2026-11-15",
+    albums: [
+      {
+        releaseDate: "2026-11-06",
+        artist: "Steven Wilson",
+        album: "Requiem For A Village",
+        bandLink: "https://stevenwilsonhq.com/",
+        bandLinkText: "stevenwilsonhq.com",
+        imageLink:
+          "https://cdn.cspt.io/stevenwilsonhq.com/uploads/2026/09/11100147/Requiem_FOAV_Packshot_3000px1-scaled.jpg",
+        imageAltText: "",
+      },
+      {
+        releaseDate: "2026-11-27",
+        artist: "Neal Morse & The Resonance ",
+        album: "River of Light",
+        bandLink: "https://nealmorse.com/",
+        bandLinkText: "nealmorse.com/",
+        imageLink:
+          "https://nealmorse.com/wp-content/uploads/NealMorse_RiverOfLight.jpg",
         imageAltText: "",
       },
     ],
@@ -232,16 +322,16 @@ export const albumReleases = [
 
 // get the container it is going to render in
 const upcomingReleasesMonthlyContainer = document.getElementById(
-  "upcoming-releases-monthly-wrapper"
+  "upcoming-releases-monthly-wrapper",
 );
 
 // Get the templates needed
 const upcomingReleasesMonthlyContainerTemplate = document.getElementById(
-  "template__ur-monthly-wrapper"
+  "template__ur-monthly-wrapper",
 );
 
 const upcomingReleasesAlbumContainerTemplate = document.getElementById(
-  "template__album_release__individual-album"
+  "template__album_release__individual-album",
 );
 
 const getMonth = (dateString) => {
@@ -263,11 +353,11 @@ albumReleases.map((month) => {
     upcomingReleasesMonthlyContainerTemplate.content.cloneNode(true);
 
   monthlyContainer.querySelector(".ur-month-text").innerText = getMonth(
-    month.month
+    month.month,
   );
 
   const albumsContainer = monthlyContainer.querySelector(
-    ".upcoming-releases-monthly-container"
+    ".upcoming-releases-monthly-container",
   );
 
   upcomingReleasesMonthlyContainer.append(monthlyContainer);
@@ -279,9 +369,8 @@ albumReleases.map((month) => {
     albumContainer.getElementById("ur_album-release-date").innerText =
       getFormattedDate(album.releaseDate);
     albumContainer.querySelector(".ur-image").src = album.imageLink;
-    albumContainer.querySelector(
-      ".ur-image"
-    ).alt = `${album.album} by ${album.artist} album cover`;
+    albumContainer.querySelector(".ur-image").alt =
+      `${album.album} by ${album.artist} album cover`;
 
     albumContainer.querySelector(".ur-artist-link").href = album.bandLink;
     albumContainer.querySelector(".ur-artist-link").innerText =
