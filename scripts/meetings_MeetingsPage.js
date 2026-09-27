@@ -31,12 +31,13 @@ if (currentMeeting) {
   meetingPlaceOne.textContent = `This month ${currentMeeting.host} is hosting (Thanks ${currentMeeting.host}!).`;
 
   const meetingPlaceTwo = meetingDetails.querySelector("#meeting-place-two");
-  meetingPlaceTwo.innerHTML = `For directions to join the meeting and to RSVP, email ${currentMeeting.host} at <a class="meeting-email-link" href="mailto:${currentMeeting.hostEmail}"> ${currentMeeting.hostEmail}</a>`;
+  // meetingPlaceTwo.innerHTML = `For directions to join the meeting and to RSVP, email ${currentMeeting.host} at <a class="meeting-email-link" href="mailto:${currentMeeting.hostEmail}"> ${currentMeeting.hostEmail}</a>`;
 
   const meetingPlaceThree = meetingDetails.querySelector(
     "#meeting-place-three"
   );
-  meetingPlaceThree.innerText = `Don't wait until the last minute, RSVP as soon as you can. ${currentMeeting.host}  will then send you directions to join us at the meeting. `;
+  // meetingPlaceThree.innerText = `Don't wait until the last minute, RSVP as soon as you can. ${currentMeeting.host}  will then send you directions to join us at the meeting. `;
+ meetingPlaceThree.innerHTML = `Please RSVP by Tuesday, September 29, to ${currentMeeting.host} at <a class="meeting-email-link" href="mailto:${currentMeeting.hostEmail}"> ${currentMeeting.hostEmail}</a>.<br/>They will then send you directions to join us at this years BBQ. `;
 
   if (currentMeeting.additionalInfo.length > 0) {
     const additionalInfoTemplate = document.getElementById(
