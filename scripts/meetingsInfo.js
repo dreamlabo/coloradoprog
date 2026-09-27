@@ -58,7 +58,7 @@ meetings = [
       "IMPORTANT: Please note the later start time of 6:30pm this month.",
     ],
   },
-    {
+  {
     date: new Date("2026/10/03"),
     time: MEETING_TIME_5PM,
     host: KENTS_HOST_NAME,
