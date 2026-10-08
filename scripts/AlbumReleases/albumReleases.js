@@ -263,6 +263,15 @@ export const albumReleases = [
       },
       {
         releaseDate: "2026-10-09",
+        artist: "The MC2 Project",
+        album: "Shades of Life",
+        bandLink: "https://www.themc2project.com/",
+        bandLinkText: "themc2project.com",
+        imageLink: "https://f4.bcbits.com/img/a2843869668_1x1_700.avif",
+        imageAltText: "",
+      },
+      {
+        releaseDate: "2026-10-09",
         artist: "The Pineapple Thief",
         album: "Far and Wide",
         bandLink: "https://www.pineapplethief.com/",
@@ -301,7 +310,7 @@ export const albumReleases = [
         artist: "Neal Morse & The Resonance ",
         album: "River of Light",
         bandLink: "https://nealmorse.com/",
-        bandLinkText: "nealmorse.com/",
+        bandLinkText: "nealmorse.com",
         imageLink:
           "https://nealmorse.com/wp-content/uploads/NealMorse_RiverOfLight.jpg",
         imageAltText: "",
